@@ -22,21 +22,21 @@
              <c:choose>
                <c:when test="${facetvalue.leaf}">
                   <c:out value="${facetlabel}" escapeXml="true"/>
-                   <%--(${facetvalue.count})--%>
-                  <%--<c:if test="${facetvalue.count > 0}">--%>
-                      <%--<c:choose>--%>
-                        <%--<c:when test="${facet.name eq 'year' }">--%>
-                            <%--<hst:link var="remove" path="/blogposts"/>--%>
-                        <%--</c:when>--%>
-                        <%--<c:otherwise><hst:facetnavigationlink var="remove" current="${facetnav}" remove="${facetvalue}"/></c:otherwise>--%>
-                      <%--</c:choose>--%>
-                      <%--[<a href="${remove}" class="deleteFacet" rel="nofollow">X</a>]--%>
-                  <%--</c:if>--%>
+                   (${facetvalue.count})
+                  <c:if test="${facetvalue.count > 0}">
+                      <c:choose>
+                        <c:when test="${facet.name eq 'year' }">
+                            <hst:link var="remove" path="/blogposts"/>
+                        </c:when>
+                        <c:otherwise><hst:facetnavigationlink var="remove" current="${facetnav}" remove="${facetvalue}"/></c:otherwise>
+                      </c:choose>
+                      [<a href="${remove}" class="deleteFacet" rel="nofollow">X</a>]
+                  </c:if>
                </c:when>
                <c:otherwise>
                  <hst:link var="link" hippobean="${facetvalue}"/>
                  <a href="${link}" rel="nofollow"><c:out value="${facetlabel}" escapeXml="true"/></a>
-                   <%--(${facetvalue.count})--%>
+                   (${facetvalue.count})
                </c:otherwise>
              </c:choose>
           </li>
@@ -58,21 +58,21 @@
                  <c:choose>
                    <c:when test="${facetvalue.leaf}">
                       <c:out value="${facetlabel}" escapeXml="true"/>
-                       <%--(${facetvalue.count})--%>
-                      <%--<c:if test="${facetvalue.count > 0}">--%>
-                        <%--<c:choose>--%>
-                          <%--<c:when test="${facet.name eq 'year' }">--%>
-                              <%--<hst:link var="remove" path="/blogposts"/>--%>
-                          <%--</c:when>--%>
-                          <%--<c:otherwise><hst:facetnavigationlink var="remove" current="${facetnav}" remove="${facetvalue}"/></c:otherwise>--%>
-                        <%--</c:choose>--%>
-                        <%--[<a href="${remove}" class="deleteFacet" rel="nofollow">X</a>]--%>
-                      <%--</c:if>--%>
+                       (${facetvalue.count})
+                      <c:if test="${facetvalue.count > 0}">
+                        <c:choose>
+                          <c:when test="${facet.name eq 'year' }">
+                              <hst:link var="remove" path="/blogposts"/>
+                          </c:when>
+                          <c:otherwise><hst:facetnavigationlink var="remove" current="${facetnav}" remove="${facetvalue}"/></c:otherwise>
+                        </c:choose>
+                        [<a href="${remove}" class="deleteFacet" rel="nofollow">X</a>]
+                      </c:if>
                    </c:when>
                    <c:otherwise>
                      <hst:link var="link" hippobean="${facetvalue}"/>
                      <a href="${link}" rel="nofollow"><c:out value="${facetlabel}" escapeXml="true"/></a>
-                       <%--(${facetvalue.count})--%>
+                       (${facetvalue.count})
                    </c:otherwise>
                  </c:choose>
               </li>

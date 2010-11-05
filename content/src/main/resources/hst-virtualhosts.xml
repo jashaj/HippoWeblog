@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node sv:name="hst:virtualhosts"
+  xmlns:hst="http://www.hippoecm.org/hst/nt/1.4" xmlns:sv="http://www.jcp.org/jcr/sv/1.0">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hst:virtualhosts</sv:value>
+  </sv:property>
+  <sv:property sv:name="hst:defaulthostname" sv:type="String">
+    <sv:value>127.0.0.1</sv:value>
+  </sv:property>
+  <sv:property sv:name="hst:port" sv:type="Long">
+    <sv:value>8085</sv:value>
+  </sv:property>
+  <sv:property sv:name="hst:prefixexclusions" sv:type="String">
+    <sv:value>/binaries/</sv:value>
+    <sv:value>/staticresource/</sv:value>
+    <sv:value>/images/</sv:value>
+  </sv:property>
+  <sv:property sv:name="hst:protocol" sv:type="String">
+    <sv:value>http</sv:value>
+  </sv:property>
+  <sv:property sv:name="hst:showcontextpath" sv:type="Boolean">
+    <sv:value>true</sv:value>
+  </sv:property>
+  <sv:property sv:name="hst:showport" sv:type="Boolean">
+    <sv:value>true</sv:value>
+  </sv:property>
+  <sv:property sv:name="hst:suffixexclusions" sv:type="String">
+    <sv:value>.do</sv:value>
+    <sv:value>.jsp</sv:value>
+    <sv:value>.css</sv:value>
+    <sv:value>.js</sv:value>
+    <sv:value>.pdf</sv:value>
+    <sv:value>.ico</sv:value>
+    <sv:value>.gif</sv:value>
+    <sv:value>.GIF</sv:value>
+    <sv:value>.jpg</sv:value>
+    <sv:value>.jpeg</sv:value>
+    <sv:value>.JPEG</sv:value>
+    <sv:value>.JPG</sv:value>
+    <sv:value>.png</sv:value>
+    <sv:value>.PNG</sv:value>
+  </sv:property>
+  <sv:node sv:name="127.0.0.1">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:virtualhost</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:mapping" sv:type="String">
+      <sv:value>/preview/* --&gt; /preview/${1}</sv:value>
+      <sv:value>/* --&gt; /live/${1}</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:sitename" sv:type="String">
+      <sv:value>website2010</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="localhost">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:virtualhost</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:mapping" sv:type="String">
+      <sv:value>/preview/* --&gt; /preview/${1}</sv:value>
+      <sv:value>/* --&gt; /live/${1}</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:sitename" sv:type="String">
+      <sv:value>website2010</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="eu">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:virtualhost</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:mapping" sv:type="String">
+      <sv:value>/preview/* --&gt; /preview/${1}</sv:value>
+      <sv:value>/* --&gt; /live/${1}</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:showcontextpath" sv:type="Boolean">
+      <sv:value>false</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:showport" sv:type="Boolean">
+      <sv:value>false</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:sitename" sv:type="String">
+      <sv:value>website2010</sv:value>
+    </sv:property>
+    <sv:node sv:name="jasha">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:virtualhost</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippolab">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:virtualhost</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="www">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:virtualhost</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="blog">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:virtualhost</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+</sv:node>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node sv:name="frontend:renderer" xmlns:sv="http://www.jcp.org/jcr/sv/1.0">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>frontend:plugin</sv:value>
+  </sv:property>
+  <sv:property sv:name="browser.id" sv:type="String">
+    <sv:value>${browser.id}</sv:value>
+  </sv:property>
+  <sv:property sv:name="editor.id" sv:type="String">
+    <sv:value>${editor.id}</sv:value>
+  </sv:property>
+  <sv:property sv:name="file.extensions" sv:type="String">
+    <sv:value>*.jpg</sv:value>
+    <sv:value>*.jpeg</sv:value>
+    <sv:value>*.gif</sv:value>
+    <sv:value>*.png</sv:value>
+  </sv:property>
+  <!-- 240 is custom -->
+  <sv:property sv:name="gallery.thumbnail.size" sv:type="Long">
+    <sv:value>240</sv:value>
+  </sv:property>
+  <sv:property sv:name="option.label" sv:type="String">
+    <sv:value>add-image</sv:value>
+  </sv:property>
+  <sv:property sv:name="option.text" sv:type="String">
+    <sv:value>add-image-label</sv:value>
+  </sv:property>
+  <sv:property sv:name="plugin.class" sv:type="String">
+    <sv:value>org.hippoecm.frontend.plugins.gallery.GalleryWorkflowPlugin</sv:value>
+  </sv:property>
+  <sv:property sv:name="translator.id" sv:type="String">
+    <sv:value>service.translator.search</sv:value>
+  </sv:property>
+  <sv:property sv:name="workflow.categories" sv:type="String">
+    <sv:value>shortcuts</sv:value>
+  </sv:property>
+</sv:node>

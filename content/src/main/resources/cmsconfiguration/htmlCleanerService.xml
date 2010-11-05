@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node sv:name="htmlCleanerService" xmlns:sv="http://www.jcp.org/jcr/sv/1.0">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>frontend:plugin</sv:value>
+  </sv:property>
+  <sv:property sv:name="plugin.class" sv:type="String">
+    <sv:value>org.hippoecm.frontend.plugins.xinha.htmlcleaner.HtmlCleanerPlugin</sv:value>
+  </sv:property>
+  <sv:node sv:name="cleaner.config">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippohtmlcleaner:config</sv:value>
+    </sv:property>
+    <sv:property sv:name="lenient" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippohtmlcleaner:serialization">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippohtmlcleaner:serialization</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippohtmlcleaner:linewidth" sv:type="Long">
+        <sv:value>80</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippohtmlcleaner:serializationElement">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippohtmlcleaner:serializationElement</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:name" sv:type="String">
+          <sv:value>iframe</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:newLinesAfterClose" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:newLinesBeforeOpen" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippohtmlcleaner:serializationElement">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippohtmlcleaner:serializationElement</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:name" sv:type="String">
+          <sv:value>object</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:newLinesAfterClose" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:newLinesBeforeOpen" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippohtmlcleaner:serializationElement">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippohtmlcleaner:serializationElement</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:name" sv:type="String">
+          <sv:value>br</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:newLinesAfterClose" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippohtmlcleaner:serializationElement">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippohtmlcleaner:serializationElement</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:name" sv:type="String">
+          <sv:value>th</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:newLinesBeforeOpen" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippohtmlcleaner:serializationElement">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippohtmlcleaner:serializationElement</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:name" sv:type="String">
+          <sv:value>td</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:newLinesBeforeOpen" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippohtmlcleaner:serializationElement">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippohtmlcleaner:serializationElement</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:name" sv:type="String">
+          <sv:value>tr</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:newLinesBeforeClose" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:newLinesBeforeOpen" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippohtmlcleaner:serializationElement">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippohtmlcleaner:serializationElement</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:name" sv:type="String">
+          <sv:value>tbody</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:newLinesBeforeClose" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:newLinesBeforeOpen" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippohtmlcleaner:serializationElement">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippohtmlcleaner:serializationElement</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:name" sv:type="String">
+          <sv:value>table</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:newLinesAfterClose" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:newLinesBeforeClose" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:newLinesBeforeOpen" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippohtmlcleaner:serializationElement">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippohtmlcleaner:serializationElement</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:name" sv:type="String">
+          <sv:value>li</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:newLinesBeforeOpen" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippohtmlcleaner:serializationElement">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippohtmlcleaner:serializationElement</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:name" sv:type="String">
+          <sv:value>ol</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:newLinesAfterClose" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:newLinesBeforeClose" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:newLinesBeforeOpen" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippohtmlcleaner:serializationElement">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippohtmlcleaner:serializationElement</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:name" sv:type="String">
+          <sv:value>ul</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:newLinesAfterClose" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:newLinesBeforeClose" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:newLinesBeforeOpen" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippohtmlcleaner:serializationElement">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippohtmlcleaner:serializationElement</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:name" sv:type="String">
+          <sv:value>blockquote</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:newLinesAfterClose" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:newLinesBeforeOpen" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippohtmlcleaner:serializationElement">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippohtmlcleaner:serializationElement</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:name" sv:type="String">
+          <sv:value>div</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:newLinesAfterClose" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:newLinesBeforeOpen" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippohtmlcleaner:serializationElement">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippohtmlcleaner:serializationElement</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:name" sv:type="String">
+          <sv:value>pre</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:newLinesAfterClose" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:newLinesBeforeOpen" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippohtmlcleaner:serializationElement">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippohtmlcleaner:serializationElement</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:name" sv:type="String">
+          <sv:value>p</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:newLinesAfterClose" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:newLinesBeforeOpen" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippohtmlcleaner:serializationElement">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippohtmlcleaner:serializationElement</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:name" sv:type="String">
+          <sv:value>body</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:newLinesAfterOpen" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:newLinesBeforeClose" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippohtmlcleaner:serializationElement">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippohtmlcleaner:serializationElement</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:name" sv:type="String">
+          <sv:value>html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:newLinesAfterOpen" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:newLinesBeforeClose" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="hippohtmlcleaner:cleanup">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippohtmlcleaner:cleanup</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippohtmlcleaner:allowedDivClasses" sv:type="String"/>
+      <sv:property sv:name="hippohtmlcleaner:allowedParaClasses" sv:type="String">
+        <sv:value>note</sv:value>
+        <sv:value>warn</sv:value>
+        <sv:value>fixme</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippohtmlcleaner:allowedPreClasses" sv:type="String">
+        <sv:value>query</sv:value>
+        <sv:value>include</sv:value>
+        <sv:value>query-and-include</sv:value>
+        <sv:value>brush: js</sv:value>
+        <sv:value>brush: java</sv:value>
+        <sv:value>brush: css</sv:value>
+        <sv:value>brush: text</sv:value>
+        <sv:value>brush: xml</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippohtmlcleaner:allowedSpanClasses" sv:type="String">
+        <sv:value>nl</sv:value>
+        <sv:value>de</sv:value>
+        <sv:value>fr</sv:value>
+        <sv:value>en</sv:value>
+        <sv:value>es</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippohtmlcleaner:schema" sv:type="String">
+        <sv:value>transitional</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippohtmlcleaner:cleanupElement">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippohtmlcleaner:cleanupElement</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:attributes" sv:type="String">
+          <sv:value>class</sv:value>
+          <sv:value>id</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:name" sv:type="String">
+          <sv:value>cite</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippohtmlcleaner:cleanupElement">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippohtmlcleaner:cleanupElement</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:attributes" sv:type="String">
+          <sv:value>src</sv:value>
+          <sv:value>align</sv:value>
+          <sv:value>class</sv:value>
+          <sv:value>frameborder</sv:value>
+          <sv:value>height</sv:value>
+          <sv:value>name</sv:value>
+          <sv:value>scrolling</sv:value>
+          <sv:value>width</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:name" sv:type="String">
+          <sv:value>iframe</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippohtmlcleaner:cleanupElement">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippohtmlcleaner:cleanupElement</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:attributes" sv:type="String">
+          <sv:value>id</sv:value>
+          <sv:value>name</sv:value>
+          <sv:value>value</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:name" sv:type="String">
+          <sv:value>param</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippohtmlcleaner:cleanupElement">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippohtmlcleaner:cleanupElement</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:attributes" sv:type="String">
+          <sv:value>align</sv:value>
+          <sv:value>class</sv:value>
+          <sv:value>data</sv:value>
+          <sv:value>height</sv:value>
+          <sv:value>id</sv:value>
+          <sv:value>width</sv:value>
+          <sv:value>title</sv:value>
+          <sv:value>type</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:name" sv:type="String">
+          <sv:value>object</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippohtmlcleaner:cleanupElement">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippohtmlcleaner:cleanupElement</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:name" sv:type="String">
+          <sv:value>hr</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippohtmlcleaner:cleanupElement">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippohtmlcleaner:cleanupElement</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:attributes" sv:type="String">
+          <sv:value>width</sv:value>
+          <sv:value>colspan</sv:value>
+          <sv:value>rowspan</sv:value>
+          <sv:value>valign</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:name" sv:type="String">
+          <sv:value>th</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippohtmlcleaner:cleanupElement">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippohtmlcleaner:cleanupElement</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:attributes" sv:type="String">
+          <sv:value>width</sv:value>
+          <sv:value>colspan</sv:value>
+          <sv:value>rowspan</sv:value>
+          <sv:value>valign</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:name" sv:type="String">
+          <sv:value>td</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippohtmlcleaner:cleanupElement">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippohtmlcleaner:cleanupElement</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:attributes" sv:type="String">
+          <sv:value>class</sv:value>
+          <sv:value>border</sv:value>
+          <sv:value>cellspacing</sv:value>
+          <sv:value>cellpadding</sv:value>
+          <sv:value>width</sv:value>
+          <sv:value>align</sv:value>
+          <sv:value>style</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:name" sv:type="String">
+          <sv:value>table</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippohtmlcleaner:cleanupElement">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippohtmlcleaner:cleanupElement</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:name" sv:type="String">
+          <sv:value>tr</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippohtmlcleaner:cleanupElement">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippohtmlcleaner:cleanupElement</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:name" sv:type="String">
+          <sv:value>tbody</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippohtmlcleaner:cleanupElement">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippohtmlcleaner:cleanupElement</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:attributes" sv:type="String">
+          <sv:value>class</sv:value>
+          <sv:value>border</sv:value>
+          <sv:value>cellspacing</sv:value>
+          <sv:value>cellpadding</sv:value>
+          <sv:value>width</sv:value>
+          <sv:value>align</sv:value>
+          <sv:value>style</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:name" sv:type="String">
+          <sv:value>table</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippohtmlcleaner:cleanupElement">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippohtmlcleaner:cleanupElement</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:attributes" sv:type="String">
+          <sv:value>src</sv:value>
+          <sv:value>alt</sv:value>
+          <sv:value>border</sv:value>
+          <sv:value>align</sv:value>
+          <sv:value>hspace</sv:value>
+          <sv:value>vspace</sv:value>
+          <sv:value>width</sv:value>
+          <sv:value>height</sv:value>
+          <sv:value>title</sv:value>
+          <sv:value>style</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:name" sv:type="String">
+          <sv:value>img</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippohtmlcleaner:cleanupElement">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippohtmlcleaner:cleanupElement</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:name" sv:type="String">
+          <sv:value>li</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippohtmlcleaner:cleanupElement">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippohtmlcleaner:cleanupElement</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:name" sv:type="String">
+          <sv:value>ol</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippohtmlcleaner:cleanupElement">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippohtmlcleaner:cleanupElement</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:name" sv:type="String">
+          <sv:value>ul</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippohtmlcleaner:cleanupElement">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippohtmlcleaner:cleanupElement</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:name" sv:type="String">
+          <sv:value>u</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippohtmlcleaner:cleanupElement">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippohtmlcleaner:cleanupElement</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:name" sv:type="String">
+          <sv:value>sub</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippohtmlcleaner:cleanupElement">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippohtmlcleaner:cleanupElement</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:name" sv:type="String">
+          <sv:value>sup</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippohtmlcleaner:cleanupElement">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippohtmlcleaner:cleanupElement</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:name" sv:type="String">
+          <sv:value>em</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippohtmlcleaner:cleanupElement">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippohtmlcleaner:cleanupElement</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:name" sv:type="String">
+          <sv:value>b</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippohtmlcleaner:cleanupElement">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippohtmlcleaner:cleanupElement</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:name" sv:type="String">
+          <sv:value>strong</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippohtmlcleaner:cleanupElement">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippohtmlcleaner:cleanupElement</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:attributes" sv:type="String">
+          <sv:value>href</sv:value>
+          <sv:value>rel</sv:value>
+          <sv:value>title</sv:value>
+          <sv:value>name</sv:value>
+          <sv:value>id</sv:value>
+          <sv:value>class</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:name" sv:type="String">
+          <sv:value>a</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippohtmlcleaner:cleanupElement">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippohtmlcleaner:cleanupElement</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:name" sv:type="String">
+          <sv:value>h5</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippohtmlcleaner:cleanupElement">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippohtmlcleaner:cleanupElement</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:name" sv:type="String">
+          <sv:value>h4</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippohtmlcleaner:cleanupElement">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippohtmlcleaner:cleanupElement</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:name" sv:type="String">
+          <sv:value>h3</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippohtmlcleaner:cleanupElement">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippohtmlcleaner:cleanupElement</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:name" sv:type="String">
+          <sv:value>h2</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippohtmlcleaner:cleanupElement">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippohtmlcleaner:cleanupElement</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:name" sv:type="String">
+          <sv:value>h1</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippohtmlcleaner:cleanupElement">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippohtmlcleaner:cleanupElement</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:attributes" sv:type="String">
+          <sv:value>class</sv:value>
+          <sv:value>id</sv:value>
+          <sv:value>cite</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:name" sv:type="String">
+          <sv:value>blockquote</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippohtmlcleaner:cleanupElement">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippohtmlcleaner:cleanupElement</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:attributes" sv:type="String">
+          <sv:value>class</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:name" sv:type="String">
+          <sv:value>pre</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippohtmlcleaner:cleanupElement">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippohtmlcleaner:cleanupElement</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:name" sv:type="String">
+          <sv:value>br</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippohtmlcleaner:cleanupElement">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippohtmlcleaner:cleanupElement</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:attributes" sv:type="String">
+          <sv:value>align</sv:value>
+          <sv:value>class</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:name" sv:type="String">
+          <sv:value>p</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippohtmlcleaner:cleanupElement">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippohtmlcleaner:cleanupElement</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:attributes" sv:type="String">
+          <sv:value>class</sv:value>
+          <sv:value>id</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:name" sv:type="String">
+          <sv:value>span</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippohtmlcleaner:cleanupElement">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippohtmlcleaner:cleanupElement</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:attributes" sv:type="String">
+          <sv:value>class</sv:value>
+          <sv:value>id</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:name" sv:type="String">
+          <sv:value>div</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippohtmlcleaner:cleanupElement">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippohtmlcleaner:cleanupElement</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:name" sv:type="String">
+          <sv:value>body</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippohtmlcleaner:cleanupElement">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippohtmlcleaner:cleanupElement</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:name" sv:type="String">
+          <sv:value>html</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippohtmlcleaner:allowedSingleWhitespaceElement">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippohtmlcleaner:allowedSingleWhitespaceElement</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:forceNonBreakingSpace" sv:type="Boolean">
+          <sv:value>true</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippohtmlcleaner:name" sv:type="String">
+          <sv:value>p</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+</sv:node>

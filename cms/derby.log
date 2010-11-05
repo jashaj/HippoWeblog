@@ -1,0 +1,12 @@
+----------------------------------------------------------------
+2010-11-05 13:34:16.637 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.2.1.6 - (452058): instance c013800d-012c-1c3e-a5a5-000003621e38
+on database directory /home/jjoachimsthal/temp/repos/newblog/version/db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2010-11-05 13:34:17.464 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.2.1.6 - (452058): instance e03f4017-012c-1c3e-a5a5-000003621e38
+on database directory /home/jjoachimsthal/temp/repos/newblog/workspaces/default/db  
+
+Database Class Loader started - derby.database.classpath=''

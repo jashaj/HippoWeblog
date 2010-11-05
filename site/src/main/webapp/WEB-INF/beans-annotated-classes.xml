@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<hst-content-beans>
+    <annotated-class>org.onehippo.weblogdemo.beans.BaseDocument</annotated-class>
+    <annotated-class>org.onehippo.weblogdemo.beans.TextDocument</annotated-class>
+    <annotated-class>org.onehippo.weblogdemo.beans.Blogpost</annotated-class>
+    <annotated-class>org.onehippo.weblogdemo.beans.CommentLinkBean</annotated-class>
+    <annotated-class>org.onehippo.weblogdemo.beans.CommentBean</annotated-class>
+    <annotated-class>org.onehippo.forge.properties.annotated.Property</annotated-class>
+    <annotated-class>org.onehippo.forge.properties.annotated.Properties</annotated-class>
+    <annotated-class>org.onehippo.forge.robotstxt.annotated.Robotstxt</annotated-class>
+    <annotated-class>org.onehippo.forge.robotstxt.annotated.Section</annotated-class>
+</hst-content-beans>

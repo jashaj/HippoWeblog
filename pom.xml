@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <name>Hippo Weblog demo</name>
+  <description>Demo project to show how you can make a blog from Hippo CMS 7 and Hippo Site Toolkit</description>
+  <groupId>org.onehippo.forge.weblogdemo</groupId>
+  <artifactId>weblogdemo</artifactId>
+  <version>1.01.00-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <properties>
+  
+    <servlet-api.version>2.5</servlet-api.version>
+    <jstl.version>1.1.2</jstl.version>
+    <taglibs.version>1.1.2</taglibs.version>
+    <javax.jcr.version>1.0</javax.jcr.version>
+    <jta.version>1.1</jta.version>
+    
+    <slf4j.version>1.5.6</slf4j.version>
+    <log4j.version>1.2.14</log4j.version>
+    
+    <junit.version>4.5</junit.version>
+    
+    <hst-configuration-editor.version>1.03.02</hst-configuration-editor.version>
+    <hippoecm.version>2.16.02</hippoecm.version>
+    <hst.version>2.04.07</hst.version>
+    
+    <wagon.ftp.version>1.0-alpha-6</wagon.ftp.version>
+    <spring.version>2.5.6.SEC02</spring.version>
+    <xalan.version>2.4.1</xalan.version>
+    
+    <xercesImpl.version>2.9.1</xercesImpl.version>
+    <commons-proxy.version>1.0</commons-proxy.version>
+    <jdo.version>2.0</jdo.version>
+    <yui.sources.version>1.01.07</yui.sources.version>
+    <spring.js.version>2.0.5.RELEASE</spring.js.version>
+        
+    <rome.version>1.0</rome.version>
+    <rome-fetcher.version>1.0</rome-fetcher.version>
+    <jdom.version>1.1</jdom.version>
+    <commons-email.version>1.2</commons-email.version>
+    <aksimet-java.version>1.02</aksimet-java.version>
+    
+    <forge.ecmtagging.version>4.02.00</forge.ecmtagging.version>
+    <forge.properties.version>2.05.01</forge.properties.version>
+    <forge.authfilter.version>1.01.03</forge.authfilter.version>
+    <forge.robotstxt.version>1.03.00</forge.robotstxt.version>
+
+    <!-- use UTF-8 encoding for filtered file copy -->
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencyManagement>
+
+    <dependencies>
+
+      <dependency>
+        <groupId>javax.jcr</groupId>
+        <artifactId>jcr</artifactId>
+        <version>${javax.jcr.version}</version>
+        <scope>provided</scope>
+      </dependency>
+      
+      <dependency>
+        <groupId>org.apache.geronimo.specs</groupId>
+        <artifactId>geronimo-jta_1.1_spec</artifactId>
+        <version>${jta.version}</version>
+        <scope>provided</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>javax.servlet</groupId>
+        <artifactId>servlet-api</artifactId>
+        <version>${servlet-api.version}</version>
+        <scope>provided</scope>
+      </dependency>
+    
+      <dependency>
+        <groupId>javax.servlet</groupId>
+        <artifactId>jstl</artifactId>
+        <version>${jstl.version}</version>
+        <scope>runtime</scope>
+      </dependency>
+    
+      <dependency>
+        <groupId>taglibs</groupId>
+        <artifactId>standard</artifactId>
+        <version>${taglibs.version}</version>
+        <scope>runtime</scope>
+      </dependency>
+   
+      <dependency>
+        <groupId>xerces</groupId>
+        <artifactId>xercesImpl</artifactId>
+        <version>${xercesImpl.version}</version>
+        <scope>runtime</scope>
+      </dependency>
+    
+      <dependency>
+        <groupId>xalan</groupId>
+        <artifactId>xalan</artifactId>
+        <version>${xalan.version}</version>
+        <scope>runtime</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.slf4j</groupId>
+        <artifactId>slf4j-api</artifactId>
+        <version>${slf4j.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.slf4j</groupId>
+        <artifactId>jcl-over-slf4j</artifactId>
+        <version>${slf4j.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.slf4j</groupId>
+        <artifactId>slf4j-log4j12</artifactId>
+        <version>${slf4j.version}</version>
+        <scope>runtime</scope>
+      </dependency>
+      <dependency>
+        <groupId>log4j</groupId>
+        <artifactId>log4j</artifactId>
+        <version>${log4j.version}</version>
+        <scope>runtime</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-core</artifactId>
+        <version>${spring.version}</version>
+        <exclusions>
+          <exclusion>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging</artifactId>
+          </exclusion>
+        </exclusions>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-web</artifactId>
+        <version>${spring.version}</version>
+        <exclusions>
+          <exclusion>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging</artifactId>
+          </exclusion>
+        </exclusions>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-webmvc</artifactId>
+        <version>${spring.version}</version>
+        <exclusions>
+          <exclusion>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging</artifactId>
+          </exclusion>
+        </exclusions>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-aop</artifactId>
+        <version>${spring.version}</version>
+        <exclusions>
+          <exclusion>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging</artifactId>
+          </exclusion>
+        </exclusions>
+      </dependency>
+      <dependency>
+        <groupId>org.hippoecm</groupId>
+        <artifactId>hippo-ecm-package-war</artifactId>
+        <version>${hippoecm.version}</version>
+        <type>war</type>
+      </dependency>
+      <dependency>
+        <groupId>org.onehippo.ecm.hst</groupId>
+        <artifactId>hst-api</artifactId>
+        <version>${hst.version}</version>
+        <type>jar</type>
+      </dependency>
+      <dependency>
+        <groupId>org.onehippo.ecm.hst</groupId>
+        <artifactId>hst-commons</artifactId>
+        <version>${hst.version}</version>
+        <type>jar</type>
+      </dependency>
+      <dependency>
+        <groupId>org.onehippo.ecm.hst</groupId>
+        <artifactId>hst-content-beans</artifactId>
+        <version>${hst.version}</version>
+        <type>jar</type>
+      </dependency>
+<!--      <dependency>
+        <groupId>org.onehippo.ecm.hst</groupId>
+        <artifactId>hst-ocm</artifactId>
+        <version>${hst.version}</version>
+        <type>jar</type>
+      </dependency>-->
+      <dependency>
+        <groupId>org.onehippo.ecm.hst</groupId>
+        <artifactId>hst-client</artifactId>
+        <version>${hst.version}</version>
+        <type>jar</type>
+        <exclusions>
+          <exclusion>
+            <groupId>jdom</groupId>
+            <artifactId>jdom</artifactId>
+          </exclusion>
+        </exclusions>
+      </dependency>
+      <dependency>
+        <groupId>org.onehippo.ecm.hst.components</groupId>
+        <artifactId>hst-core</artifactId>
+        <version>${hst.version}</version>
+        <type>jar</type>
+        <scope>runtime</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.onehippo.ecm.hst.toolkit-resources.addon.toolkit-cnd</groupId>
+        <artifactId>hst-addon-cnd</artifactId>
+        <version>${hst.version}</version>
+        <type>jar</type>
+      </dependency>
+      <dependency>
+        <groupId>org.onehippo.ecm.hst.toolkit-resources.addon</groupId>
+        <artifactId>hst-addon-repository</artifactId>
+        <version>${hst.version}</version>
+        <type>jar</type>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework.webflow</groupId>
+        <artifactId>org.springframework.js</artifactId>
+        <version>${spring.js.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.onehippo.yui</groupId>
+        <artifactId>yui-2.xx-sources</artifactId>
+        <version>${yui.sources.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-test</artifactId>
+        <version>${spring.version}</version>
+        <scope>test</scope>
+      </dependency>
+      <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>${junit.version}</version>
+        <scope>test</scope>
+      </dependency>
+      <dependency>
+        <groupId>rome</groupId>
+        <artifactId>rome</artifactId>
+        <version>${rome.version}</version>
+        <exclusions>
+          <exclusion>
+            <artifactId>jdom</artifactId>
+            <groupId>jdom</groupId>
+          </exclusion>
+        </exclusions>
+      </dependency>
+      <dependency>
+        <groupId>org.jdom</groupId>
+        <artifactId>jdom</artifactId>
+        <version>${jdom.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>rome</groupId>
+        <artifactId>rome-fetcher</artifactId>
+        <version>${rome-fetcher.version}</version>
+      </dependency>
+    
+      <!-- Hippo CMS Tagging plugin -->
+      <dependency>
+        <groupId>org.onehippo.forge</groupId>
+        <artifactId>ecm-tagging</artifactId>
+        <version>${forge.ecmtagging.version}</version>
+      </dependency> 
+
+      <!-- Properties plugin -->
+      <dependency>
+        <groupId>org.onehippo.forge.properties</groupId>
+        <artifactId>properties-addon-repository</artifactId>
+        <version>${forge.properties.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.onehippo.forge.properties</groupId>
+        <artifactId>properties-hst-client</artifactId>
+        <version>${forge.properties.version}</version>
+      </dependency>
+      
+      <!-- AuthFilter -->
+      <dependency>
+          <groupId>org.onehippo.forge.authfilter</groupId>
+          <artifactId>authfilter-filter</artifactId>
+          <version>${forge.authfilter.version}</version>
+          <type>jar</type>
+      </dependency>
+      
+      <!-- Mail -->
+      <dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-email</artifactId>
+        <version>${commons-email.version}</version>
+      </dependency>
+      
+      <dependency>
+        <groupId>net.sf.akismet</groupId>
+        <artifactId>akismet-java</artifactId>
+        <version>${aksimet-java.version}</version>
+        <scope>system</scope>
+        <systemPath>${project.basedir}/../locallib/akismet-java-1.02.jar</systemPath>
+      </dependency>
+
+      <dependency>
+        <groupId>org.twitter4j</groupId>
+        <artifactId>twitter4j-core</artifactId>
+        <version>[2.1,)</version>
+      </dependency>
+
+    </dependencies>
+    
+  </dependencyManagement>
+  
+  <repositories>
+    <repository>
+      <id>hippo</id>
+      <name>Hippo maven 2 repository.</name>
+      <url>http://repository.hippocms.org/maven2/</url>
+      <snapshots/>
+      <releases>
+        <updatePolicy>never</updatePolicy>
+      </releases>
+      <layout>default</layout>
+    </repository>     
+    <repository>
+      <id>hippo.legacy</id>
+      <name>Hippo Maven 1 repository.</name>
+      <url>http://repository.hippocms.org/maven/</url>
+      <snapshots/>
+      <releases>
+        <updatePolicy>never</updatePolicy>
+      </releases>
+      <layout>legacy</layout>
+    </repository>
+    <repository>
+      <id>java.net</id>
+      <url>http://download.java.net/maven/2/</url>
+    </repository>
+    <repository>
+      <id>hippoforge-ecm-tagging</id>
+      <name>Hippo Forge Tagging plugin Maven 2 repository.</name>
+      <url>http://forge.onehippo.org/svn/ecm-tagging/maven2/</url>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+      <releases>
+        <updatePolicy>never</updatePolicy>
+      </releases>
+      <layout>default</layout>
+    </repository>
+    <repository>
+      <id>hippoforge.properties</id>
+      <name>Hippo Forge Properties</name>
+      <url>http://forge.onehippo.org/svn/properties/maven2/</url>
+    </repository>
+    <repository>
+      <id>hippoforge.authfilter</id>
+      <name>Hippo AuthFilter - Hippo Forge</name>
+      <url>http://forge.onehippo.org/svn/authfilter/maven2</url>
+    </repository>
+    
+  </repositories>
+  
+  <pluginRepositories>
+    <pluginRepository>
+      <id>hippo</id>
+      <name>Hippo Maven 2 Repository</name>
+      <url>http://repository.hippocms.org/maven2</url>
+    </pluginRepository>
+    <pluginRepository>
+      <id>codehaus</id>
+      <url>http://repository.codehaus.org/</url>
+      <layout>default</layout>
+      <snapshots>
+      </snapshots>
+      <releases>
+        <updatePolicy>never</updatePolicy>
+      </releases>
+    </pluginRepository>
+  </pluginRepositories>
+    
+  <build>
+    <defaultGoal>package</defaultGoal>  
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-archetype-plugin</artifactId>
+          <version>2.0-alpha-4</version>
+        </plugin>
+        <plugin>
+          <inherited>true</inherited>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <configuration>
+            <source>1.5</source>
+            <target>1.5</target>
+          </configuration>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+
+  <modules>
+    <module>content</module>
+    <module>cms</module>
+    <module>site</module>
+  </modules>
+</project>

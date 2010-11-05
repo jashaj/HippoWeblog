@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node sv:name="construction" xmlns:sv="http://www.jcp.org/jcr/sv/1.0">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hippostd:folder</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+    <sv:value>hippo:harddocument</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>347791a9-50b6-4b82-8bd1-fc029bc5ffbc</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:paths" sv:type="String">
+    <sv:value>347791a9-50b6-4b82-8bd1-fc029bc5ffbc</sv:value>
+    <sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value>
+    <sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value>
+    <sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value>
+    <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+  <sv:property sv:name="hippostd:foldertype" sv:type="String">
+    <sv:value>new-folder</sv:value>
+    <sv:value>new-document</sv:value>
+  </sv:property>
+  <sv:node sv:name="labels">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippostd:folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+      <sv:value>hippo:harddocument</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>30f83faa-d9d1-4b3b-9d65-a7ade6b6337e</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:paths" sv:type="String">
+      <sv:value>30f83faa-d9d1-4b3b-9d65-a7ade6b6337e</sv:value>
+      <sv:value>347791a9-50b6-4b82-8bd1-fc029bc5ffbc</sv:value>
+      <sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value>
+      <sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value>
+      <sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value>
+      <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+    <sv:property sv:name="hippostd:foldertype" sv:type="String">
+      <sv:value>new-folder</sv:value>
+      <sv:value>new-document</sv:value>
+    </sv:property>
+    <sv:node sv:name="common">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+        <sv:value>hippo:hardhandle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>72206783-6c5c-46b2-b553-0d30477d7997</sv:value>
+      </sv:property>
+      <sv:node sv:name="common">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>properties:properties</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+          <sv:value>hippo:harddocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>f1cd537c-18e9-4e1d-9e2b-6df1b1e68ed9</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:paths" sv:type="String">
+          <sv:value>f1cd537c-18e9-4e1d-9e2b-6df1b1e68ed9</sv:value>
+          <sv:value>72206783-6c5c-46b2-b553-0d30477d7997</sv:value>
+          <sv:value>30f83faa-d9d1-4b3b-9d65-a7ade6b6337e</sv:value>
+          <sv:value>347791a9-50b6-4b82-8bd1-fc029bc5ffbc</sv:value>
+          <sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value>
+          <sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value>
+          <sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value>
+          <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>construction/labels/common</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2010-05-16T11:35:42.704+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2010-05-16T11:38:02.737+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2010-05-16T11:38:04.903+02:00</sv:value>
+        </sv:property>
+        <sv:node sv:name="properties:property">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>properties:property</sv:value>
+          </sv:property>
+          <sv:property sv:name="properties:name" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="properties:value" sv:type="String">
+            <sv:value/>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="months">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+        <sv:value>hippo:hardhandle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>44b61617-dacb-4576-8e3f-bfc4a80a3faf</sv:value>
+      </sv:property>
+      <sv:node sv:name="months">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>properties:properties</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+          <sv:value>hippo:harddocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>d3364eb3-1ec4-42a1-a75d-f49d50776fb4</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:paths" sv:type="String">
+          <sv:value>d3364eb3-1ec4-42a1-a75d-f49d50776fb4</sv:value>
+          <sv:value>44b61617-dacb-4576-8e3f-bfc4a80a3faf</sv:value>
+          <sv:value>30f83faa-d9d1-4b3b-9d65-a7ade6b6337e</sv:value>
+          <sv:value>347791a9-50b6-4b82-8bd1-fc029bc5ffbc</sv:value>
+          <sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value>
+          <sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value>
+          <sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value>
+          <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>construction/labels/months</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2010-05-16T11:35:54.227+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2010-05-16T11:37:53.805+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2010-05-16T11:37:56.729+02:00</sv:value>
+        </sv:property>
+        <sv:node sv:name="properties:property">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>properties:property</sv:value>
+          </sv:property>
+          <sv:property sv:name="properties:name" sv:type="String">
+            <sv:value>month.0</sv:value>
+          </sv:property>
+          <sv:property sv:name="properties:value" sv:type="String">
+            <sv:value>January</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="properties:property">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>properties:property</sv:value>
+          </sv:property>
+          <sv:property sv:name="properties:name" sv:type="String">
+            <sv:value>month.1</sv:value>
+          </sv:property>
+          <sv:property sv:name="properties:value" sv:type="String">
+            <sv:value>February</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="properties:property">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>properties:property</sv:value>
+          </sv:property>
+          <sv:property sv:name="properties:name" sv:type="String">
+            <sv:value>month.2</sv:value>
+          </sv:property>
+          <sv:property sv:name="properties:value" sv:type="String">
+            <sv:value>March</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="properties:property">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>properties:property</sv:value>
+          </sv:property>
+          <sv:property sv:name="properties:name" sv:type="String">
+            <sv:value>month.3</sv:value>
+          </sv:property>
+          <sv:property sv:name="properties:value" sv:type="String">
+            <sv:value>April</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="properties:property">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>properties:property</sv:value>
+          </sv:property>
+          <sv:property sv:name="properties:name" sv:type="String">
+            <sv:value>month.4</sv:value>
+          </sv:property>
+          <sv:property sv:name="properties:value" sv:type="String">
+            <sv:value>May</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="properties:property">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>properties:property</sv:value>
+          </sv:property>
+          <sv:property sv:name="properties:name" sv:type="String">
+            <sv:value>month.5</sv:value>
+          </sv:property>
+          <sv:property sv:name="properties:value" sv:type="String">
+            <sv:value>June</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="properties:property">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>properties:property</sv:value>
+          </sv:property>
+          <sv:property sv:name="properties:name" sv:type="String">
+            <sv:value>month.6</sv:value>
+          </sv:property>
+          <sv:property sv:name="properties:value" sv:type="String">
+            <sv:value>July</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="properties:property">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>properties:property</sv:value>
+          </sv:property>
+          <sv:property sv:name="properties:name" sv:type="String">
+            <sv:value>month.7</sv:value>
+          </sv:property>
+          <sv:property sv:name="properties:value" sv:type="String">
+            <sv:value>August</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="properties:property">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>properties:property</sv:value>
+          </sv:property>
+          <sv:property sv:name="properties:name" sv:type="String">
+            <sv:value>month.8</sv:value>
+          </sv:property>
+          <sv:property sv:name="properties:value" sv:type="String">
+            <sv:value>September</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="properties:property">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>properties:property</sv:value>
+          </sv:property>
+          <sv:property sv:name="properties:name" sv:type="String">
+            <sv:value>month.9</sv:value>
+          </sv:property>
+          <sv:property sv:name="properties:value" sv:type="String">
+            <sv:value>October</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="properties:property">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>properties:property</sv:value>
+          </sv:property>
+          <sv:property sv:name="properties:name" sv:type="String">
+            <sv:value>month.10</sv:value>
+          </sv:property>
+          <sv:property sv:name="properties:value" sv:type="String">
+            <sv:value>November</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="properties:property">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>properties:property</sv:value>
+          </sv:property>
+          <sv:property sv:name="properties:name" sv:type="String">
+            <sv:value>month.11</sv:value>
+          </sv:property>
+          <sv:property sv:name="properties:value" sv:type="String">
+            <sv:value>December</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="pages">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippostd:folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+      <sv:value>hippo:harddocument</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>d44545ef-85c3-49cb-b84d-fb03008a1117</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:paths" sv:type="String">
+      <sv:value>d44545ef-85c3-49cb-b84d-fb03008a1117</sv:value>
+      <sv:value>347791a9-50b6-4b82-8bd1-fc029bc5ffbc</sv:value>
+      <sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value>
+      <sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value>
+      <sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value>
+      <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+    <sv:property sv:name="hippostd:foldertype" sv:type="String">
+      <sv:value>new-folder</sv:value>
+      <sv:value>new-document</sv:value>
+    </sv:property>
+    <sv:node sv:name="notfound">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+        <sv:value>hippo:hardhandle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>e544b053-b563-47ff-a95b-f8d7affcb85e</sv:value>
+      </sv:property>
+      <sv:node sv:name="notfound">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>website2010:textdocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+          <sv:value>hippo:harddocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>126932c2-4164-4665-b67c-9da36d3f2938</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:paths" sv:type="String">
+          <sv:value>126932c2-4164-4665-b67c-9da36d3f2938</sv:value>
+          <sv:value>e544b053-b563-47ff-a95b-f8d7affcb85e</sv:value>
+          <sv:value>d44545ef-85c3-49cb-b84d-fb03008a1117</sv:value>
+          <sv:value>347791a9-50b6-4b82-8bd1-fc029bc5ffbc</sv:value>
+          <sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value>
+          <sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value>
+          <sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value>
+          <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>construction/pages/notfound</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2010-05-16T16:04:53.367+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2010-05-16T16:06:41.653+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2010-05-16T16:06:44.241+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="website2010:date" sv:type="Date">
+          <sv:value>2010-05-16T16:04:53.664+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="website2010:summary" sv:type="String">
+          <sv:value>I'm so sorry. I can't seem to find the page you were looking for. This is so embarassing.</sv:value>
+        </sv:property>
+        <sv:property sv:name="website2010:title" sv:type="String">
+          <sv:value>Page not found</sv:value>
+        </sv:property>
+        <sv:node sv:name="website2010:body">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;html&gt;&lt;body/&gt;&lt;/html&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+    <sv:node sv:name="robots.txt">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+        <sv:value>hippo:hardhandle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>dd4e40fc-5d1c-4ec2-a940-cc3cb0b6b1de</sv:value>
+      </sv:property>
+      <sv:node sv:name="robots.txt">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>robotstxt:robotstxt</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+          <sv:value>hippo:harddocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>9bd2f5cb-3a60-45f8-b10b-ec0fe5d81776</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:paths" sv:type="String">
+          <sv:value>9bd2f5cb-3a60-45f8-b10b-ec0fe5d81776</sv:value>
+          <sv:value>dd4e40fc-5d1c-4ec2-a940-cc3cb0b6b1de</sv:value>
+          <sv:value>347791a9-50b6-4b82-8bd1-fc029bc5ffbc</sv:value>
+          <sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value>
+          <sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value>
+          <sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value>
+          <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>robots.txt</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2010-11-05T14:35:30.664+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2010-11-05T14:37:21.264+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2010-11-05T14:37:24.577+01:00</sv:value>
+        </sv:property>
+        <sv:node sv:name="robotstxt:section">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>robotstxt:section</sv:value>
+          </sv:property>
+          <sv:property sv:name="robotstxt:disallow" sv:type="String">
+            <sv:value>/blogposts/year/</sv:value>
+            <sv:value>/blogposts/tag/</sv:value>
+            <sv:value>/search</sv:value>
+          </sv:property>
+          <sv:property sv:name="robotstxt:useragent" sv:type="String">
+            <sv:value>*</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+</sv:node>

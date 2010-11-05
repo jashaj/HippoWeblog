@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node sv:name="website" xmlns:sv="http://www.jcp.org/jcr/sv/1.0">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hipposys:group</sv:value>
+  </sv:property>
+  <sv:property sv:name="hipposys:description" sv:type="String">
+    <sv:value>Website users</sv:value>
+  </sv:property>
+  <sv:property sv:name="hipposys:members" sv:type="String">
+    <sv:value>website</sv:value>
+  </sv:property>
+  <sv:property sv:name="hipposys:securityprovider" sv:type="String">
+    <sv:value>internal</sv:value>
+  </sv:property>
+</sv:node>

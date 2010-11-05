@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: berry
+Build-Jdk: 1.6.0
+Implementation-Title: Hippo ECM WAR package
+Implementation-Vendor-Id: org.hippoecm
+Implementation-Vendor: Hippo
+Implementation-Build: 23856
+Implementation-Version: 2.12.22
+

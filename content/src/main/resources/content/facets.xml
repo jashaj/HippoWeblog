@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node sv:name="facets" xmlns:sv="http://www.jcp.org/jcr/sv/1.0">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hippofacnav:facetnavigation</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:docbase" sv:type="String">
+    <sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippofacnav:facetnodenames" sv:type="String">
+    <sv:value>year${sortby:'facetvalue', sortorder:'descending'}</sv:value>
+    <sv:value>month${sortby:'facetvalue', sortorder:'descending', after:'year'}</sv:value>
+    <sv:value>tag</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippofacnav:facets" sv:type="String">
+    <sv:value>website2010:date$year</sv:value>
+    <sv:value>website2010:date$month</sv:value>
+    <sv:value>hippostd:tags</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippofacnav:limit" sv:type="Long">
+    <sv:value>100</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippofacnav:sortby" sv:type="String">
+    <sv:value>website2010:date</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippofacnav:sortorder" sv:type="String">
+    <sv:value>descending</sv:value>
+  </sv:property>
+</sv:node>

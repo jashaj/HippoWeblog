@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sv:node sv:name="hst:virtualhosts"
-  xmlns:hst="http://www.hippoecm.org/hst/nt/1.4" xmlns:sv="http://www.jcp.org/jcr/sv/1.0">
+<sv:node sv:name="hst:virtualhosts" xmlns:sv="http://www.jcp.org/jcr/sv/1.0">
   <sv:property sv:name="jcr:primaryType" sv:type="Name">
     <sv:value>hst:virtualhosts</sv:value>
   </sv:property>

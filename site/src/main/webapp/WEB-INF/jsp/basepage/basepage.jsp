@@ -11,7 +11,6 @@
 for(var i = 0; i < html5elmeents.length; i++){
 document.createElement(html5elmeents[i]);
 }})();</script><![endif]-->
-<meta name="google-site-verification" content="dKU3B2gbv9c9aKcMKny9PU5CZ_uE_GP4j0V_BfcL7Sw" />
 </head>
 <c:set var="bodyClass" value=""/>
 <c:if test="${not empty cssClass}"><c:set var="bodyClass" value=" class=\"${cssClass}\""/></c:if>
@@ -29,17 +28,6 @@ document.createElement(html5elmeents[i]);
 <script src="<hst:link path="/js/jquery-1.4.2.min.js"/>"></script>
 <hst:headContributions categoryIncludes="jsExternal"/>
 <hst:headContributions categoryIncludes="jsInline"/>
-<script>if (window.location.hostname!="localhost") {
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-2764705-2']);
-    _gaq.push(['_setDomainName', '.jasha.eu']);
-    _gaq.push(['_trackPageview']);
-  
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-  }</script>
+<%-- Google Analytics goes here --%>
 </body>
 </html>

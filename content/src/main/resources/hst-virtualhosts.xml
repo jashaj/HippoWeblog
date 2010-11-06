@@ -63,7 +63,7 @@
       <sv:value>/* --&gt; /live/${1}</sv:value>
     </sv:property>
     <sv:property sv:name="hst:sitename" sv:type="String">
-      <sv:value>website2010</sv:value>
+      <sv:value>weblogdemo</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="localhost">
@@ -75,7 +75,7 @@
       <sv:value>/* --&gt; /live/${1}</sv:value>
     </sv:property>
     <sv:property sv:name="hst:sitename" sv:type="String">
-      <sv:value>website2010</sv:value>
+      <sv:value>weblogdemo</sv:value>
     </sv:property>
   </sv:node>
 </sv:node>

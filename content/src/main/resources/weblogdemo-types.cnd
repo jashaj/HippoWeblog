@@ -1,0 +1,24 @@
+<'hippo'='http://www.onehippo.org/jcr/hippo/nt/2.0.1'>
+<'hippostd'='http://www.onehippo.org/jcr/hippostd/nt/2.0'>
+<'hippostdpubwf'='http://www.onehippo.org/jcr/hippostdpubwf/nt/1.0'>
+<'weblogdemo'='http://forge.onehippo.org/gf/project/weblogdemo/1.0'>
+
+[weblogdemo:commentlink] > hippo:facetselect
+
+[weblogdemo:basedocument] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document
+
+[weblogdemo:textdocument] > weblogdemo:basedocument, hippostd:taggable
+- weblogdemo:summary (string)
+- weblogdemo:title (string)
+- weblogdemo:date (date)
++ weblogdemo:body (hippostd:html)
+
+[weblogdemo:blogpost] > weblogdemo:textdocument
+- weblogdemo:bloggerid (string)
+
+[weblogdemo:comment] > weblogdemo:textdocument
+- weblogdemo:name (string)
+- weblogdemo:email (string)
+- weblogdemo:website (string)
+- weblogdemo:bloggeridref (string)
++ weblogdemo:commentlink (weblogdemo:commentlink)

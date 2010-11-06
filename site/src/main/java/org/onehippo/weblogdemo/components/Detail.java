@@ -136,7 +136,7 @@ public class Detail extends BaseSiteComponent {
     protected void findComments(HstRequest request, final Blogpost blogpost) {
         try {
             HstQuery commentQuery = BeanUtils.createIncomingBeansQuery(blogpost, this.getSiteContentBaseBean(request),
-                    "website2010:commentlink/@hippo:docbase", this, CommentBean.class, false);
+                    "weblogdemo:commentlink/@hippo:docbase", this, CommentBean.class, false);
             commentQuery.addOrderByDescending(BeanConstants.PROP_DATE);
 
             List<CommentBean> comments = BeanUtils.getIncomingBeans(commentQuery, CommentBean.class);

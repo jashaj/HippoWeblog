@@ -48,7 +48,7 @@ public class CommentBean extends TextDocument {
     }
 
     public String getPerson() {
-        return person == null ? getHtmlEscapedProperty("website2010:name") : person;
+        return person == null ? getHtmlEscapedProperty("weblogdemo:name") : person;
     }
 
     public void setPerson(String person) {
@@ -56,7 +56,7 @@ public class CommentBean extends TextDocument {
     }
 
     public String getEmail() {
-        return email == null ? getHtmlEscapedProperty("website2010:email") : email;
+        return email == null ? getHtmlEscapedProperty("weblogdemo:email") : email;
     }
 
     public void setEmail(String email) {
@@ -64,7 +64,7 @@ public class CommentBean extends TextDocument {
     }
 
     public String getWebsite() {
-        return website == null ? getHtmlEscapedProperty("website2010:website") : website;
+        return website == null ? getHtmlEscapedProperty("weblogdemo:website") : website;
     }
 
     public void setWebsite(String website) {
@@ -72,7 +72,7 @@ public class CommentBean extends TextDocument {
     }
 
     public String getBloggerIdRef() {
-        return getProperty("website2010:bloggeridref");
+        return getProperty("weblogdemo:bloggeridref");
     }
 
     private String commentToUuidOfHandle;
@@ -82,7 +82,7 @@ public class CommentBean extends TextDocument {
     }
 
     public BaseDocument getCommentTo() {
-        HippoBean bean = getBean("website2010:commentlink");
+        HippoBean bean = getBean("weblogdemo:commentlink");
         if (!(bean instanceof CommentLinkBean)) {
             return null;
         }
@@ -99,16 +99,16 @@ public class CommentBean extends TextDocument {
         try {
             BaseDocument bean = (BaseDocument) content;
             node.setProperty(BeanConstants.PROP_DATE, bean.getCalendar());
-            node.setProperty("website2010:name", getPerson());
-            node.setProperty("website2010:email", getEmail());
-            node.setProperty("website2010:website", getWebsite());
+            node.setProperty("weblogdemo:name", getPerson());
+            node.setProperty("weblogdemo:email", getEmail());
+            node.setProperty("weblogdemo:website", getWebsite());
             node.setProperty(BeanConstants.PROP_SUMMARY, getSummary());
 
             javax.jcr.Node commentLink;
-            if (node.hasNode("website2010:commentlink")) {
-                commentLink = node.getNode("website2010:commentlink");
+            if (node.hasNode("weblogdemo:commentlink")) {
+                commentLink = node.getNode("weblogdemo:commentlink");
             } else {
-                commentLink = node.addNode("website2010:commentlink", "website2010:commentlink");
+                commentLink = node.addNode("weblogdemo:commentlink", "weblogdemo:commentlink");
             }
             commentLink.setProperty("hippo:docbase", commentToUuidOfHandle);
             commentLink.setProperty("hippo:values", new String[0]);

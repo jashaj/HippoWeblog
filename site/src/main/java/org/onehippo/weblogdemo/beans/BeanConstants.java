@@ -26,14 +26,14 @@ public class BeanConstants {
         // prevent instantiation
     }
 
-    public static final String DOCTYPE_BASEDOCUMENT = "website2010:basedocument";
-    public static final String DOCTYPE_BLOGPOST = "website2010:blogpost";
-    public static final String DOCTYPE_COMMENT  = "website2010:comment";
+    public static final String DOCTYPE_BASEDOCUMENT = "weblogdemo:basedocument";
+    public static final String DOCTYPE_BLOGPOST = "weblogdemo:blogpost";
+    public static final String DOCTYPE_COMMENT  = "weblogdemo:comment";
 
-    public static final String COMPOUND_BODY = "website2010:body";
+    public static final String COMPOUND_BODY = "weblogdemo:body";
 
-    public static final String PROP_BLOGGERID = "website2010:bloggerid";
-    public static final String PROP_DATE = "website2010:date";
-    public static final String PROP_SUMMARY = "website2010:summary";
-    public static final String PROP_TITLE = "website2010:title";
+    public static final String PROP_BLOGGERID = "weblogdemo:bloggerid";
+    public static final String PROP_DATE = "weblogdemo:date";
+    public static final String PROP_SUMMARY = "weblogdemo:summary";
+    public static final String PROP_TITLE = "weblogdemo:title";
 }

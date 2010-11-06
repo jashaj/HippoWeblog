@@ -39,7 +39,7 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-
     </sv:property>
     <sv:node sv:name="homepage">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>website2010:textdocument</sv:value>
+        <sv:value>weblogdemo:textdocument</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
         <sv:value>hippo:harddocument</sv:value>
@@ -89,17 +89,17 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-
         sv:type="Date">
         <sv:value>2010-05-14T11:34:28.827+01:00</sv:value>
       </sv:property>
-      <sv:property sv:name="website2010:date" sv:type="Date">
+      <sv:property sv:name="weblogdemo:date" sv:type="Date">
         <sv:value>2010-04-18T10:07:52.078+02:00</sv:value>
       </sv:property>
-      <sv:property sv:name="website2010:summary" sv:type="String">
+      <sv:property sv:name="weblogdemo:summary" sv:type="String">
         <sv:value>This is my new website built with Hippo CMS and Hippo
           Site Toolkit</sv:value>
       </sv:property>
-      <sv:property sv:name="website2010:title" sv:type="String">
+      <sv:property sv:name="weblogdemo:title" sv:type="String">
         <sv:value>Welcome to jasha.eu</sv:value>
       </sv:property>
-      <sv:node sv:name="website2010:body">
+      <sv:node sv:name="weblogdemo:body">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hippostd:html</sv:value>
         </sv:property>

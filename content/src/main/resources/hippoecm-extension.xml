@@ -22,7 +22,7 @@
     <sv:value>v16a-myproject</sv:value>
   </sv:property>
 
-  <sv:node sv:name="website2010">
+  <sv:node sv:name="weblogdemo">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -30,14 +30,14 @@
       <sv:value>10050</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:namespace" sv:type="String">
-      <sv:value>http://www.hippoecm.org/hst/nt/website2010/1.1</sv:value>
+      <sv:value>http://forge.onehippo.org/gf/project/weblogdemo/1.0</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:nodetypesresource" sv:type="String">
-      <sv:value>website2010-types.cnd</sv:value>
+      <sv:value>weblogdemo-types.cnd</sv:value>
     </sv:property>
   </sv:node>
   
-  <sv:node sv:name="website2010-namespace">
+  <sv:node sv:name="weblogdemo-namespace">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -45,7 +45,7 @@
       <sv:value>10051</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>website2010-namespace.xml</sv:value>
+      <sv:value>weblogdemo-namespace.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
       <sv:value>/hippo:namespaces</sv:value>
@@ -55,7 +55,7 @@
   <!--  compounds -->
     <!-- /compounds -->
     <!-- documents -->
-  <sv:node sv:name="website2010-type-basedocument">
+  <sv:node sv:name="weblogdemo-type-basedocument">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -66,11 +66,11 @@
       <sv:value>types/basedocument.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/hippo:namespaces/website2010</sv:value>
+      <sv:value>/hippo:namespaces/weblogdemo</sv:value>
     </sv:property>
   </sv:node>
  
- <sv:node sv:name="website2010-type-textdocument">
+ <sv:node sv:name="weblogdemo-type-textdocument">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -81,10 +81,10 @@
       <sv:value>types/textdocument.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/hippo:namespaces/website2010</sv:value>
+      <sv:value>/hippo:namespaces/weblogdemo</sv:value>
     </sv:property>
   </sv:node>
- <sv:node sv:name="website2010-type-blogpost">
+ <sv:node sv:name="weblogdemo-type-blogpost">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -95,10 +95,10 @@
       <sv:value>types/blogpost.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/hippo:namespaces/website2010</sv:value>
+      <sv:value>/hippo:namespaces/weblogdemo</sv:value>
     </sv:property>
   </sv:node>
- <sv:node sv:name="website2010-type-comment">
+ <sv:node sv:name="weblogdemo-type-comment">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -109,7 +109,7 @@
       <sv:value>types/comment.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/hippo:namespaces/website2010</sv:value>
+      <sv:value>/hippo:namespaces/weblogdemo</sv:value>
     </sv:property>
   </sv:node>
  
@@ -238,7 +238,7 @@
 
   <!-- Content -->
 
-  <sv:node sv:name="website2010-root">
+  <sv:node sv:name="weblogdemo-root">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -246,14 +246,14 @@
       <sv:value>40400</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>website2010-root.xml</sv:value>
+      <sv:value>weblogdemo-root.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
       <sv:value>/content/documents</sv:value>
     </sv:property>
   </sv:node>
 
-  <sv:node sv:name="website2010-images-2007">
+  <sv:node sv:name="weblogdemo-images-2007">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -267,7 +267,7 @@
       <sv:value>/content/gallery</sv:value>
     </sv:property>
   </sv:node>
-    <sv:node sv:name="website2010-images-2008">
+    <sv:node sv:name="weblogdemo-images-2008">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hippo:initializeitem</sv:value>
       </sv:property>
@@ -281,7 +281,7 @@
         <sv:value>/content/gallery</sv:value>
       </sv:property>
     </sv:node>
-    <sv:node sv:name="website2010-images-2009">
+    <sv:node sv:name="weblogdemo-images-2009">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hippo:initializeitem</sv:value>
       </sv:property>
@@ -295,7 +295,7 @@
         <sv:value>/content/gallery</sv:value>
       </sv:property>
     </sv:node>
-    <sv:node sv:name="website2010-images-2010">
+    <sv:node sv:name="weblogdemo-images-2010">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hippo:initializeitem</sv:value>
       </sv:property>
@@ -311,7 +311,7 @@
     </sv:node>
 
 
-  <sv:node sv:name="website2010-common">
+  <sv:node sv:name="weblogdemo-common">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -319,13 +319,13 @@
       <sv:value>40404</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>content/website2010-common.xml</sv:value>
+      <sv:value>content/weblogdemo-common.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-     <sv:value>/content/documents/website2010</sv:value>
+     <sv:value>/content/documents/weblogdemo</sv:value>
     </sv:property>
    </sv:node>
-  <sv:node sv:name="website2010-blogs">
+  <sv:node sv:name="weblogdemo-blogs">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -336,10 +336,10 @@
       <sv:value>content/blogs.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/content/documents/website2010</sv:value>
+      <sv:value>/content/documents/weblogdemo</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="website2010-comment">
+  <sv:node sv:name="weblogdemo-comment">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -350,11 +350,11 @@
       <sv:value>content/comment.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/content/documents/website2010</sv:value>
+      <sv:value>/content/documents/weblogdemo</sv:value>
     </sv:property>
   </sv:node>
   
-  <sv:node sv:name="website2010-construction">
+  <sv:node sv:name="weblogdemo-construction">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -365,11 +365,11 @@
       <sv:value>content/construction.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/content/documents/website2010</sv:value>
+      <sv:value>/content/documents/weblogdemo</sv:value>
     </sv:property>
   </sv:node>
 
-  <sv:node sv:name="website2010-facets">
+  <sv:node sv:name="weblogdemo-facets">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -380,7 +380,7 @@
       <sv:value>content/facets.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/content/documents/website2010</sv:value>
+      <sv:value>/content/documents/weblogdemo</sv:value>
     </sv:property>
   </sv:node>
   

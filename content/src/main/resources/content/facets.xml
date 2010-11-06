@@ -27,15 +27,15 @@
     <sv:value>tag</sv:value>
   </sv:property>
   <sv:property sv:name="hippofacnav:facets" sv:type="String">
-    <sv:value>website2010:date$year</sv:value>
-    <sv:value>website2010:date$month</sv:value>
+    <sv:value>weblogdemo:date$year</sv:value>
+    <sv:value>weblogdemo:date$month</sv:value>
     <sv:value>hippostd:tags</sv:value>
   </sv:property>
   <sv:property sv:name="hippofacnav:limit" sv:type="Long">
     <sv:value>100</sv:value>
   </sv:property>
   <sv:property sv:name="hippofacnav:sortby" sv:type="String">
-    <sv:value>website2010:date</sv:value>
+    <sv:value>weblogdemo:date</sv:value>
   </sv:property>
   <sv:property sv:name="hippofacnav:sortorder" sv:type="String">
     <sv:value>descending</sv:value>

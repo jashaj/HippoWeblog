@@ -41,7 +41,7 @@
         <sv:value>hippostd:publishableSummary</sv:value>
       </sv:property>
       <sv:property sv:name="hipposysedit:uri" sv:type="String">
-        <sv:value>http://www.hippoecm.org/hst/nt/website2010/1.1</sv:value>
+        <sv:value>http://forge.onehippo.org/gf/project/weblogdemo/1.0</sv:value>
       </sv:property>
     </sv:node>
   </sv:node>

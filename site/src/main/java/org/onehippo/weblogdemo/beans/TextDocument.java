@@ -21,7 +21,7 @@ import java.util.List;
 import org.apache.commons.lang.StringUtils;
 import org.hippoecm.hst.content.beans.Node;
 
-@Node(jcrType = "website2010:textdocument")
+@Node(jcrType = "weblogdemo:textdocument")
 public class TextDocument extends BaseDocument {
 
     /*

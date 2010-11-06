@@ -41,10 +41,10 @@
         <sv:value>true</sv:value>
       </sv:property>
       <sv:property sv:name="hipposysedit:supertype" sv:type="String">
-        <sv:value>website2010:textdocument</sv:value>
+        <sv:value>weblogdemo:textdocument</sv:value>
       </sv:property>
       <sv:property sv:name="hipposysedit:uri" sv:type="String">
-        <sv:value>http://www.hippoecm.org/hst/nt/website2010/1.1</sv:value>
+        <sv:value>http://forge.onehippo.org/gf/project/weblogdemo/1.0</sv:value>
       </sv:property>
     </sv:node>
   </sv:node>
@@ -54,7 +54,7 @@
     </sv:property>
     <sv:node sv:name="hipposysedit:prototype">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>website2010:blogpost</sv:value>
+        <sv:value>weblogdemo:blogpost</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
         <sv:value>hippo:harddocument</sv:value>
@@ -83,13 +83,13 @@
       <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
           <sv:value>2008-03-26T12:03:00.000+01:00</sv:value>
       </sv:property>
-      <sv:property sv:name="website2010:summary" sv:type="String">
+      <sv:property sv:name="weblogdemo:summary" sv:type="String">
         <sv:value/>
       </sv:property>
-      <sv:property sv:name="website2010:title" sv:type="String">
+      <sv:property sv:name="weblogdemo:title" sv:type="String">
         <sv:value/>
       </sv:property>
-      <sv:node sv:name="website2010:body">
+      <sv:node sv:name="weblogdemo:body">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hippostd:html</sv:value>
         </sv:property>
@@ -121,7 +121,7 @@
         <sv:value>validator.id</sv:value>
       </sv:property>
       <sv:property sv:name="type" sv:type="String">
-        <sv:value>website2010:blogpost</sv:value>
+        <sv:value>weblogdemo:blogpost</sv:value>
       </sv:property>
       <sv:node sv:name="root">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">

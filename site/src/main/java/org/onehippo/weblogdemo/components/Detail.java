@@ -109,7 +109,7 @@ public class Detail extends BaseSiteComponent {
         if (documentBean instanceof Blogpost) {
             final Blogpost blogpost = (Blogpost) documentBean;
             findComments(request, blogpost);
-            checkCommentsEnabled(request, blogpost);
+            checkCommentsEnabled(request);
         }
 
     }
@@ -148,18 +148,18 @@ public class Detail extends BaseSiteComponent {
     }
 
     /**
-     * Checks if comments are enabled for this {@link Blogpost}
-     * @param request {@link HstRequest}
-     * @param blogpost {@link Blogpost}
+     * Checks if comments are enabled and adds its result to the request
+     * @param request {@link org.hippoecm.hst.core.component.HstRequest}
      */
-    protected void checkCommentsEnabled(HstRequest request, Blogpost blogpost) {
+    protected void checkCommentsEnabled(HstRequest request) {
         boolean enableComments = Boolean.parseBoolean(getParameter(ENABLE_COMMENTS, request));
         request.setAttribute(ENABLE_COMMENTS, enableComments);
     }
 
     /**
      * Handles adding a user generated {@link CommentBean}
-     * @param request {@link HstRequest}
+     * @param request {@link org.hippoecm.hst.core.component.HstRequest}
+     * @param response {@link org.hippoecm.hst.core.component.HstResponse}
      */
     protected void doAddComment(HstRequest request, HstResponse response) {
         HippoBean commentTo = this.getContentBean(request);
@@ -207,8 +207,7 @@ public class Detail extends BaseSiteComponent {
             wpm = getWorkflowPersistenceManager(persistableSession);
             wpm.setWorkflowCallbackHandler(new WorkflowCallbackHandler<FullReviewedActionsWorkflow>() {
                 public void processWorkflow(FullReviewedActionsWorkflow wf) throws Exception {
-                    FullReviewedActionsWorkflow fraw = (FullReviewedActionsWorkflow) wf;
-                    fraw.requestPublication();
+                    wf.requestPublication();
                 }
             });
 
@@ -281,8 +280,10 @@ public class Detail extends BaseSiteComponent {
 
     /**
      * Checks external service (Akismet) if the comment is possible spam
-     * @param request {@link HstRequest}
-     * @return response from Akismet
+     * @param request {@link org.hippoecm.hst.core.component.HstRequest}
+     * @param response {@link org.hippoecm.hst.core.component.HstResponse}
+     * @return {@literal true} if the external service thinks the comment is spam, {@literal false} if the external
+     * service responses the comment is safe OR if no external spam check service is configured
      */
     protected boolean isSpam(final HstRequest request, final HstResponse response, final HippoBean bean) {
         String apikey = getParameter(PARAM_SPAMFILTER_APIKEY, request);

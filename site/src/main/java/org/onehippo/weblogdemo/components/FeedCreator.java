@@ -305,6 +305,7 @@ public class FeedCreator extends BaseSiteComponent {
      * @param blogpost {@link Blogpost} with the HTML content
      * @param request current {@link HstRequest}
      * @param response {@link HstResponse}
+     * @return HTML content of the description field with all internal links rewritten as external URLs
      */
     private String getDescriptionHtmlContent(Blogpost blogpost, HstRequest request, HstResponse response) {
         HippoHtml hippoHtml = blogpost.getHtml();

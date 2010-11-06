@@ -104,7 +104,7 @@ public class CommentBean extends TextDocument {
             node.setProperty("website2010:website", getWebsite());
             node.setProperty(BeanConstants.PROP_SUMMARY, getSummary());
 
-            javax.jcr.Node commentLink = null;
+            javax.jcr.Node commentLink;
             if (node.hasNode("website2010:commentlink")) {
                 commentLink = node.getNode("website2010:commentlink");
             } else {

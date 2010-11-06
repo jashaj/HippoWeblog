@@ -24,9 +24,10 @@ import org.hippoecm.hst.content.beans.standard.HippoFacetSelect;
  */
 @Node(jcrType = "website2010:commentlink")
 public class CommentLinkBean extends HippoFacetSelect {
+    private static final String COMMENTLINK = "commentlink";
 
     public String getType() {
-        return "commentlink";
+        return COMMENTLINK;
     }
 
 }

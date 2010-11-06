@@ -131,8 +131,8 @@ public class BaseDocument extends HippoDocument implements ContentNodeBinder {
 
     /**
      * utility method that returns HTML Escaped value of the property
-     * @param name
-     * @return
+     * @param name name of the property
+     * @return HTML Escaped value of the property
      */
     protected String getHtmlEscapedProperty(String name) {
         return StringEscapeUtils.escapeHtml((String) getProperty(name));
@@ -149,7 +149,7 @@ public class BaseDocument extends HippoDocument implements ContentNodeBinder {
     /**
      * Adds {@link javax.jcr.Node} for HTML content
      * @param body String representation of HTML content
-     * @throws RepositoryException
+     * @throws RepositoryException if the HTML content can't be added
      */
     public void addHtml(String body) throws RepositoryException {
         javax.jcr.Node n = this.getNode().addNode(HTML_NODEPATH, "hippostd:html");

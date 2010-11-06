@@ -57,11 +57,15 @@ public class Search extends BaseSiteComponent {
             query = request.getParameter(SEARCHFOR_PARAM);
         }
         int page = 0;
-        try {
-            page = Integer.parseInt(pageStr);
-        } catch (NumberFormatException e) {
-            // empty ignore
+        if (StringUtils.isNotBlank(pageStr)) {
+            try {
+                page = Integer.parseInt(pageStr);
+            } catch (NumberFormatException e) {
+                // empty ignore
+            }
         }
+        
+        
         request.setAttribute(PAGEPARAM, page);
         try {
             List<HippoBean> excludes = new ArrayList<HippoBean>();
@@ -80,12 +84,17 @@ public class Search extends BaseSiteComponent {
             }
             HstQueryResult result = hstQuery.execute();
             HippoBeanIterator beans = result.getHippoBeans();
-            long pages = beans.getSize() / PAGESIZE;
+            if (beans == null) {
+                return;
+            }
 
-            request.setAttribute("nrhits", beans.getSize() > 0 ? beans.getSize() : 0);
+            long beansSize = beans.getSize();
+            long pages = beansSize / PAGESIZE;
+
+            request.setAttribute("nrhits", beansSize > 0 ? beansSize : 0);
             request.setAttribute("pages", pages);
             int results = 0;
-            if (beans.getSize() > page * PAGESIZE) {
+            if (beansSize > page * PAGESIZE) {
                 beans.skip(page * PAGESIZE);
             }
             while (beans.hasNext() && results < PAGESIZE) {

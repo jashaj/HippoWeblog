@@ -3,6 +3,7 @@ package org.onehippo.weblogdemo.components;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.commons.lang.StringUtils;
 import org.hippoecm.hst.content.beans.standard.HippoBean;
 import org.hippoecm.hst.content.beans.standard.HippoDocumentIterator;
 import org.hippoecm.hst.content.beans.standard.HippoFacetChildNavigationBean;
@@ -27,10 +28,12 @@ public class FacetedOverview extends BaseSiteComponent {
 
         String pageStr = request.getParameter("page");
         int page = 0;
-        try {
-            page = Integer.parseInt(pageStr);
-        } catch (NumberFormatException e) {
-            // empty ignore
+        if (StringUtils.isNotBlank(pageStr)) {
+            try {
+                page = Integer.parseInt(pageStr);
+            } catch (NumberFormatException e) {
+                // empty ignore
+            }
         }
         request.setAttribute("page", page);
 
@@ -38,11 +41,10 @@ public class FacetedOverview extends BaseSiteComponent {
             HippoFacetChildNavigationBean facetNav = (HippoFacetChildNavigationBean) n;
             HippoDocumentIterator<Blogpost> it = facetNav.getResultSet().getDocumentIterator(Blogpost.class);
             long pages = facetNav.getResultSet().getCount() / PAGESIZE;
-            if (facetNav.getResultSet().getCount() % PAGESIZE > 0L) {
-                pages = pages + 1L;
-            }
+            pages = facetNav.getResultSet().getCount() % PAGESIZE > 0L ? pages + 1L : pages;
+
             if (log.isDebugEnabled()) {
-                log.debug("Resultset of " + facetNav.getResultSet().getCount() + " pages " + pages);
+                log.debug("Resultset of {}, pages {}", facetNav.getResultSet().getCount(), pages);
             }
             request.setAttribute("pages", pages);
 

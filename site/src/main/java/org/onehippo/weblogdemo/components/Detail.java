@@ -282,6 +282,7 @@ public class Detail extends BaseSiteComponent {
      * Checks external service (Akismet) if the comment is possible spam
      * @param request {@link org.hippoecm.hst.core.component.HstRequest}
      * @param response {@link org.hippoecm.hst.core.component.HstResponse}
+     * @param bean of the current page to which the comment is added (needed for link rewriting)
      * @return {@literal true} if the external service thinks the comment is spam, {@literal false} if the external
      * service responses the comment is safe OR if no external spam check service is configured
      */

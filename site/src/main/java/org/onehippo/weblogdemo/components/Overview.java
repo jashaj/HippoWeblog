@@ -66,10 +66,12 @@ public class Overview extends BaseSiteComponent {
         String tag = request.getParameter("tag");
 
         int page = 0;
-        try {
-            page = Integer.parseInt(pageStr);
-        } catch (NumberFormatException e) {
-            // empty ignore
+            if (StringUtils.isNotBlank(pageStr)) {
+            try {
+                page = Integer.parseInt(pageStr);
+            } catch (NumberFormatException e) {
+                // empty ignore
+            }
         }
 
         request.setAttribute("page", page);
@@ -104,22 +106,24 @@ public class Overview extends BaseSiteComponent {
      */
     protected void handleQueryResult(HstRequest request, List<Blogpost> documents, int page, HstQueryResult result) {
         HippoBeanIterator beans = result.getHippoBeans();
-        if (beans != null) {
-            long pages = beans.getSize() / PAGESIZE;
-            if (beans.getSize() % PAGESIZE > 0L) {
-                pages = pages + 1L;
-            }
-            request.setAttribute("pages", pages);
-            int results = 0;
-            if (beans.getSize() > page * ((long) PAGESIZE)) {
-                beans.skip(page * PAGESIZE);
-            }
-            while (beans.hasNext() && results < PAGESIZE) {
-                HippoBean bean = beans.next();
-                if (bean != null && bean instanceof Blogpost) {
-                    documents.add((Blogpost) bean);
-                    results++;
-                }
+        if (beans == null) {
+            return;
+        }
+
+        long beansSize = beans.getSize();
+        long pages = beans.getSize() % PAGESIZE > 0L ? beansSize / PAGESIZE + 1L : beansSize / PAGESIZE;
+
+        request.setAttribute("pages", pages);
+        if (beansSize > page * ((long) PAGESIZE)) {
+            beans.skip(page * PAGESIZE);
+        }
+
+        int results = 0;
+        while (beans.hasNext() && results < PAGESIZE) {
+            HippoBean bean = beans.next();
+            if (bean != null && bean instanceof Blogpost) {
+                documents.add((Blogpost) bean);
+                results++;
             }
         }
     }

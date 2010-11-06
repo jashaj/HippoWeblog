@@ -193,12 +193,6 @@
         <version>${hst.version}</version>
         <type>jar</type>
       </dependency>
-<!--      <dependency>
-        <groupId>org.onehippo.ecm.hst</groupId>
-        <artifactId>hst-ocm</artifactId>
-        <version>${hst.version}</version>
-        <type>jar</type>
-      </dependency>-->
       <dependency>
         <groupId>org.onehippo.ecm.hst</groupId>
         <artifactId>hst-client</artifactId>
@@ -338,16 +332,6 @@
       <layout>default</layout>
     </repository>     
     <repository>
-      <id>hippo.legacy</id>
-      <name>Hippo Maven 1 repository.</name>
-      <url>http://repository.hippocms.org/maven/</url>
-      <snapshots/>
-      <releases>
-        <updatePolicy>never</updatePolicy>
-      </releases>
-      <layout>legacy</layout>
-    </repository>
-    <repository>
       <id>java.net</id>
       <url>http://download.java.net/maven/2/</url>
     </repository>
@@ -372,6 +356,11 @@
       <id>hippoforge.authfilter</id>
       <name>Hippo AuthFilter - Hippo Forge</name>
       <url>http://forge.onehippo.org/svn/authfilter/maven2</url>
+    </repository>
+    <repository>
+      <id>hippoforge.robotstxt</id>
+      <name>Hippo AuthFilter - Hippo Forge</name>
+      <url>http://forge.onehippo.org/svn/robotstxt/maven2</url>
     </repository>
     
   </repositories>

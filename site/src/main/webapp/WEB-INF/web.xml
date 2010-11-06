@@ -77,6 +77,12 @@
       <param-name>check-privileges</param-name>
       <param-value>hippo:author</param-value>
     </init-param>
+
+     <init-param>
+         <param-name>repository-address</param-name>
+         <param-value>rmi://127.0.0.1:1099/hipporepository</param-value>
+     </init-param>
+
   </filter>
     
     

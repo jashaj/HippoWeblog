@@ -1,0 +1,37 @@
+This product includes software developed by:
+Jasha Joachimsthal (http://www.jasha.eu)
+Hippo B.V., Amsterdam, The Netherlands (http://www.onehippo.com/).
+The Apache Software Foundation (http://www.apache.org/).
+
+NOTICE: Only our own original work is licensed under the terms of the Apache
+License Version 2.0. The licenses of some libraries might impose different
+redistribution or general licensing terms than those stated in the Apache
+License. Users and redistributors are hereby requested to verify these
+conditions and agree upon them.
+
+The product includes the Akismet Java API developed by David A. Czarnecki
+<URL:http://sourceforge.net/projects/akismet-java/>
+
+The product includes jQuery developed by The jQuery Project dual licensed under the MIT or GPL Version 2 licenses
+<URL:http://jquery.com/>
+
+The product includes Fancybox developed by Janis Skarnelis dual licensed under the MIT and GPL licenses
+<URL:http://fancybox.net>
+
+The product includes Mousewheel developed by Brandon Aaron dual licensed under the MIT and GPL licenses
+<URL:http://brandonaaron.net>
+
+The product includes SyntaxHighlighter developed by Alex Gorbatchev dual licensed under the MIT and GPL licenses
+<URL:http://alexgorbatchev.com/SyntaxHighlighter>
+
+The product uses ROME released under the Apache 2.0 license
+<URL:https://rome.dev.java.net/>
+
+The product uses Twitter4J developed by Yusuke Yamamoto released under the BSD license
+<URL:http://twitter4j.org>
+
+Some parts of the content (images and text) in this product is licensed under the Creative Commons
+Attribution-Noncommercial-No Derivative Works 3.0 Netherlands License.
+To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/3.0/nl/ or,
+(b) send a letter to Creative Commons, 171 2nd Street, Suite 300, San Francisco, California, 94105, USA.
+

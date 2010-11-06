@@ -9,8 +9,8 @@
     <relativePath>../pom.xml</relativePath>
   </parent>
 
-  <name>Basic Skeleton Site</name>
-  <description>Basic Skeleton Site</description>
+  <name>Hippo Weblog demo project Site</name>
+  <description>Hippo Weblog demo project Site</description>
   <artifactId>weblogdemo-site</artifactId>
   <groupId>org.onehippo.forge.weblogdemo</groupId>
   <packaging>war</packaging>

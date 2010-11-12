@@ -13,7 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.onehippo.weblogdemo.beans;
+package org.onehippo.forge.weblogdemo.beans;
+
+import java.util.ArrayList;
+import java.util.List;
 
 import org.apache.commons.lang.StringUtils;
 import org.apache.commons.lang.text.StrTokenizer;
@@ -21,33 +24,51 @@ import org.hippoecm.hst.content.beans.Node;
 import org.hippoecm.hst.content.beans.standard.HippoHtml;
 import org.hippoecm.hst.utils.SimpleHtmlExtractor;
 
-import org.onehippo.weblogdemo.components.Overview;
-
-/**
- * Annotated bean for {@link Node} of type {@link BeanConstants#DOCTYPE_BLOGPOST}
- * @author Jasha Joachimsthal
- *
- */
-@Node(jcrType = BeanConstants.DOCTYPE_BLOGPOST)
-public class Blogpost extends TextDocument {
-
-    private static final String BLOGPOST = "blogpost";
+@Node(jcrType = "weblogdemo:textdocument")
+public class TextDocument extends BaseDocument {
     private static final String HTMLTAG = "\\<.*?\\>";
     private final static String PARAGRAPH = "p";
 
     /*
      * (non-Javadoc)
-     * @see org.onehippo.weblogdemo.beans.TextDocument#getType()
+     * @see org.onehippo.forge.weblogdemo.beans.BaseDocument#getType()
      */
     @Override
     public String getType() {
-        return BLOGPOST;
+        return "textdocument";
     }
 
-    /**
-     * Utility method to return text for the summary in an {@link Overview} page.<br />
+    public String getDayOfDate() {
+        return getDateString(getDate(), "d");
+    }
+
+    public String getMonthOfDate() {
+        return getDateString(getDate(), "MMM");
+    }
+
+    public String getYearOfDate() {
+        return getDateString(getDate(), "yyyy");
+    }
+
+    public List<String> getTags() {
+        List<String> tagList = new ArrayList<String>();
+        Object tags = getProperty("hippostd:tags");
+        if (tags instanceof String && StringUtils.isNotBlank((String) tags)) {
+            tagList.add((String) tags);
+        } else if (tags instanceof String[]) {
+            for (String tag : (String[]) tags) {
+                if (StringUtils.isNotBlank(tag)) {
+                    tagList.add(tag);
+                }
+            }
+        }
+        return tagList;
+    }
+
+        /**
+     * Utility method to return text for the summary in an {@link org.onehippo.forge.weblogdemo.components.Overview} page.<br />
      * If the summary field is empty, the first paragraph from the body is used.
-     * @return summary for an {@link Overview} page
+     * @return summary for an {@link org.onehippo.forge.weblogdemo.components.Overview} page
      */
     public String getOverviewSummary() {
         if (StringUtils.isNotBlank(getSummary())) {
@@ -67,12 +88,5 @@ public class Blogpost extends TextDocument {
             }
         }
         return null;
-    }
-
-    /**
-     * @return value of property {@link BeanConstants#PROP_BLOGGERID}
-     */
-    public String getBloggerId() {
-        return getProperty(BeanConstants.PROP_BLOGGERID);
     }
 }

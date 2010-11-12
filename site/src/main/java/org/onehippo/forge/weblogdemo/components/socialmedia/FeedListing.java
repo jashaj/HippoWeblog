@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.onehippo.weblogdemo.components.socialmedia;
+package org.onehippo.forge.weblogdemo.components.socialmedia;
 
 import java.io.IOException;
 import java.net.MalformedURLException;
@@ -34,7 +34,7 @@ import com.sun.syndication.fetcher.impl.HashMapFeedInfoCache;
 import com.sun.syndication.fetcher.impl.HttpURLFeedFetcher;
 import com.sun.syndication.io.FeedException;
 
-import org.onehippo.weblogdemo.components.BaseSiteComponent;
+import org.onehippo.forge.weblogdemo.components.BaseSiteComponent;
 
 /**
  * HST component that fetches an RSS or Atom feed.

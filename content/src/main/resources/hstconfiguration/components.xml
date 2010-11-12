@@ -33,7 +33,7 @@
       <sv:value>hst:component</sv:value>
     </sv:property>
     <sv:property sv:name="hst:componentclassname" sv:type="String">
-      <sv:value>org.onehippo.weblogdemo.components.Menu</sv:value>
+      <sv:value>org.onehippo.forge.weblogdemo.components.Menu</sv:value>
     </sv:property>
     <sv:property sv:name="hst:parameternames" sv:type="String"/>
     <sv:property sv:name="hst:parametervalues" sv:type="String"/>
@@ -56,7 +56,7 @@
       <sv:value>hst:component</sv:value>
     </sv:property>
     <sv:property sv:name="hst:componentclassname" sv:type="String">
-      <sv:value>org.onehippo.weblogdemo.components.Aside</sv:value>
+      <sv:value>org.onehippo.forge.weblogdemo.components.Aside</sv:value>
     </sv:property>
     <sv:property sv:name="hst:parameternames" sv:type="String"/>
     <sv:property sv:name="hst:parametervalues" sv:type="String"/>
@@ -79,7 +79,7 @@
       <sv:value>hst:component</sv:value>
     </sv:property>
     <sv:property sv:name="hst:componentclassname" sv:type="String">
-      <sv:value>org.onehippo.weblogdemo.components.Detail</sv:value>
+      <sv:value>org.onehippo.forge.weblogdemo.components.Detail</sv:value>
     </sv:property>
     <sv:property sv:name="hst:parameternames" sv:type="String">
       <sv:value>mail.smtp.host</sv:value>
@@ -100,7 +100,7 @@
       <sv:value>hst:component</sv:value>
     </sv:property>
     <sv:property sv:name="hst:componentclassname" sv:type="String">
-      <sv:value>org.onehippo.weblogdemo.components.Overview</sv:value>
+      <sv:value>org.onehippo.forge.weblogdemo.components.Overview</sv:value>
     </sv:property>
     <sv:property sv:name="hst:parameternames" sv:type="String"/>
     <sv:property sv:name="hst:parametervalues" sv:type="String"/>
@@ -113,7 +113,7 @@
       <sv:value>hst:component</sv:value>
     </sv:property>
     <sv:property sv:name="hst:componentclassname" sv:type="String">
-      <sv:value>org.onehippo.weblogdemo.components.Aside</sv:value>
+      <sv:value>org.onehippo.forge.weblogdemo.components.Aside</sv:value>
     </sv:property>
     <sv:property sv:name="hst:parameternames" sv:type="String"/>
     <sv:property sv:name="hst:parametervalues" sv:type="String"/>
@@ -128,7 +128,7 @@
         <sv:value>hst:component</sv:value>
       </sv:property>
       <sv:property sv:name="hst:componentclassname" sv:type="String">
-        <sv:value>org.onehippo.weblogdemo.components.AsideArchive</sv:value>
+        <sv:value>org.onehippo.forge.weblogdemo.components.AsideArchive</sv:value>
       </sv:property>
       <sv:property sv:name="hst:parameternames" sv:type="String">
         <sv:value>facetLocation</sv:value>
@@ -147,7 +147,7 @@
         <sv:value>hst:component</sv:value>
       </sv:property>
       <sv:property sv:name="hst:componentclassname" sv:type="String">
-        <sv:value>org.onehippo.weblogdemo.components.socialmedia.TwitterListing</sv:value>
+        <sv:value>org.onehippo.forge.weblogdemo.components.socialmedia.TwitterListing</sv:value>
       </sv:property>
       <sv:property sv:name="hst:description" sv:type="String">
         <sv:value>Parameters to set:
@@ -182,7 +182,7 @@
         <sv:value>hst:component</sv:value>
       </sv:property>
       <sv:property sv:name="hst:componentclassname" sv:type="String">
-        <sv:value>org.onehippo.weblogdemo.components.socialmedia.FeedListing</sv:value>
+        <sv:value>org.onehippo.forge.weblogdemo.components.socialmedia.FeedListing</sv:value>
       </sv:property>
       <sv:property sv:name="hst:parameternames" sv:type="String">
         <sv:value>feedLocation</sv:value>
@@ -203,7 +203,7 @@
         <sv:value>hst:component</sv:value>
       </sv:property>
       <sv:property sv:name="hst:componentclassname" sv:type="String">
-        <sv:value>org.onehippo.weblogdemo.components.socialmedia.FeedListing</sv:value>
+        <sv:value>org.onehippo.forge.weblogdemo.components.socialmedia.FeedListing</sv:value>
       </sv:property>
       <sv:property sv:name="hst:parameternames" sv:type="String">
         <sv:value>feedLocation</sv:value>
@@ -233,7 +233,7 @@
       <sv:value>hst:component</sv:value>
     </sv:property>
     <sv:property sv:name="hst:componentclassname" sv:type="String">
-      <sv:value>org.onehippo.weblogdemo.components.Aside</sv:value>
+      <sv:value>org.onehippo.forge.weblogdemo.components.Aside</sv:value>
     </sv:property>
     <sv:property sv:name="hst:parameternames" sv:type="String"/>
     <sv:property sv:name="hst:parametervalues" sv:type="String"/>
@@ -248,7 +248,7 @@
         <sv:value>hst:component</sv:value>
       </sv:property>
       <sv:property sv:name="hst:componentclassname" sv:type="String">
-        <sv:value>org.onehippo.weblogdemo.components.AsideArchive</sv:value>
+        <sv:value>org.onehippo.forge.weblogdemo.components.AsideArchive</sv:value>
       </sv:property>
       <sv:property sv:name="hst:parameternames" sv:type="String">
         <sv:value>facetLocation</sv:value>
@@ -267,7 +267,7 @@
         <sv:value>hst:component</sv:value>
       </sv:property>
       <sv:property sv:name="hst:componentclassname" sv:type="String">
-        <sv:value>org.onehippo.weblogdemo.components.socialmedia.TwitterListing</sv:value>
+        <sv:value>org.onehippo.forge.weblogdemo.components.socialmedia.TwitterListing</sv:value>
       </sv:property>
       <sv:property sv:name="hst:description" sv:type="String">
         <sv:value>Parameters to set:
@@ -302,7 +302,7 @@
         <sv:value>hst:component</sv:value>
       </sv:property>
       <sv:property sv:name="hst:componentclassname" sv:type="String">
-        <sv:value>org.onehippo.weblogdemo.components.socialmedia.FeedListing</sv:value>
+        <sv:value>org.onehippo.forge.weblogdemo.components.socialmedia.FeedListing</sv:value>
       </sv:property>
       <sv:property sv:name="hst:parameternames" sv:type="String">
         <sv:value>feedLocation</sv:value>
@@ -323,7 +323,7 @@
         <sv:value>hst:component</sv:value>
       </sv:property>
       <sv:property sv:name="hst:componentclassname" sv:type="String">
-        <sv:value>org.onehippo.weblogdemo.components.socialmedia.FeedListing</sv:value>
+        <sv:value>org.onehippo.forge.weblogdemo.components.socialmedia.FeedListing</sv:value>
       </sv:property>
       <sv:property sv:name="hst:parameternames" sv:type="String">
         <sv:value>feedLocation</sv:value>

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.onehippo.weblogdemo.components;
+package org.onehippo.forge.weblogdemo.components;
 
 import java.io.IOException;
 import java.text.DateFormat;
@@ -47,10 +47,10 @@ import org.hippoecm.repository.reviewedactions.FullReviewedActionsWorkflow;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import org.onehippo.weblogdemo.beans.BeanConstants;
-import org.onehippo.weblogdemo.beans.Blogpost;
-import org.onehippo.weblogdemo.beans.CommentBean;
-import org.onehippo.weblogdemo.hstextensions.ContentRewriterImpl;
+import org.onehippo.forge.weblogdemo.beans.BeanConstants;
+import org.onehippo.forge.weblogdemo.beans.Blogpost;
+import org.onehippo.forge.weblogdemo.beans.CommentBean;
+import org.onehippo.forge.weblogdemo.hstextensions.ContentRewriterImpl;
 
 /**
  * <p>HST Component for displaying Detail content. Handles adding user generated comments to {@link Blogpost}.</p>

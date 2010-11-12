@@ -1,4 +1,4 @@
-package org.onehippo.weblogdemo.components;
+package org.onehippo.forge.weblogdemo.components;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,7 +14,7 @@ import org.hippoecm.hst.core.component.HstResponse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import org.onehippo.weblogdemo.beans.Blogpost;
+import org.onehippo.forge.weblogdemo.beans.Blogpost;
 
 public class FacetedOverview extends BaseSiteComponent {
     public static final Logger log = LoggerFactory.getLogger(Overview.class);

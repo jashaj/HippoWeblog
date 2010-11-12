@@ -15,7 +15,7 @@
   * See the License for the specific language governing permissions and
   * limitations under the License.
 --%>
-<c:set var="title">Blogposts<c:if test="${not empty tag}">: <c:out value="${tag}" /></c:if></c:set>
+<c:set var="title">${pageTitle} <c:if test="${not empty tag}">: <c:out value="${tag}" /></c:if></c:set>
 <article>
   <h1>${title}</h1>
   <c:choose>

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.onehippo.weblogdemo.components;
+package org.onehippo.forge.weblogdemo.components;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -52,9 +52,9 @@ import com.sun.syndication.feed.synd.SyndFeedImpl;
 import com.sun.syndication.io.FeedException;
 import com.sun.syndication.io.SyndFeedOutput;
 
-import org.onehippo.weblogdemo.beans.BeanConstants;
-import org.onehippo.weblogdemo.beans.Blogpost;
-import org.onehippo.weblogdemo.hstextensions.ContentRewriterImpl;
+import org.onehippo.forge.weblogdemo.beans.BeanConstants;
+import org.onehippo.forge.weblogdemo.beans.Blogpost;
+import org.onehippo.forge.weblogdemo.hstextensions.ContentRewriterImpl;
 
 /**
  * Creates Atom or RSS feed using ROME. Needs a JSP that only sets the mime-type

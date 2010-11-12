@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.onehippo.weblogdemo.hstextensions;
+package org.onehippo.forge.weblogdemo.hstextensions;
 
 import javax.jcr.Node;
 

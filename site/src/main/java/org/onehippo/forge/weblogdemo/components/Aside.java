@@ -1,4 +1,4 @@
-package org.onehippo.weblogdemo.components;
+package org.onehippo.forge.weblogdemo.components;
 
 import java.util.ArrayList;
 import java.util.Collections;

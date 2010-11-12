@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.onehippo.weblogdemo.components;
+package org.onehippo.forge.weblogdemo.components;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -29,17 +29,18 @@ import org.hippoecm.hst.content.beans.standard.HippoFolderBean;
 import org.hippoecm.hst.core.component.HstComponentException;
 import org.hippoecm.hst.core.component.HstRequest;
 import org.hippoecm.hst.core.component.HstResponse;
+import org.onehippo.forge.weblogdemo.beans.BaseDocument;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import org.onehippo.weblogdemo.beans.BeanConstants;
-import org.onehippo.weblogdemo.beans.Blogpost;
+import org.onehippo.forge.weblogdemo.beans.BeanConstants;
+import org.onehippo.forge.weblogdemo.beans.Blogpost;
 
 /**
  * Component for a document overview. Queries a folder and puts a paged resultset on the request.
  *
  * @author Jasha Joachimsthal
- **/
+ */
 public class Overview extends BaseSiteComponent {
 
     public static final Logger log = LoggerFactory.getLogger(Overview.class);
@@ -47,8 +48,9 @@ public class Overview extends BaseSiteComponent {
 
     /*
      * (non-Javadoc)
-     * @see org.onehippo.weblogdemo.components.BaseSiteComponent#doBeforeRender(org.hippoecm.hst.core.component.HstRequest, org.hippoecm.hst.core.component.HstResponse)
+     * @see org.onehippo.forge.weblogdemo.components.BaseSiteComponent#doBeforeRender(org.hippoecm.hst.core.component.HstRequest, org.hippoecm.hst.core.component.HstResponse)
      */
+
     @SuppressWarnings("unchecked")
     @Override
     public void doBeforeRender(HstRequest request, HstResponse response) throws HstComponentException {
@@ -60,54 +62,61 @@ public class Overview extends BaseSiteComponent {
             return;
         }
 
-        List<Blogpost> documents = new ArrayList<Blogpost>();
+        // TODO: make subclasses for this Overview so we don't have to inject the beanClass
+        String beanClassForOverview = getParameter("beanClassForOverview", request);
+        if (StringUtils.isBlank(beanClassForOverview)) {
+            beanClassForOverview = Blogpost.class.getName();
+        }
+
+        Class<? extends BaseDocument> beanClass;
+        try {
+            beanClass = (Class<? extends BaseDocument>) Class.forName(beanClassForOverview);
+        } catch (ClassNotFoundException e) {
+            throw new HstComponentException(
+                    String.format("Invalid configured class '%s' for overview", beanClassForOverview), e);
+        }
 
         String pageStr = request.getParameter("page");
-        String tag = request.getParameter("tag");
 
         int page = 0;
-            if (StringUtils.isNotBlank(pageStr)) {
+        if (StringUtils.isNotBlank(pageStr)) {
             try {
                 page = Integer.parseInt(pageStr);
             } catch (NumberFormatException e) {
-                // empty ignore
+                log.debug("Value '{}' cannot be converted to an Integer", pageStr);
             }
         }
 
         request.setAttribute("page", page);
+        request.setAttribute("pageTitle", getParameter("pageTitle", request));
 
         try {
-            HstQuery hstQuery = getQueryManager().createQuery(n, Blogpost.class);
-            if (StringUtils.isNotBlank(tag)) {
-                Filter tagFilter = hstQuery.createFilter();
-                tagFilter.addEqualTo("hippostd:tags", tag);
-                hstQuery.setFilter(tagFilter);
-                request.setAttribute("tag", tag);
-            }
-
+            HstQuery hstQuery = getQueryManager().createQuery(n, beanClass);
             hstQuery.addOrderByDescending(BeanConstants.PROP_DATE);
             HstQueryResult result = hstQuery.execute();
             if (result != null) {
-                handleQueryResult(request, documents, page, result);
+                request.setAttribute("documents", queryResultAsList(request, page, result));
             }
         } catch (QueryException e) {
             log.warn("Error in querying blogposts", e);
         }
-        request.setAttribute("documents", documents);
     }
 
     /**
      * Calculates the # of pages for the resultset.
-     * Iterates over query result for the requested "page" and adds the {@link Blogpost} beans to the List of documents. 
-     * @param request {@link HstRequest}
-     * @param documents {@link List<Blogpost>}
-     * @param page current page number
-     * @param result {@link HstQueryResult}
+     * Iterates over query result for the requested "page" and adds the {@link Blogpost} beans to the List of documents.
+     *
+     * @param request {@link org.hippoecm.hst.core.component.HstRequest}
+     * @param page    current page number
+     * @param result  {@link org.hippoecm.hst.content.beans.query.HstQueryResult}
+     * @return List of {@link org.hippoecm.hst.content.beans.standard.HippoBean}, may be empty
      */
-    protected void handleQueryResult(HstRequest request, List<Blogpost> documents, int page, HstQueryResult result) {
+    protected List<HippoBean> queryResultAsList(HstRequest request, int page,
+                                                HstQueryResult result) {
+        List<HippoBean> documents = new ArrayList<HippoBean>();
         HippoBeanIterator beans = result.getHippoBeans();
         if (beans == null) {
-            return;
+            return documents;
         }
 
         long beansSize = beans.getSize();
@@ -121,11 +130,12 @@ public class Overview extends BaseSiteComponent {
         int results = 0;
         while (beans.hasNext() && results < PAGESIZE) {
             HippoBean bean = beans.next();
-            if (bean != null && bean instanceof Blogpost) {
-                documents.add((Blogpost) bean);
+            if (bean != null) { // document may have been deleted after searching
+                documents.add(bean);
                 results++;
             }
         }
+        return documents;
     }
 
 }

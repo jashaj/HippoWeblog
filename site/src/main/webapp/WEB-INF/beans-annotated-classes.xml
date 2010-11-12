@@ -15,11 +15,11 @@
   limitations under the License.
 -->
 <hst-content-beans>
-    <annotated-class>org.onehippo.weblogdemo.beans.BaseDocument</annotated-class>
-    <annotated-class>org.onehippo.weblogdemo.beans.TextDocument</annotated-class>
-    <annotated-class>org.onehippo.weblogdemo.beans.Blogpost</annotated-class>
-    <annotated-class>org.onehippo.weblogdemo.beans.CommentLinkBean</annotated-class>
-    <annotated-class>org.onehippo.weblogdemo.beans.CommentBean</annotated-class>
+    <annotated-class>org.onehippo.forge.weblogdemo.beans.BaseDocument</annotated-class>
+    <annotated-class>org.onehippo.forge.weblogdemo.beans.TextDocument</annotated-class>
+    <annotated-class>org.onehippo.forge.weblogdemo.beans.Blogpost</annotated-class>
+    <annotated-class>org.onehippo.forge.weblogdemo.beans.CommentLinkBean</annotated-class>
+    <annotated-class>org.onehippo.forge.weblogdemo.beans.CommentBean</annotated-class>
     <annotated-class>org.onehippo.forge.properties.annotated.Property</annotated-class>
     <annotated-class>org.onehippo.forge.properties.annotated.Properties</annotated-class>
     <annotated-class>org.onehippo.forge.robotstxt.annotated.Robotstxt</annotated-class>

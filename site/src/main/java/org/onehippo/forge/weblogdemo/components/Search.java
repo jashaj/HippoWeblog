@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.onehippo.weblogdemo.components;
+package org.onehippo.forge.weblogdemo.components;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -32,7 +32,7 @@ import org.hippoecm.hst.core.component.HstResponse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import org.onehippo.weblogdemo.beans.BaseDocument;
+import org.onehippo.forge.weblogdemo.beans.BaseDocument;
 
 /**
  * Simple search component. Excludes construction

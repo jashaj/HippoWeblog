@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.onehippo.weblogdemo.components.socialmedia;
+package org.onehippo.forge.weblogdemo.components.socialmedia;
 
 import java.util.Collections;
 import java.util.List;
@@ -32,7 +32,7 @@ import twitter4j.Twitter;
 import twitter4j.TwitterException;
 import twitter4j.TwitterFactory;
 import twitter4j.http.AccessToken;
-import org.onehippo.weblogdemo.components.BaseSiteComponent;
+import org.onehippo.forge.weblogdemo.components.BaseSiteComponent;
 
 /**
  * Component for displaying Tweets using Twitter4J
@@ -55,27 +55,37 @@ public class TwitterListing extends BaseSiteComponent {
      * @param tokenSecret needed for oAuth {@link AccessToken}
      * @param consumerKey needed for oAuth
      * @param consumerSecret needed for oAuth
-     * @throws HstComponentException if one of the parameters are missing or blank
      */
     @Override
     public void doBeforeRender(HstRequest request, HstResponse response) throws HstComponentException {
         super.doBeforeRender(request, response);
 
+        request.setAttribute("boxTitle", getParameter("boxTitle", request));
+        
         String token = getParameter(TOKEN, request);
         String tokenSecret = getParameter(TOKEN_SECRET, request);
         String consumerKey = getParameter(CONSUMER_KEY, request);
         String consumerSecret = getParameter(CONSUMER_SECRET, request);
 
+        boolean missingConfiguration = false;
         if (StringUtils.isBlank(token)) {
-            throw new HstComponentException("Missing or empty parameter 'token'");
+            missingConfiguration = true;
+            log.info("Missing or empty parameter 'token'");
         } else if (StringUtils.isBlank(tokenSecret)) {
-            throw new HstComponentException("Missing or empty parameter 'tokenSecret'");
+            missingConfiguration = true;
+            log.info("Missing or empty parameter 'tokenSecret'");
         } else if (StringUtils.isBlank(consumerKey)) {
-            throw new HstComponentException("Missing or empty parameter 'consumerKey'");
+            missingConfiguration = true;
+            log.info("Missing or empty parameter 'consumerKey'");
         } else if (StringUtils.isBlank(consumerSecret)) {
-            throw new HstComponentException("Missing or empty parameter 'consumerSecret'");
+            missingConfiguration = true;
+            log.info("Missing or empty parameter 'consumerSecret'");
         }
 
+        if (missingConfiguration) {
+            return;
+        }
+        
         AccessToken accessToken = new AccessToken(token, tokenSecret);
         Twitter twitter = new TwitterFactory().getOAuthAuthorizedInstance(consumerKey, consumerSecret, accessToken);
 
@@ -88,11 +98,11 @@ public class TwitterListing extends BaseSiteComponent {
             allStatuses.addAll(retweets);
             if (!allStatuses.isEmpty()) {
                 request.setAttribute("statuses", allStatuses);
-                request.setAttribute("boxTitle", getParameter("boxTitle", request));
             }
         } catch (TwitterException e) {
             log.warn("Error getting Twitter status updates", e);
         }
 
     }
+
 }

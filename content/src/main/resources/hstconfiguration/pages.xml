@@ -23,7 +23,7 @@
       <sv:value>hst:component</sv:value>
     </sv:property>
     <sv:property sv:name="hst:componentclassname" sv:type="String">
-      <sv:value>org.onehippo.weblogdemo.components.BaseSiteComponent</sv:value>
+      <sv:value>org.onehippo.forge.weblogdemo.components.BaseSiteComponent</sv:value>
     </sv:property>
     <sv:property sv:name="hst:parameternames" sv:type="String">
       <sv:value>cssClass</sv:value>
@@ -95,12 +95,12 @@
         <sv:value>hst:component</sv:value>
       </sv:property>
       <sv:property sv:name="hst:componentclassname" sv:type="String">
-        <sv:value>org.onehippo.weblogdemo.components.Detail</sv:value>
+        <sv:value>org.onehippo.forge.weblogdemo.components.Detail</sv:value>
       </sv:property>
       <sv:property sv:name="hst:description" sv:type="String">
         <sv:value>Parameters to set:
           enableComments - inherited from the matching sitemap item
-          mail.smtp.host - SMTP hostname to send mails 
+          mail.smtp.host - SMTP hostname to send mails
           sender.email - From address of comment notification
           receiver.email - Email address to send comment notifications to
           spamfilter.apikey - Your API key at http://akismet.com/
@@ -119,7 +119,7 @@
         <sv:value>mailhost.example.com</sv:value>
         <sv:value>comment@example.com</sv:value>
         <sv:value>receiver@example.com</sv:value>
-        <sv:value><!-- insert your API key here --></sv:value>
+        <sv:value/>
         <sv:value>http://www.example.com/</sv:value>
       </sv:property>
       <sv:property sv:name="hst:template" sv:type="String">
@@ -157,10 +157,16 @@
         <sv:value>hst:component</sv:value>
       </sv:property>
       <sv:property sv:name="hst:componentclassname" sv:type="String">
-        <sv:value>org.onehippo.weblogdemo.components.Overview</sv:value>
+        <sv:value>org.onehippo.forge.weblogdemo.components.Overview</sv:value>
       </sv:property>
-      <sv:property sv:name="hst:parameternames" sv:type="String"/>
-      <sv:property sv:name="hst:parametervalues" sv:type="String"/>
+      <sv:property sv:name="hst:parameternames" sv:type="String">
+        <sv:value>beanClassForOverview</sv:value>
+        <sv:value>pageTitle</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:parametervalues" sv:type="String">
+        <sv:value>${beanClassForOverview}</sv:value>
+        <sv:value>${pageTitle}</sv:value>
+      </sv:property>
       <sv:property sv:name="hst:template" sv:type="String">
         <sv:value>overview.article</sv:value>
       </sv:property>
@@ -196,7 +202,7 @@
         <sv:value>hst:component</sv:value>
       </sv:property>
       <sv:property sv:name="hst:componentclassname" sv:type="String">
-        <sv:value>org.onehippo.weblogdemo.components.Search</sv:value>
+        <sv:value>org.onehippo.forge.weblogdemo.components.Search</sv:value>
       </sv:property>
       <sv:property sv:name="hst:parameternames" sv:type="String"/>
       <sv:property sv:name="hst:parametervalues" sv:type="String"/>
@@ -235,7 +241,7 @@
         <sv:value>hst:component</sv:value>
       </sv:property>
       <sv:property sv:name="hst:componentclassname" sv:type="String">
-        <sv:value>org.onehippo.weblogdemo.components.FacetedOverview</sv:value>
+        <sv:value>org.onehippo.forge.weblogdemo.components.FacetedOverview</sv:value>
       </sv:property>
       <sv:property sv:name="hst:parameternames" sv:type="String"/>
       <sv:property sv:name="hst:parametervalues" sv:type="String"/>
@@ -274,7 +280,7 @@
         <sv:value>hst:component</sv:value>
       </sv:property>
       <sv:property sv:name="hst:componentclassname" sv:type="String">
-        <sv:value>org.onehippo.weblogdemo.components.Detail</sv:value>
+        <sv:value>org.onehippo.forge.weblogdemo.components.Detail</sv:value>
       </sv:property>
       <sv:property sv:name="hst:parameternames" sv:type="String">
         <sv:value>enableComments</sv:value>
@@ -317,7 +323,7 @@
         <sv:value>hst:component</sv:value>
       </sv:property>
       <sv:property sv:name="hst:componentclassname" sv:type="String">
-        <sv:value>org.onehippo.weblogdemo.components.NotFound</sv:value>
+        <sv:value>org.onehippo.forge.weblogdemo.components.NotFound</sv:value>
       </sv:property>
       <sv:property sv:name="hst:parameternames" sv:type="String">
         <sv:value>enableComments</sv:value>
@@ -348,7 +354,7 @@
       <sv:value>hst:component</sv:value>
     </sv:property>
     <sv:property sv:name="hst:componentclassname" sv:type="String">
-      <sv:value>org.onehippo.weblogdemo.components.FeedCreator</sv:value>
+      <sv:value>org.onehippo.forge.weblogdemo.components.FeedCreator</sv:value>
     </sv:property>
     <sv:property sv:name="hst:description" sv:type="String">
       <sv:value>Parameters to set:
@@ -379,20 +385,20 @@ preferredPath - Preferred path for the feed link</sv:value>
       <sv:value>feed.atom</sv:value>
     </sv:property>
   </sv:node>
-    <sv:node sv:name="robotstxt">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hst:component</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:componentclassname" sv:type="String">
-        <sv:value>org.onehippo.forge.robotstxt.components.RobotstxtComponent</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:parameternames" sv:type="String"/>
-      <sv:property sv:name="hst:parametervalues" sv:type="String"/>
-      <sv:property sv:name="hst:referencename" sv:type="String">
-        <sv:value/>
-      </sv:property>
-      <sv:property sv:name="hst:template" sv:type="String">
-        <sv:value>robotstxt</sv:value>
-      </sv:property>
-    </sv:node>
+  <sv:node sv:name="robotstxt">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:component</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:componentclassname" sv:type="String">
+      <sv:value>org.onehippo.forge.robotstxt.components.RobotstxtComponent</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:parameternames" sv:type="String"/>
+    <sv:property sv:name="hst:parametervalues" sv:type="String"/>
+    <sv:property sv:name="hst:referencename" sv:type="String">
+      <sv:value/>
+    </sv:property>
+    <sv:property sv:name="hst:template" sv:type="String">
+      <sv:value>robotstxt</sv:value>
+    </sv:property>
+  </sv:node>
 </sv:node>

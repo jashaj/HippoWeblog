@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This work is licensed under the Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 Netherlands License.
+To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/3.0/nl/ or,
+(b) send a letter to Creative Commons, 171 2nd Street, Suite 300, San Francisco, California, 94105, USA.
+-->
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="documentation"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:folder</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>782f0fb2-7213-4b5d-a49c-e9a55f68592d</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>782f0fb2-7213-4b5d-a49c-e9a55f68592d</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"/><sv:property sv:name="hippostd:foldertype" sv:type="String"><sv:value>new-folder</sv:value><sv:value>new-document</sv:value></sv:property><sv:node sv:name="enable-comments-with-spamfilter"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:handle</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:hardhandle</sv:value><sv:value>hippo:translated</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>46067edd-d685-46a1-8213-5c906fd993d4</sv:value></sv:property><sv:node sv:name="hippo:translation"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:translation</sv:value></sv:property><sv:property sv:name="hippo:language" sv:type="String"><sv:value/></sv:property><sv:property sv:name="hippo:message" sv:type="String"><sv:value>Enable comments with spamfilter</sv:value></sv:property></sv:node><sv:node sv:name="enable-comments-with-spamfilter"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>weblogdemo:textdocument</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>0bc224e1-c851-488e-a9be-0355d60b8b6e</sv:value></sv:property><sv:property sv:name="hippo:availability" sv:type="String"><sv:value>live</sv:value><sv:value>preview</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>0bc224e1-c851-488e-a9be-0355d60b8b6e</sv:value><sv:value>46067edd-d685-46a1-8213-5c906fd993d4</sv:value><sv:value>782f0fb2-7213-4b5d-a49c-e9a55f68592d</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"><sv:value>documentation/enable-comments-with-spamfilter</sv:value></sv:property><sv:property sv:name="hippostd:holder" sv:type="String"><sv:value>admin</sv:value></sv:property><sv:property sv:name="hippostd:state" sv:type="String"><sv:value>published</sv:value></sv:property><sv:property sv:name="hippostd:stateSummary" sv:type="String"><sv:value>live</sv:value></sv:property><sv:property sv:name="hippostdpubwf:createdBy" sv:type="String"><sv:value>admin</sv:value></sv:property><sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date"><sv:value>2010-11-12T11:34:53.045+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date"><sv:value>2010-11-12T14:13:54.026+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String"><sv:value>admin</sv:value></sv:property><sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date"><sv:value>2010-11-12T14:13:57.840+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:date" sv:type="Date"><sv:value>2010-11-12T11:34:53.295+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:summary" sv:type="String"><sv:value>For the blogpost pages it's possible to enable comments. Spam bots love these kind of features but you don't want spam on your blog. This page describes how to enable comments and get them checked by a spamfilter. Comments are only available for blog post pages because on regular text pages they make less sense. In the HST configuration you can turn the commenting feature on or off. By default commenting is turned on.</sv:value></sv:property><sv:property sv:name="weblogdemo:title" sv:type="String"><sv:value>Enable comments and configure spamfilter</sv:value></sv:property><sv:node sv:name="weblogdemo:body"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:html</sv:value></sv:property><sv:property sv:name="hippostd:content" sv:type="String"><sv:value>&lt;html&gt;
+&lt;body&gt;
+&lt;h2&gt;Turn on/off comments &lt;/h2&gt;
+&lt;p&gt;Comments are enabled/disabled based on the URL of the blogpost. In this way
+you can configure to only allow comments on blogposts from the folder "2010" or
+disable comments for a specific blogpost. When a comment is submitted, you will
+receive an email notification.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Login to the CMS console at 
+&lt;a href="/cms/console/"&gt;http://localhost:8080/cms/console/&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;Go to 
+/hst:configuration/hst:configuration/hst:sitemap/blogposts/_default_/_default_/_default_.html
+&lt;/li&gt;
+&lt;li&gt;The hst:parameternames and hst:parametervalues are key-value pairs. Find the
+value that is on the same position as the key "enableComments". If you want to
+turn comments off, set its value to "false". To turn it on, set it to "true"
+(without quotes).&lt;/li&gt;
+&lt;li&gt;Go to  /hst:configuration/hst:configuration/hst:pages/detail/article and
+configure these properties&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;HST parameters for mail notification&lt;/p&gt;
+
+&lt;table border="1"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;p&gt; hst:parametername&lt;/p&gt;
+&lt;/th&gt;
+&lt;th&gt;
+&lt;p&gt; hst:parametervalue&lt;/p&gt;
+&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt; mail.smtp.host&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt; SMTP hostname or IP address that can send mails&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt; sender.email&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt; sender email address for the mail notification&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt; receiver.email&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt; email address that receives the mail notification&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br/&gt;
+&lt;h2&gt;Configure Akismet spamfilter &lt;/h2&gt;
+&lt;p&gt;If configured, the weblog demo used &lt;a href="http://akismet.com/"&gt;Akismet&lt;/a&gt;
+to check if the submitted comment is spam. If Akismet marks the comment as spam,
+it will not be added to the CMS (you will see a log message). Akismet is free
+for personal (small) blogs. &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Go to &lt;a href="http://akismet.com/"&gt;Akismet&lt;/a&gt; and sign up for an API key
+&lt;/li&gt;
+&lt;li&gt;In the CMS console go
+to /hst:configuration/hst:configuration/hst:pages/detail/article&lt;/li&gt;
+&lt;li&gt;The hst:parameternames and hst:parametervalues are key-value pairs. The
+following parameters need to be configured&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;HST parameters for spam checking&lt;/p&gt;
+
+&lt;table border="1"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;p&gt;hst:parametername&lt;/p&gt;
+&lt;/th&gt;
+&lt;th&gt;
+&lt;p&gt; hst:parametervalue&lt;/p&gt;
+&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;spamfilter.apikey&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt; The API key you received from Akismet &lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;spamfilter.websiteurl &lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt; The URL of your website&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br/&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value></sv:property></sv:node></sv:node></sv:node><sv:node sv:name="configure-the-twitter-listing"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:handle</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:hardhandle</sv:value><sv:value>hippo:translated</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>b6b35dc8-f73d-402e-94a7-776f6f39982b</sv:value></sv:property><sv:node sv:name="hippo:translation"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:translation</sv:value></sv:property><sv:property sv:name="hippo:language" sv:type="String"><sv:value/></sv:property><sv:property sv:name="hippo:message" sv:type="String"><sv:value>Configure the Twitter listing</sv:value></sv:property></sv:node><sv:node sv:name="configure-the-twitter-listing"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>weblogdemo:textdocument</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>714af473-39a6-47c1-a4eb-26ef500aa7b5</sv:value></sv:property><sv:property sv:name="hippo:availability" sv:type="String"><sv:value>live</sv:value><sv:value>preview</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>714af473-39a6-47c1-a4eb-26ef500aa7b5</sv:value><sv:value>b6b35dc8-f73d-402e-94a7-776f6f39982b</sv:value><sv:value>782f0fb2-7213-4b5d-a49c-e9a55f68592d</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"><sv:value>documentation/configure-the-twitter-listing</sv:value></sv:property><sv:property sv:name="hippostd:holder" sv:type="String"><sv:value>admin</sv:value></sv:property><sv:property sv:name="hippostd:state" sv:type="String"><sv:value>published</sv:value></sv:property><sv:property sv:name="hippostd:stateSummary" sv:type="String"><sv:value>live</sv:value></sv:property><sv:property sv:name="hippostdpubwf:createdBy" sv:type="String"><sv:value>admin</sv:value></sv:property><sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date"><sv:value>2010-11-12T13:42:23.225+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date"><sv:value>2010-11-12T14:13:51.738+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String"><sv:value>admin</sv:value></sv:property><sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date"><sv:value>2010-11-12T14:14:00.278+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:date" sv:type="Date"><sv:value>2010-11-12T13:42:23.495+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:summary" sv:type="String"><sv:value/></sv:property><sv:property sv:name="weblogdemo:title" sv:type="String"><sv:value>Configure the Twitter listing</sv:value></sv:property><sv:node sv:name="weblogdemo:body"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:html</sv:value></sv:property><sv:property sv:name="hippostd:content" sv:type="String"><sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;On the bottom of each page there's a box for your (personal/company) Twitter
+feed. It involves a few steps to configure this box.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;First &lt;a href="http://twitter.com/oauth_clients/new"&gt;register&lt;/a&gt; your
+application at Twitter. Twitter dropped oAuth support in 2010 so you need an
+oAuth key.&lt;/li&gt;
+&lt;li&gt;Follow the
+&lt;a href="http://twitter4j.org/en/code-examples.html#oauth"&gt;instructions&lt;/a&gt; on
+Twitter4J to get your access token code. &lt;/li&gt;
+&lt;li&gt;Once you have all the oAuth tokens and secrets, log into the console at
+http://localhost:8080/cms/console&lt;/li&gt;
+&lt;li&gt;Go to
+/hst:configuration/hst:configuration/hst:components/detail.aside/01-twitter&lt;/li&gt;
+&lt;li&gt;Set the following properties and do the same for 
+/hst:configuration/hst:configuration/hst:components/overview.aside/01-twitter
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;HST parameters for Twitter listing&lt;/p&gt;
+
+&lt;table border="1"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;p&gt; hst:parametername&lt;/p&gt;
+&lt;/th&gt;
+&lt;th&gt;
+&lt;p&gt; hst:parametervalue&lt;/p&gt;
+&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt; boxTitle&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt; The title you want to appear above the Tweets&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt; token&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt; oAuth accesstoken for Twitter API &lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt; tokenSecret&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt; shared secret for the oAuth access token&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt; consumerKey&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;consumer key for the Twitter API &lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;consumerSecret&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt; consumer shared secret for Twitter API&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value></sv:property></sv:node></sv:node></sv:node></sv:node>

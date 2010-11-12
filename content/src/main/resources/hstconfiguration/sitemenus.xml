@@ -30,20 +30,20 @@
         <sv:value>home</sv:value>
       </sv:property>
     </sv:node>
+    <sv:node sv:name="Blog posts">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:sitemenuitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+            <sv:value>blogposts</sv:value>
+        </sv:property>
+    </sv:node>
     <sv:node sv:name="Documentation">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hst:sitemenuitem</sv:value>
+          <sv:value>hst:sitemenuitem</sv:value>
       </sv:property>
       <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
-        <sv:value>documentation</sv:value>
-      </sv:property>
-    </sv:node>
-    <sv:node sv:name="Blog posts">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hst:sitemenuitem</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
-        <sv:value>blogposts</sv:value>
+          <sv:value>documentation</sv:value>
       </sv:property>
     </sv:node>
     <sv:node sv:name="Pictures">

@@ -117,7 +117,11 @@ following parameters need to be configured&lt;/li&gt;
 &lt;body&gt;
 
 &lt;p&gt;On the bottom of each page there's a box for your (personal/company) Twitter
-feed. It involves a few steps to configure this box.&lt;/p&gt;
+feed. At this moment it does not support any caching. At every request it
+contacts Twitter to get the latest Tweets. please keep this in mind if your blog
+has more than just a few visitors a day, otherwise you will hit your API limit.&lt;/p&gt;
+
+&lt;p&gt;It involves a few steps to configure this box.&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;First &lt;a href="http://twitter.com/oauth_clients/new"&gt;register&lt;/a&gt; your

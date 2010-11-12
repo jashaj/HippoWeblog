@@ -334,6 +334,42 @@
     </dependencies>
     
   </dependencyManagement>
+    
+    <contributors>
+        <contributor>
+            <name>Jasha Joachimsthal</name>
+            <email>j.joachimsthal[at]onehippo[dot]com</email>
+            <organization>Hippo</organization>
+            <organizationUrl>http://www.onehippo.com</organizationUrl>
+            <roles><role>Java web developer</role></roles>
+            <timezone>+1</timezone>
+        </contributor>
+    </contributors>
+    <inceptionYear>2010</inceptionYear>
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+        <license>
+            <name>Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 Netherlands License</name>
+            <url>http://creativecommons.org/licenses/by-nc-nd/3.0/nl/</url>
+        </license>
+    </licenses>
+
+    <scm>
+      <connection>scm:svn:http://forge.onehippo.org/svn/weblogdemo/trunk</connection>
+      <developerConnection>scm:svn:http://forge.onehippo.org/svn/weblogdemo/trunk</developerConnection>
+    </scm>
+
+    <distributionManagement>
+      <repository>
+        <uniqueVersion>false</uniqueVersion>
+        <id>forge-weblogdemo-maven-repo</id>
+        <url>svn:http://forge.onehippo.org/svn/weblogdemo/maven2/</url>
+      </repository>
+    </distributionManagement>
+    
   
   <repositories>
     <repository>
@@ -399,7 +435,20 @@
   </pluginRepositories>
     
   <build>
-    <defaultGoal>package</defaultGoal>  
+    <defaultGoal>package</defaultGoal>
+    <extensions>
+        <extension>
+          <groupId>org.apache.maven.wagon</groupId>
+          <artifactId>wagon-ftp</artifactId>
+          <version>1.0-alpha-6</version>
+        </extension>
+        <extension>
+          <groupId>org.jvnet.wagon-svn</groupId>
+          <artifactId>wagon-svn</artifactId>
+          <version>1.9</version>
+        </extension>
+    </extensions>
+
     <pluginManagement>
       <plugins>
         <plugin>
@@ -416,8 +465,41 @@
             <target>1.5</target>
           </configuration>
         </plugin>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-release-plugin</artifactId>
+            <version>[2.0,2.99)</version>
+        </plugin>
+                <plugin>
+                  <groupId>org.apache.maven.plugins</groupId>
+                  <artifactId>maven-site-plugin</artifactId>
+                  <version>2.1.1</version>
+                </plugin>
+
       </plugins>
     </pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-source-plugin</artifactId>
+          <inherited>true</inherited>
+          <executions>
+            <execution>
+              <id>attach-sources</id>
+              <goals>
+                <goal>jar</goal>
+              </goals>
+            </execution>
+          </executions>
+        </plugin>
+          <plugin>
+                  <groupId>org.apache.maven.plugins</groupId>
+                  <artifactId>maven-site-plugin</artifactId>
+                  <version>2.1.1</version>
+                </plugin>
+          
+      </plugins>
+      
   </build>
 
   <modules>

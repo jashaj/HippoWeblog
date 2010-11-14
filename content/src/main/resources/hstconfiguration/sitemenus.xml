@@ -46,13 +46,5 @@
           <sv:value>documentation</sv:value>
       </sv:property>
     </sv:node>
-    <sv:node sv:name="Pictures">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hst:sitemenuitem</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:externallink" sv:type="String">
-        <sv:value>http://www.flickr.com/photos/jashaj/</sv:value>
-      </sv:property>
-    </sv:node>
   </sv:node>
 </sv:node>

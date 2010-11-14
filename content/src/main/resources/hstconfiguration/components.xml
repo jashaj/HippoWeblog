@@ -198,27 +198,6 @@
         <sv:value>basepage.aside.feedlisting</sv:value>
       </sv:property>
     </sv:node>
-    <sv:node sv:name="03-delicious">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hst:component</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:componentclassname" sv:type="String">
-        <sv:value>org.onehippo.forge.weblogdemo.components.socialmedia.FeedListing</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:parameternames" sv:type="String">
-        <sv:value>feedLocation</sv:value>
-        <sv:value>showLinks</sv:value>
-        <sv:value>boxTitle</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:parametervalues" sv:type="String">
-        <sv:value>http://feeds.delicious.com/v2/rss/jashaj?count=5</sv:value>
-        <sv:value>true</sv:value>
-        <sv:value>Delicious bookmarks</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:template" sv:type="String">
-        <sv:value>basepage.aside.feedlisting</sv:value>
-      </sv:property>
-    </sv:node>
     <sv:node sv:name="04-flickr">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hst:component</sv:value>
@@ -313,27 +292,6 @@
         <sv:value>http://www.google.com/reader/public/atom/user/14112542115980241284/state/com.google/broadcast</sv:value>
         <sv:value>true</sv:value>
         <sv:value>Interesting blogposts</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:template" sv:type="String">
-        <sv:value>basepage.aside.feedlisting</sv:value>
-      </sv:property>
-    </sv:node>
-    <sv:node sv:name="04-delicious">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hst:component</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:componentclassname" sv:type="String">
-        <sv:value>org.onehippo.forge.weblogdemo.components.socialmedia.FeedListing</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:parameternames" sv:type="String">
-        <sv:value>feedLocation</sv:value>
-        <sv:value>showLinks</sv:value>
-        <sv:value>boxTitle</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:parametervalues" sv:type="String">
-        <sv:value>http://feeds.delicious.com/v2/rss/jashaj?count=5</sv:value>
-        <sv:value>true</sv:value>
-        <sv:value>Delicious bookmarks</sv:value>
       </sv:property>
       <sv:property sv:name="hst:template" sv:type="String">
         <sv:value>basepage.aside.feedlisting</sv:value>

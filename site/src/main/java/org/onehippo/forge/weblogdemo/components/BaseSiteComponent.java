@@ -17,6 +17,7 @@ package org.onehippo.forge.weblogdemo.components;
 
 import java.util.Map;
 
+import org.apache.commons.lang.StringUtils;
 import org.hippoecm.hst.component.support.bean.BaseHstComponent;
 import org.hippoecm.hst.core.component.HstComponentException;
 import org.hippoecm.hst.core.component.HstRequest;
@@ -39,6 +40,7 @@ public class BaseSiteComponent extends BaseHstComponent {
     @Override
     public void doBeforeRender(HstRequest request, HstResponse response) throws HstComponentException {
         super.doBeforeRender(request, response);
+        setComponentLabels(request);
         request.setAttribute("cssClass", getParameter("cssClass", request));
     }
 
@@ -49,18 +51,16 @@ public class BaseSiteComponent extends BaseHstComponent {
      */
     protected void setComponentLabels(HstRequest request) {
         // get the manager  
-        ComponentManager componentManager = this.getDefaultClientComponentManager();
+        ComponentManager componentManager = getDefaultClientComponentManager();
         PropertiesManager propertiesManager = componentManager.getComponent(PropertiesManager.class.getName());
 
         // retrieve labels documents
         Map<String, String> labels;
-        String labelsName = this.getParameter("labelsName", request);
-        if (labelsName != null) {
-            labels = propertiesManager.getProperties(new String[]{labelsName}, this.getContentBean(request), this
-                    .getSiteContentBaseBean(request));
+        String labelsName = getParameter("labelsName", request);
+        if (StringUtils.isNotBlank(labelsName)) {
+            labels = propertiesManager.getProperties(labelsName.split(","), getContentBean(request), getSiteContentBaseBean(request));
         } else {
-            labels = propertiesManager
-                    .getProperties(this.getContentBean(request), this.getSiteContentBaseBean(request));
+            labels = propertiesManager.getProperties(getContentBean(request), getSiteContentBaseBean(request));
         }
 
         request.setAttribute("labels", labels);

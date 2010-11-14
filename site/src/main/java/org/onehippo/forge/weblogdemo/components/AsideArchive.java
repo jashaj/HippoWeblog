@@ -37,7 +37,7 @@ public class AsideArchive extends BaseSiteComponent {
      */
     @Override
     public void doBeforeRender(HstRequest request, HstResponse response) throws HstComponentException {
-
+        super.doBeforeRender(request, response);
         HippoBean currentBean;
         if (StringUtils.isNotBlank(getParameter("facetLocation", request))) {
             currentBean = this.getSiteContentBaseBean(request).getBean(getParameter("facetLocation", request));
@@ -53,8 +53,6 @@ public class AsideArchive extends BaseSiteComponent {
                 request.setAttribute("childNav", "true");
             }
         }
-
-        setComponentLabels(request);
 
     }
 }

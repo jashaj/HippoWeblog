@@ -56,7 +56,7 @@
   </c:if>
 </article>
 
-<hst:element name="title" var="titleElt">${title} | jasha.eu</hst:element>
+<hst:element name="title" var="titleElt">${title} | ${labels['site.name']}</hst:element>
 
 <hst:headContribution element="${titleElt}"/>
 

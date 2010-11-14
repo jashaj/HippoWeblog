@@ -136,7 +136,7 @@
       </sv:property>
       <sv:property sv:name="hst:parametervalues" sv:type="String">
         <sv:value>${facetLocation}</sv:value>
-        <sv:value>months</sv:value>
+        <sv:value>common,months</sv:value>
       </sv:property>
       <sv:property sv:name="hst:template" sv:type="String">
         <sv:value>overview.aside.archive</sv:value>
@@ -235,7 +235,7 @@
       </sv:property>
       <sv:property sv:name="hst:parametervalues" sv:type="String">
         <sv:value>${facetLocation}</sv:value>
-        <sv:value>months</sv:value>
+        <sv:value>common,months</sv:value>
       </sv:property>
       <sv:property sv:name="hst:template" sv:type="String">
         <sv:value>overview.aside.archive</sv:value>

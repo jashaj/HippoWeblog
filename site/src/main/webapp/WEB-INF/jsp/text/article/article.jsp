@@ -24,5 +24,5 @@
 </article>
 
 <hst:headContribution>
-  <title>${document.title} | jasha.eu</title>
+  <title>${document.title} | ${labels['site.name']}</title>
 </hst:headContribution>

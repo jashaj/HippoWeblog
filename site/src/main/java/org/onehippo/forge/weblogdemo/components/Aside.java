@@ -13,6 +13,7 @@ public class Aside extends BaseSiteComponent {
     
     @Override
     public void doBeforeRender(HstRequest request, HstResponse response) throws HstComponentException {     // dynamically included children
+        super.doBeforeRender(request, response);        
         if (response.getChildContentNames() != null && response.getChildContentNames().size() > 0) {
             List<String> childNames = new ArrayList<String>();
             childNames.addAll(response.getChildContentNames());

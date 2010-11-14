@@ -16,7 +16,7 @@
   * limitations under the License.
 --%>
 <header>
-  <div id="home"><a href="<hst:link path="/"/>">jasha.eu</a> <span class="beta">beta</span></div>
+  <div id="home"><a href="<hst:link path="/"/>">${labels['site.name']}</a></div>
   <c:if test="${not empty menu}">
     <nav>
       <ul>

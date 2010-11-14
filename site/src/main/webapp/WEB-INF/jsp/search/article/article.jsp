@@ -64,7 +64,7 @@
 </article>
 
 <hst:headContribution>
-  <title>Search result | jasha.eu</title>
+  <title>Search result | ${labels['site.name']}</title>
 </hst:headContribution>
 <hst:headContribution>
 <meta name="robots" content="noindex, follow"/>

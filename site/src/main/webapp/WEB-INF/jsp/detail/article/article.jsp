@@ -67,5 +67,5 @@
 </article>
 
 <hst:headContribution>
-  <title><c:out value="${document.rawTitle}" escapeXml="true"/> | jasha.eu</title>
+  <title><c:out value="${document.rawTitle}" escapeXml="true"/> | ${labels['site.name']}</title>
 </hst:headContribution>

@@ -22,7 +22,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>404 error | jasha.eu</title>
+<title>404 error</title>
 </head>
 <body>
 Page not found!!!

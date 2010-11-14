@@ -243,8 +243,12 @@
       <sv:property sv:name="hst:componentclassname" sv:type="String">
         <sv:value>org.onehippo.forge.weblogdemo.components.FacetedOverview</sv:value>
       </sv:property>
-      <sv:property sv:name="hst:parameternames" sv:type="String"/>
-      <sv:property sv:name="hst:parametervalues" sv:type="String"/>
+      <sv:property sv:name="hst:parameternames" sv:type="String">
+        <sv:value>pageTitle</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:parametervalues" sv:type="String">
+        <sv:value>${pageTitle}</sv:value>
+      </sv:property>
       <sv:property sv:name="hst:template" sv:type="String">
         <sv:value>overview.article</sv:value>
       </sv:property>

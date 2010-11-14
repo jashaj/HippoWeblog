@@ -39,11 +39,11 @@
   <script>init();</script>
 </hst:headContribution>
 <<hst:headContribution><link rel="shortcut icon" href="<hst:link path="/images/favicon.ico"/>" /></hst:headContribution>
-<hst:headContribution><meta content="Jasha Joachimsthal" name="author"/></hst:headContribution> 
+<hst:headContribution><meta content="${labels['site.author']}" name="author"/></hst:headContribution> 
 <hst:headContribution><meta content="Hippo Site Toolkit" name="generator"/></hst:headContribution> 
 <hst:headContribution>
-<link rel="alternate" type="application/atom+xml" title="Jasha&#39;s blog - Atom" href="<hst:link path="/feeds/posts/default"/>" />
+<link rel="alternate" type="application/atom+xml" title="${labels['site.name']} - Atom" href="<hst:link path="/feeds/posts/default"/>" />
 </hst:headContribution>
 <hst:headContribution>
-<link rel="alternate" type="application/rss+xml" title="Jasha&#39;s blog - RSS" href="<hst:link path="/feeds/posts/default"/>?alt=rss" />
+<link rel="alternate" type="application/rss+xml" title="${labels['site.name']} - RSS" href="<hst:link path="/feeds/posts/default"/>?alt=rss" />
 </hst:headContribution>

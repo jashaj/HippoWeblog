@@ -122,6 +122,17 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-
             <sv:value>properties:property</sv:value>
           </sv:property>
           <sv:property sv:name="properties:name" sv:type="String">
+            <sv:value>site.author</sv:value>
+          </sv:property>
+          <sv:property sv:name="properties:value" sv:type="String">
+            <sv:value>Author name you can change in construction/labels/common</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="properties:property">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>properties:property</sv:value>
+          </sv:property>
+          <sv:property sv:name="properties:name" sv:type="String">
             <sv:value>googleanalytics.account</sv:value>
           </sv:property>
           <sv:property sv:name="properties:value" sv:type="String">

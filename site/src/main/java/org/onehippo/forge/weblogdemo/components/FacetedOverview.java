@@ -36,6 +36,7 @@ public class FacetedOverview extends BaseSiteComponent {
             }
         }
         request.setAttribute("page", page);
+        request.setAttribute("pageTitle", getParameter("pageTitle", request));
 
         if (n instanceof HippoFacetChildNavigationBean) {
             HippoFacetChildNavigationBean facetNav = (HippoFacetChildNavigationBean) n;

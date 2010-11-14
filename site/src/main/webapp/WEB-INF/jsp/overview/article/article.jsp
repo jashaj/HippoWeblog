@@ -61,13 +61,3 @@
 <hst:headContribution element="${titleElt}"/>
 
 <hst:headContribution><meta name="robots" content="noindex, follow"/></hst:headContribution>
-<hst:headContribution>
-  <c:choose>
-    <c:when test="${not empty tag}">
-      <meta content="Facet navigation results for ${tag}" name="description"/>
-    </c:when>
-    <c:otherwise>
-      <meta content="Jasha Joachimsthal's website about technology, myself, my work at Hippo and other things that cross my mind" name="description"/>
-    </c:otherwise>
-  </c:choose>
-</hst:headContribution>

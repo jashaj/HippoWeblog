@@ -14,7 +14,7 @@ receive an email notification.&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Login to the CMS console at 
-&lt;a href="/cms/console/"&gt;http://localhost:8080/cms/console/&lt;/a&gt; &lt;/li&gt;
+&lt;a href="http://localhost:8080/cms/console/"&gt;http://localhost:8080/cms/console/&lt;/a&gt; &lt;/li&gt;
 &lt;li&gt;Go to 
 /hst:configuration/hst:configuration/hst:sitemap/blogposts/_default_/_default_/_default_.html
 &lt;/li&gt;

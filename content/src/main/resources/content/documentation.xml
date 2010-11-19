@@ -131,7 +131,7 @@ oAuth key.&lt;/li&gt;
 &lt;a href="http://twitter4j.org/en/code-examples.html#oauth"&gt;instructions&lt;/a&gt; on
 Twitter4J to get your access token code. &lt;/li&gt;
 &lt;li&gt;Once you have all the oAuth tokens and secrets, log into the console at
-http://localhost:8080/cms/console&lt;/li&gt;
+&lt;a href="http://localhost:8080/cms/console/"&gt;http://localhost:8080/cms/console/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Go to
 /hst:configuration/hst:configuration/hst:components/detail.aside/01-twitter&lt;/li&gt;
 &lt;li&gt;Set the following properties and do the same for 

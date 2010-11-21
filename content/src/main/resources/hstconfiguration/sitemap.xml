@@ -23,7 +23,7 @@
       <sv:value>hst:sitemapitem</sv:value>
     </sv:property>
     <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
-      <sv:value>hst:pages/text</sv:value>
+      <sv:value>hst:pages/home</sv:value>
     </sv:property>
     <sv:property sv:name="hst:parameternames" sv:type="String">
       <sv:value>cssClass</sv:value>
@@ -34,7 +34,7 @@
       <sv:value>facets</sv:value>
     </sv:property>
     <sv:property sv:name="hst:relativecontentpath" sv:type="String">
-      <sv:value>common/homepage</sv:value>
+      <sv:value>homepage</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="about">
@@ -53,17 +53,15 @@
       <sv:value>hst:sitemapitem</sv:value>
     </sv:property>
     <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
-      <sv:value>hst:pages/overview</sv:value>
+      <sv:value>hst:pages/bloglisting</sv:value>
     </sv:property>
     <sv:property sv:name="hst:parameternames" sv:type="String">
       <sv:value>facetLocation</sv:value>
       <sv:value>pageTitle</sv:value>
-      <sv:value>beanClassForOverview</sv:value>
     </sv:property>
     <sv:property sv:name="hst:parametervalues" sv:type="String">
       <sv:value>facets</sv:value>
       <sv:value>Blog posts</sv:value>
-      <sv:value>org.onehippo.forge.weblogdemo.beans.Blogpost</sv:value>
     </sv:property>
     <sv:property sv:name="hst:relativecontentpath" sv:type="String">
       <sv:value>blogs</sv:value>
@@ -129,14 +127,10 @@
         <sv:value>hst:sitemapitem</sv:value>
       </sv:property>
       <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
-        <sv:value>hst:pages/overview</sv:value>
+        <sv:value>hst:pages/bloglisting</sv:value>
       </sv:property>
-      <sv:property sv:name="hst:parameternames" sv:type="String">
-        <sv:value>facetLocation</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:parametervalues" sv:type="String">
-        <sv:value>facets</sv:value>
-      </sv:property>
+      <sv:property sv:name="hst:parameternames" sv:type="String"/>
+      <sv:property sv:name="hst:parametervalues" sv:type="String"/>
       <sv:property sv:name="hst:relativecontentpath" sv:type="String">
         <sv:value>blogs/${1}</sv:value>
       </sv:property>
@@ -145,14 +139,10 @@
           <sv:value>hst:sitemapitem</sv:value>
         </sv:property>
         <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
-          <sv:value>hst:pages/overview</sv:value>
+          <sv:value>hst:pages/bloglisting</sv:value>
         </sv:property>
-        <sv:property sv:name="hst:parameternames" sv:type="String">
-          <sv:value>facetLocation</sv:value>
-        </sv:property>
-        <sv:property sv:name="hst:parametervalues" sv:type="String">
-          <sv:value>facets</sv:value>
-        </sv:property>
+        <sv:property sv:name="hst:parameternames" sv:type="String"/>
+        <sv:property sv:name="hst:parametervalues" sv:type="String"/>
         <sv:property sv:name="hst:relativecontentpath" sv:type="String">
           <sv:value>blogs/${1}/${2}</sv:value>
         </sv:property>
@@ -301,16 +291,14 @@
       <sv:value>hst:sitemapitem</sv:value>
     </sv:property>
     <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
-      <sv:value>hst:pages/overview</sv:value>
+      <sv:value>hst:pages/textdocumentlisting</sv:value>
     </sv:property>
     <sv:property sv:name="hst:parameternames" sv:type="String">
       <sv:value>pageTitle</sv:value>
-      <sv:value>beanClassForOverview</sv:value>
       <sv:value>facetLocation</sv:value>
     </sv:property>
     <sv:property sv:name="hst:parametervalues" sv:type="String">
       <sv:value>Documentation</sv:value>
-      <sv:value>org.onehippo.forge.weblogdemo.beans.TextDocument</sv:value>
       <sv:value>facets</sv:value>
     </sv:property>
     <sv:property sv:name="hst:relativecontentpath" sv:type="String">

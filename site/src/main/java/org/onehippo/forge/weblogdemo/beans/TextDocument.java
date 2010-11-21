@@ -66,9 +66,9 @@ public class TextDocument extends BaseDocument {
     }
 
         /**
-     * Utility method to return text for the summary in an {@link org.onehippo.forge.weblogdemo.components.Overview} page.<br />
+     * Utility method to return text for the summary in an {@link org.onehippo.forge.weblogdemo.components.overview.BlogListing} page.<br />
      * If the summary field is empty, the first paragraph from the body is used.
-     * @return summary for an {@link org.onehippo.forge.weblogdemo.components.Overview} page
+     * @return summary for an {@link org.onehippo.forge.weblogdemo.components.overview.BlogListing} page
      */
     public String getOverviewSummary() {
         if (StringUtils.isNotBlank(getSummary())) {

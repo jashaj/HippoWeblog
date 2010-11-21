@@ -37,6 +37,7 @@ import org.hippoecm.hst.core.component.HstRequest;
 import org.hippoecm.hst.core.component.HstResponse;
 import org.hippoecm.hst.core.linking.HstLink;
 import org.hippoecm.hst.core.request.ResolvedSiteMapItem;
+import org.onehippo.forge.weblogdemo.components.overview.BlogListing;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -217,7 +218,7 @@ public class FeedCreator extends BaseSiteComponent {
         int results = 0;
 
         Blogpost blogpost;
-        while (beans.hasNext() && results < Overview.PAGESIZE) {
+        while (beans.hasNext() && results < BlogListing.PAGESIZE) {
             blogpost = (Blogpost) beans.next();
             SyndEntry syndEntry = createFeedEntryFromBlogpost(request, response, author, blogpost);
             if (syndEntry != null) {

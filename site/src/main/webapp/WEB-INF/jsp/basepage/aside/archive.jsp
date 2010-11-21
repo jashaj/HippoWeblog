@@ -57,7 +57,7 @@
           </li>
         </c:forEach>
         <c:if test="${fn:length(facet.folders)>5}">
-          <li class="less"><a href="#" class="toggle">&raquo; More</a></li>
+          <li class="less"><a href="archive.jsp#" class="toggle">&raquo; More</a></li>
   
           <c:forEach var="facetvalue" items="${facet.folders}" begin="5">
               <li class="more">
@@ -92,7 +92,7 @@
                  </c:choose>
               </li>
             </c:forEach>
-            <li class="more"><a href="#" class="toggle">&raquo; Less</a></li>
+            <li class="more"><a href="archive.jsp#" class="toggle">&raquo; Less</a></li>
         </c:if>
       </ul>
     </c:if>

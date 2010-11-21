@@ -66,6 +66,89 @@
     <sv:property sv:name="hst:template" sv:type="String">
       <sv:value>basepage.aside</sv:value>
     </sv:property>
+    <sv:node sv:name="00-archive">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:component</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:componentclassname" sv:type="String">
+        <sv:value>org.onehippo.forge.weblogdemo.components.AsideArchive</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:parameternames" sv:type="String">
+        <sv:value>facetLocation</sv:value>
+        <sv:value>labelsName</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:parametervalues" sv:type="String">
+        <sv:value>${facetLocation}</sv:value>
+        <sv:value>common,months</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:template" sv:type="String">
+        <sv:value>basepage.aside.archive</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="01-twitter">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:component</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:componentclassname" sv:type="String">
+        <sv:value>org.onehippo.forge.weblogdemo.components.socialmedia.TwitterListing</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:description" sv:type="String">
+        <sv:value>Parameters to set:
+          boxTitle - Title that appears above the box with the Tweets
+          token - accesstoken for Twitter API
+          tokenSecret - shared secret access token for Twitter API
+          consumerKey - consumer key for Twitter API
+          consumerSecret - consumer shared secret for Twitter API
+          See http://www.jasha.eu/blogposts/2010/07/show-tweets-with-hst-and-twitter4j.html for
+          explanation and links for this component</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:parameternames" sv:type="String">
+        <sv:value>boxTitle</sv:value>
+        <sv:value>token</sv:value>
+        <sv:value>tokenSecret</sv:value>
+        <sv:value>consumerKey</sv:value>
+        <sv:value>consumerSecret</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:parametervalues" sv:type="String">
+        <sv:value>Twitter</sv:value>
+        <sv:value/>
+        <sv:value/>
+        <sv:value/>
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hst:template" sv:type="String">
+        <sv:value>basepage.aside.twitter</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="02-googlereader">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:component</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:componentclassname" sv:type="String">
+        <sv:value>org.onehippo.forge.weblogdemo.components.socialmedia.FeedListing</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:parameternames" sv:type="String">
+        <sv:value>feedLocation</sv:value>
+        <sv:value>showLinks</sv:value>
+        <sv:value>boxTitle</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:parametervalues" sv:type="String">
+        <sv:value>http://www.google.com/reader/public/atom/user/14112542115980241284/state/com.google/broadcast</sv:value>
+        <sv:value>true</sv:value>
+        <sv:value>Interesting blogposts</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:template" sv:type="String">
+        <sv:value>basepage.aside.feedlisting</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="03-flickr">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:component</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:template" sv:type="String">
+        <sv:value>basepage.aside.flickr</sv:value>
+      </sv:property>
+    </sv:node>
   </sv:node>
   <sv:node sv:name="basepage.footer">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -103,210 +186,12 @@
       <sv:value>hst:component</sv:value>
     </sv:property>
     <sv:property sv:name="hst:componentclassname" sv:type="String">
-      <sv:value>org.onehippo.forge.weblogdemo.components.Overview</sv:value>
+      <sv:value>org.onehippo.forge.weblogdemo.components.overview.BlogListing</sv:value>
     </sv:property>
     <sv:property sv:name="hst:parameternames" sv:type="String"/>
     <sv:property sv:name="hst:parametervalues" sv:type="String"/>
     <sv:property sv:name="hst:template" sv:type="String">
       <sv:value>overview.article</sv:value>
     </sv:property>
-  </sv:node>
-  <sv:node sv:name="detail.aside">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hst:component</sv:value>
-    </sv:property>
-    <sv:property sv:name="hst:componentclassname" sv:type="String">
-      <sv:value>org.onehippo.forge.weblogdemo.components.Aside</sv:value>
-    </sv:property>
-    <sv:property sv:name="hst:parameternames" sv:type="String"/>
-    <sv:property sv:name="hst:parametervalues" sv:type="String"/>
-    <sv:property sv:name="hst:referencecomponent" sv:type="String">
-      <sv:value>hst:components/basepage.aside</sv:value>
-    </sv:property>
-    <sv:property sv:name="hst:template" sv:type="String">
-      <sv:value>basepage.aside</sv:value>
-    </sv:property>
-    <sv:node sv:name="00-archive">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hst:component</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:componentclassname" sv:type="String">
-        <sv:value>org.onehippo.forge.weblogdemo.components.AsideArchive</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:parameternames" sv:type="String">
-        <sv:value>facetLocation</sv:value>
-        <sv:value>labelsName</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:parametervalues" sv:type="String">
-        <sv:value>${facetLocation}</sv:value>
-        <sv:value>common,months</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:template" sv:type="String">
-        <sv:value>overview.aside.archive</sv:value>
-      </sv:property>
-    </sv:node>
-    <sv:node sv:name="01-twitter">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hst:component</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:componentclassname" sv:type="String">
-        <sv:value>org.onehippo.forge.weblogdemo.components.socialmedia.TwitterListing</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:description" sv:type="String">
-        <sv:value>Parameters to set:
-          boxTitle - Title that appears above the box with the Tweets
-          token - accesstoken for Twitter API 
-          tokenSecret - shared secret access token for Twitter API
-          consumerKey - consumer key for Twitter API
-          consumerSecret - consumer shared secret for Twitter API
-          See http://www.jasha.eu/blogposts/2010/07/show-tweets-with-hst-and-twitter4j.html for
-          explanation and links for this component</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:parameternames" sv:type="String">
-        <sv:value>boxTitle</sv:value>
-        <sv:value>token</sv:value>
-        <sv:value>tokenSecret</sv:value>
-        <sv:value>consumerKey</sv:value>
-        <sv:value>consumerSecret</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:parametervalues" sv:type="String">
-        <sv:value>Twitter</sv:value>
-        <sv:value></sv:value>
-        <sv:value></sv:value>
-        <sv:value></sv:value>
-        <sv:value></sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:template" sv:type="String">
-        <sv:value>basepage.aside.twitter</sv:value>
-      </sv:property>
-    </sv:node>
-    <sv:node sv:name="02-googlereader">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hst:component</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:componentclassname" sv:type="String">
-        <sv:value>org.onehippo.forge.weblogdemo.components.socialmedia.FeedListing</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:parameternames" sv:type="String">
-        <sv:value>feedLocation</sv:value>
-        <sv:value>showLinks</sv:value>
-        <sv:value>boxTitle</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:parametervalues" sv:type="String">
-        <sv:value>http://www.google.com/reader/public/atom/user/14112542115980241284/state/com.google/broadcast</sv:value>
-        <sv:value>true</sv:value>
-        <sv:value>Interesting blogposts</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:template" sv:type="String">
-        <sv:value>basepage.aside.feedlisting</sv:value>
-      </sv:property>
-    </sv:node>
-    <sv:node sv:name="04-flickr">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hst:component</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:template" sv:type="String">
-        <sv:value>basepage.aside.flickr</sv:value>
-      </sv:property>
-    </sv:node>
-  </sv:node>
-  <sv:node sv:name="overview.aside">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hst:component</sv:value>
-    </sv:property>
-    <sv:property sv:name="hst:componentclassname" sv:type="String">
-      <sv:value>org.onehippo.forge.weblogdemo.components.Aside</sv:value>
-    </sv:property>
-    <sv:property sv:name="hst:parameternames" sv:type="String"/>
-    <sv:property sv:name="hst:parametervalues" sv:type="String"/>
-    <sv:property sv:name="hst:referencecomponent" sv:type="String">
-      <sv:value>hst:components/basepage.aside</sv:value>
-    </sv:property>
-    <sv:property sv:name="hst:template" sv:type="String">
-      <sv:value>basepage.aside</sv:value>
-    </sv:property>
-    <sv:node sv:name="01-archive">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hst:component</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:componentclassname" sv:type="String">
-        <sv:value>org.onehippo.forge.weblogdemo.components.AsideArchive</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:parameternames" sv:type="String">
-        <sv:value>facetLocation</sv:value>
-        <sv:value>labelsName</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:parametervalues" sv:type="String">
-        <sv:value>${facetLocation}</sv:value>
-        <sv:value>common,months</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:template" sv:type="String">
-        <sv:value>overview.aside.archive</sv:value>
-      </sv:property>
-    </sv:node>
-    <sv:node sv:name="02-twitter">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hst:component</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:componentclassname" sv:type="String">
-        <sv:value>org.onehippo.forge.weblogdemo.components.socialmedia.TwitterListing</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:description" sv:type="String">
-        <sv:value>Parameters to set:
-          boxTitle - Title that appears above the box with the Tweets
-          token - accesstoken for Twitter API 
-          tokenSecret - shared secret access token for Twitter API
-          consumerKey - consumer key for Twitter API
-          consumerSecret - consumer shared secret for Twitter API
-          See http://www.jasha.eu/blogposts/2010/07/show-tweets-with-hst-and-twitter4j.html for
-          explanation and links for this component</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:parameternames" sv:type="String">
-        <sv:value>boxTitle</sv:value>
-        <sv:value>token</sv:value>
-        <sv:value>tokenSecret</sv:value>
-        <sv:value>consumerKey</sv:value>
-        <sv:value>consumerSecret</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:parametervalues" sv:type="String">
-        <sv:value>Twitter</sv:value>
-        <sv:value></sv:value>
-        <sv:value></sv:value>
-        <sv:value></sv:value>
-        <sv:value></sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:template" sv:type="String">
-        <sv:value>basepage.aside.twitter</sv:value>
-      </sv:property>
-    </sv:node>
-    <sv:node sv:name="03-googlereader">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hst:component</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:componentclassname" sv:type="String">
-        <sv:value>org.onehippo.forge.weblogdemo.components.socialmedia.FeedListing</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:parameternames" sv:type="String">
-        <sv:value>feedLocation</sv:value>
-        <sv:value>showLinks</sv:value>
-        <sv:value>boxTitle</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:parametervalues" sv:type="String">
-        <sv:value>http://www.google.com/reader/public/atom/user/14112542115980241284/state/com.google/broadcast</sv:value>
-        <sv:value>true</sv:value>
-        <sv:value>Interesting blogposts</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:template" sv:type="String">
-        <sv:value>basepage.aside.feedlisting</sv:value>
-      </sv:property>
-    </sv:node>
-    <sv:node sv:name="05-flickr">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hst:component</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:template" sv:type="String">
-        <sv:value>basepage.aside.flickr</sv:value>
-      </sv:property>
-    </sv:node>
   </sv:node>
 </sv:node>

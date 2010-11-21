@@ -16,13 +16,8 @@
   * limitations under the License.
 --%>
 <article>
-  <section>
-    <site:calendar doc="${document}" ispubdate="true"/>
-    <h1>${document.title}</h1>
-    <c:if test="${not empty document.summary}"><p>${document.summary}</p></c:if>
-    <hst:html hippohtml="${document.html}" contentRewriter="${contentrewriter}"/>
-  </section>
-  
+  <site:blogpost/>
+
   <section class="share">
     <p><a class="a2a_dd" href="http://www.addtoany.com/share_save"><img src="http://static.addtoany.com/buttons/share_save_120_16.gif" width="120" height="16" alt="Share/Bookmark"/></a></p>
   </section>

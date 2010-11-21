@@ -78,6 +78,24 @@
       <sv:value>/WEB-INF/jsp/basepage/footer/footer.jsp</sv:value>
     </sv:property>
   </sv:node>
+  <sv:node sv:name="home.article.articles">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:containers" sv:type="String"/>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>/WEB-INF/jsp/home/article/articles.jsp</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="home.article.latestblog">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:containers" sv:type="String"/>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>/WEB-INF/jsp/home/article/latestblog.jsp</sv:value>
+    </sv:property>
+  </sv:node>
   <sv:node sv:name="detail.article">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hst:template</sv:value>
@@ -123,13 +141,13 @@
       <sv:value>/WEB-INF/jsp/basepage/aside/flickr.jsp</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="overview.aside.archive">
+  <sv:node sv:name="basepage.aside.archive">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hst:template</sv:value>
     </sv:property>
     <sv:property sv:name="hst:containers" sv:type="String"/>
     <sv:property sv:name="hst:renderpath" sv:type="String">
-      <sv:value>/WEB-INF/jsp/overview/aside/archive.jsp</sv:value>
+      <sv:value>/WEB-INF/jsp/basepage/aside/archive.jsp</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="feed.atom">

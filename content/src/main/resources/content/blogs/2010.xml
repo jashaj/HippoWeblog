@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This work is licensed under the Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 Netherlands License.
+To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/3.0/nl/ or,
+(b) send a letter to Creative Commons, 171 2nd Street, Suite 300, San Francisco, California, 94105, USA.
+-->
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="2010"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:folder</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>1c8f2810-a3c1-453c-9514-5502cc04e5c8</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>1c8f2810-a3c1-453c-9514-5502cc04e5c8</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"/><sv:property sv:name="hippostd:foldertype" sv:type="String"><sv:value>new-month-folder</sv:value></sv:property><sv:node sv:name="05"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:folder</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>081b9e6e-0d7a-4fa1-ae53-4eb87f2e4126</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>081b9e6e-0d7a-4fa1-ae53-4eb87f2e4126</sv:value><sv:value>1c8f2810-a3c1-453c-9514-5502cc04e5c8</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"/><sv:property sv:name="hippostd:foldertype" sv:type="String"><sv:value>new-blogpost</sv:value></sv:property><sv:node sv:name="First-blogpost-in-Hippo"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:handle</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:hardhandle</sv:value><sv:value>hippo:translated</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>5cb9e93d-186e-4297-934f-f05a291a7bde</sv:value></sv:property><sv:node sv:name="hippo:translation"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:translation</sv:value></sv:property><sv:property sv:name="hippo:language" sv:type="String"><sv:value/></sv:property><sv:property sv:name="hippo:message" sv:type="String"><sv:value>First blogpost in Hippo</sv:value></sv:property></sv:node><sv:node sv:name="First-blogpost-in-Hippo"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>weblogdemo:blogpost</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>2fbc8acf-0c34-4d2d-8251-fadee0cdb0d9</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>2fbc8acf-0c34-4d2d-8251-fadee0cdb0d9</sv:value><sv:value>5cb9e93d-186e-4297-934f-f05a291a7bde</sv:value><sv:value>081b9e6e-0d7a-4fa1-ae53-4eb87f2e4126</sv:value><sv:value>1c8f2810-a3c1-453c-9514-5502cc04e5c8</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"><sv:value>2010/05/First-blogpost-in-Hippo</sv:value></sv:property><sv:property sv:name="hippostd:holder" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostd:state" sv:type="String"><sv:value>published</sv:value></sv:property><sv:property sv:name="hippostd:stateSummary" sv:type="String"><sv:value>live</sv:value></sv:property><sv:property sv:name="hippostd:tags" sv:type="String"><sv:value>hippo</sv:value><sv:value>technology</sv:value><sv:value>HST</sv:value></sv:property><sv:property sv:name="hippostdpubwf:createdBy" sv:type="String"><sv:value>admin</sv:value></sv:property><sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date"><sv:value>2010-05-14T11:23:28.533+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date"><sv:value>2010-05-26T17:37:31.615+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date"><sv:value>2010-05-26T17:38:32.633+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:date" sv:type="Date"><sv:value>2010-05-16T17:07:00.000+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:summary" sv:type="String"><sv:value>This is my first blogpost written in Hippo CMS</sv:value></sv:property><sv:property sv:name="weblogdemo:title" sv:type="String"><sv:value>First blogpost in Hippo</sv:value></sv:property><sv:node sv:name="weblogdemo:body"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:html</sv:value></sv:property><sv:property sv:name="hippostd:content" sv:type="String"><sv:value>&lt;html&gt;
+
+&lt;body&gt;
+
+&lt;p&gt;I wanted to build my own website and get rid of the tagsoup produced by
+Blogger. That's why I built my own site using
+&lt;a href="http://www.onehippo.org/cms7"&gt;Hippo CMS&lt;/a&gt; and
+&lt;a href="http://www.onehippo.org/site-toolkit"&gt;Hippo Site toolkit&lt;/a&gt;. It's not
+finished yet (is a website ever finished?) but it's getting close to what I had
+in mind.&lt;/p&gt;
+
+&lt;p&gt;Building this site was one of the reasons I had not written any blog post in
+months. It took a bit more time than I thought. I had to think what I wanted,
+played with HTML5 and CSS3 and eventually write some code that tied it all
+together. In the end I had to configure Apache HTTPD which is something the
+sysadmins normally do (thanks Bart &amp;amp; Bartosz for your hints). Thanks Hippo
+for hosting my new blog :-)&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value></sv:property></sv:node></sv:node></sv:node><sv:node sv:name="components-in-my-blog-properties-component"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:handle</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:hardhandle</sv:value><sv:value>hippo:translated</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>f1117c50-8435-4713-9d96-cebcaa3228e9</sv:value></sv:property><sv:node sv:name="hippo:translation"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:translation</sv:value></sv:property><sv:property sv:name="hippo:language" sv:type="String"><sv:value/></sv:property><sv:property sv:name="hippo:message" sv:type="String"><sv:value>Components in my blog: properties plugin</sv:value></sv:property></sv:node><sv:node sv:name="components-in-my-blog-properties-component"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>weblogdemo:blogpost</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>1d5db59a-2caf-41a0-8fd5-571da22f8312</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>1d5db59a-2caf-41a0-8fd5-571da22f8312</sv:value><sv:value>f1117c50-8435-4713-9d96-cebcaa3228e9</sv:value><sv:value>081b9e6e-0d7a-4fa1-ae53-4eb87f2e4126</sv:value><sv:value>1c8f2810-a3c1-453c-9514-5502cc04e5c8</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"><sv:value>2010/05/components-in-my-blog-properties-component</sv:value></sv:property><sv:property sv:name="hippostd:holder" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostd:state" sv:type="String"><sv:value>published</sv:value></sv:property><sv:property sv:name="hippostd:stateSummary" sv:type="String"><sv:value>live</sv:value></sv:property><sv:property sv:name="hippostd:tags" sv:type="String"><sv:value>hippo</sv:value><sv:value>technology</sv:value><sv:value>HST</sv:value><sv:value>hippoforge</sv:value><sv:value>plugins</sv:value><sv:value>cms7</sv:value></sv:property><sv:property sv:name="hippostdpubwf:createdBy" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date"><sv:value>2010-05-24T08:47:50.197+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date"><sv:value>2010-07-20T20:06:52.503+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date"><sv:value>2010-07-20T20:06:55.500+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:date" sv:type="Date"><sv:value>2010-05-24T10:30:50.649+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:summary" sv:type="String"><sv:value>This blogpost is about the Hippo Forge Properties component. This component allows you to manage labels for your website instead of hardcoding them into the JSP.</sv:value></sv:property><sv:property sv:name="weblogdemo:title" sv:type="String"><sv:value>Components in my blog: Properties component</sv:value></sv:property><sv:node sv:name="weblogdemo:body"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:html</sv:value></sv:property><sv:property sv:name="hippostd:content" sv:type="String"><sv:value>&lt;html&gt;
+
+&lt;body&gt;
+
+&lt;p&gt;My website is mostly an extended version of the Hippo Site Toolkit
+&lt;a href="http://www.onehippo.org/site-toolkit/getting+started/learn+the+demo"&gt;demo
+project&lt;/a&gt;. I did a complete HTML and CSS (re)design but the core components
+look a lot like the original demo. My blogpost document type contains only a few
+more fields for keywords and keyword suggestions compared to the original text
+document. In the comment document type I added fields so you can fill in your
+email address (which I will never publish) and website (which I will publish
+unless you're trying to send spam).&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href="http://forge.onehippo.org/projects/properties/"&gt;properties
+component&lt;/a&gt; is extremely useful to avoid hard coded labels in your rendering
+templates, in my case the JSP's. The values of the labels are managed from the
+CMS so if you want to change a common navigation element like "previous" to
+"previous page" you don't have to do a new deploy of your site. At this moment
+it is used for the labels of the month facets when navigating through the
+blogposts. The faceted navigation returns values from 0 to 11 but I rather
+display them as January to December.&lt;/p&gt;
+
+&lt;p&gt;After &lt;a href="http://properties.forge.onehippo.org/install.html"&gt;adding the
+properties component&lt;/a&gt; to the CMS you get a new document type for maintaining
+the properties. This document type contains repeating key-value pairs, e.g.
+"month.0" as key for label "January". Then add the necessary dependencies and
+configuration to the site project. In your own default component or in a
+specific component add the code that adds the key-value pairs to the request for
+the rendering templates. You can find examples in the
+&lt;a href="http://properties.forge.onehippo.org/sitecode.html"&gt;documentation&lt;/a&gt;
+how to add this to your own site. In my case I added it to the HST component
+that handles the listing of the faceted navigation. &lt;/p&gt;
+
+&lt;p&gt;This is how my JSP code looks like to display the label of a month:&lt;/p&gt;
+
+&lt;pre class="brush: xml"&gt;&amp;lt;c:set var="labelkey" value="month.${facetvalue.name}" /&amp;gt;
+   ${labels[labelkey]}
+&lt;/pre&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value></sv:property></sv:node></sv:node></sv:node></sv:node><sv:node sv:name="06"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:folder</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>9d197f16-baa5-417c-825e-0327cb688801</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>9d197f16-baa5-417c-825e-0327cb688801</sv:value><sv:value>1c8f2810-a3c1-453c-9514-5502cc04e5c8</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"/><sv:property sv:name="hippostd:foldertype" sv:type="String"><sv:value>new-blogpost</sv:value></sv:property><sv:node sv:name="My-QR-code"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:handle</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:hardhandle</sv:value><sv:value>hippo:translated</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>4a132ce9-04d1-4779-8e0c-527baa6067a2</sv:value></sv:property><sv:node sv:name="hippo:translation"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:translation</sv:value></sv:property><sv:property sv:name="hippo:language" sv:type="String"><sv:value/></sv:property><sv:property sv:name="hippo:message" sv:type="String"><sv:value>My QR code</sv:value></sv:property></sv:node><sv:node sv:name="My-QR-code"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>weblogdemo:blogpost</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>b789a4ba-5a47-4275-9c48-2842bd2779b1</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>b789a4ba-5a47-4275-9c48-2842bd2779b1</sv:value><sv:value>4a132ce9-04d1-4779-8e0c-527baa6067a2</sv:value><sv:value>9d197f16-baa5-417c-825e-0327cb688801</sv:value><sv:value>1c8f2810-a3c1-453c-9514-5502cc04e5c8</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"><sv:value>2010/06/My-QR-code</sv:value></sv:property><sv:property sv:name="hippostd:holder" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostd:state" sv:type="String"><sv:value>published</sv:value></sv:property><sv:property sv:name="hippostd:stateSummary" sv:type="String"><sv:value>live</sv:value></sv:property><sv:property sv:name="hippostd:tags" sv:type="String"><sv:value>technology</sv:value></sv:property><sv:property sv:name="hippostdpubwf:createdBy" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date"><sv:value>2010-06-08T18:52:30.468+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date"><sv:value>2010-06-08T19:01:18.522+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date"><sv:value>2010-06-08T19:04:21.119+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:date" sv:type="Date"><sv:value>2010-06-08T18:52:30.939+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:summary" sv:type="String"><sv:value/></sv:property><sv:property sv:name="weblogdemo:title" sv:type="String"><sv:value>My QR code</sv:value></sv:property><sv:node sv:name="weblogdemo:body"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:html</sv:value></sv:property><sv:property sv:name="hippostd:content" sv:type="String"><sv:value>&lt;html&gt;
+
+&lt;body&gt;
+
+&lt;blockquote cite="http://en.wikipedia.org/wiki/QR_Code"&gt;
+&lt;p&gt;A QR Code is a matrix code (or two-dimensional bar code) created by Japanese
+corporation Denso-Wave in 1994. The "QR" is derived from "Quick Response", as
+the creator intended the code to allow its contents to be decoded at high speed.
+&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Since I have my HTC desire I discovered its use. People who make Android apps
+put the QR code for their app in the Android Market on their site. All I have to
+do is use the camera to scan it and my phone jumps to the right link. I wonder
+how long it takes before you see them in newspaper advertisements.&lt;/p&gt;
+
+&lt;p&gt;This is the QR code for my website:&lt;/p&gt;
+
+&lt;p&gt;
+&lt;img facetselect="qrcode.png/{_document}/hippogallery:picture" src="qrcode.png/{_document}/hippogallery:picture" alt="QR code for http://www.jasha.eu"/&gt;
+&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value></sv:property><sv:node sv:name="qrcode.png"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:facetselect</sv:value></sv:property><sv:property sv:name="hippo:docbase" sv:type="String"><sv:value>39dfa2a2-f964-4633-859e-c12788f6cdc6</sv:value></sv:property><sv:property sv:name="hippo:facets" sv:type="String"/><sv:property sv:name="hippo:modes" sv:type="String"/><sv:property sv:name="hippo:values" sv:type="String"/></sv:node></sv:node></sv:node></sv:node><sv:node sv:name="Web-development-tools-I-use-at-Hippo"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:handle</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:hardhandle</sv:value><sv:value>hippo:translated</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>236d6df7-df12-490d-9854-77d31ea2a109</sv:value></sv:property><sv:node sv:name="hippo:translation"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:translation</sv:value></sv:property><sv:property sv:name="hippo:language" sv:type="String"><sv:value/></sv:property><sv:property sv:name="hippo:message" sv:type="String"><sv:value>Web development tools I use at Hippo</sv:value></sv:property></sv:node><sv:node sv:name="Web-development-tools-I-use-at-Hippo"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>weblogdemo:blogpost</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>3d869b86-57fb-4766-99ef-1ec9c0feb042</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>3d869b86-57fb-4766-99ef-1ec9c0feb042</sv:value><sv:value>236d6df7-df12-490d-9854-77d31ea2a109</sv:value><sv:value>9d197f16-baa5-417c-825e-0327cb688801</sv:value><sv:value>1c8f2810-a3c1-453c-9514-5502cc04e5c8</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"><sv:value>2010/06/Web-development-tools-I-use-at-Hippo</sv:value></sv:property><sv:property sv:name="hippostd:holder" sv:type="String"><sv:value>author</sv:value></sv:property><sv:property sv:name="hippostd:state" sv:type="String"><sv:value>published</sv:value></sv:property><sv:property sv:name="hippostd:stateSummary" sv:type="String"><sv:value>live</sv:value></sv:property><sv:property sv:name="hippostd:tags" sv:type="String"><sv:value>technology</sv:value><sv:value>hippo</sv:value><sv:value>development</sv:value><sv:value>tools</sv:value></sv:property><sv:property sv:name="hippostdpubwf:createdBy" sv:type="String"><sv:value>author</sv:value></sv:property><sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date"><sv:value>2010-06-16T20:44:51.695+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date"><sv:value>2010-06-16T21:46:26.722+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String"><sv:value>author</sv:value></sv:property><sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date"><sv:value>2010-06-16T21:47:59.140+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:date" sv:type="Date"><sv:value>2010-06-16T22:45:52.207+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:summary" sv:type="String"><sv:value>Earlier this week a customer with its own development department asked us which tools we use for measuring quality and performance of websites. In this blogpost I'll describe some of the tools I use to check the HTML and CSS. I know there are more tools available and it's not a complete list of the tools I use, but I'll cover my most frequently used.</sv:value></sv:property><sv:property sv:name="weblogdemo:title" sv:type="String"><sv:value>Web development tools I use at Hippo</sv:value></sv:property><sv:node sv:name="weblogdemo:body"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:html</sv:value></sv:property><sv:property sv:name="hippostd:content" sv:type="String"><sv:value>&lt;html&gt;
+
+&lt;body&gt;
+
+&lt;p&gt;The quality of the HTML and CSS starts at the design phase. Most of the HTML
+and CSS I see have already been designed, my task is to make the static designs
+dynamic with content from a Hippo Repository. This doesn't mean I have no
+opinion at all about the quality of the design. As more people of my age I
+started making websites as a teenager when frames had just been introduced,
+Netscape was a faster alternative for Mosaic, tables were necessary for markup
+and the font tag was accepted. Later CSS was introduced but browsers (IE) had no
+problem making a webpage out of the tagsoup from Frontpage or Geocities, the
+horror. Modern professional designers make a clear distinction between HTML and
+CSS, use HTML elements what they are meant for and think of performance. Some of
+the tools will guide you towards correct and efficient usage of HTML and CSS.
+&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+&lt;h2&gt;Web developer toolbar &lt;/h2&gt;
+&lt;p&gt;The &lt;a href="http://chrispederick.com/work/web-developer/"&gt;web developer
+toolbar&lt;/a&gt; is one of the first Firefox extensions I add. It offers quick access
+to options you can also find in the preferences of the browser like clearing the
+browser cache, disable CSS or scripts. Disabling CSS and scripts are sometimes
+necessary to check if the site is still usable for someone who uses a text
+browser, read speaker or a (mobile) browser with less features, requirements for
+Dutch governmental websites. One example are the related dropdowns I made for
+the &lt;a href="http://www.rijksbegroting.nl/algemeen/zoeken_op_thema"&gt;thematic
+search&lt;/a&gt; in the website for the national budget. If Javascript is enabled you
+see the sub category after choosing the main category. Without Javascript you
+see one dropdown with &amp;lt;optgroup/&amp;gt; to (visually) separate the categories.
+
+&lt;/p&gt;
+
+&lt;p&gt;Other handy features are shortcuts to validate the current page for
+correctness of HTML, CSS or even feeds.  &lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+&lt;h2&gt;Firebug &lt;/h2&gt;
+&lt;p&gt;&lt;a href="http://getfirebug.com/"&gt;Firebug&lt;/a&gt; is a very handy tool to see the
+interpreted source of the webpage. This may be different from the HTML response
+from the server due to DOM manipulation by scripts or the use of tagsoup instead
+of valid (X)HTML. It also allows you to manipulate the HTML or CSS to quickly
+see the effect of changing the styling. It can also show you the requests the
+browser did for the current page, how long they took, and if they were
+successful.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+&lt;h2&gt;Yslow &lt;/h2&gt;
+&lt;p&gt;&lt;a href="http://developer.yahoo.com/yslow/"&gt;Yslow&lt;/a&gt; on top of Firebus gives
+you performance tips of the page you're working on like "CSS first, then
+scripts", "Minimize CSS and scripts", "Use a Content Delivery Network" or "Use
+expires headers". You may start with a Javascript framework (JQuery, Prototype)
+and one or two scripts. After a few months you discover that there are more than
+10 different uncompressed script files on one page. Each of those files need a
+request, optional check if they can be cached and a response. Yslow will warn
+you about these things.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+&lt;h2&gt;YUI compressor &lt;/h2&gt;
+&lt;p&gt;If you end up writing large CSS and script files, it's better to compress or
+minimize them. For you as developer they're easier to read when you use
+indentation and variables have sensible names like postalCode,
+addressAndHouseNumer. For the browser all the whitespace is a waste of bandwith
+and the variables in scripts may also be called a and b. The
+&lt;a href="http://developer.yahoo.com/yui/compressor/"&gt;YUI compressor&lt;/a&gt; can
+minimize CSS and scripts. If you want it can also "obfuscate" the variables
+which saves bandwith and as side effect make them harder to reuse (not something
+you'd want as open source developer).&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+&lt;h2&gt;WAVE &lt;/h2&gt;
+&lt;p&gt;With WAVE I don't mean the chaotic, IRC style collaboration tool of a company
+that makes money with online advertisements.
+&lt;a href="http://wave.webaim.org/"&gt;WAVE&lt;/a&gt; is a Firefox extension for checking
+accessibility of your HTML. It shows you if there are missing labels for form
+fields, empty or missing alt attributes for images, if there are not too many
+similar alt texts and if the headers are correct.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+&lt;h2&gt;Different Internet Explorer versions &lt;/h2&gt;
+&lt;p&gt;Like most of my colleagues I use Mozilla Firefox as default browser. The many
+useful extensions make it a pleasure to use, despite the occasional memory leak.
+Most visitors of our customers' website use different browsers, mainly Microsoft
+Internet Explorer. For me it's a very important reason to keep using Windows
+instead of switching to Ubuntu on my company laptop. If something works or looks
+good in modern browsers like Firefox or Chrome it doesn't mean MSIE will behave
+in the same way. IE8 is a big improvement by supporting more standards than IE7
+and by offering development tools that contain functionality I know from the
+Firefox web developer toolbar and Firebug. With IE8 you can also switch to IE7
+rendering but there's still a minor browser we have to support, the antique IE6.
+For a quick view of how it may render I use
+&lt;a href="http://tredosoft.com/Multiple_IE"&gt;MultipleIEs&lt;/a&gt;, but if I really want
+to see native IE6, I have a virtual machine installed. Microsoft offers
+&lt;a href="http://www.microsoft.com/downloads/details.aspx?FamilyID=21eabb90-958f-4b64-b5f1-73d0a413c8ef&amp;amp;displaylang=en"&gt;virtual
+machines&lt;/a&gt; with different Internet Explorers and Windows versions. &lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value></sv:property></sv:node></sv:node></sv:node></sv:node><sv:node sv:name="07"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:folder</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>3b97a4f0-5ef6-4ca0-881b-c93b9ee958e5</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>3b97a4f0-5ef6-4ca0-881b-c93b9ee958e5</sv:value><sv:value>1c8f2810-a3c1-453c-9514-5502cc04e5c8</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"/><sv:property sv:name="hippostd:foldertype" sv:type="String"><sv:value>new-blogpost</sv:value></sv:property><sv:node sv:name="show-tweets-with-hst-and-twitter4j"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:handle</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:hardhandle</sv:value><sv:value>hippo:translated</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>53663e51-7d53-4e9a-864d-833f0bf9ab49</sv:value></sv:property><sv:node sv:name="hippo:translation"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:translation</sv:value></sv:property><sv:property sv:name="hippo:language" sv:type="String"><sv:value/></sv:property><sv:property sv:name="hippo:message" sv:type="String"><sv:value>Show Tweets with HST and twitter4j</sv:value></sv:property></sv:node><sv:node sv:name="show-tweets-with-hst-and-twitter4j"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>weblogdemo:blogpost</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>2156c61a-b7ed-44be-aa25-aeaa283d7d70</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>2156c61a-b7ed-44be-aa25-aeaa283d7d70</sv:value><sv:value>53663e51-7d53-4e9a-864d-833f0bf9ab49</sv:value><sv:value>3b97a4f0-5ef6-4ca0-881b-c93b9ee958e5</sv:value><sv:value>1c8f2810-a3c1-453c-9514-5502cc04e5c8</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"><sv:value>2010/07/show-tweets-with-hst-and-twitter4j</sv:value></sv:property><sv:property sv:name="hippostd:holder" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostd:state" sv:type="String"><sv:value>published</sv:value></sv:property><sv:property sv:name="hippostd:stateSummary" sv:type="String"><sv:value>live</sv:value></sv:property><sv:property sv:name="hippostd:tags" sv:type="String"><sv:value>hippo</sv:value><sv:value>HST</sv:value><sv:value>technology</sv:value><sv:value>Twitter</sv:value><sv:value>socialmedia</sv:value></sv:property><sv:property sv:name="hippostdpubwf:createdBy" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date"><sv:value>2010-07-20T20:34:30.610+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date"><sv:value>2010-07-22T20:23:48.337+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date"><sv:value>2010-07-22T20:24:44.537+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:date" sv:type="Date"><sv:value>2010-07-20T20:34:30.951+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:summary" sv:type="String"><sv:value>As you may have noticed, my five latest Tweets show up on my site. In this blog I'll explain how you can easily add such a block to your HST site.</sv:value></sv:property><sv:property sv:name="weblogdemo:title" sv:type="String"><sv:value>Show Tweets with HST and Twitter4J</sv:value></sv:property><sv:node sv:name="weblogdemo:body"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:html</sv:value></sv:property><sv:property sv:name="hippostd:content" sv:type="String"><sv:value>&lt;html&gt;
+
+&lt;body&gt;
+
+&lt;p&gt;For the Twitter component I've used
+&lt;a href="http://twitter4j.org"&gt;Twitter4J&lt;/a&gt; to retrieve my latest tweets. The
+first step is to add its dependency to your CMS pom:&lt;/p&gt;
+
+&lt;pre class="brush: xml"&gt;  &amp;lt;dependency&amp;gt;
+  &amp;lt;groupId&amp;gt;org.twitter4j&amp;lt;/groupId&amp;gt;
+  &amp;lt;artifactId&amp;gt;twitter4j-core&amp;lt;/artifactId&amp;gt;
+  &amp;lt;version&amp;gt;[2.1,)&amp;lt;/version&amp;gt;
+
+&amp;lt;/dependency&amp;gt;&lt;/pre&gt;
+
+&lt;p&gt;Then create your TwitterComponent that extends
+org.hippoecm.hst.component.support.bean.BaseHstComponent. In your
+TwitterComponent add a doBeforeRender method that will fetch your latest
+updates. The quick (and a bit dirty) way is to authenticate using a Twitter
+username and password. Twitter4J also supports using
+&lt;a href="http://oauth.net/"&gt;oAuth&lt;/a&gt; which you may prefer over storing your
+Twitter credentials.&lt;/p&gt;
+
+&lt;p&gt;First get a Twitter instance with your credentials (wil be deprecated see
+update at the end of this article):&lt;/p&gt;
+
+&lt;pre class="brush: java"&gt;Twitter twitter = new TwitterFactory().getInstance([username], [password]);&lt;/pre&gt;
+
+&lt;p&gt;Then get your Tweets and ReTweets. Twitter does not return a combined list of
+Tweets and ReTweets because of backwards compatibility so you'll have to combine
+them yourself. You probably want to show the newest first so you'll have to use
+a descending sort order based on the ID of the Status.&lt;/p&gt;
+
+&lt;pre class="brush: java"&gt;     try {
+            List&amp;lt;Status&amp;gt; statuses = twitter.getUserTimeline();
+            List&amp;lt;Status&amp;gt; retweets = twitter.getRetweetedByMe();
+            statuses.addAll(retweets);
+            Set&amp;lt;Status&amp;gt; allStatuses = new TreeSet&amp;lt;Status&amp;gt;(Collections.reverseOrder());
+            allStatuses.addAll(statuses);
+            allStatuses.addAll(retweets);
+            if (!allStatuses.isEmpty()) {
+                request.setAttribute("statuses", allStatuses);
+            }
+        } catch (TwitterException e) {
+            log.warn("Error getting Twitter status updates", e);
+        }
+
+
+&lt;/pre&gt;
+
+&lt;p&gt;To display the 5 newest (Re)Tweets, use this in your JSP (don't forget to add
+the taglibs):&lt;/p&gt;
+
+&lt;pre class="brush: xml"&gt;&amp;lt;ul&amp;gt;
+      &amp;lt;c:forEach items="${statuses}" var="status" begin="0" end="4"&amp;gt;
+        &amp;lt;li&amp;gt;
+          &amp;lt;c:choose&amp;gt;
+            &amp;lt;c:when test="${status.retweet}"&amp;gt;
+              RT ${status.retweetedStatus.user.screenName}: ${status.retweetedStatus.text}&amp;lt;br /&amp;gt;
+              Retweeted at
+              &amp;lt;a href="http://twitter.com/${status.retweetedStatus.user.screenName}/status/${status.retweetedStatus.id}" rel="external"&amp;gt;
+              &amp;lt;fmt:formatDate value="${status.createdAt}" pattern="d MMM H:mm"/&amp;gt;&amp;lt;/a&amp;gt;
+            &amp;lt;/c:when&amp;gt;
+            &amp;lt;c:otherwise&amp;gt;
+              ${status.text}&amp;lt;br /&amp;gt;
+              &amp;lt;a href="http://twitter.com/${status.user.screenName}/status/${status.id}" rel="external"&amp;gt;
+              &amp;lt;fmt:formatDate value="${status.createdAt}" pattern="d MMM H:mm"/&amp;gt;&amp;lt;/a&amp;gt;
+            &amp;lt;/c:otherwise&amp;gt;
+          &amp;lt;/c:choose&amp;gt;
+        &amp;lt;/li&amp;gt;
+      &amp;lt;/c:forEach&amp;gt;
+    &amp;lt;/ul&amp;gt;&lt;/pre&gt;
+
+&lt;p&gt;Note: Twitter4J does not have a caching mechanism
+&lt;a href="http://yusuke.homeip.net/jira/browse/TFJ-185"&gt;yet&lt;/a&gt;. Twitter allows
+you to do 150 API calls per hour (excluding posting updates). If you exceed that
+limit, it will return a 400 (bad request) instead of your latest (Re)Tweets.
+&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+&lt;h2&gt;Update about authentication (22-07-2010) &lt;/h2&gt;
+
+&lt;p&gt;I totally overlooked the warning by Twitter that the basic authentication is
+going to be shut down from August 16 in favour of oAuth. If you need a quick
+&amp;amp; dirty way to generate your Autorization secrets,
+&lt;a href="http://twitter.com/apps/new"&gt;register&lt;/a&gt; your application (choose for
+Application Type client) and read
+&lt;a href="http://consultingblogs.emc.com/nileeshabojjawar/archive/2010/03/18/twitter4j-oauth-generating-the-access-token.aspx"&gt;this
+blog&lt;/a&gt; to generate your AccesToken. Then you can get a Twitter instance with:
+&lt;/p&gt;
+
+&lt;pre class="brush: java"&gt;AccessToken accessToken = new AccessToken([token],[tokenSecret]);
+Twitter twitter= new TwitterFactory().getOAuthAuthorizedInstance([consumerKey], [consumerSecret], accessToken);
+
+&lt;/pre&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value></sv:property></sv:node></sv:node></sv:node><sv:node sv:name="Reusing-content-with-Hippo-CMS"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:handle</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:hardhandle</sv:value><sv:value>hippo:translated</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>155805d9-34b9-4786-8b62-9bd060a94f0f</sv:value></sv:property><sv:node sv:name="hippo:translation"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:translation</sv:value></sv:property><sv:property sv:name="hippo:language" sv:type="String"><sv:value/></sv:property><sv:property sv:name="hippo:message" sv:type="String"><sv:value>Reusing content with Hippo CMS</sv:value></sv:property></sv:node><sv:node sv:name="Reusing-content-with-Hippo-CMS"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>weblogdemo:blogpost</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>5fc66543-daca-4632-9b38-146efc3c9305</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>5fc66543-daca-4632-9b38-146efc3c9305</sv:value><sv:value>155805d9-34b9-4786-8b62-9bd060a94f0f</sv:value><sv:value>3b97a4f0-5ef6-4ca0-881b-c93b9ee958e5</sv:value><sv:value>1c8f2810-a3c1-453c-9514-5502cc04e5c8</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"><sv:value>2010/07/Reusing-content-with-Hippo-CMS</sv:value></sv:property><sv:property sv:name="hippostd:holder" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostd:state" sv:type="String"><sv:value>published</sv:value></sv:property><sv:property sv:name="hippostd:stateSummary" sv:type="String"><sv:value>live</sv:value></sv:property><sv:property sv:name="hippostd:tags" sv:type="String"><sv:value>technology</sv:value><sv:value>hippo</sv:value><sv:value>HST</sv:value></sv:property><sv:property sv:name="hippostdpubwf:createdBy" sv:type="String"><sv:value>author</sv:value></sv:property><sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date"><sv:value>2010-07-10T23:38:14.614+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date"><sv:value>2010-07-27T06:26:10.608+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date"><sv:value>2010-07-27T06:58:00.275+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:date" sv:type="Date"><sv:value>2010-07-27T08:00:00.000+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:summary" sv:type="String"><sv:value>It may sound very simple, but it's something we have to keep telling: in Hippo CMS you're managing content, not webpages. Even for a simple site as mine, a document can appear in multiple forms. There's the detail page of a blog post which you may see now. You may have seen the title, date, introduction and tags in the overview or the faceted navigation. It's also very well possible that you read this blog post in Google Reader and you have never seen my website at. Now that's already 3 different ways of showing content of the same document.</sv:value></sv:property><sv:property sv:name="weblogdemo:title" sv:type="String"><sv:value>Reusing content with Hippo CMS</sv:value></sv:property><sv:node sv:name="weblogdemo:body"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:html</sv:value></sv:property><sv:property sv:name="hippostd:content" sv:type="String"><sv:value>&lt;html&gt;
+
+&lt;body&gt;
+
+&lt;p&gt;To be honest, the RSS feed may be a default feature for most systems now, but
+you can do more with the content. One of the projects I have worked on recently
+was for a company with several rental locations spread over the country. For
+each rental location it maintains a document in the CMS with the address data
+including GPS coordinates. If a rental location is temporarily closed, there's a
+special field for it in the document. In the front end there are multiple views
+on that document.&lt;/p&gt;
+
+&lt;p&gt;The most obvious is a webpage with the full details of the rental location
+like the address (and a link to a Google Map), directions, opening hours and
+optionally the message that the location is temporarily closed.&lt;/p&gt;
+
+&lt;p&gt;To get to this view, there's a search box on the homepage with autocomplete
+for all the locations. This autocomplete list is created dynamically by a query
+over all rental location documents, the editors don't have to maintain a
+separate list.&lt;/p&gt;
+
+&lt;p&gt;If a visitor of the site ignores the autocomplete list and only enters the
+city name, he or she will get a list of all rental locations in that city plus a
+Google Map showing the locations. The pointers on this Google Map are generated
+on the fly based on the search term the visitor entered.&lt;/p&gt;
+
+&lt;p&gt;On the homepage the visitor can click on a link to see which rental locations
+are temporarily closes. This is to inform customers who use the rental product
+frequently, that their location is temporarily closed but will be available
+again. The list, which is hopefully empty, is a result of a query on all rental
+locations with the special field enabled for "temporarily closed".&lt;/p&gt;
+
+&lt;p&gt;Now this is only the content reuse within the site itself. We have also
+created an &lt;a href="http://www.onehippo.org/site-toolkit"&gt;HST&lt;/a&gt; component that
+produces a list of all rental locations in
+
+&lt;a href="http://en.wikipedia.org/wiki/Keyhole_Markup_Language"&gt;KML format&lt;/a&gt;.
+This XML output can be used to import into Google Maps to display a map of all
+rental locations on an external site. There are also plans to create mobile
+phone applications to find a rental location near you or a dynamically generated
+PDF that lists all the rental locations.&lt;/p&gt;
+
+&lt;p&gt;All these views are using the same datasource: the documents that represent
+the rental locations. Every view is generated at request which means that
+updates are immediately visible.&lt;/p&gt;
+
+&lt;p&gt;Are you still maintaining a webpage?&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value></sv:property></sv:node></sv:node></sv:node><sv:node sv:name="hello-android"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:handle</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:hardhandle</sv:value><sv:value>hippo:translated</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>a7f61779-1a00-4c0c-b50c-aa486639c398</sv:value></sv:property><sv:node sv:name="hello-android"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>weblogdemo:blogpost</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>715245a0-fbb2-4f83-ad20-6948766f3a9e</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>715245a0-fbb2-4f83-ad20-6948766f3a9e</sv:value><sv:value>a7f61779-1a00-4c0c-b50c-aa486639c398</sv:value><sv:value>3b97a4f0-5ef6-4ca0-881b-c93b9ee958e5</sv:value><sv:value>1c8f2810-a3c1-453c-9514-5502cc04e5c8</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"><sv:value>2010/07/hello-android</sv:value></sv:property><sv:property sv:name="hippostd:holder" sv:type="String"><sv:value>author</sv:value></sv:property><sv:property sv:name="hippostd:state" sv:type="String"><sv:value>published</sv:value></sv:property><sv:property sv:name="hippostd:stateSummary" sv:type="String"><sv:value>live</sv:value></sv:property><sv:property sv:name="hippostd:tags" sv:type="String"/><sv:property sv:name="hippostdpubwf:createdBy" sv:type="String"><sv:value>author</sv:value></sv:property><sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date"><sv:value>2010-07-29T12:40:19.219+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date"><sv:value>2010-07-29T12:47:08.532+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String"><sv:value>author</sv:value></sv:property><sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date"><sv:value>2010-07-29T12:50:49.579+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:date" sv:type="Date"><sv:value>2010-07-29T12:40:19.680+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:summary" sv:type="String"><sv:value>If you can read this it means an Android browser can be used for Hippo CMS.</sv:value></sv:property><sv:property sv:name="weblogdemo:title" sv:type="String"><sv:value>Hello Android</sv:value></sv:property><sv:node sv:name="weblogdemo:body"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:html</sv:value></sv:property><sv:property sv:name="hippostd:content" sv:type="String"><sv:value>&lt;html&gt;&lt;body/&gt;&lt;/html&gt;</sv:value></sv:property></sv:node></sv:node><sv:node sv:name="hippo:translation"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:translation</sv:value></sv:property><sv:property sv:name="hippo:language" sv:type="String"><sv:value/></sv:property><sv:property sv:name="hippo:message" sv:type="String"><sv:value>hello android</sv:value></sv:property></sv:node></sv:node></sv:node></sv:node>

@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This work is licensed under the Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 Netherlands License.
+To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/3.0/nl/ or,
+(b) send a letter to Creative Commons, 171 2nd Street, Suite 300, San Francisco, California, 94105, USA.
+-->
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="2007"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:folder</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>e6c49f6c-5ad8-4204-b90a-02815cf0912d</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>e6c49f6c-5ad8-4204-b90a-02815cf0912d</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"/><sv:property sv:name="hippostd:foldertype" sv:type="String"><sv:value>new-folder</sv:value><sv:value>new-document</sv:value></sv:property><sv:node sv:name="08"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:folder</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>b95f2f05-1b74-4868-8778-801f14ad2e03</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>b95f2f05-1b74-4868-8778-801f14ad2e03</sv:value><sv:value>e6c49f6c-5ad8-4204-b90a-02815cf0912d</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"/><sv:property sv:name="hippostd:foldertype" sv:type="String"><sv:value>new-folder</sv:value><sv:value>new-document</sv:value></sv:property><sv:node sv:name="cocoon-gettogether-2007"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:handle</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:hardhandle</sv:value><sv:value>hippo:translated</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>b30b40c4-4121-4441-a204-fc6f72bc4159</sv:value></sv:property><sv:node sv:name="hippo:translation"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:translation</sv:value></sv:property><sv:property sv:name="hippo:language" sv:type="String"><sv:value/></sv:property><sv:property sv:name="hippo:message" sv:type="String"><sv:value>Cocoon GetTogether 2007</sv:value></sv:property></sv:node><sv:node sv:name="cocoon-gettogether-2007"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>weblogdemo:blogpost</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>54e633a4-03ef-4fc2-9994-cbf3e7be0a14</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>54e633a4-03ef-4fc2-9994-cbf3e7be0a14</sv:value><sv:value>b30b40c4-4121-4441-a204-fc6f72bc4159</sv:value><sv:value>b95f2f05-1b74-4868-8778-801f14ad2e03</sv:value><sv:value>e6c49f6c-5ad8-4204-b90a-02815cf0912d</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"><sv:value>2007/08/cocoon-gettogether-2007</sv:value></sv:property><sv:property sv:name="hippostd:holder" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostd:state" sv:type="String"><sv:value>published</sv:value></sv:property><sv:property sv:name="hippostd:stateSummary" sv:type="String"><sv:value>live</sv:value></sv:property><sv:property sv:name="hippostd:tags" sv:type="String"><sv:value>hippo</sv:value><sv:value>Cocoon</sv:value></sv:property><sv:property sv:name="hippostdpubwf:createdBy" sv:type="String"><sv:value>admin</sv:value></sv:property><sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date"><sv:value>2007-08-09T01:03:00.002+02:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date"><sv:value>2010-05-17T19:51:35.776+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date"><sv:value>2010-05-17T19:51:56.865+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:bloggerid" sv:type="String"><sv:value>tag:blogger.com,1999:blog-5942185880332728298.post-7488765087593356799</sv:value></sv:property><sv:property sv:name="weblogdemo:date" sv:type="Date"><sv:value>2007-08-09T01:03:00.002+02:00</sv:value></sv:property><sv:property sv:name="weblogdemo:summary" sv:type="String"><sv:value/></sv:property><sv:property sv:name="weblogdemo:title" sv:type="String"><sv:value>Cocoon GetTogether 2007</sv:value></sv:property><sv:node sv:name="weblogdemo:body"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:html</sv:value></sv:property><sv:property sv:name="hippostd:content" sv:type="String"><sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;It's official now. The &lt;a href="http://www.cocoongt.org/"&gt;Cocoon
+GetTogether&lt;/a&gt; (GT) will take place on October 3-5 in Rome. Last year I
+attended my first GT in Amsterdam, the city I sort of grew up. I've been in Rome
+before and the city is worth seeing again. The first day is for the hackaton.
+New features will be added and patches will be applied which is good for the
+development of &lt;a href="http://cocoon.apache.org"&gt;Apache Cocoon&lt;/a&gt;. Last year
+Andrew Savory committed my patch for the SendMailTransformer.&lt;/p&gt;
+
+&lt;p&gt;The other days are for talks about the development of or with Cocoon, success
+stories, tutorials etc. &lt;a href="http://blog.jeroenreijn.com"&gt;Jeroen Reijn&lt;/a&gt;
+and I think about doing one or more talks during the GT. In May we did a
+&lt;a href="http://people.apache.org/%7Ejreijn/apachecon.html"&gt;presentation&lt;/a&gt; on
+the ApacheCon. It was our first talk for such an audience and we liked it. It
+was even harder to think what to talk about than speaking to a room full of
+geeks ;) Luckily we'll have a month before we have to come with the subject.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value></sv:property></sv:node></sv:node></sv:node><sv:node sv:name="hippo-community-apps"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:handle</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:hardhandle</sv:value><sv:value>hippo:translated</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>5e2c12f7-388a-4484-ac7d-6a2cf2eb4a59</sv:value></sv:property><sv:node sv:name="hippo:translation"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:translation</sv:value></sv:property><sv:property sv:name="hippo:language" sv:type="String"><sv:value/></sv:property><sv:property sv:name="hippo:message" sv:type="String"><sv:value>Hippo Community Apps</sv:value></sv:property></sv:node><sv:node sv:name="hippo-community-apps"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>weblogdemo:blogpost</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>450faf9c-52e2-4583-aef7-5fc480a47069</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>450faf9c-52e2-4583-aef7-5fc480a47069</sv:value><sv:value>5e2c12f7-388a-4484-ac7d-6a2cf2eb4a59</sv:value><sv:value>b95f2f05-1b74-4868-8778-801f14ad2e03</sv:value><sv:value>e6c49f6c-5ad8-4204-b90a-02815cf0912d</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"><sv:value>2007/08/hippo-community-apps</sv:value></sv:property><sv:property sv:name="hippostd:holder" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostd:state" sv:type="String"><sv:value>published</sv:value></sv:property><sv:property sv:name="hippostd:stateSummary" sv:type="String"><sv:value>live</sv:value></sv:property><sv:property sv:name="hippostd:tags" sv:type="String"><sv:value>hippo</sv:value><sv:value>cms6</sv:value></sv:property><sv:property sv:name="hippostdpubwf:createdBy" sv:type="String"><sv:value>admin</sv:value></sv:property><sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date"><sv:value>2007-08-06T21:26:00.001+02:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date"><sv:value>2010-05-26T17:42:22.337+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date"><sv:value>2010-05-26T17:42:29.143+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:bloggerid" sv:type="String"><sv:value>tag:blogger.com,1999:blog-5942185880332728298.post-2723630202766758251</sv:value></sv:property><sv:property sv:name="weblogdemo:date" sv:type="Date"><sv:value>2007-08-06T21:26:00.001+02:00</sv:value></sv:property><sv:property sv:name="weblogdemo:summary" sv:type="String"><sv:value/></sv:property><sv:property sv:name="weblogdemo:title" sv:type="String"><sv:value>Hippo Community Apps</sv:value></sv:property><sv:node sv:name="weblogdemo:body"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:html</sv:value></sv:property><sv:property sv:name="hippostd:content" sv:type="String"><sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;Writing a blog seems so easy. Just write about what's going on in your life,
+at work or what you read in the newspaper or on the internet. While making this
+entry I found out that writing about your work on the company weblog is more
+difficult than a personal blog. But this is also an opportunity to write about
+what's going on at Hippo, in the Apache community and other technical stuff. I
+hope you'll enjoy this and my future entries.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href="http://www.hippocms.org/display/CMS/Hippo+Community+Apps"&gt;Hippo
+Community Apps&lt;/a&gt; are really handy and cool extensions for (database driven)
+content that is not managed by Hippo CMS. At least, not &lt;em&gt;yet&lt;/em&gt; managed.
+The Java code already existed to manage newsletters, polls and a guest books,
+but there was no standard GUI. Last week we've done a lot of work to make a good
+working GUI for the newsletter manager. Within a few days it's very easy to add
+the newsletter manager to Hippo CMS. Then you can manage your subscribers, mail
+groups and send newsletters based on a document from your Hippo repository.&lt;/p&gt;
+
+&lt;p&gt;It is really fun to work on this project. Not only because we're making
+something good that will be used but also because it gave me the chance to learn
+new stuff. In the beginning I had to find out what does what but now I'm
+starting to see the bigger picture which makes it easier to add new
+functionality or ask for improvements. Sure, I've worked with Cocoon forms,
+flowscript and Java before but not as intensively as in this project. My
+colleagues wrote most of the Java code and the designer made the graphical
+design. I'm making the screens, create Cocoon forms and write flowscript so the
+user input will be handled by the Java code eventually. In the next days we're
+going to break (and eventually fix) some of the code to implement necessary
+changes for a few of our customers. It may take a few days but then we'll have a
+really good working GUI to manage your newsletters.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value></sv:property></sv:node></sv:node></sv:node><sv:node sv:name="speech-recognition-computer-vs-human-0"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:handle</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:hardhandle</sv:value><sv:value>hippo:translated</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>90dab179-7b34-4a74-9e20-1ce80bde3a3d</sv:value></sv:property><sv:node sv:name="hippo:translation"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:translation</sv:value></sv:property><sv:property sv:name="hippo:language" sv:type="String"><sv:value/></sv:property><sv:property sv:name="hippo:message" sv:type="String"><sv:value>Speech recognition: computer vs human 0-1</sv:value></sv:property></sv:node><sv:node sv:name="speech-recognition-computer-vs-human-0"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>weblogdemo:blogpost</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>1fee167d-42df-40b6-9230-0baaebf2adee</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>1fee167d-42df-40b6-9230-0baaebf2adee</sv:value><sv:value>90dab179-7b34-4a74-9e20-1ce80bde3a3d</sv:value><sv:value>b95f2f05-1b74-4868-8778-801f14ad2e03</sv:value><sv:value>e6c49f6c-5ad8-4204-b90a-02815cf0912d</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"><sv:value>2007/08/speech-recognition-computer-vs-human-0</sv:value></sv:property><sv:property sv:name="hippostd:holder" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostd:state" sv:type="String"><sv:value>published</sv:value></sv:property><sv:property sv:name="hippostd:stateSummary" sv:type="String"><sv:value>live</sv:value></sv:property><sv:property sv:name="hippostd:tags" sv:type="String"><sv:value>technology</sv:value></sv:property><sv:property sv:name="hippostdpubwf:createdBy" sv:type="String"><sv:value>admin</sv:value></sv:property><sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date"><sv:value>2007-08-18T17:27:00.000+02:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date"><sv:value>2010-08-10T15:37:30.225+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date"><sv:value>2010-08-10T15:37:44.084+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:bloggerid" sv:type="String"><sv:value>tag:blogger.com,1999:blog-5942185880332728298.post-6925666836056351158</sv:value></sv:property><sv:property sv:name="weblogdemo:date" sv:type="Date"><sv:value>2007-08-18T17:27:00.000+02:00</sv:value></sv:property><sv:property sv:name="weblogdemo:summary" sv:type="String"><sv:value/></sv:property><sv:property sv:name="weblogdemo:title" sv:type="String"><sv:value>Speech recognition: computer vs human 0-1</sv:value></sv:property><sv:node sv:name="weblogdemo:body"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:html</sv:value></sv:property><sv:property sv:name="hippostd:content" sv:type="String"><sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;My Saturday newspaper wasn't delivered today so I called the customer
+service. Someone decided that speech recognition would improve the speed of
+helping irritated customers. My irritation only raised, not lowered because of
+the speech confusion. I wonder with which accent they tested it? Should I have
+spoken with a heavy Amsterdam or Rotterdam accent?&lt;/p&gt;
+
+&lt;p&gt;After 3 failed attempts of saying my postal code and house number I was put
+through to a human being. She asked if my postal code was "???? XA" and I
+replied it was "???? XH" (the A and H sound very alike in Dutch). When she asked
+if my house number was "27" I was very puzzled. Who made a program that
+recognizes a "132" as "27"? Luckily the woman at the customer understood my
+address and she did find my details in the computer.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value></sv:property></sv:node></sv:node></sv:node><sv:node sv:name="wii-hippo"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:handle</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:hardhandle</sv:value><sv:value>hippo:translated</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>33d6f7a0-6fbc-47ee-a9c3-8ac86563fb05</sv:value></sv:property><sv:node sv:name="hippo:translation"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:translation</sv:value></sv:property><sv:property sv:name="hippo:language" sv:type="String"><sv:value/></sv:property><sv:property sv:name="hippo:message" sv:type="String"><sv:value>Wii @ Hippo</sv:value></sv:property></sv:node><sv:node sv:name="wii-hippo"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>weblogdemo:blogpost</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>c61beea5-66f9-4584-95de-19a2a98a6935</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>c61beea5-66f9-4584-95de-19a2a98a6935</sv:value><sv:value>33d6f7a0-6fbc-47ee-a9c3-8ac86563fb05</sv:value><sv:value>b95f2f05-1b74-4868-8778-801f14ad2e03</sv:value><sv:value>e6c49f6c-5ad8-4204-b90a-02815cf0912d</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"><sv:value>2007/08/wii-hippo</sv:value></sv:property><sv:property sv:name="hippostd:holder" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostd:state" sv:type="String"><sv:value>published</sv:value></sv:property><sv:property sv:name="hippostd:stateSummary" sv:type="String"><sv:value>live</sv:value></sv:property><sv:property sv:name="hippostd:tags" sv:type="String"><sv:value>hippo</sv:value></sv:property><sv:property sv:name="hippostdpubwf:createdBy" sv:type="String"><sv:value>admin</sv:value></sv:property><sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date"><sv:value>2007-08-17T23:01:00.000+02:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date"><sv:value>2010-05-17T20:00:59.567+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date"><sv:value>2010-05-17T20:01:12.479+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:bloggerid" sv:type="String"><sv:value>tag:blogger.com,1999:blog-5942185880332728298.post-4736649896847123155</sv:value></sv:property><sv:property sv:name="weblogdemo:date" sv:type="Date"><sv:value>2007-08-17T23:01:00.000+02:00</sv:value></sv:property><sv:property sv:name="weblogdemo:summary" sv:type="String"><sv:value/></sv:property><sv:property sv:name="weblogdemo:title" sv:type="String"><sv:value>Wii @ Hippo</sv:value></sv:property><sv:node sv:name="weblogdemo:body"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:html</sv:value></sv:property><sv:property sv:name="hippostd:content" sv:type="String"><sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;Being an employee at Hippo usually means working hard on projects. Being an
+employee at Hippo also means having fun from time to time. Not only during lunch
+time when we have good food and funny discussions or on Friday afternoon when
+the the cold bottles of Amstel beer are opened. We have a dart board to play
+games and clear the mind. On top of this Hippo bought a
+&lt;a href="http://wii.com/"&gt;Wii&lt;/a&gt;! So tonight, after a week of work, we blew off
+the steam and played tennis on the big screen in the meeting room. At the moment
+I have the slight advantage of owning one so I already knew the moves. However,
+I think in my colleagues will beat me in a few weeks. Ah well, if it is too
+easy, it's no fun.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value></sv:property></sv:node></sv:node></sv:node></sv:node><sv:node sv:name="09"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:folder</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>38a05759-9ad7-44b3-8fcd-42f59a5f06a5</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>38a05759-9ad7-44b3-8fcd-42f59a5f06a5</sv:value><sv:value>e6c49f6c-5ad8-4204-b90a-02815cf0912d</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"/><sv:property sv:name="hippostd:foldertype" sv:type="String"><sv:value>new-folder</sv:value><sv:value>new-document</sv:value></sv:property><sv:node sv:name="my-first-steps-with-cocoon-22"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:handle</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:hardhandle</sv:value><sv:value>hippo:translated</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>7ba5aafb-dc38-435f-86ad-dfe3a7d8f491</sv:value></sv:property><sv:node sv:name="hippo:translation"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:translation</sv:value></sv:property><sv:property sv:name="hippo:language" sv:type="String"><sv:value/></sv:property><sv:property sv:name="hippo:message" sv:type="String"><sv:value>My first steps with Cocoon 2.2</sv:value></sv:property></sv:node><sv:node sv:name="my-first-steps-with-cocoon-22"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>weblogdemo:blogpost</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>370c9092-ce10-471b-855c-d57d1be43b5a</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>370c9092-ce10-471b-855c-d57d1be43b5a</sv:value><sv:value>7ba5aafb-dc38-435f-86ad-dfe3a7d8f491</sv:value><sv:value>38a05759-9ad7-44b3-8fcd-42f59a5f06a5</sv:value><sv:value>e6c49f6c-5ad8-4204-b90a-02815cf0912d</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"><sv:value>2007/09/my-first-steps-with-cocoon-22</sv:value></sv:property><sv:property sv:name="hippostd:holder" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostd:state" sv:type="String"><sv:value>published</sv:value></sv:property><sv:property sv:name="hippostd:stateSummary" sv:type="String"><sv:value>live</sv:value></sv:property><sv:property sv:name="hippostd:tags" sv:type="String"><sv:value>hippo</sv:value><sv:value>Cocoon</sv:value></sv:property><sv:property sv:name="hippostdpubwf:createdBy" sv:type="String"><sv:value>admin</sv:value></sv:property><sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date"><sv:value>2007-09-28T22:33:00.001+02:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date"><sv:value>2010-05-17T20:04:30.315+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date"><sv:value>2010-05-17T20:06:12.208+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:bloggerid" sv:type="String"><sv:value>tag:blogger.com,1999:blog-5942185880332728298.post-8605564245371374361</sv:value></sv:property><sv:property sv:name="weblogdemo:date" sv:type="Date"><sv:value>2007-09-28T22:33:00.001+02:00</sv:value></sv:property><sv:property sv:name="weblogdemo:summary" sv:type="String"><sv:value/></sv:property><sv:property sv:name="weblogdemo:title" sv:type="String"><sv:value>My first steps with Cocoon 2.2</sv:value></sv:property><sv:node sv:name="weblogdemo:body"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:html</sv:value></sv:property><sv:property sv:name="hippostd:content" sv:type="String"><sv:value>&amp;lt;html&amp;gt;
+&amp;lt;body&amp;gt;
+
+&amp;lt;p&amp;gt;Better late than never is maybe the best description of what I did this
+morning. &amp;lt;a href="http://cocoon.apache.org/2.2/"&amp;gt;Cocoon 2.2&amp;lt;/a&amp;gt; is about to be
+released but apart from &amp;lt;a href="http://www.andrewsavory.com/"&amp;gt;Andrew
+Savory&amp;lt;/a&amp;gt;'s
+&amp;lt;a href="http://people.apache.org/~asavory/apacheconeu2007/"&amp;gt;presentation&amp;lt;/a&amp;gt;
+on the &amp;lt;a href="http://org.apachecon.com"&amp;gt;ApacheCon&amp;lt;/a&amp;gt; I had never seen it
+running. I finally finished my running projects so I had some time to play with
+Cocoon 2.2.&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;Cocoon 2.2 seems to be better documented than the previous versions so there
+was actually an &amp;lt;a href="http://cocoon.apache.org/2.2/1159_1_1.html"&amp;gt;online
+tutorial&amp;lt;/a&amp;gt; how to make your first application. Maven 2 appeared to be on my
+system already so I had to remove the old beta version which was from 2005 or
+so. Luckily this was not rocket science. Then I created a Java project in
+Eclipse and created my own block in that folder. I shouldn't have done that
+because I ended up with a double folder structure. Shift-delete, re-create my
+own block and import that in Eclipse, much better :) I tried to create it from
+1.0.0-RC2 because I saw there was a tag for it not knowing Reinhard was working
+hard releasing all the artifacts today. I had to do it with 1.0.0-RC1 but that
+worked too.&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;1 hour and 2 cups of coffee later I had my first Cocoon 2.2 application
+running, NOT! The maven Jetty plugin cost me a lot more time. For some unknown
+reason it couldn't find the right version of some jars so Jetty wouldn't start.
+I have no experience with Maven 2 at all so I didn't know where to look.
+&amp;lt;a href="http://blog.jeroenreijn.com/"&amp;gt;Jeroen&amp;lt;/a&amp;gt; was so kind to help me with
+settings but in the end I had to manual install those jars in my repository.
+Took some time but finally I had a "Hello World!" on my screen. Getting Cocoon
+2.1 run for the first time is much easier but the 2.2 blocks setup is better to
+maintain in the real world.&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;Then it was time for the next step: connect it with Hippo Repository through
+WebDAV. I added the WebDAV block to the dependencies and recompiled my project.
+I don't know what I did wrong but I found no WebDAV configuration at all. I
+checked out the whole 2.2 trunk to find a working sample but by the time I had
+checked out and compiled that, playtime was over and I had to do other work (and
+eat a "broodje knakworst"). To be continued during the Cocoon GT hackaton...&amp;lt;/p&amp;gt;
+
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;</sv:value></sv:property></sv:node></sv:node></sv:node><sv:node sv:name="hippo-community-apps-released"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:handle</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:hardhandle</sv:value><sv:value>hippo:translated</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>6397abfd-4865-4694-b9f5-481223c6d8fc</sv:value></sv:property><sv:node sv:name="hippo:translation"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:translation</sv:value></sv:property><sv:property sv:name="hippo:language" sv:type="String"><sv:value/></sv:property><sv:property sv:name="hippo:message" sv:type="String"><sv:value>Hippo Community Apps released!</sv:value></sv:property></sv:node><sv:node sv:name="hippo-community-apps-released"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>weblogdemo:blogpost</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>26315168-0da1-4ac3-8a31-46a9cbfaa01f</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>26315168-0da1-4ac3-8a31-46a9cbfaa01f</sv:value><sv:value>6397abfd-4865-4694-b9f5-481223c6d8fc</sv:value><sv:value>38a05759-9ad7-44b3-8fcd-42f59a5f06a5</sv:value><sv:value>e6c49f6c-5ad8-4204-b90a-02815cf0912d</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"><sv:value>2007/09/hippo-community-apps-released</sv:value></sv:property><sv:property sv:name="hippostd:holder" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostd:state" sv:type="String"><sv:value>published</sv:value></sv:property><sv:property sv:name="hippostd:stateSummary" sv:type="String"><sv:value>live</sv:value></sv:property><sv:property sv:name="hippostd:tags" sv:type="String"><sv:value>hippo</sv:value><sv:value>cms6</sv:value></sv:property><sv:property sv:name="hippostdpubwf:createdBy" sv:type="String"><sv:value>admin</sv:value></sv:property><sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date"><sv:value>2007-09-17T18:55:00.000+02:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date"><sv:value>2010-08-10T15:43:32.484+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date"><sv:value>2010-08-10T15:47:35.911+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:bloggerid" sv:type="String"><sv:value>tag:blogger.com,1999:blog-5942185880332728298.post-460099631759685048</sv:value></sv:property><sv:property sv:name="weblogdemo:date" sv:type="Date"><sv:value>2007-09-17T18:55:00.000+02:00</sv:value></sv:property><sv:property sv:name="weblogdemo:summary" sv:type="String"><sv:value/></sv:property><sv:property sv:name="weblogdemo:title" sv:type="String"><sv:value>Hippo Community Apps released!</sv:value></sv:property><sv:node sv:name="weblogdemo:body"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:html</sv:value></sv:property><sv:property sv:name="hippostd:content" sv:type="String"><sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;Today we released a new version of the
+&lt;a href="http://www.hippocms.org/display/CMS/Hippo+Community+Apps"&gt;Hippo
+Community Apps&lt;/a&gt;. A lot of work has been done in the rewrite of the Newsletter
+manager and its user interface. This makes the Hippo Community Apps an open
+source plug in for Hippo CMS to manage mailings and polls. The Hippo Community
+Apps also contain a Java API for Guest books.&lt;/p&gt;
+
+&lt;p&gt;The major change in the maling functionality is sending one newsletter to
+multiple mail groups. Each group contains subscribers that are interested in a
+particular subject.&lt;/p&gt;
+
+&lt;p&gt;
+ &lt;a href="mailgroups.png/{_document}/hippogallery:picture" rel="lightbox" class="grouped_elements"&gt;&lt;img facetselect="mailgroups.png/{_document}/hippogallery:thumbnail" src="mailgroups.png/{_document}/hippogallery:thumbnail" alt="Mail groups"/&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;In this version you can define multiple templates for your newsletters. You
+can send a newsletter in the look and feel of your public website and create an
+other mailing in the look and feel of your company intranet with links and
+images resolving to the correct environment. Content and looks are separated
+which means you only have to create the newsletter document once in the CMS and
+use it to create several mailings and display it on your website.&lt;/p&gt;
+
+&lt;p&gt;
+ &lt;a href="newslettertypes.png/{_document}/hippogallery:picture" rel="lightbox" class="grouped_elements"&gt;&lt;img facetselect="newslettertypes.png/{_document}/hippogallery:thumbnail" src="newslettertypes.png/{_document}/hippogallery:thumbnail" alt="Mail templates"/&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The new version contains an import tool for subscribers. Export all your
+employees or customers from your local database to a CSV file and import them
+into the newsletter manager. They are immediately subscribed to the mail group
+of your choice.&lt;/p&gt;
+
+&lt;p&gt;
+ &lt;a href="subscribers.png/{_document}/hippogallery:picture" rel="lightbox" class="grouped_elements"&gt;&lt;img facetselect="subscribers.png/{_document}/hippogallery:thumbnail" src="subscribers.png/{_document}/hippogallery:thumbnail" alt="Subscribers listing"/&gt;&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Hippo Community Apps is more than just a tool to manage your mailings. It
+also contains a graphical user interface to manage polls for your website or
+intranet.&lt;/p&gt;
+
+&lt;p&gt;
+ &lt;a href="poll.png/{_document}/hippogallery:picture" rel="lightbox" class="grouped_elements"&gt;&lt;img facetselect="poll.png/{_document}/hippogallery:thumbnail" src="poll.png/{_document}/hippogallery:thumbnail" alt="Poll manager"/&gt;&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value></sv:property><sv:node sv:name="mailgroups.png"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:facetselect</sv:value></sv:property><sv:property sv:name="hippo:docbase" sv:type="String"><sv:value>c77aa0ab-df34-42a7-96a5-91d97e9ac4fe</sv:value></sv:property><sv:property sv:name="hippo:facets" sv:type="String"/><sv:property sv:name="hippo:modes" sv:type="String"/><sv:property sv:name="hippo:values" sv:type="String"/></sv:node><sv:node sv:name="newslettertypes.png"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:facetselect</sv:value></sv:property><sv:property sv:name="hippo:docbase" sv:type="String"><sv:value>31cde430-d05a-4dc3-ae59-7ca7ae5d2350</sv:value></sv:property><sv:property sv:name="hippo:facets" sv:type="String"/><sv:property sv:name="hippo:modes" sv:type="String"/><sv:property sv:name="hippo:values" sv:type="String"/></sv:node><sv:node sv:name="subscribers.png"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:facetselect</sv:value></sv:property><sv:property sv:name="hippo:docbase" sv:type="String"><sv:value>8686bf6f-7bc6-4cc0-98ba-6f32faa03b8b</sv:value></sv:property><sv:property sv:name="hippo:facets" sv:type="String"/><sv:property sv:name="hippo:modes" sv:type="String"/><sv:property sv:name="hippo:values" sv:type="String"/></sv:node><sv:node sv:name="poll.png"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:facetselect</sv:value></sv:property><sv:property sv:name="hippo:docbase" sv:type="String"><sv:value>eafeb8b4-6e37-4425-a07e-788935df4b87</sv:value></sv:property><sv:property sv:name="hippo:facets" sv:type="String"/><sv:property sv:name="hippo:modes" sv:type="String"/><sv:property sv:name="hippo:values" sv:type="String"/></sv:node></sv:node></sv:node></sv:node><sv:node sv:name="cocoon-22-at-gettogether"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:handle</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:hardhandle</sv:value><sv:value>hippo:translated</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>410b7bbe-df2b-4bac-9699-28cf2bc116c8</sv:value></sv:property><sv:node sv:name="hippo:translation"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:translation</sv:value></sv:property><sv:property sv:name="hippo:language" sv:type="String"><sv:value/></sv:property><sv:property sv:name="hippo:message" sv:type="String"><sv:value>Cocoon 2.2 at the GetTogether</sv:value></sv:property></sv:node><sv:node sv:name="cocoon-22-at-gettogether"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>weblogdemo:blogpost</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>47fd051d-7757-4a05-aa8a-3e7347352070</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>47fd051d-7757-4a05-aa8a-3e7347352070</sv:value><sv:value>410b7bbe-df2b-4bac-9699-28cf2bc116c8</sv:value><sv:value>38a05759-9ad7-44b3-8fcd-42f59a5f06a5</sv:value><sv:value>e6c49f6c-5ad8-4204-b90a-02815cf0912d</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"><sv:value>2007/09/cocoon-22-at-gettogether</sv:value></sv:property><sv:property sv:name="hippostd:holder" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostd:state" sv:type="String"><sv:value>published</sv:value></sv:property><sv:property sv:name="hippostd:stateSummary" sv:type="String"><sv:value>live</sv:value></sv:property><sv:property sv:name="hippostd:tags" sv:type="String"><sv:value>technology</sv:value><sv:value>hippo</sv:value><sv:value>Cocoon</sv:value></sv:property><sv:property sv:name="hippostdpubwf:createdBy" sv:type="String"><sv:value>admin</sv:value></sv:property><sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date"><sv:value>2007-09-07T14:07:00.000+02:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date"><sv:value>2010-05-17T20:05:22.450+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date"><sv:value>2010-05-17T20:06:01.789+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:bloggerid" sv:type="String"><sv:value>tag:blogger.com,1999:blog-5942185880332728298.post-3816247376225157144</sv:value></sv:property><sv:property sv:name="weblogdemo:date" sv:type="Date"><sv:value>2007-09-07T14:07:00.000+02:00</sv:value></sv:property><sv:property sv:name="weblogdemo:summary" sv:type="String"><sv:value/></sv:property><sv:property sv:name="weblogdemo:title" sv:type="String"><sv:value>Cocoon 2.2 at the GetTogether</sv:value></sv:property><sv:node sv:name="weblogdemo:body"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:html</sv:value></sv:property><sv:property sv:name="hippostd:content" sv:type="String"><sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;Cocoon 2.2 is about to be released and I'm going to try to build a website
+with it. It shouldn't be rocket science, but I'm curious to see how hard or how
+easy it will be. At Hippo we spent a lot of effort in creating a
+&lt;a href="http://blogs.hippo.nl/niels/2007/08/its_a_kind_of_magic.html"&gt;Project
+Wizard&lt;/a&gt; so if I start a new project I don't have to think about the initial
+set up. It's time we don't want to spend but it also makes you kind of lazy. I
+noticed it first when I started at Hippo.&lt;/p&gt;
+
+&lt;p&gt;Arjé gave me some exercises with the Cocoon core. For the exercises extra
+blocks were needed and my colleagues had to dig into their memory how to add
+them. When we build a website we only have to add the block to the build process
+and we're done. Getting a "Hello World" from Cocoon 2.2 won't be hard, but how
+easy will it be to connect to Hippo Repository and do DASL queries?&lt;br/&gt;
+I'll find out soon and hope to talk about it on the CocoonGT in Rome.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value></sv:property></sv:node></sv:node></sv:node></sv:node><sv:node sv:name="11"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:folder</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>95d0ee2f-7968-4f93-b955-f9b581790c1f</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>95d0ee2f-7968-4f93-b955-f9b581790c1f</sv:value><sv:value>e6c49f6c-5ad8-4204-b90a-02815cf0912d</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"/><sv:property sv:name="hippostd:foldertype" sv:type="String"><sv:value>new-folder</sv:value><sv:value>new-document</sv:value></sv:property><sv:node sv:name="if-it-ain-broken-don-fix-it"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:handle</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:hardhandle</sv:value><sv:value>hippo:translated</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>4ef9fecd-4071-4458-b5e3-be71d59a2cc8</sv:value></sv:property><sv:node sv:name="hippo:translation"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:translation</sv:value></sv:property><sv:property sv:name="hippo:language" sv:type="String"><sv:value/></sv:property><sv:property sv:name="hippo:message" sv:type="String"><sv:value>If it ain't broken, don't fix it</sv:value></sv:property></sv:node><sv:node sv:name="if-it-ain-broken-don-fix-it"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>weblogdemo:blogpost</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>09c2821e-7836-4e74-b036-6695275f971d</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>09c2821e-7836-4e74-b036-6695275f971d</sv:value><sv:value>4ef9fecd-4071-4458-b5e3-be71d59a2cc8</sv:value><sv:value>95d0ee2f-7968-4f93-b955-f9b581790c1f</sv:value><sv:value>e6c49f6c-5ad8-4204-b90a-02815cf0912d</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"><sv:value>2007/11/if-it-ain-broken-don-fix-it</sv:value></sv:property><sv:property sv:name="hippostd:holder" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostd:state" sv:type="String"><sv:value>published</sv:value></sv:property><sv:property sv:name="hippostd:stateSummary" sv:type="String"><sv:value>live</sv:value></sv:property><sv:property sv:name="hippostd:tags" sv:type="String"><sv:value>Personal</sv:value></sv:property><sv:property sv:name="hippostdpubwf:createdBy" sv:type="String"><sv:value>admin</sv:value></sv:property><sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date"><sv:value>2007-11-26T18:27:00.000+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date"><sv:value>2010-05-17T20:18:23.545+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date"><sv:value>2010-05-17T20:19:08.666+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:bloggerid" sv:type="String"><sv:value>tag:blogger.com,1999:blog-5942185880332728298.post-3404793657704648373</sv:value></sv:property><sv:property sv:name="weblogdemo:date" sv:type="Date"><sv:value>2007-11-26T18:27:00.000+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:summary" sv:type="String"><sv:value/></sv:property><sv:property sv:name="weblogdemo:title" sv:type="String"><sv:value>If it ain't broken, don't fix it</sv:value></sv:property><sv:node sv:name="weblogdemo:body"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:html</sv:value></sv:property><sv:property sv:name="hippostd:content" sv:type="String"><sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;I stayed at home today for my new kettle for hot water and heating. My house
+owner is replacing them in the building although mine was still pretty new. The
+installation guys looked amazed when they saw mine, did it really need to be
+replaced?&lt;br/&gt;
+3 hours later they were kind of finished, my hands were frozen because they left
+the door open most of the time and my floor was dirty. They forgot to bring a
+new thermostat so they had to come back which they did very fast. Installing it
+was obviously a bit too difficult. After another hour they said they couldn't
+find the problem and another guy was coming to fix it. 4 hours later, still no
+repair man and they couldn't give an indication when he'd come. I've got hot
+water but no heating so my fingers are still cold. The worse thing is I can't
+leave the house to meet friends this evening and I can't get out for food. I
+wish they hadn't replaced my almost new kettle.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value></sv:property></sv:node></sv:node></sv:node><sv:node sv:name="running-hippo-cms-in-leopard"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:handle</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:hardhandle</sv:value><sv:value>hippo:translated</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>a46c1eea-3264-425c-b930-ee7d97f66379</sv:value></sv:property><sv:node sv:name="hippo:translation"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:translation</sv:value></sv:property><sv:property sv:name="hippo:language" sv:type="String"><sv:value/></sv:property><sv:property sv:name="hippo:message" sv:type="String"><sv:value>Running Hippo CMS in Leopard</sv:value></sv:property></sv:node><sv:node sv:name="running-hippo-cms-in-leopard"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>weblogdemo:blogpost</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>09faf922-7f09-41a1-ab88-ef39b6cd8ee0</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>09faf922-7f09-41a1-ab88-ef39b6cd8ee0</sv:value><sv:value>a46c1eea-3264-425c-b930-ee7d97f66379</sv:value><sv:value>95d0ee2f-7968-4f93-b955-f9b581790c1f</sv:value><sv:value>e6c49f6c-5ad8-4204-b90a-02815cf0912d</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"><sv:value>2007/11/running-hippo-cms-in-leopard</sv:value></sv:property><sv:property sv:name="hippostd:holder" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostd:state" sv:type="String"><sv:value>published</sv:value></sv:property><sv:property sv:name="hippostd:stateSummary" sv:type="String"><sv:value>live</sv:value></sv:property><sv:property sv:name="hippostd:tags" sv:type="String"><sv:value>hippo</sv:value><sv:value>cms6</sv:value></sv:property><sv:property sv:name="hippostdpubwf:createdBy" sv:type="String"><sv:value>admin</sv:value></sv:property><sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date"><sv:value>2007-11-01T20:55:00.000+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date"><sv:value>2010-08-10T15:51:41.086+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date"><sv:value>2010-08-10T15:53:08.516+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:bloggerid" sv:type="String"><sv:value>tag:blogger.com,1999:blog-5942185880332728298.post-1024068316334482393</sv:value></sv:property><sv:property sv:name="weblogdemo:date" sv:type="Date"><sv:value>2007-11-01T20:55:00.000+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:summary" sv:type="String"><sv:value/></sv:property><sv:property sv:name="weblogdemo:title" sv:type="String"><sv:value>Running Hippo CMS in Leopard</sv:value></sv:property><sv:node sv:name="weblogdemo:body"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:html</sv:value></sv:property><sv:property sv:name="hippostd:content" sv:type="String"><sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;
+&lt;a href="leopard.jpg/{_document}/hippogallery:picture" rel="lightbox" class="grouped_elements"&gt;&lt;img facetselect="leopard.jpg/{_document}/hippogallery:thumbnail" style="float: right; margin: 0pt 0pt 5px 10px;" src="leopard.jpg/{_document}/hippogallery:thumbnail" alt="Screenshot of Hippo CMS in Leopard"/&gt;&lt;/a&gt;
+After buying my new iMac I was curious how easy it was to get Hippo CMS running
+in Leopard (MacOS X 10.5). Well, it was very easy. I
+&lt;a href="http://www.hippocms.org/display/CMS/Hippo+CMS+Downloads"&gt;downloaded&lt;/a&gt;
+the latest stable releases of Hippo CMS and Hippo Repository, typed from the
+terminal sh bin/fortress.sh console and I was able to use Hippo CMS in Firefox.
+&lt;/p&gt;
+
+&lt;p&gt;For the more hard core developers: follow
+"&lt;a href="http://www.hippocms.org/display/CMS/Hippo+CMS+Downloads"&gt;Building
+Hippo CMS from Source&lt;/a&gt;". The hardest part was setting my environment
+variables for Maven.
+&lt;a href="http://www.bitwalker.nl/blog/using_maven_with_mac_os_x"&gt;Using Maven
+with MacOS X&lt;/a&gt; was very helpful. I spent most time in setting the environment
+variables while chatting (not a good combination) and downloading all the
+dependencies because I had an empty Maven repository. After that, Hippo CMS
+compiled in 15 seconds and ran without any problems. I like it when software
+runs out of the box.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value></sv:property><sv:node sv:name="leopard.jpg"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:facetselect</sv:value></sv:property><sv:property sv:name="hippo:docbase" sv:type="String"><sv:value>b04c74d9-d3bc-4ecc-90e3-4f030c70b355</sv:value></sv:property><sv:property sv:name="hippo:facets" sv:type="String"/><sv:property sv:name="hippo:modes" sv:type="String"/><sv:property sv:name="hippo:values" sv:type="String"/></sv:node></sv:node></sv:node></sv:node></sv:node><sv:node sv:name="10"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:folder</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>144d1dbc-4b32-400f-bf4a-9b1b2db0fcac</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>144d1dbc-4b32-400f-bf4a-9b1b2db0fcac</sv:value><sv:value>e6c49f6c-5ad8-4204-b90a-02815cf0912d</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"/><sv:property sv:name="hippostd:foldertype" sv:type="String"><sv:value>new-folder</sv:value><sv:value>new-document</sv:value></sv:property><sv:node sv:name="fon-wifi-at-home"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:handle</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:hardhandle</sv:value><sv:value>hippo:translated</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>7d814fbc-3aa7-4aee-b46a-2306a840d7ba</sv:value></sv:property><sv:node sv:name="hippo:translation"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:translation</sv:value></sv:property><sv:property sv:name="hippo:language" sv:type="String"><sv:value/></sv:property><sv:property sv:name="hippo:message" sv:type="String"><sv:value>Fon Wifi at home</sv:value></sv:property></sv:node><sv:node sv:name="fon-wifi-at-home"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>weblogdemo:blogpost</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>e161af8e-5265-4f9e-8a8b-419b98d885dc</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>e161af8e-5265-4f9e-8a8b-419b98d885dc</sv:value><sv:value>7d814fbc-3aa7-4aee-b46a-2306a840d7ba</sv:value><sv:value>144d1dbc-4b32-400f-bf4a-9b1b2db0fcac</sv:value><sv:value>e6c49f6c-5ad8-4204-b90a-02815cf0912d</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"><sv:value>2007/10/fon-wifi-at-home</sv:value></sv:property><sv:property sv:name="hippostd:holder" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostd:state" sv:type="String"><sv:value>published</sv:value></sv:property><sv:property sv:name="hippostd:stateSummary" sv:type="String"><sv:value>live</sv:value></sv:property><sv:property sv:name="hippostd:tags" sv:type="String"><sv:value>technology</sv:value></sv:property><sv:property sv:name="hippostdpubwf:createdBy" sv:type="String"><sv:value>admin</sv:value></sv:property><sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date"><sv:value>2007-10-13T14:13:00.000+02:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date"><sv:value>2010-07-27T20:20:49.848+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date"><sv:value>2010-07-27T20:25:23.763+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:bloggerid" sv:type="String"><sv:value>tag:blogger.com,1999:blog-5942185880332728298.post-1429447597146625576</sv:value></sv:property><sv:property sv:name="weblogdemo:date" sv:type="Date"><sv:value>2007-10-13T14:13:00.000+02:00</sv:value></sv:property><sv:property sv:name="weblogdemo:summary" sv:type="String"><sv:value/></sv:property><sv:property sv:name="weblogdemo:title" sv:type="String"><sv:value>Fon Wifi at home</sv:value></sv:property><sv:node sv:name="weblogdemo:body"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:html</sv:value></sv:property><sv:property sv:name="hippostd:content" sv:type="String"><sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;&lt;span style="float:right;margin:auto 0 1em 5px;"&gt;
+&lt;a href="fonera.jpg/{_document}/hippogallery:picture" class="grouped_elements" rel="lightbox"&gt;&lt;img facetselect="fonera.jpg/{_document}/hippogallery:thumbnail" src="fonera.jpg/{_document}/hippogallery:thumbnail" alt="Image of a Fonera router"/&gt;&lt;/a&gt;&lt;/span&gt;I
+had no Wifi in my house. No problem if you only use one desktop pc. From time to
+time I bring my work laptop to home. My Wii has built in Wifi, Ethernet is
+optional. So it was time to buy a Wifi router.
+&lt;a href="http://nl.linkedin.com/in/johanstuyts"&gt;Johan&lt;/a&gt; was frequently talking
+about &lt;a href="http://www.fon.com/en/"&gt;Fon&lt;/a&gt; and their Fonera. The Fonera has
+both a private Wifi network for your own devices and a public network other Fon
+users can connect to when they travel through the world.&lt;/p&gt;
+
+&lt;p&gt;The disadvantage of the classic Fonera was that I'd have to give up my
+Ethernet connection or buy a separate switch. I didn't buy one until they came
+with the Fonera+ that did have an extra Ethernet port for your LAN. I ordered it
+last week and 6 days later UPS came with the Fonera+. The setup was very easy
+and now my house has 2 Wifi connections. My Wii and Hippo laptop are connected
+to my private network and other Fon users can use (a part of) my internet
+connection through the public Wifi network. I haven't set a limit yet so in
+theory they can use up my whole 8 Mbps download.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value></sv:property><sv:node sv:name="fonera.jpg"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:facetselect</sv:value></sv:property><sv:property sv:name="hippo:docbase" sv:type="String"><sv:value>d1137a6e-a707-415c-978f-b408894c9ed3</sv:value></sv:property><sv:property sv:name="hippo:facets" sv:type="String"/><sv:property sv:name="hippo:modes" sv:type="String"/><sv:property sv:name="hippo:values" sv:type="String"/></sv:node></sv:node></sv:node></sv:node><sv:node sv:name="my-presentation-on-cocoongt"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:handle</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:hardhandle</sv:value><sv:value>hippo:translated</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>1d4ebd3f-5e8f-4aae-8d21-3b1704697970</sv:value></sv:property><sv:node sv:name="hippo:translation"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:translation</sv:value></sv:property><sv:property sv:name="hippo:language" sv:type="String"><sv:value/></sv:property><sv:property sv:name="hippo:message" sv:type="String"><sv:value>My presentation on CocoonGT</sv:value></sv:property></sv:node><sv:node sv:name="my-presentation-on-cocoongt"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>weblogdemo:blogpost</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>fc70cfc1-47fa-4d16-a0b0-95d90c9f6b02</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>fc70cfc1-47fa-4d16-a0b0-95d90c9f6b02</sv:value><sv:value>1d4ebd3f-5e8f-4aae-8d21-3b1704697970</sv:value><sv:value>144d1dbc-4b32-400f-bf4a-9b1b2db0fcac</sv:value><sv:value>e6c49f6c-5ad8-4204-b90a-02815cf0912d</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"><sv:value>2007/10/my-presentation-on-cocoongt</sv:value></sv:property><sv:property sv:name="hippostd:holder" sv:type="String"><sv:value>admin</sv:value></sv:property><sv:property sv:name="hippostd:state" sv:type="String"><sv:value>unpublished</sv:value></sv:property><sv:property sv:name="hippostd:stateSummary" sv:type="String"><sv:value>new</sv:value></sv:property><sv:property sv:name="hippostd:tags" sv:type="String"><sv:value>hippo</sv:value><sv:value>Cocoon</sv:value></sv:property><sv:property sv:name="hippostdpubwf:createdBy" sv:type="String"><sv:value>admin</sv:value></sv:property><sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date"><sv:value>2007-10-08T10:40:00.000+02:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date"><sv:value>2009-02-05T18:44:35.742+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String"><sv:value>admin</sv:value></sv:property><sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date"><sv:value>2010-05-14T11:22:13.915+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:bloggerid" sv:type="String"><sv:value>tag:blogger.com,1999:blog-5942185880332728298.post-2141464954109705919</sv:value></sv:property><sv:property sv:name="weblogdemo:date" sv:type="Date"><sv:value>2007-10-08T10:40:00.000+02:00</sv:value></sv:property><sv:property sv:name="weblogdemo:title" sv:type="String"><sv:value>My presentation at CocoonGT</sv:value></sv:property><sv:node sv:name="weblogdemo:body"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:html</sv:value></sv:property><sv:property sv:name="hippostd:content" sv:type="String"><sv:value>&lt;html&gt;&lt;body&gt;
+                  &lt;object
+      type="application/x-shockwave-flash"
+      data="http://s3.amazonaws.com/slideshare/ssplayer.swf?id=126352&amp;amp;doc=cocoon-project-wizard1971"
+      width="425" height="348"&gt;&lt;param name="movie"
+      value="http://s3.amazonaws.com/slideshare/ssplayer.swf?id=126352&amp;amp;doc=cocoon-project-wizard1971"
+      /&gt;&lt;/object&gt;
+                  &lt;/body&gt;&lt;/html&gt;</sv:value></sv:property></sv:node></sv:node></sv:node><sv:node sv:name="looking-back-at-cocoon-gettogether"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:handle</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:hardhandle</sv:value><sv:value>hippo:translated</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>acdd7d32-e8eb-405e-8ce0-3acbee072420</sv:value></sv:property><sv:node sv:name="hippo:translation"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:translation</sv:value></sv:property><sv:property sv:name="hippo:language" sv:type="String"><sv:value/></sv:property><sv:property sv:name="hippo:message" sv:type="String"><sv:value>Looking back at the Cocoon GetTogether</sv:value></sv:property></sv:node><sv:node sv:name="looking-back-at-cocoon-gettogether"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>weblogdemo:blogpost</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>feb96ad3-fbaa-40f2-a0db-b6fdf07dfa96</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>feb96ad3-fbaa-40f2-a0db-b6fdf07dfa96</sv:value><sv:value>acdd7d32-e8eb-405e-8ce0-3acbee072420</sv:value><sv:value>144d1dbc-4b32-400f-bf4a-9b1b2db0fcac</sv:value><sv:value>e6c49f6c-5ad8-4204-b90a-02815cf0912d</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"><sv:value>2007/10/looking-back-at-cocoon-gettogether</sv:value></sv:property><sv:property sv:name="hippostd:holder" sv:type="String"><sv:value>admin</sv:value></sv:property><sv:property sv:name="hippostd:state" sv:type="String"><sv:value>published</sv:value></sv:property><sv:property sv:name="hippostd:stateSummary" sv:type="String"><sv:value>live</sv:value></sv:property><sv:property sv:name="hippostd:tags" sv:type="String"><sv:value>hippo</sv:value><sv:value>Cocoon</sv:value></sv:property><sv:property sv:name="hippostdpubwf:createdBy" sv:type="String"><sv:value>admin</sv:value></sv:property><sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date"><sv:value>2007-10-06T01:48:00.000+02:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date"><sv:value>2009-02-05T18:44:35.742+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String"><sv:value>admin</sv:value></sv:property><sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date"><sv:value>2010-05-14T11:22:22.117+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:bloggerid" sv:type="String"><sv:value>tag:blogger.com,1999:blog-5942185880332728298.post-3832405198968723756</sv:value></sv:property><sv:property sv:name="weblogdemo:date" sv:type="Date"><sv:value>2007-10-06T01:48:00.000+02:00</sv:value></sv:property><sv:property sv:name="weblogdemo:title" sv:type="String"><sv:value>Looking back at the Cocoon GetTogether</sv:value></sv:property><sv:node sv:name="weblogdemo:body"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:html</sv:value></sv:property><sv:property sv:name="hippostd:content" sv:type="String"><sv:value>&lt;html&gt;&lt;body&gt;
+                  When I look to the right I see the lights of
+      Rome. The plane just left Fiumicino and is flying back to
+      Amsterdam. From chaos and last minute crisis management back to
+      the over-organized northern Europe. From pizza and pasta back to a
+      cheese sandwich. However I wasn't in Rome just for fun, although
+      we had a very good time. The first two days I spent most of the
+      time preparing my talk, meet other Cocoonistas, walk through the
+      zoo where the GetTogether was held and have very strong espresso
+      to keep me awake.&lt;br/&gt;&lt;br/&gt;The hackaton was completely
+      different to me than last year. The 2006 edition was about fixing
+      issues for Cocoon 2.1 and Cocoon 2.2 was still unknown to most of
+      the attendees. This year 2.1 seemed almost dead although it is
+      certainly not. Maybe little or nothing is committed into the 2.1
+      branch, people are still using it to develop web applications. If
+      you follow the user mailing list you still read mails from people
+      who just upgraded from an early 2.1 version to 2.1.10, although
+      it's time I should do more with 2.2. Not doing anything with it in
+      the near future is the same as sticking to Windows 2000. It works
+      fine, runs stable but the world is moving
+      on.&lt;br/&gt;&lt;br/&gt;&lt;a
+      href="http://www.flickr.com/photo_zoom.gne?id=1489764245&amp;amp;size=s"&gt;&lt;img
+      src="http://farm2.static.flickr.com/1439/1489764245_a0958c3053_m.jpg"
+      align="right" style="margin-left:5px;"/&gt;&lt;/a&gt;Today was the
+      conference day which started a bit later because most attendees
+      rather spent their time in bed than at the conference (which I can
+      imagine since we went for a drink around midnight). The facts and
+      figures talk from &lt;a
+      href="http://blogs.hippo.nl/arje/"&gt;Arjé&lt;/a&gt; was a lot
+      shorter to save some time. After another two talks it was my turn
+      to hold the microphone and tell something about the Cocoon project
+      wizard we developed at Hippo. With this project wizard you can
+      have a new website project up and running in just 5 minutes. For
+      my feeling I was in a constant fight with alt-tab and Powerpoint
+      made it worse to display two icons. One for the full screen
+      version and one for the editable version. Guess which I kept
+      choosing... The live demo worked which it should because we've
+      used it many times but Murphy's law is always nearby. My
+      colleagues said it went well so I try to trust them :) After the
+      talk two attendees said they are going to try the Cocoon project
+      wizard themselves which made me happy.&lt;br/&gt;&lt;br/&gt;&lt;a
+      href="http://weblogs.goshaky.com/weblogs/lars/"&gt;Lars&lt;/a&gt;
+      came with a very interesitng talk about Dax. I may have read
+      something about it before but a good presentation stays in my head
+      better than letters on the screen. I tried DOM parsing in
+      Flowscript once and to be honest, it's a PITA. Bertrand did the
+      same XSLT/Xpath talk as at the ApacheCon so I had some time to do
+      red eye removal for the pictures of thursday evening and upload
+      them to &lt;a
+      href="http://www.flickr.com/photos/jashaj/"&gt;Flickr&lt;/a&gt;.&lt;br/&gt;&lt;br/&gt;Lunch
+      came a bit later (hey it's Italy) so we had an hour to see parts
+      of the zoo we hadn't seen. However the lunch was really worth
+      waiting for. We had pasta, lasagne, sausage, cheese, bread, wine
+      and I probably forgot to mention other delicious things. The
+      disadvantage of such a nice lunch and wine is that you need to
+      take a nap after it. It took some time until the blood went back
+      into my brain to pay attention to the talks. Especially &lt;a
+      href="http://blog.fiveone.org/"&gt;Jeremy&lt;/a&gt;s talk about
+      stress testing Cocoon application and tuning for performance was
+      interesting. It wasn't even something that applied to Cocoon. It
+      was a good reminder that you have to keep stress testing and find
+      bottlenecks way before the application is going into
+      production.&lt;br/&gt;After &lt;a
+      href="http://www.rabellino.it/blog/"&gt;Gianugo&lt;/a&gt; thanked
+      the people who organized the GT it was time to clean up and leave.
+      I've had a great time in Rome.
+                  &lt;/body&gt;&lt;/html&gt;</sv:value></sv:property></sv:node></sv:node></sv:node><sv:node sv:name="what-happens-in-rome"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:handle</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:hardhandle</sv:value><sv:value>hippo:translated</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>793c4d19-960b-4c2b-b7a1-76fe2a8c3482</sv:value></sv:property><sv:node sv:name="hippo:translation"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:translation</sv:value></sv:property><sv:property sv:name="hippo:language" sv:type="String"><sv:value/></sv:property><sv:property sv:name="hippo:message" sv:type="String"><sv:value>What happens in Rome...</sv:value></sv:property></sv:node><sv:node sv:name="what-happens-in-rome"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>weblogdemo:blogpost</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>4e4c9cd7-2c2c-4022-b5dc-23ae4c74783e</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>4e4c9cd7-2c2c-4022-b5dc-23ae4c74783e</sv:value><sv:value>793c4d19-960b-4c2b-b7a1-76fe2a8c3482</sv:value><sv:value>144d1dbc-4b32-400f-bf4a-9b1b2db0fcac</sv:value><sv:value>e6c49f6c-5ad8-4204-b90a-02815cf0912d</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"><sv:value>2007/10/what-happens-in-rome</sv:value></sv:property><sv:property sv:name="hippostd:holder" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostd:state" sv:type="String"><sv:value>published</sv:value></sv:property><sv:property sv:name="hippostd:stateSummary" sv:type="String"><sv:value>live</sv:value></sv:property><sv:property sv:name="hippostd:tags" sv:type="String"><sv:value>hippo</sv:value><sv:value>Cocoon</sv:value></sv:property><sv:property sv:name="hippostdpubwf:createdBy" sv:type="String"><sv:value>admin</sv:value></sv:property><sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date"><sv:value>2007-10-04T14:20:00.000+02:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date"><sv:value>2010-08-10T16:13:27.647+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date"><sv:value>2010-08-10T16:15:11.810+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:bloggerid" sv:type="String"><sv:value>tag:blogger.com,1999:blog-5942185880332728298.post-8108601860906036984</sv:value></sv:property><sv:property sv:name="weblogdemo:date" sv:type="Date"><sv:value>2007-10-04T14:20:00.000+02:00</sv:value></sv:property><sv:property sv:name="weblogdemo:summary" sv:type="String"><sv:value/></sv:property><sv:property sv:name="weblogdemo:title" sv:type="String"><sv:value>What happens in Rome...</sv:value></sv:property><sv:node sv:name="weblogdemo:body"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:html</sv:value></sv:property><sv:property sv:name="hippostd:content" sv:type="String"><sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;span style="float:right;margin:auto 0 1em 5px;"&gt;
+ &lt;a href="cocoonistas.jpg/{_document}/hippogallery:picture" rel="lightbox" class="grouped_elements"&gt;&lt;img facetselect="cocoonistas.jpg/{_document}/hippogallery:thumbnail" src="cocoonistas.jpg/{_document}/hippogallery:thumbnail" alt="Cocoonistas at the Cocoon GetTogether"/&gt;&lt;/a&gt;&lt;/span&gt;
+&lt;p&gt;
+The weather is lovely, the women are pretty, the food and wine are great and the
+espresso is keeping me awake. But these were (not) the real reasons I am in
+Rome. After 5 Cocoon GetTogethers in the lower countries the Italians decided to
+organize one. They found a great place for the hackaton: the zoo! We're here
+surrounded by wild animals, palm trees and families with kids. Once in a while
+the families decide they want to see what the Homo Sapiens Computerus does in
+the zoo with a computer. Then we look back and they run away, scared of the pale
+skins.&lt;/p&gt;
+
+&lt;p&gt;Yesterday I spent most of the time meeting people, explaining Hippo CMS, the
+project wizard and pimping my demo a bit. I still have to practice my demo more
+to make it look really cool tomorrow. I guess it will be hard to present
+something "new" for Cocoon 2.1 since the talk of the town is 2.2. Jeroen is
+trying to get a WebDAV connection with Hippo Repository for C22. At the moment
+his computer downloads a lot of dependencies but he didn't succeed YET in
+getting it run. Ah well there are worse places to try this than in the shade of
+a palm tree.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value></sv:property><sv:node sv:name="cocoonistas.jpg"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:facetselect</sv:value></sv:property><sv:property sv:name="hippo:docbase" sv:type="String"><sv:value>00719ccf-f9ea-4d25-bedb-7b93e689e87d</sv:value></sv:property><sv:property sv:name="hippo:facets" sv:type="String"/><sv:property sv:name="hippo:modes" sv:type="String"/><sv:property sv:name="hippo:values" sv:type="String"/></sv:node></sv:node></sv:node></sv:node></sv:node><sv:node sv:name="12"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:folder</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>589d114a-4692-4b0b-a825-626d03f526a2</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>589d114a-4692-4b0b-a825-626d03f526a2</sv:value><sv:value>e6c49f6c-5ad8-4204-b90a-02815cf0912d</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"/><sv:property sv:name="hippostd:foldertype" sv:type="String"><sv:value>new-folder</sv:value><sv:value>new-document</sv:value></sv:property><sv:node sv:name="2007-at-hippo"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:handle</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:hardhandle</sv:value><sv:value>hippo:translated</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>2bb71f5d-426c-4d0c-ad26-fa58686e58c5</sv:value></sv:property><sv:node sv:name="hippo:translation"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:translation</sv:value></sv:property><sv:property sv:name="hippo:language" sv:type="String"><sv:value/></sv:property><sv:property sv:name="hippo:message" sv:type="String"><sv:value>2007 at Hippo</sv:value></sv:property></sv:node><sv:node sv:name="2007-at-hippo"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>weblogdemo:blogpost</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>f0a7be82-3ea0-4b89-85f8-8c1b24731370</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>f0a7be82-3ea0-4b89-85f8-8c1b24731370</sv:value><sv:value>2bb71f5d-426c-4d0c-ad26-fa58686e58c5</sv:value><sv:value>589d114a-4692-4b0b-a825-626d03f526a2</sv:value><sv:value>e6c49f6c-5ad8-4204-b90a-02815cf0912d</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"><sv:value>2007/12/2007-at-hippo</sv:value></sv:property><sv:property sv:name="hippostd:holder" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostd:state" sv:type="String"><sv:value>published</sv:value></sv:property><sv:property sv:name="hippostd:stateSummary" sv:type="String"><sv:value>live</sv:value></sv:property><sv:property sv:name="hippostd:tags" sv:type="String"><sv:value>hippo</sv:value><sv:value>Personal</sv:value></sv:property><sv:property sv:name="hippostdpubwf:createdBy" sv:type="String"><sv:value>admin</sv:value></sv:property><sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date"><sv:value>2007-12-28T15:11:00.000+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date"><sv:value>2010-05-17T20:20:00.190+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date"><sv:value>2010-05-17T20:20:05.492+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:bloggerid" sv:type="String"><sv:value>tag:blogger.com,1999:blog-5942185880332728298.post-1784738995957460439</sv:value></sv:property><sv:property sv:name="weblogdemo:date" sv:type="Date"><sv:value>2007-12-28T15:11:00.000+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:summary" sv:type="String"><sv:value/></sv:property><sv:property sv:name="weblogdemo:title" sv:type="String"><sv:value>2007 at Hippo</sv:value></sv:property><sv:node sv:name="weblogdemo:body"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:html</sv:value></sv:property><sv:property sv:name="hippostd:content" sv:type="String"><sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;My last working day of the year was the Friday before Christmas so my working
+year at Hippo is over now. A lot has happened in my second year as developer for
+Hippo. I have built 3 websites on my own thanks to the Hippo Project Wizard. I
+worked on a few more websites with other colleagues like our own (new)
+&lt;a href="http://www.hippo.nl" target="_blank"&gt;website&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;According to Ohloh I did
+&lt;a href="http://www.ohloh.net/projects/5378/contributors?page=1" target="_blank"&gt;36
+commits&lt;/a&gt; to the trunk of
+&lt;a href="http://wwww.hippocms.org" target="_blank"&gt;Hippo CMS&lt;/a&gt; 6 in 2007. Most
+of them were very trivial and I've set the record of least lines modified per
+commit but sometimes even tiny improvements can make people happy.&lt;/p&gt;
+
+&lt;p&gt;With Bart, Ard and others I worked on the
+&lt;a href="http://www.hippocms.org/display/CMS/Hippo+Community+Apps" target="_blank"&gt;Hippo
+Community Apps&lt;/a&gt; of which the newsletter manager is the most important
+component. An interface to manage newsletters from Hippo CMS was a very wanted
+feature. It cost a lot more time than we expected but the delivered product
+contained more features than we first specified. In the end we also created an
+interface to manage polls, another frequently used component in websites.&lt;/p&gt;
+
+&lt;p&gt;This blog space is not the only way I can communicate about Hippo and Cocoon.
+With Jeroen I spoke on the ApacheCon EU about building websites with Apache
+Cocoon. Later this year I gave a demo of the
+&lt;a href="http://www.hippocms.org/display/CMS/Hippo+Cocoon+Project+Wizard" target="_blank"&gt;Hippo
+Project Wizard&lt;/a&gt; during the Cocoon GetTogether in Rome. 28 degrees, sunny, the
+venue was the zoo and the food was Italian. What a trip :D&lt;/p&gt;
+
+&lt;p&gt;I also did some courses about Hippo and Cocoon and found out I had learned a
+lot in the past 2 years. The basics of Cocoon and XSLT have become such a
+routine for me that it's already hard to imagine that someone doesn't know about
+them. Maybe I'll say the same about JSP next year. I had to learn it very fast
+to help others develop websites running on Hippo Repository and Hippo CMS and
+use JSP to display the front end.&lt;/p&gt;
+
+&lt;p&gt;I almost forgot the real fun stuff that has (nearly) nothing to do with
+technology: Friday evening drinks, champagne when colleaguea were elected as
+committer or even member (Ate) of the ASF, playing tennis on the company Wii,
+the boat trip near Muiden, the GPS cat-and-mouse game in the centre of Amsterdam
+with food and drinks afterwards. It was a great year.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value></sv:property></sv:node></sv:node></sv:node><sv:node sv:name="mii"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:handle</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:hardhandle</sv:value><sv:value>hippo:translated</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>4ecc2f27-3156-4163-a224-686b1d61c1ac</sv:value></sv:property><sv:node sv:name="hippo:translation"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:translation</sv:value></sv:property><sv:property sv:name="hippo:language" sv:type="String"><sv:value/></sv:property><sv:property sv:name="hippo:message" sv:type="String"><sv:value>Mii™</sv:value></sv:property></sv:node><sv:node sv:name="mii"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>weblogdemo:blogpost</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>dbdf97f2-da16-4c22-8704-e53a741dd50e</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>dbdf97f2-da16-4c22-8704-e53a741dd50e</sv:value><sv:value>4ecc2f27-3156-4163-a224-686b1d61c1ac</sv:value><sv:value>589d114a-4692-4b0b-a825-626d03f526a2</sv:value><sv:value>e6c49f6c-5ad8-4204-b90a-02815cf0912d</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"><sv:value>2007/12/mii</sv:value></sv:property><sv:property sv:name="hippostd:holder" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostd:state" sv:type="String"><sv:value>published</sv:value></sv:property><sv:property sv:name="hippostd:stateSummary" sv:type="String"><sv:value>live</sv:value></sv:property><sv:property sv:name="hippostd:tags" sv:type="String"><sv:value>Personal</sv:value></sv:property><sv:property sv:name="hippostdpubwf:createdBy" sv:type="String"><sv:value>admin</sv:value></sv:property><sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date"><sv:value>2007-12-05T22:46:00.000+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date"><sv:value>2010-07-27T20:28:08.001+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date"><sv:value>2010-07-27T20:33:00.632+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:bloggerid" sv:type="String"><sv:value>tag:blogger.com,1999:blog-5942185880332728298.post-4985283071845261566</sv:value></sv:property><sv:property sv:name="weblogdemo:date" sv:type="Date"><sv:value>2007-12-05T22:46:00.000+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:summary" sv:type="String"><sv:value/></sv:property><sv:property sv:name="weblogdemo:title" sv:type="String"><sv:value>Mii™</sv:value></sv:property><sv:node sv:name="weblogdemo:body"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:html</sv:value></sv:property><sv:property sv:name="hippostd:content" sv:type="String"><sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;My sister Talma wrote this
+&lt;a href="http://en.wikipedia.org/wiki/Sinterklaas"&gt;Sinterklaas&lt;/a&gt; poem for
+Mii&amp;#8482;:&lt;/p&gt;
+&lt;p style="float:right;margin:0 0
+      0.5em 10pt; width:260px;"&gt;&lt;br/&gt;
+&lt;img facetselect="surprise-mii.jpg/{_document}/hippogallery:picture" width="250" height="438" style="margin-bottom: 10pt;" src="surprise-mii.jpg/{_document}/hippogallery:picture" alt="Cardboard Mii&amp;#8482;"/&gt;
+&lt;br/&gt;
+&lt;em&gt;The "surprise": my avatar and a cardboard laptop with the poem&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Hi, this is me &lt;br/&gt;
+my name is Jashii &lt;br/&gt;
+The founder of &lt;strong&gt;Mii&amp;#8482;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Some time ago &lt;br/&gt;
+I was boring me so &lt;br/&gt;
+that I went to my familii &lt;br/&gt;
+and you know what I sii?&lt;/p&gt;
+
+&lt;p&gt;They were playing on the TV &lt;br/&gt;
+a game called &lt;strong&gt;Wii&amp;#8482;&lt;/strong&gt; &lt;br/&gt;
+and what do I fuckin' see &lt;br/&gt;
+me family is playing with me!&lt;/p&gt;
+
+&lt;p&gt;A puppet with my name on it &lt;br/&gt;
+really looked like shit. &lt;br/&gt;
+So I went back to me &lt;br/&gt;
+and then me had this idea.&lt;/p&gt;
+
+&lt;p&gt;No more fucking around with Jashii &lt;br/&gt;
+I am a trademark, called &lt;strong&gt;Mii&amp;#8482;&lt;/strong&gt; &lt;br/&gt;
+&lt;strong&gt;Mii&amp;#8482;&lt;/strong&gt; will tell you who I am &lt;br/&gt;
+from New York to Amsterdam.&lt;/p&gt;
+
+&lt;p&gt;I travel and tell people why &lt;br/&gt;
+&lt;strong&gt;Mii&amp;#8482;&lt;/strong&gt; is me, myself and I. &lt;br/&gt;
+Don't use me for a fuckin' game &lt;br/&gt;
+you will never be the same.&lt;/p&gt;
+
+&lt;p&gt;With my active firewall &lt;br/&gt;
+TV &amp;amp; internet are under control. &lt;br/&gt;
+If you dare to use my identitii &lt;br/&gt;
+&lt;strong&gt;Mii&amp;#8482;&lt;/strong&gt; will kill you immediatelii.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mii&amp;#8482;&lt;/strong&gt; is not a game you see &lt;br/&gt;
+&lt;strong&gt;Mii&amp;#8482;&lt;/strong&gt; is the lifestyle of Jashii &lt;br/&gt;
+&lt;strong&gt;Mii&amp;#8482;&lt;/strong&gt; is cool &amp;amp; &lt;strong&gt;Mii™&lt;/strong&gt; is hot &lt;br/&gt;
+&lt;strong&gt;Mii&amp;#8482;&lt;/strong&gt; is always in the spot &lt;br/&gt;
+&lt;strong&gt;Mii&amp;#8482;&lt;/strong&gt; is leading internet &lt;br/&gt;
+&lt;strong&gt;Mii&amp;#8482;&lt;/strong&gt; is also good in bed &lt;br/&gt;
+&lt;strong&gt;Mii&amp;#8482;&lt;/strong&gt; is spyware in the air &lt;br/&gt;
+&lt;strong&gt;Mii&amp;#8482;&lt;/strong&gt; is always everywhere&lt;/p&gt;
+
+&lt;p&gt;So now my life is really chill &lt;br/&gt;
+eat your heart out, Steve 'n Bill. &lt;br/&gt;
+&lt;strong&gt;Mii&amp;#8482;&lt;/strong&gt; is no apple nor a pear &lt;br/&gt;
+me is rich &amp;amp; famous, dear.&lt;/p&gt;
+
+&lt;p&gt;I'm a celeb now you see &lt;br/&gt;
+everybody wants &lt;strong&gt;Mii&amp;#8482;&lt;/strong&gt; &lt;br/&gt;
+Nintendo's dead, &lt;strong&gt;Mii&amp;#8482;&lt;/strong&gt; is alive &lt;br/&gt;
+it's &lt;strong&gt;Mii™&lt;/strong&gt; that terrorizes your life.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mii&amp;#8482;&lt;/strong&gt; is not a joke at all &lt;br/&gt;
+&lt;strong&gt;Mii&amp;#8482;&lt;/strong&gt; is always in control &lt;br/&gt;
+&lt;strong&gt;Mii&amp;#8482;&lt;/strong&gt; is forever untouchable &lt;br/&gt;
+and very much undutchable.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value></sv:property><sv:node sv:name="surprise-mii.jpg"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:facetselect</sv:value></sv:property><sv:property sv:name="hippo:docbase" sv:type="String"><sv:value>12ce221d-6716-433d-a10d-42bf7a297edb</sv:value></sv:property><sv:property sv:name="hippo:facets" sv:type="String"/><sv:property sv:name="hippo:modes" sv:type="String"/><sv:property sv:name="hippo:values" sv:type="String"/></sv:node></sv:node></sv:node></sv:node></sv:node></sv:node>

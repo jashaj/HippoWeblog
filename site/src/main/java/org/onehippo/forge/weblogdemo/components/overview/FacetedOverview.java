@@ -1,4 +1,4 @@
-package org.onehippo.forge.weblogdemo.components;
+package org.onehippo.forge.weblogdemo.components.overview;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,33 +11,29 @@ import org.hippoecm.hst.content.beans.standard.facetnavigation.HippoFacetSubNavi
 import org.hippoecm.hst.core.component.HstComponentException;
 import org.hippoecm.hst.core.component.HstRequest;
 import org.hippoecm.hst.core.component.HstResponse;
+import org.onehippo.forge.weblogdemo.components.BaseSiteComponent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import org.onehippo.forge.weblogdemo.beans.Blogpost;
 
-public class FacetedOverview extends BaseSiteComponent {
-    public static final Logger log = LoggerFactory.getLogger(Overview.class);
+/**
+ * Component for an overview of documents within a facet
+ *
+ * @author Jasha Joachimsthal
+ */
+public class FacetedOverview extends AbstractListing {
+    public static final Logger log = LoggerFactory.getLogger(BlogListing.class);
     public static final int PAGESIZE = 10;
 
+    /**
+     * Gets the documents within a facet for the current overview
+     * {@inheritDoc}
+     */
     @Override
-    public void doBeforeRender(HstRequest request, HstResponse response) throws HstComponentException {
-        super.doBeforeRender(request, response);
+    protected List<HippoBean> getDocumentsForOverview(HstRequest request, int page) {
+        List<HippoBean> documents = new ArrayList<HippoBean>();
         HippoBean n = getContentBean(request);
-        List<Blogpost> documents = new ArrayList<Blogpost>();
-
-        String pageStr = request.getParameter("page");
-        int page = 0;
-        if (StringUtils.isNotBlank(pageStr)) {
-            try {
-                page = Integer.parseInt(pageStr);
-            } catch (NumberFormatException e) {
-                // empty ignore
-            }
-        }
-        request.setAttribute("page", page);
-        request.setAttribute("pageTitle", getParameter("pageTitle", request));
-
         if (n instanceof HippoFacetChildNavigationBean) {
             HippoFacetChildNavigationBean facetNav = (HippoFacetChildNavigationBean) n;
             HippoDocumentIterator<Blogpost> it = facetNav.getResultSet().getDocumentIterator(Blogpost.class);
@@ -58,9 +54,6 @@ public class FacetedOverview extends BaseSiteComponent {
 
         }
 
-        if (n instanceof HippoFacetSubNavigation) {
-            request.setAttribute("subnavigation", n);
-        }
-        request.setAttribute("documents", documents);
+        return documents;  //To change body of implemented methods use File | Settings | File Templates.
     }
 }

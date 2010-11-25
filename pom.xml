@@ -321,8 +321,6 @@
         <groupId>net.sf.akismet</groupId>
         <artifactId>akismet-java</artifactId>
         <version>${aksimet-java.version}</version>
-        <scope>system</scope>
-        <systemPath>${project.basedir}/../locallib/akismet-java-1.02.jar</systemPath>
       </dependency>
 
       <dependency>
@@ -413,7 +411,11 @@
       <name>Hippo AuthFilter - Hippo Forge</name>
       <url>http://forge.onehippo.org/svn/robotstxt/maven2</url>
     </repository>
-    
+    <repository>
+      <id>hippoforge.weblogdemo</id>
+      <name>Hippo CMS Weblog demo project - Hippo Forge</name>
+      <url>http://forge.onehippo.org/svn/weblogdemo/maven2</url>
+    </repository>
   </repositories>
   
   <pluginRepositories>

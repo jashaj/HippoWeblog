@@ -38,8 +38,8 @@
     <junit.version>4.5</junit.version>
     
     <hst-configuration-editor.version>1.03.02</hst-configuration-editor.version>
-    <hippoecm.version>2.16.02</hippoecm.version>
-    <hst.version>2.05.02</hst.version>
+    <hippoecm.version>2.16.04</hippoecm.version>
+    <hst.version>2.05.03</hst.version>
     
     <wagon.ftp.version>1.0-alpha-6</wagon.ftp.version>
     <spring.version>3.0.4.RELEASE</spring.version>
@@ -508,5 +508,6 @@
     <module>content</module>
     <module>cms</module>
     <module>site</module>
+    <module>demoblogcontent</module>
   </modules>
 </project>

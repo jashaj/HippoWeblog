@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <parent>
+    <artifactId>weblogdemo</artifactId>
+    <groupId>org.onehippo.forge.weblogdemo</groupId>
+    <version>1.01.00-SNAPSHOT</version>
+  </parent>
+  <modelVersion>4.0.0</modelVersion>
+  <name>Hippo Weblog demo project demo blog content</name>
+  <description>Demo blog content to fill the blog</description>
+  <artifactId>demoblogcontent</artifactId>
+
+
+</project>

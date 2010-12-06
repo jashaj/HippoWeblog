@@ -18,7 +18,7 @@
   <sv:property sv:name="jcr:primaryType" sv:type="Name">
     <sv:value>hippo:initializefolder</sv:value>
   </sv:property>
-    <sv:property sv:name="hippo:version" sv:type="String">
+  <sv:property sv:name="hippo:version" sv:type="String">
     <sv:value>v16a-myproject</sv:value>
   </sv:property>
 
@@ -36,7 +36,7 @@
       <sv:value>weblogdemo-types.cnd</sv:value>
     </sv:property>
   </sv:node>
-  
+
   <sv:node sv:name="weblogdemo-namespace">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
@@ -51,10 +51,7 @@
       <sv:value>/hippo:namespaces</sv:value>
     </sv:property>
   </sv:node>
-  
-  <!--  compounds -->
-    <!-- /compounds -->
-    <!-- documents -->
+
   <sv:node sv:name="weblogdemo-type-basedocument">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
@@ -69,8 +66,8 @@
       <sv:value>/hippo:namespaces/weblogdemo</sv:value>
     </sv:property>
   </sv:node>
- 
- <sv:node sv:name="weblogdemo-type-textdocument">
+
+  <sv:node sv:name="weblogdemo-type-textdocument">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -84,7 +81,7 @@
       <sv:value>/hippo:namespaces/weblogdemo</sv:value>
     </sv:property>
   </sv:node>
- <sv:node sv:name="weblogdemo-type-blogpost">
+  <sv:node sv:name="weblogdemo-type-blogpost">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -98,7 +95,7 @@
       <sv:value>/hippo:namespaces/weblogdemo</sv:value>
     </sv:property>
   </sv:node>
- <sv:node sv:name="weblogdemo-type-comment">
+  <sv:node sv:name="weblogdemo-type-comment">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -112,9 +109,9 @@
       <sv:value>/hippo:namespaces/weblogdemo</sv:value>
     </sv:property>
   </sv:node>
- 
- 
-    <!-- /documents -->
+
+
+  <!-- /documents -->
   <sv:node sv:name="default-ecm-content">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
@@ -144,7 +141,7 @@
       <sv:value>/</sv:value>
     </sv:property>
   </sv:node>
-  
+
   <sv:node sv:name="hst-preview">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
@@ -159,7 +156,7 @@
       <sv:value>/</sv:value>
     </sv:property>
   </sv:node>
-  
+
   <sv:node sv:name="sitemap">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
@@ -174,7 +171,7 @@
       <sv:value>/hst:configuration/hst:configuration</sv:value>
     </sv:property>
   </sv:node>
-  
+
   <sv:node sv:name="sitemenus">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
@@ -189,7 +186,7 @@
       <sv:value>/hst:configuration/hst:configuration</sv:value>
     </sv:property>
   </sv:node>
-  
+
   <sv:node sv:name="conf-pages">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
@@ -204,7 +201,7 @@
       <sv:value>/hst:configuration/hst:configuration</sv:value>
     </sv:property>
   </sv:node>
-  
+
   <sv:node sv:name="conf-components">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
@@ -253,63 +250,6 @@
     </sv:property>
   </sv:node>
 
-  <sv:node sv:name="weblogdemo-images-2007">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hippo:initializeitem</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:sequence" sv:type="Double">
-      <sv:value>40401.1</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>gallery/2007.xml</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/content/gallery</sv:value>
-    </sv:property>
-  </sv:node>
-    <sv:node sv:name="weblogdemo-images-2008">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hippo:initializeitem</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:sequence" sv:type="Double">
-        <sv:value>40401.2</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:contentresource" sv:type="String">
-        <sv:value>gallery/2008.xml</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:contentroot" sv:type="String">
-        <sv:value>/content/gallery</sv:value>
-      </sv:property>
-    </sv:node>
-    <sv:node sv:name="weblogdemo-images-2009">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hippo:initializeitem</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:sequence" sv:type="Double">
-        <sv:value>40401.3</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:contentresource" sv:type="String">
-        <sv:value>gallery/2009.xml</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:contentroot" sv:type="String">
-        <sv:value>/content/gallery</sv:value>
-      </sv:property>
-    </sv:node>
-    <sv:node sv:name="weblogdemo-images-2010">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hippo:initializeitem</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:sequence" sv:type="Double">
-        <sv:value>40401.4</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:contentresource" sv:type="String">
-        <sv:value>gallery/2010.xml</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:contentroot" sv:type="String">
-        <sv:value>/content/gallery</sv:value>
-      </sv:property>
-    </sv:node>
-
 
   <sv:node sv:name="weblogdemo-homepage">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -322,93 +262,24 @@
       <sv:value>content/homepage.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-     <sv:value>/content/documents/weblogdemo</sv:value>
+      <sv:value>/content/documents/weblogdemo</sv:value>
     </sv:property>
-   </sv:node>
-    <sv:node sv:name="weblogdemo-blogs">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hippo:initializeitem</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:sequence" sv:type="Double">
-        <sv:value>40405</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:contentresource" sv:type="String">
-        <sv:value>content/blogs.xml</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:contentroot" sv:type="String">
-        <sv:value>/content/documents/weblogdemo</sv:value>
-      </sv:property>
-    </sv:node>
-    <sv:node sv:name="weblogdemo-blogs-2007">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hippo:initializeitem</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:sequence" sv:type="Double">
-        <sv:value>40405.1</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:contentresource" sv:type="String">
-        <sv:value>content/blogs/2007.xml</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:contentroot" sv:type="String">
-        <sv:value>/content/documents/weblogdemo/blogs</sv:value>
-      </sv:property>
-    </sv:node>
-    <sv:node sv:name="weblogdemo-blogs-2008">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hippo:initializeitem</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:sequence" sv:type="Double">
-        <sv:value>40405.2</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:contentresource" sv:type="String">
-        <sv:value>content/blogs/2008.xml</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:contentroot" sv:type="String">
-        <sv:value>/content/documents/weblogdemo/blogs</sv:value>
-      </sv:property>
-    </sv:node>
-    <sv:node sv:name="weblogdemo-blogs-2009">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hippo:initializeitem</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:sequence" sv:type="Double">
-        <sv:value>40405.3</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:contentresource" sv:type="String">
-        <sv:value>content/blogs/2009.xml</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:contentroot" sv:type="String">
-        <sv:value>/content/documents/weblogdemo/blogs</sv:value>
-      </sv:property>
-    </sv:node>
-    <sv:node sv:name="weblogdemo-blogs-2010">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hippo:initializeitem</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:sequence" sv:type="Double">
-        <sv:value>40405.4</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:contentresource" sv:type="String">
-        <sv:value>content/blogs/2010.xml</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:contentroot" sv:type="String">
-        <sv:value>/content/documents/weblogdemo/blogs</sv:value>
-      </sv:property>
-    </sv:node>
-    <sv:node sv:name="weblogdemo-documentation">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hippo:initializeitem</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:sequence" sv:type="Double">
-        <sv:value>40405.1</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:contentresource" sv:type="String">
-        <sv:value>content/documentation.xml</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:contentroot" sv:type="String">
-        <sv:value>/content/documents/weblogdemo</sv:value>
-      </sv:property>
-    </sv:node>
+  </sv:node>
+  <sv:node sv:name="weblogdemo-blogs">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>40405</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>content/blogs.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/content/documents/weblogdemo</sv:value>
+    </sv:property>
+  </sv:node>
+
 
   <sv:node sv:name="weblogdemo-comment">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -424,7 +295,7 @@
       <sv:value>/content/documents/weblogdemo</sv:value>
     </sv:property>
   </sv:node>
-  
+
   <sv:node sv:name="weblogdemo-construction">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
@@ -454,9 +325,9 @@
       <sv:value>/content/documents/weblogdemo</sv:value>
     </sv:property>
   </sv:node>
-  
+
   <!-- /Content -->
-  
+
   <!-- Tagging -->
   <sv:node sv:name="tagging-facetsearch">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -472,7 +343,7 @@
       <sv:value>/</sv:value>
     </sv:property>
   </sv:node>
-  
+
   <!-- CMS config -->
   <sv:node sv:name="custom-browserPerspective">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -506,7 +377,7 @@
       <sv:value>/</sv:value>
     </sv:property>
   </sv:node>
-  
+
   <!-- HTML Cleaner: allow classes for the syntax highlighter -->
   <sv:node sv:name="custom-htmlCleanerService">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -527,68 +398,68 @@
   </sv:node>
 
   <!-- bigger thumbnail size for the lightbox -->
-    <sv:node sv:name="custom-thumbnail-size">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hippo:initializeitem</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippo:sequence" sv:type="Double">
-          <sv:value>51122</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippo:contentresource" sv:type="String">
-          <sv:value>cmsconfiguration/custom-thumbnail-size.xml</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippo:contentdelete" sv:type="String">
-          <sv:value>/hippo:configuration/hippo:workflows/threepane/image-gallery/frontend:renderer</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippo:contentroot" sv:type="String">
-          <sv:value>/hippo:configuration/hippo:workflows/threepane/image-gallery</sv:value>
-        </sv:property>
-    </sv:node>
+  <sv:node sv:name="custom-thumbnail-size">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>51122</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>cmsconfiguration/custom-thumbnail-size.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentdelete" sv:type="String">
+      <sv:value>/hippo:configuration/hippo:workflows/threepane/image-gallery/frontend:renderer</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/hippo:configuration/hippo:workflows/threepane/image-gallery</sv:value>
+    </sv:property>
+  </sv:node>
 
   <!-- Queries to restrict the folder/documents to create -->
   <sv:node sv:name="queries-new-year-folder">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hippo:initializeitem</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:sequence" sv:type="Double">
-          <sv:value>51200</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:contentresource" sv:type="String">
-          <sv:value>cmsconfiguration/queries/new-year-folder.xml</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:contentroot" sv:type="String">
-          <sv:value>/hippo:configuration/hippo:queries/hippo:templates</sv:value>
-      </sv:property>
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>51200</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>cmsconfiguration/queries/new-year-folder.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/hippo:configuration/hippo:queries/hippo:templates</sv:value>
+    </sv:property>
   </sv:node>
 
   <sv:node sv:name="queries-new-month-folder">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hippo:initializeitem</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:sequence" sv:type="Double">
-          <sv:value>51201</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:contentresource" sv:type="String">
-          <sv:value>cmsconfiguration/queries/new-month-folder.xml</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:contentroot" sv:type="String">
-          <sv:value>/hippo:configuration/hippo:queries/hippo:templates</sv:value>
-      </sv:property>
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>51201</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>cmsconfiguration/queries/new-month-folder.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/hippo:configuration/hippo:queries/hippo:templates</sv:value>
+    </sv:property>
   </sv:node>
 
   <sv:node sv:name="queries-new-blogpost">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hippo:initializeitem</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:sequence" sv:type="Double">
-          <sv:value>51202</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:contentresource" sv:type="String">
-          <sv:value>cmsconfiguration/queries/new-blogpost.xml</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:contentroot" sv:type="String">
-          <sv:value>/hippo:configuration/hippo:queries/hippo:templates</sv:value>
-      </sv:property>
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>51202</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>cmsconfiguration/queries/new-blogpost.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/hippo:configuration/hippo:queries/hippo:templates</sv:value>
+    </sv:property>
   </sv:node>
 
 </sv:node>

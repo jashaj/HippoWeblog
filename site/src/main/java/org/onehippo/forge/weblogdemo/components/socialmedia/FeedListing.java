@@ -38,8 +38,8 @@ import org.onehippo.forge.weblogdemo.components.BaseSiteComponent;
 
 /**
  * HST component that fetches an RSS or Atom feed.
- * @author Jasha Joachimsthal
  *
+ * @author Jasha Joachimsthal
  */
 public class FeedListing extends BaseSiteComponent {
 
@@ -47,10 +47,18 @@ public class FeedListing extends BaseSiteComponent {
 
     /**
      * Fetches and RSS or Atom Feed. Accepts the following parameters:
-     * @param feedLocation Required URL of the Feed
-     * @param showLinks if set to true, the JSP will add links to the items
-     * @param boxTitle optional parameter for the title of the box in which the feed is displayed
-     * @throws HstComponentException if something goes wrong (missing parameters, unable to fetch or parse feed)
+     * <p/>
+     * Accepts the following HST configuration parameters
+     * <dl>
+     * <dt>feedLocation</dt>
+     * <dd>URL of the Feed. Required parameter.</dd>
+     * <dt>showLinks</dt>
+     * <dd>boolean to indicate whether the rendering templates should add links to the feeditems. Default is {@literal false}.</dd>
+     * <dt>boxTitle</dt>
+     * <dd>optional title for the feed listing in the rendering template. Default is the title returned by the RSS or Atom feed.</dd>
+     * </dl>
+     *
+     * @throws HstComponentException if the configured feedLocation is missing
      */
     @Override
     public void doBeforeRender(HstRequest request, HstResponse response) throws HstComponentException {
@@ -63,31 +71,38 @@ public class FeedListing extends BaseSiteComponent {
         String showLinks = getParameter("showLinks", request);
         request.setAttribute("showLinks", Boolean.parseBoolean(showLinks));
         String boxTitle = getParameter("boxTitle", request);
-
-        FeedFetcherCache feedInfoCache = HashMapFeedInfoCache.getInstance();
-        FeedFetcher feedFetcher = new HttpURLFeedFetcher(feedInfoCache);
-        SyndFeed feed;
-        try {
-            feed = feedFetcher.retrieveFeed(new URL(feedLocation));
-            if (feed == null || feed.getEntries() == null || feed.getEntries().size() == 0) {
-                return;
-            }
+        
+        SyndFeed feed = getFeed(feedLocation);
+        if (feed != null) {
             request.setAttribute("feed", feed);
             if (StringUtils.isBlank(boxTitle)) {
                 boxTitle = feed.getTitle();
             }
-            request.setAttribute("boxTitle", boxTitle);
-        } catch (IllegalArgumentException e) {
-            throw new HstComponentException("Parameter 'feedLocation' is null, should contain the URL of the feed", e);
-        } catch (MalformedURLException e) {
-            throw new HstComponentException("The URL '" + feedLocation + "' is malformed", e);
-        } catch (IOException e) {
-            throw new HstComponentException("Connection error retrieving feed ", e);
-        } catch (FeedException e) {
-            throw new HstComponentException("Received invalid feed which makes it impossible to parse", e);
-        } catch (FetcherException e) {
-            throw new HstComponentException("HTTP error retrieving feed", e);
         }
+        request.setAttribute("boxTitle", boxTitle);
+    }
 
+    /**
+     * Gets a (cached) {@link com.sun.syndication.feed.synd.SyndFeed} for the given location
+     *
+     * @param feedLocation String of the URL of the RSS/Atom feed
+     * @return {@link com.sun.syndication.feed.synd.SyndFeed} for the location or {@literal null} in case of connection errors
+     */
+    SyndFeed getFeed(String feedLocation) {
+        SyndFeed feed;
+        try {
+            FeedFetcherCache feedInfoCache = HashMapFeedInfoCache.getInstance();
+            FeedFetcher feedFetcher = new HttpURLFeedFetcher(feedInfoCache);
+            return feedFetcher.retrieveFeed(new URL(feedLocation));
+        } catch (IOException e) {
+            log.error("Connection error retrieving feed ", e);
+            return null;
+        } catch (FeedException e) {
+            log.error("Received invalid feed which makes it impossible to parse", e);
+            return null;
+        } catch (FetcherException e) {
+            log.error("HTTP error retrieving feed", e);
+            return null;
+        }
     }
 }

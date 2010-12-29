@@ -30,7 +30,7 @@
       <sv:value>footer</sv:value>
     </sv:property>
     <sv:property sv:name="hst:renderpath" sv:type="String">
-      <sv:value>/WEB-INF/jsp/basepage/basepage.jsp</sv:value>
+      <sv:value>/WEB-INF/ftl/basepage/basepage.ftl</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="basepage.htmlhead">
@@ -39,7 +39,7 @@
     </sv:property>
     <sv:property sv:name="hst:containers" sv:type="String"/>
     <sv:property sv:name="hst:renderpath" sv:type="String">
-      <sv:value>/WEB-INF/jsp/basepage/htmlhead/htmlhead.jsp</sv:value>
+      <sv:value>/WEB-INF/ftl/basepage/htmlhead/htmlhead.ftl</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="basepage.header">
@@ -48,7 +48,7 @@
     </sv:property>
     <sv:property sv:name="hst:containers" sv:type="String"/>
     <sv:property sv:name="hst:renderpath" sv:type="String">
-      <sv:value>/WEB-INF/jsp/basepage/header/header.jsp</sv:value>
+      <sv:value>/WEB-INF/ftl/basepage/header/header.ftl</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="basepage.article">
@@ -57,7 +57,7 @@
     </sv:property>
     <sv:property sv:name="hst:containers" sv:type="String"/>
     <sv:property sv:name="hst:renderpath" sv:type="String">
-      <sv:value>/WEB-INF/jsp/basepage/article/article.jsp</sv:value>
+      <sv:value>/WEB-INF/ftl/basepage/article/article.ftl</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="basepage.aside">
@@ -66,7 +66,7 @@
     </sv:property>
     <sv:property sv:name="hst:containers" sv:type="String"/>
     <sv:property sv:name="hst:renderpath" sv:type="String">
-      <sv:value>/WEB-INF/jsp/basepage/aside/aside.jsp</sv:value>
+      <sv:value>/WEB-INF/ftl/basepage/aside/aside.ftl</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="basepage.footer">
@@ -75,7 +75,7 @@
     </sv:property>
     <sv:property sv:name="hst:containers" sv:type="String"/>
     <sv:property sv:name="hst:renderpath" sv:type="String">
-      <sv:value>/WEB-INF/jsp/basepage/footer/footer.jsp</sv:value>
+      <sv:value>/WEB-INF/ftl/basepage/footer/footer.ftl</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="home.article.articles">
@@ -84,7 +84,7 @@
     </sv:property>
     <sv:property sv:name="hst:containers" sv:type="String"/>
     <sv:property sv:name="hst:renderpath" sv:type="String">
-      <sv:value>/WEB-INF/jsp/home/article/articles.jsp</sv:value>
+      <sv:value>/WEB-INF/ftl/home/article/articles.ftl</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="home.article.latestblog">
@@ -93,7 +93,7 @@
     </sv:property>
     <sv:property sv:name="hst:containers" sv:type="String"/>
     <sv:property sv:name="hst:renderpath" sv:type="String">
-      <sv:value>/WEB-INF/jsp/home/article/latestblog.jsp</sv:value>
+      <sv:value>/WEB-INF/ftl/home/article/latestblog.ftl</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="detail.article">
@@ -102,7 +102,7 @@
     </sv:property>
     <sv:property sv:name="hst:containers" sv:type="String"/>
     <sv:property sv:name="hst:renderpath" sv:type="String">
-      <sv:value>/WEB-INF/jsp/detail/article/article.jsp</sv:value>
+      <sv:value>/WEB-INF/ftl/detail/article/article.ftl</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="overview.article">
@@ -111,7 +111,7 @@
     </sv:property>
     <sv:property sv:name="hst:containers" sv:type="String"/>
     <sv:property sv:name="hst:renderpath" sv:type="String">
-      <sv:value>/WEB-INF/jsp/overview/article/article.jsp</sv:value>
+      <sv:value>/WEB-INF/ftl/overview/article/article.ftl</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="search.article">
@@ -120,7 +120,7 @@
     </sv:property>
     <sv:property sv:name="hst:containers" sv:type="String"/>
     <sv:property sv:name="hst:renderpath" sv:type="String">
-      <sv:value>/WEB-INF/jsp/search/article/article.jsp</sv:value>
+      <sv:value>/WEB-INF/ftl/search/article/article.ftl</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="basepage.aside.feedlisting">
@@ -129,7 +129,7 @@
     </sv:property>
     <sv:property sv:name="hst:containers" sv:type="String"/>
     <sv:property sv:name="hst:renderpath" sv:type="String">
-      <sv:value>/WEB-INF/jsp/basepage/aside/feedlisting.jsp</sv:value>
+      <sv:value>/WEB-INF/ftl/basepage/aside/feedlisting.ftl</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="basepage.aside.flickr">
@@ -138,7 +138,7 @@
     </sv:property>
     <sv:property sv:name="hst:containers" sv:type="String"/>
     <sv:property sv:name="hst:renderpath" sv:type="String">
-      <sv:value>/WEB-INF/jsp/basepage/aside/flickr.jsp</sv:value>
+      <sv:value>/WEB-INF/ftl/basepage/aside/flickr.ftl</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="basepage.aside.archive">
@@ -147,34 +147,7 @@
     </sv:property>
     <sv:property sv:name="hst:containers" sv:type="String"/>
     <sv:property sv:name="hst:renderpath" sv:type="String">
-      <sv:value>/WEB-INF/jsp/basepage/aside/archive.jsp</sv:value>
-    </sv:property>
-  </sv:node>
-  <sv:node sv:name="feed.atom">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hst:template</sv:value>
-    </sv:property>
-    <sv:property sv:name="hst:containers" sv:type="String"/>
-    <sv:property sv:name="hst:renderpath" sv:type="String">
-      <sv:value>/WEB-INF/jsp/feeds/atom.jsp</sv:value>
-    </sv:property>
-  </sv:node>
-  <sv:node sv:name="feed.rss">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hst:template</sv:value>
-    </sv:property>
-    <sv:property sv:name="hst:containers" sv:type="String"/>
-    <sv:property sv:name="hst:renderpath" sv:type="String">
-      <sv:value>/WEB-INF/jsp/feeds/rss.jsp</sv:value>
-    </sv:property>
-  </sv:node>
-  <sv:node sv:name="text.article">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hst:template</sv:value>
-    </sv:property>
-    <sv:property sv:name="hst:containers" sv:type="String"/>
-    <sv:property sv:name="hst:renderpath" sv:type="String">
-      <sv:value>/WEB-INF/jsp/text/article/article.jsp</sv:value>
+      <sv:value>/WEB-INF/ftl/basepage/aside/archive.ftl</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="basepage.aside.twitter">
@@ -183,7 +156,34 @@
     </sv:property>
     <sv:property sv:name="hst:containers" sv:type="String"/>
     <sv:property sv:name="hst:renderpath" sv:type="String">
-      <sv:value>/WEB-INF/jsp/basepage/aside/twitter.jsp</sv:value>
+      <sv:value>/WEB-INF/ftl/basepage/aside/twitter.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="feed.atom">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:containers" sv:type="String"/>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>/WEB-INF/jsp/feeds/atom.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="feed.rss">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:containers" sv:type="String"/>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>/WEB-INF/ftl/feeds/rss.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="text.article">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:containers" sv:type="String"/>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>/WEB-INF/ftl/text/article/article.ftl</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="robotstxt">

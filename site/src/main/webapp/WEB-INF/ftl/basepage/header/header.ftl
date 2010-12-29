@@ -21,8 +21,7 @@
   <nav>
     <ul>
     [#list menu.siteMenuItems as menuItem]
-      [#assign menulink][#if menuItem.externalLink?has_content]${menuItem.externalLink}
-      [#elseif menuItem.hstLink?has_content][@hst.link path="${menuItem.hstLink.path}"/][#else]#[/#if][/#assign]
+      [#assign menulink][#if menuItem.externalLink?has_content]${menuItem.externalLink}[#elseif menuItem.hstLink?has_content][@hst.link path="${menuItem.hstLink.path}"/][#else]#[/#if][/#assign]
       [#assign liclass][#if (menuItem.expanded || menuItem.selected)] class="active"[/#if][/#assign]
       [#compress]<li${liclass}><a href="${menulink}">${menuItem.name}</a></li>[/#compress]
     [/#list]

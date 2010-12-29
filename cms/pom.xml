@@ -172,7 +172,7 @@
         <dependencies>
           <dependency>
             <groupId>org.onehippo.forge.weblogdemo</groupId>
-            <artifactId>demoblogcontent</artifactId>
+            <artifactId>weblogdemo-demoblogcontent</artifactId>
             <version>${pom.version}</version>
             <type>jar</type>
           </dependency>

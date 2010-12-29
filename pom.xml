@@ -21,7 +21,7 @@
   <description>Demo project to show how you can make a blog from Hippo CMS 7 and Hippo Site Toolkit</description>
   <groupId>org.onehippo.forge.weblogdemo</groupId>
   <artifactId>weblogdemo</artifactId>
-  <version>1.01.00-SNAPSHOT</version>
+  <version>1.01.00</version>
   <packaging>pom</packaging>
 
   <properties>
@@ -357,8 +357,8 @@
     </licenses>
 
     <scm>
-      <connection>scm:svn:http://forge.onehippo.org/svn/weblogdemo/trunk</connection>
-      <developerConnection>scm:svn:http://forge.onehippo.org/svn/weblogdemo/trunk</developerConnection>
+      <connection>scm:svn:http://forge.onehippo.org/svn/weblogdemo/tags/Release-weblogdemo-1_01_00</connection>
+      <developerConnection>scm:svn:http://forge.onehippo.org/svn/weblogdemo/tags/Release-weblogdemo-1_01_00</developerConnection>
     </scm>
 
     <distributionManagement>
@@ -375,7 +375,7 @@
       <id>hippo</id>
       <name>Hippo maven 2 repository.</name>
       <url>http://repository.hippocms.org/maven2/</url>
-      <snapshots/>
+      <snapshots />
       <releases>
         <updatePolicy>never</updatePolicy>
       </releases>

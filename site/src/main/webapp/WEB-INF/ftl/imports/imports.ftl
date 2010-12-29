@@ -24,7 +24,7 @@
 </section>
 [/#macro]
 
-[#macro calendar doc ispubdate]
+[#macro calendar doc ispubdate=false]
 <div class="date">
 [@compress single_line=true]
   <time datetime="${doc.date?string("yyyy-MM-dd'T'HH:mm:ss")}" [#if ispubdate=true] pubdate="pubdate"[/#if]>

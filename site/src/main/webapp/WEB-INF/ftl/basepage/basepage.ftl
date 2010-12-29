@@ -1,5 +1,6 @@
 [#ftl]
 [#assign hst=JspTaglibs["http://www.hippoecm.org/jsp/hst/core"]]
+<!doctype html>
 [#--
   * Copyright 2010 Jasha Joachimsthal
   *
@@ -15,13 +16,13 @@
   * See the License for the specific language governing permissions and
   * limitations under the License.
   --]
-<!doctype html>
 <!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
 <!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
 <!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
 <!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
 <head>
+<meta charset="UTF-8"/>
 [@hst.headContributions categoryExcludes="css,jsExternal,jsInline"/]
 [@hst.headContributions categoryIncludes="css"/]
 <script src="[@hst.link path="/js/libs/modernizr-1.6.min.js"/]"></script>
@@ -36,7 +37,7 @@
 [@hst.include ref="footer"/]
 </div>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.js"></script>
-<script>!window.jQuery && document.write(unescape('%3Cscript src="[@hst.link path="/js/libs/jquery-1.4.2.js"/]"%3E%3C/script%3E'))</script>
+<script>!window.jQuery && document.write(unescape('%3Cscript src="[@hst.link path="/js/libs/jquery-1.4.2-min.js"/]"%3E%3C/script%3E'))</script>
 [@hst.headContributions categoryIncludes="jsExternal"/]
 [@hst.headContributions categoryIncludes="jsInline"/]
 [#-- Google Analytics goes here --]

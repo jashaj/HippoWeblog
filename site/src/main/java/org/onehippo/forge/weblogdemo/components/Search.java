@@ -89,7 +89,7 @@ public class Search extends BaseSiteComponent {
             }
 
             long beansSize = beans.getSize();
-            long pages = beansSize / PAGESIZE;
+            long pages = beansSize % PAGESIZE > 0L ? beansSize / PAGESIZE + 1L : beansSize / PAGESIZE;
 
             request.setAttribute("nrhits", beansSize > 0 ? beansSize : 0);
             request.setAttribute("pages", pages);

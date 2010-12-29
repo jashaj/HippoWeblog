@@ -23,12 +23,12 @@
     </c:when>
     <c:when test="${not empty searchfor}"><p>You searched for "${searchfor}" and I found ${nrhits} documents</p></c:when>
     <c:when test="${nrhits > 0}"><p>I found ${nrhits} documents</p></c:when>
-    <c:otherwise>I'm sorry, did you ask something?</c:otherwise>
+    <c:otherwise><p>I'm sorry, did you ask something?</p></c:otherwise>
   </c:choose>
   <c:if test="${not empty documents}">
     <c:forEach var="doc" items="${documents}">
       <section class="teaser">
-      
+
         <c:choose>
             <c:when test="${doc.type eq 'comment'}">
               <hst:link hippobean="${doc.commentTo}" var="hstlink"/>
@@ -49,7 +49,7 @@
   <c:if test="${pages > 1}">
   
   <ol class="paging">
-  <c:forEach begin="0" end="${pages}" var="i">
+  <c:forEach begin="0" end="${pages - 1}" var="i">
   <hst:renderURL var="pageURL">
     <hst:param name="page" value="${i}"/>
     <hst:param name="searchfor" value="${searchfor}"/>

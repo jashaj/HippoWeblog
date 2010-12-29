@@ -10,7 +10,7 @@
   <modelVersion>4.0.0</modelVersion>
   <name>Hippo Weblog demo project demo blog content</name>
   <description>Demo blog content to fill the blog</description>
-  <artifactId>demoblogcontent</artifactId>
+  <artifactId>weblogdemo-demoblogcontent</artifactId>
 
 
 </project>

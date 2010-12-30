@@ -14,7 +14,8 @@
   See the License for the specific language governing permissions and
   limitations under the License.
 -->
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
@@ -30,8 +31,28 @@
   <artifactId>weblogdemo-content</artifactId>
   <packaging>jar</packaging>
 
+  <dependencies>
+    <dependency>
+      <groupId>javax.jcr</groupId>
+      <artifactId>jcr</artifactId>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.hippoecm</groupId>
+      <artifactId>hippo-ecm-repository-engine</artifactId>
+      <version>${hippoecm.version}</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.hippoecm</groupId>
+      <artifactId>hippo-ecm-repository-upgrade</artifactId>
+      <version>${hippoecm.version}</version>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
+
   <build>
-    <defaultGoal>package</defaultGoal>  
+    <defaultGoal>package</defaultGoal>
     <plugins>
       <plugin>
         <inherited>true</inherited>
@@ -42,10 +63,15 @@
             <manifest>
               <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
             </manifest>
+            <manifestEntries>
+              <Hippo-Modules>
+                org.onehippo.forge.weblogdemo.upgrade.UpdateModuleV10101
+              </Hippo-Modules>
+            </manifestEntries>
           </archive>
         </configuration>
-      </plugin> 
-    </plugins> 
+      </plugin>
+    </plugins>
   </build>
 
 </project>

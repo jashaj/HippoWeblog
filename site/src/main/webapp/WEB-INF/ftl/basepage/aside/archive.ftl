@@ -32,10 +32,7 @@
         [#assign facetlabel][#if facet.name = 'month']${labels['month.'+facetvalue.name]}[#else]${facetvalue.name}[/#if][/#assign]
         [#if facetvalue.leaf]${facetlabel} (${facetvalue.count})
           [#if facetvalue.count > 0]
-            [#assign remove]
-              [#if facet.name = 'year'][@hst.link path="/blogposts"/]
-              [#else][@hst.facetnavigationlink current="${facetnav}" remove="${facetvalue}"/][/#if]
-            [/#assign]
+            [#assign remove][#if facet.name = 'year'][@hst.link path="/blogposts"/][#else][@hst.facetnavigationlink current=facetnav remove=facetvalue/][/#if][/#assign]
             <a href="${remove}" class="deleteFacet" rel="nofollow">X</a>
           [/#if]
         [#else]<a href="[@hst.link hippobean=facetvalue/]" rel="nofollow"> ${facetlabel}</a> (${facetvalue.count})

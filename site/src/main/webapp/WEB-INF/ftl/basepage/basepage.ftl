@@ -2,7 +2,7 @@
 [#assign hst=JspTaglibs["http://www.hippoecm.org/jsp/hst/core"]]
 <!doctype html>
 [#--
-  * Copyright 2010 Jasha Joachimsthal
+  * Copyright 2010-2011 Jasha Joachimsthal
   *
   * Licensed under the Apache License, Version 2.0 (the  "License");
   * you may not use this file except in compliance with the License.

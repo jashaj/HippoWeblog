@@ -197,4 +197,28 @@ Twitter4J to get your access token code. &lt;/li&gt;
 &lt;/table&gt;
 
 &lt;/body&gt;
+&lt;/html&gt;</sv:value></sv:property></sv:node></sv:node></sv:node>
+<sv:node sv:name="configure-google-analytics"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:handle</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:hardhandle</sv:value><sv:value>hippo:translated</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>16e74c9e-aa5d-4605-a3fa-6bba8e7c8880</sv:value></sv:property><sv:node sv:name="hippo:translation"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:translation</sv:value></sv:property><sv:property sv:name="hippo:language" sv:type="String"><sv:value/></sv:property><sv:property sv:name="hippo:message" sv:type="String"><sv:value>Configure Google Analytics</sv:value></sv:property></sv:node><sv:node sv:name="configure-google-analytics"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>weblogdemo:textdocument</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>eade5b1e-8ae6-4ec4-9fc2-9c4c4978d056</sv:value></sv:property><sv:property sv:name="hippo:availability" sv:type="String"><sv:value>live</sv:value><sv:value>preview</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>eade5b1e-8ae6-4ec4-9fc2-9c4c4978d056</sv:value><sv:value>16e74c9e-aa5d-4605-a3fa-6bba8e7c8880</sv:value><sv:value>782f0fb2-7213-4b5d-a49c-e9a55f68592d</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"><sv:value>configure-google-analytics</sv:value></sv:property><sv:property sv:name="hippostd:holder" sv:type="String"><sv:value>admin</sv:value></sv:property><sv:property sv:name="hippostd:state" sv:type="String"><sv:value>published</sv:value></sv:property><sv:property sv:name="hippostd:stateSummary" sv:type="String"><sv:value>live</sv:value></sv:property><sv:property sv:name="hippostdpubwf:createdBy" sv:type="String"><sv:value>admin</sv:value></sv:property><sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date"><sv:value>2011-01-02T10:56:03.633+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date"><sv:value>2011-01-02T11:03:29.530+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String"><sv:value>admin</sv:value></sv:property><sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date"><sv:value>2011-01-02T11:03:32.032+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:date" sv:type="Date"><sv:value>2011-01-02T11:00:22.683+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:summary" sv:type="String"><sv:value/></sv:property><sv:property sv:name="weblogdemo:title" sv:type="String"><sv:value>Configure Google Analytics</sv:value></sv:property><sv:node sv:name="weblogdemo:body"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:html</sv:value></sv:property><sv:property sv:name="hippostd:content" sv:type="String"><sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;You can configure a Google Analytics counter for the weblog. &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Login into the CMS&lt;/li&gt;
+&lt;li&gt;Go to weblogdemo &amp;gt; construction &amp;gt;  labels &amp;gt; common&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Create or modify the following properties:
+&lt;ul&gt;
+&lt;li&gt;googleanalytics.account: required, the ID of the counter e.g. UA-123456-7
+&lt;/li&gt;
+&lt;li&gt;googleanalytics.domain: optional, your domain name, e.g. example.com. Only
+configure this if you combine counters from multiple sub domains.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Save and publish the document.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/body&gt;
 &lt;/html&gt;</sv:value></sv:property></sv:node></sv:node></sv:node></sv:node>

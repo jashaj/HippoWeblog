@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
         <!--
-  * Copyright 2010 Hippo
+  * Copyright 2010-2011 Hippo
   *
   * Licensed under the Apache License, Version 2.0 (the  "License");
   * you may not use this file except in compliance with the License.
@@ -333,41 +333,48 @@
     </dependencies>
     
   </dependencyManagement>
-    
-    <contributors>
-        <contributor>
-            <name>Jasha Joachimsthal</name>
-            <email>j.joachimsthal[at]onehippo[dot]com</email>
-            <organization>Hippo</organization>
-            <organizationUrl>http://www.onehippo.com</organizationUrl>
-            <roles><role>Java web developer</role></roles>
-            <timezone>+1</timezone>
-        </contributor>
-    </contributors>
-    <inceptionYear>2010</inceptionYear>
-    <licenses>
-        <license>
-            <name>Apache License, Version 2.0</name>
-            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
-        </license>
-        <license>
-            <name>Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 Netherlands License</name>
-            <url>http://creativecommons.org/licenses/by-nc-nd/3.0/nl/</url>
-        </license>
-    </licenses>
 
-    <scm>
-      <connection>scm:svn:http://forge.onehippo.org/svn/weblogdemo/trunk</connection>
-      <developerConnection>scm:svn:http://forge.onehippo.org/svn/weblogdemo/trunk</developerConnection>
-    </scm>
+  <contributors>
+    <contributor>
+      <name>Jasha Joachimsthal</name>
+      <email>j.joachimsthal[at]onehippo[dot]com</email>
+      <organization>Hippo</organization>
+      <organizationUrl>http://www.onehippo.com</organizationUrl>
+      <roles>
+        <role>Java web developer</role>
+      </roles>
+      <timezone>+1</timezone>
+    </contributor>
+  </contributors>
+  <inceptionYear>2010</inceptionYear>
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+    <license>
+      <name>Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 Netherlands License</name>
+      <url>http://creativecommons.org/licenses/by-nc-nd/3.0/nl/</url>
+    </license>
+  </licenses>
 
-    <distributionManagement>
-      <repository>
-        <uniqueVersion>false</uniqueVersion>
-        <id>forge-weblogdemo-maven-repo</id>
-        <url>svn:http://forge.onehippo.org/svn/weblogdemo/maven2/</url>
-      </repository>
-    </distributionManagement>
+  <scm>
+    <connection>scm:svn:http://forge.onehippo.org/svn/weblogdemo/trunk</connection>
+    <developerConnection>scm:svn:http://forge.onehippo.org/svn/weblogdemo/trunk</developerConnection>
+  </scm>
+
+  <issueManagement>
+    <system>gforge</system>
+    <url>http://forge.onehippo.org/gf/project/weblogdemo/tracker/?action=TrackerItemBrowse&amp;tracker_id=570</url>
+  </issueManagement>
+
+  <distributionManagement>
+    <repository>
+      <uniqueVersion>false</uniqueVersion>
+      <id>forge-weblogdemo-maven-repo</id>
+      <url>svn:http://forge.onehippo.org/svn/weblogdemo/maven2/</url>
+    </repository>
+  </distributionManagement>
     
   
   <repositories>

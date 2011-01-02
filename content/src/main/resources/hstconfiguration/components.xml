@@ -160,38 +160,4 @@
       <sv:value>basepage.footer</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="detail.article">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hst:component</sv:value>
-    </sv:property>
-    <sv:property sv:name="hst:componentclassname" sv:type="String">
-      <sv:value>org.onehippo.forge.weblogdemo.components.Detail</sv:value>
-    </sv:property>
-    <sv:property sv:name="hst:parameternames" sv:type="String">
-      <sv:value>mail.smtp.host</sv:value>
-      <sv:value>receiver.email</sv:value>
-      <sv:value>sender.email</sv:value>
-    </sv:property>
-    <sv:property sv:name="hst:parametervalues" sv:type="String">
-      <sv:value>localhost</sv:value>
-      <sv:value>receiver@example.com</sv:value>
-      <sv:value>sender@example.com</sv:value>
-    </sv:property>
-    <sv:property sv:name="hst:template" sv:type="String">
-      <sv:value>detail.article</sv:value>
-    </sv:property>
-  </sv:node>
-  <sv:node sv:name="overview.article">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hst:component</sv:value>
-    </sv:property>
-    <sv:property sv:name="hst:componentclassname" sv:type="String">
-      <sv:value>org.onehippo.forge.weblogdemo.components.overview.BlogListing</sv:value>
-    </sv:property>
-    <sv:property sv:name="hst:parameternames" sv:type="String"/>
-    <sv:property sv:name="hst:parametervalues" sv:type="String"/>
-    <sv:property sv:name="hst:template" sv:type="String">
-      <sv:value>overview.article</sv:value>
-    </sv:property>
-  </sv:node>
 </sv:node>

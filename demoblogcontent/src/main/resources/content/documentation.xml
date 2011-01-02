@@ -213,7 +213,7 @@ Twitter4J to get your access token code. &lt;/li&gt;
 &lt;ul&gt;
 &lt;li&gt;googleanalytics.account: required, the ID of the counter e.g. UA-123456-7
 &lt;/li&gt;
-&lt;li&gt;googleanalytics.domain: optional, your domain name, e.g. example.com. Only
+&lt;li&gt;googleanalytics.domain: optional, your domain name, e.g. .example.com. Only
 configure this if you combine counters from multiple sub domains.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;

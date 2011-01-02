@@ -44,7 +44,7 @@
 [#if labels['googleanalytics.account']?has_content]
 <script>if (window.location.hostname!="localhost") {
     var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', '${labels['googleanalytics.account']}}']);
+    _gaq.push(['_setAccount', '${labels['googleanalytics.account']}']);
     [#if labels['googleanalytics.domain']?has_content]
     _gaq.push(['_setDomainName', '${labels['googleanalytics.domain']}']);
     [/#if]

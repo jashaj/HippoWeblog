@@ -1,7 +1,7 @@
 [#ftl]
 [#assign hst=JspTaglibs["http://www.hippoecm.org/jsp/hst/core"]]
 [#--
-  * Copyright 2010 Jasha Joachimsthal
+  * Copyright 2010-2011 Jasha Joachimsthal
   *
   * Licensed under the Apache License, Version 2.0 (the  "License");
   * you may not use this file except in compliance with the License.
@@ -21,7 +21,7 @@
   <nav>
     <ul>
     [#list menu.siteMenuItems as menuItem]
-      [#assign menulink][#if menuItem.externalLink?has_content]${menuItem.externalLink}[#elseif menuItem.hstLink?has_content][@hst.link path="${menuItem.hstLink.path}"/][#else]#[/#if][/#assign]
+      [#assign menulink][#if menuItem.externalLink?has_content]${menuItem.externalLink}[#elseif menuItem.hstLink?has_content][@hst.link link=menuItem.hstLink/][#else]#[/#if][/#assign]
       [#assign liclass][#if (menuItem.expanded || menuItem.selected)] class="active"[/#if][/#assign]
       [#compress]<li${liclass}><a href="${menulink}">${menuItem.name}</a></li>[/#compress]
     [/#list]

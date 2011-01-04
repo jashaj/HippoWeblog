@@ -1,4 +1,5 @@
 /*  HTML5 ? Boilerplate  */
+/*  HTML5 ✰ Boilerplate */
 
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
@@ -102,11 +103,14 @@ h1, h2, h3, h4, h5, h6 {
 #container {
   width: 950px;
   margin: 10px auto;
+  background-color: #FFF;/*for browsers that don't support rgba */
+  background:transparent;
+  -ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCFFFFFF, endColorstr=#CCFFFFFF);"; /*IE8*/
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCFFFFFF, endColorstr=#CCFFFFFF); /*IE6&7*/
   background-color: rgba(255,255,255,0.75);
   -moz-border-radius:15px;
   -webkit-border-radius:15px;
   border-radius:15px;
-  -ms-filter:progid:DXImageTransform.Microsoft.dropShadow(color=#999, offX=10, offY=10, positive=true);
   box-shadow: 0 0 10px #999;
   -moz-box-shadow: 0 0 10px #999;
   -webkit-box-shadow: 0 0 10px #999;
@@ -220,11 +224,12 @@ article a, article a:visited, aside a, aside a:visited {color:#006;}
 section.teaser{padding:1em 5px 0 5px;margin-bottom:2em;clear: both;}
 section.teaser h2{margin:0 0 1em 0; line-height: 0.5em;}
 section.teaser:hover {-moz-border-radius:8px;-webkit-border-radius:8px;
+background-color:#FFF;
 background-color:rgba(255,255,255,0.8);
 background: -webkit-gradient(linear, left top, left bottom, from(#ddd) ,to(#ccc));
 background: -moz-linear-gradient(top, #ddd, #ccc);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFDDDDDD, endColorstr=#FFCCCCCC);
--ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFDDDDDD, endColorstr=#FFCCCCCC)";}
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFDDDDDD, endColorstr=#FFCCCCCC)";
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFDDDDDD, endColorstr=#FFCCCCCC);}
 section.teaser p{padding-left:47px;}
 section.teaser a{color:#000; text-decoration: none; color:inherit;}
 section.teaser a:hover{color:#000; text-decoration: underline;}
@@ -245,9 +250,8 @@ overflow:hidden;
 background-color:#ccf;
 background: -webkit-gradient(linear, left top, left bottom, from(#ccf), to(#fff));
 background: -moz-linear-gradient(top, #ccf, #fff);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFFCCCC, endColorstr=#FFFFFFFF);
--ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFFCCCC, endColorstr=#FFFFFFFF)";
--ms-filter:progid:DXImageTransform.Microsoft.dropShadow(color=#999, offX=5, offY=5, positive=true);
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFCCCCFF, endColorstr=#FFFFFFFF)";
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFCCCCFF, endColorstr=#FFFFFFFF);
 box-shadow: 0 0 5px #999;
 -moz-box-shadow: 0 0 5px #999;
 -webkit-box-shadow: 0 0 5px #999;
@@ -258,8 +262,8 @@ aside section h2{ color:#FFF; font-weight:normal; font-size:1.3em; margin:-5px -
 background-color: #30c;
 background: -webkit-gradient(linear, left top, left bottom, from(#30c) ,to(#006));
 background: -moz-linear-gradient(top, #30c, #006);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#FF3300CC, endColorstr=#FF000066);
 -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FF3300CC, endColorstr=#FF000066)";
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#FF3300CC, endColorstr=#FF000066);
 }
 aside section h3{margin-bottom:0.5em;}
 aside ul{list-style: none;padding:0;margin:0;}
@@ -271,7 +275,7 @@ aside>section{margin-top:0;}
 .date {
 font-family: Georgia, Times, Times New Roman, serif;
 border:1px solid black;
-background:rgba(255,255,255,1);
+background:#FFF;
 -moz-border-radius-bottomright:3px;
 -moz-border-radius-bottomleft:3px;
 -webkit-border-bottom-left-radius:3px;

@@ -1,3 +1,18 @@
+/*
+ * Copyright 2010-2011 Jasha Joachimsthal
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
 package org.onehippo.forge.weblogdemo.components;
 
 import org.apache.commons.lang.StringUtils;
@@ -11,11 +26,12 @@ import org.hippoecm.hst.core.component.HstComponentException;
 import org.hippoecm.hst.core.component.HstRequest;
 import org.hippoecm.hst.core.component.HstResponse;
 import org.onehippo.forge.weblogdemo.beans.Blogpost;
+import org.onehippo.forge.weblogdemo.hstextensions.ContentRewriterImpl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * .HST component that queries the repository for the newest {@link org.onehippo.forge.weblogdemo.beans.Blogpost} based on the date
+ * HST component that queries the repository for the newest {@link org.onehippo.forge.weblogdemo.beans.Blogpost} based on the date
  *  Needs HST parameter {@literal blogFolder} that contains the path to the blogposts relative from the site root.
  *
  * @author Jasha Joachimsthal
@@ -35,7 +51,7 @@ public class LatestBlog extends BaseSiteComponent {
             return;
         }
         request.setAttribute("document", latestBlog);
-
+        request.setAttribute("contentrewriter", new ContentRewriterImpl());
     }
 
     private HippoBean getLatestBlog(HstRequest request) {

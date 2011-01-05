@@ -2,7 +2,7 @@
 [#assign hst=JspTaglibs["http://www.hippoecm.org/jsp/hst/core"]]
 [#import "../../imports/imports.ftl" as site]
 [#--
-  * Copyright 2010 Jasha Joachimsthal
+  * Copyright 2010-2011 Jasha Joachimsthal
   *
   * Licensed under the Apache License, Version 2.0 (the  "License");
   * you may not use this file except in compliance with the License.
@@ -25,7 +25,7 @@
   </section>
   [@hst.headContribution category="jsExternal"]<script type="text/javascript" src="http://static.addtoany.com/menu/page.js"></script>[/@hst.headContribution]
 
-  [#if comments?has_content]
+  [#if comments?? && comments?has_content]
     <h2>${comments?size} [#if comments?size=1]comment[#else]comments[/#if]</h2>
     [#list comments as comment]
     <div class="comment" id="${comment.name}">
@@ -37,7 +37,7 @@
     </div>
     [/#list]
   [/#if]
-  [#if enableComments = true]
+  [#if enableComments?? = true]
     <section>
     [#assign addURL][@hst.actionURL][@hst.param name="type" value="add"/][/@hst.actionURL][/#assign]
     <form method="post" action="${addURL}" class="commentform" id="commentform">

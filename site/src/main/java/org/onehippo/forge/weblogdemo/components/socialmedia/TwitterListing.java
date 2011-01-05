@@ -1,5 +1,5 @@
 /*
- * Copyright 2010 Jasha Joachimsthal
+ * Copyright 2010-2011 Jasha Joachimsthal
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -31,13 +31,14 @@ import twitter4j.Status;
 import twitter4j.Twitter;
 import twitter4j.TwitterException;
 import twitter4j.TwitterFactory;
+import twitter4j.conf.ConfigurationBuilder;
 import twitter4j.http.AccessToken;
 import org.onehippo.forge.weblogdemo.components.BaseSiteComponent;
 
 /**
  * Component for displaying Tweets using Twitter4J
- * @author Jasha Joachimsthal
  *
+ * @author Jasha Joachimsthal
  */
 public class TwitterListing extends BaseSiteComponent {
 
@@ -48,20 +49,57 @@ public class TwitterListing extends BaseSiteComponent {
     public static final Logger log = LoggerFactory.getLogger(TwitterListing.class);
 
     /**
-     * Fetches both Tweets and ReTweets for the configured user. 
+     * Fetches both Tweets and ReTweets for the configured user.
      * Adds them combined in a reversed order (newest first) to the {@link HstRequest}.
-     * 
-     * @param token needed for oAuth {@link AccessToken}
-     * @param tokenSecret needed for oAuth {@link AccessToken}
-     * @param consumerKey needed for oAuth
-     * @param consumerSecret needed for oAuth
+     * <p/>
+     * Required parameters:
+     * <dl>
+     * <dt>token</dt>
+     * <dd>needed for oAuth {@link AccessToken}</dd>
+     * <dt>tokenSecret</dt>
+     * <dd>needed for oAuth {@link AccessToken}</dd>
+     * <dt>consumerKey<dt>
+     * <dd>needed for oAuth</dd>
+     * <dt>consumerSecret<dt>
+     * <dd>needed for oAuth</dd>
+     * </dl>
      */
     @Override
     public void doBeforeRender(HstRequest request, HstResponse response) throws HstComponentException {
         super.doBeforeRender(request, response);
 
         request.setAttribute("boxTitle", getParameter("boxTitle", request));
-        
+
+        Twitter twitter = getTwitterObject(request);
+        if (twitter == null) {
+            return;
+        }
+
+        try {
+            List<Status> statuses = twitter.getUserTimeline();
+            // for backwards compatibility Twitter does not return retweets when the user timeline is requested
+            // that's why we have to merge them
+            List<Status> retweets = twitter.getRetweetedByMe();
+            statuses.addAll(retweets);
+            Set<Status> allStatuses = new TreeSet<Status>(Collections.reverseOrder());
+            allStatuses.addAll(statuses);
+            allStatuses.addAll(retweets);
+            if (!allStatuses.isEmpty()) {
+                request.setAttribute("statuses", allStatuses);
+            }
+        } catch (TwitterException e) {
+            log.warn("Error getting Twitter status updates", e);
+        }
+
+    }
+
+    /**
+     * Builds up the {@link Twitter} object needed to communicate trhrough Twitter4J
+     *
+     * @param request current {@link org.hippoecm.hst.core.component.HstRequest}
+     * @return {@link Twitter} or {@literal null} if configuration is missing in the HST
+     */
+    private Twitter getTwitterObject(HstRequest request) {
         String token = getParameter(TOKEN, request);
         String tokenSecret = getParameter(TOKEN_SECRET, request);
         String consumerKey = getParameter(CONSUMER_KEY, request);
@@ -83,26 +121,17 @@ public class TwitterListing extends BaseSiteComponent {
         }
 
         if (missingConfiguration) {
-            return;
+            return null;
         }
+
+        ConfigurationBuilder cb = new ConfigurationBuilder()
+                .setOAuthAccessToken(token)
+                .setOAuthAccessTokenSecret(tokenSecret)
+                .setOAuthConsumerKey(consumerKey)
+                .setOAuthConsumerSecret(consumerSecret);
         
-        AccessToken accessToken = new AccessToken(token, tokenSecret);
-        Twitter twitter = new TwitterFactory().getOAuthAuthorizedInstance(consumerKey, consumerSecret, accessToken);
-
-        try {
-            List<Status> statuses = twitter.getUserTimeline();
-            List<Status> retweets = twitter.getRetweetedByMe();
-            statuses.addAll(retweets);
-            Set<Status> allStatuses = new TreeSet<Status>(Collections.reverseOrder());
-            allStatuses.addAll(statuses);
-            allStatuses.addAll(retweets);
-            if (!allStatuses.isEmpty()) {
-                request.setAttribute("statuses", allStatuses);
-            }
-        } catch (TwitterException e) {
-            log.warn("Error getting Twitter status updates", e);
-        }
-
+        TwitterFactory twitterFactory = new TwitterFactory(cb.build());
+        return twitterFactory.getInstance();
     }
 
 }

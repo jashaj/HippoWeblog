@@ -16,7 +16,7 @@
   * See the License for the specific language governing permissions and
   * limitations under the License.
   --]
-[@hst.headContribution]<title>${document.rawTitle} | ${labels['site.name']}</title>[/@hst.headContribution]
+[@hst.headContribution]<title>${document.rawTitle?xml} | ${labels['site.name']}</title>[/@hst.headContribution]
 
 <article>
 [@site.blog document=document/]

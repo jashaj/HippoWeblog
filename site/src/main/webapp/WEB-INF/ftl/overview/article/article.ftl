@@ -18,7 +18,7 @@
   --]
 
 [#assign title]${pageTitle}[#if tag?has_content]: ${tag}[/#if][/#assign]
-[@hst.headContribution]<title>${title} | ${labels['site.name']}</title>[/@hst.headContribution]
+[@hst.headContribution]<title>${title?xml} | ${labels['site.name']}</title>[/@hst.headContribution]
 [@hst.headContribution]<meta name="robots" content="noindex, follow"/>[/@hst.headContribution]
 <article>
   <h1>${title}</h1>

@@ -22,4 +22,4 @@
     [@hst.html hippohtml=document.html contentRewriter=contentrewriter/]
   </section>
 </article>
-[@hst.headContribution]<title>${document.title} | ${labels['site.name']}</title>[/@hst.headContribution]
+[@hst.headContribution]<title>${document.rawTitle?xml} | ${labels['site.name']}</title>[/@hst.headContribution]

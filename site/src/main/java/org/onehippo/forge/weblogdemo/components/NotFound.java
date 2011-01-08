@@ -19,8 +19,10 @@ import org.hippoecm.hst.core.component.HstComponentException;
 import org.hippoecm.hst.core.component.HstRequest;
 import org.hippoecm.hst.core.component.HstResponse;
 
+import static javax.servlet.http.HttpServletResponse.SC_NOT_FOUND;
+
 /**
- * Same as {@link Detail} but with a {@value HstResponse#SC_NOT_FOUND} status code
+ * Same as {@link Detail} but with a {@literal 404} status code
  * @author Jasha Joachimsthal
  *
  */
@@ -29,6 +31,6 @@ public class NotFound extends Detail {
     @Override
     public void doBeforeRender(HstRequest request, HstResponse response) throws HstComponentException {
         super.doBeforeRender(request, response);
-        response.setStatus(HstResponse.SC_NOT_FOUND);
+        response.setStatus(SC_NOT_FOUND);
     }
 }

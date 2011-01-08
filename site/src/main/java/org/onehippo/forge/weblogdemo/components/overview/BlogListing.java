@@ -23,8 +23,7 @@ import java.util.List;
 
 /**
  * Component for an overview of {@link org.onehippo.forge.weblogdemo.beans.Blogpost} documents.
- * {@inheritDoc}
- * 
+ *
  * @author Jasha Joachimsthal
  */
 public class BlogListing extends AbstractListing {

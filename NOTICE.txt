@@ -30,6 +30,12 @@ The product uses ROME released under the Apache 2.0 license
 The product uses Twitter4J developed by Yusuke Yamamoto released under the BSD license
 <URL:http://twitter4j.org>
 
+The product includes Modernizr created by Faruk Ate? and Paul Irish licensed under the MIT and BSD licenses
+<URL:http://www.modernizr.com>
+
+The product uses HTML5 Boilerplate developed by Paul Irish and Divya Manian
+<URL:http://html5boilerplate.com/>
+
 Some parts of the content (images and text) in this product is licensed under the Creative Commons
 Attribution-Noncommercial-No Derivative Works 3.0 Netherlands License.
 To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/3.0/nl/ or,

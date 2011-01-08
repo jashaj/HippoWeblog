@@ -27,14 +27,14 @@
   <name>Hippo Weblog demo project CMS</name>
   <description>Hippo Weblog demo project CMS</description>
   <groupId>org.onehippo.forge.weblogdemo</groupId>
-  <artifactId>weblogdemo-cms</artifactId>
+  <artifactId>cms</artifactId>
   <packaging>war</packaging>
 
   <dependencies>
 
     <dependency>
       <groupId>org.onehippo.forge.weblogdemo</groupId>
-      <artifactId>weblogdemo-content</artifactId>
+      <artifactId>content</artifactId>
       <version>${pom.version}</version>
       <type>jar</type>
     </dependency>
@@ -172,7 +172,7 @@
         <dependencies>
           <dependency>
             <groupId>org.onehippo.forge.weblogdemo</groupId>
-            <artifactId>weblogdemo-demoblogcontent</artifactId>
+            <artifactId>demoblogcontent</artifactId>
             <version>${pom.version}</version>
             <type>jar</type>
           </dependency>

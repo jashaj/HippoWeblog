@@ -27,7 +27,7 @@
   <name>Hippo Weblog demo project content</name>
   <description>Hippo Weblog demo project Content</description>
   <groupId>org.onehippo.forge.weblogdemo</groupId>
-  <artifactId>weblogdemo-content</artifactId>
+  <artifactId>content</artifactId>
   <packaging>jar</packaging>
 
   <dependencies>

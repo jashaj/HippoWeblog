@@ -23,6 +23,7 @@
   <artifactId>weblogdemo</artifactId>
   <version>1.01.02-SNAPSHOT</version>
   <packaging>pom</packaging>
+  <url>http://weblogdemo.forge.onehippo.org/</url>
 
   <properties>
   
@@ -334,8 +335,9 @@
     
   </dependencyManagement>
 
-  <contributors>
-    <contributor>
+  <developers>
+    <developer>
+      <id>jjoachimsthal</id>
       <name>Jasha Joachimsthal</name>
       <email>j.joachimsthal[at]onehippo[dot]com</email>
       <organization>Hippo</organization>
@@ -344,8 +346,8 @@
         <role>Java web developer</role>
       </roles>
       <timezone>+1</timezone>
-    </contributor>
-  </contributors>
+    </developer>
+  </developers>
   <inceptionYear>2010</inceptionYear>
   <licenses>
     <license>
@@ -361,6 +363,7 @@
   <scm>
     <connection>scm:svn:http://forge.onehippo.org/svn/weblogdemo/trunk</connection>
     <developerConnection>scm:svn:http://forge.onehippo.org/svn/weblogdemo/trunk</developerConnection>
+    <url>http://forge.onehippo.org/svn/weblogdemo/trunk</url>
   </scm>
 
   <issueManagement>
@@ -375,8 +378,58 @@
       <url>svn:http://forge.onehippo.org/svn/weblogdemo/maven2/</url>
     </repository>
   </distributionManagement>
-    
-  
+
+  <reporting>
+    <plugins>
+      <!-- Javadoc -->
+      <plugin>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <configuration>
+          <aggregate>true</aggregate>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jxr-plugin</artifactId>
+        <reportSets>
+          <reportSet>
+            <id>src-xref</id>
+            <reports>
+              <report>jxr</report>
+            </reports>
+          </reportSet>
+          <reportSet>
+            <id>test-xref</id>
+            <reports>
+              <report>test-jxr</report>
+            </reports>
+          </reportSet>
+        </reportSets>
+        <configuration>
+          <aggregate>true</aggregate>
+        </configuration>
+      </plugin>
+      <!-- Unit-test -->
+      <plugin>
+        <artifactId>maven-surefire-report-plugin</artifactId>
+        <configuration>
+          <aggregate>true</aggregate>
+          <xrefLocation>${project.reporting.outputDirectory}/../xref-test</xrefLocation>
+        </configuration>
+      </plugin>
+      <!--Changelog-->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-changelog-plugin</artifactId>
+        <configuration>
+          <aggregate>true</aggregate>
+          <xrefLocation>${project.reporting.outputDirectory}/../xref-test</xrefLocation>
+        </configuration>
+      </plugin>
+    </plugins>
+  </reporting>
+
+
   <repositories>
     <repository>
       <id>hippo</id>
@@ -522,8 +575,8 @@
 
   <modules>
     <module>content</module>
+    <module>demoblogcontent</module>
     <module>cms</module>
     <module>site</module>
-    <module>demoblogcontent</module>
   </modules>
 </project>

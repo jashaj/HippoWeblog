@@ -440,7 +440,8 @@
         <artifactId>maven-pmd-plugin</artifactId>
         <version>2.5</version>
         <configuration>
-          <targetJDK>${targetJDK}</targetJDK>
+          <linkXref>true</linkXref>
+          <targetJdk>${targetJDK}</targetJdk>
         </configuration>
       </plugin>
     </plugins>

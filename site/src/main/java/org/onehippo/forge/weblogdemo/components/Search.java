@@ -61,7 +61,7 @@ public class Search extends BaseSiteComponent {
             try {
                 page = Integer.parseInt(pageStr);
             } catch (NumberFormatException e) {
-                // empty ignore
+                log.trace("Unable to parse {} as Integer", pageStr);
             }
         }
         

@@ -15,17 +15,6 @@
  */
 package org.onehippo.forge.weblogdemo.components.socialmedia;
 
-import java.io.IOException;
-import java.net.MalformedURLException;
-import java.net.URL;
-
-import org.apache.commons.lang.StringUtils;
-import org.hippoecm.hst.core.component.HstComponentException;
-import org.hippoecm.hst.core.component.HstRequest;
-import org.hippoecm.hst.core.component.HstResponse;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import com.sun.syndication.feed.synd.SyndFeed;
 import com.sun.syndication.fetcher.FeedFetcher;
 import com.sun.syndication.fetcher.FetcherException;
@@ -33,8 +22,16 @@ import com.sun.syndication.fetcher.impl.FeedFetcherCache;
 import com.sun.syndication.fetcher.impl.HashMapFeedInfoCache;
 import com.sun.syndication.fetcher.impl.HttpURLFeedFetcher;
 import com.sun.syndication.io.FeedException;
-
+import org.apache.commons.lang.StringUtils;
+import org.hippoecm.hst.core.component.HstComponentException;
+import org.hippoecm.hst.core.component.HstRequest;
+import org.hippoecm.hst.core.component.HstResponse;
 import org.onehippo.forge.weblogdemo.components.BaseSiteComponent;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import java.io.IOException;
+import java.net.URL;
 
 /**
  * HST component that fetches an RSS or Atom feed.
@@ -89,20 +86,18 @@ public class FeedListing extends BaseSiteComponent {
      * @return {@link com.sun.syndication.feed.synd.SyndFeed} for the location or {@literal null} in case of connection errors
      */
     SyndFeed getFeed(String feedLocation) {
-        SyndFeed feed;
+        SyndFeed feed = null;
         try {
             FeedFetcherCache feedInfoCache = HashMapFeedInfoCache.getInstance();
             FeedFetcher feedFetcher = new HttpURLFeedFetcher(feedInfoCache);
-            return feedFetcher.retrieveFeed(new URL(feedLocation));
+            feed =  feedFetcher.retrieveFeed(new URL(feedLocation));
         } catch (IOException e) {
             log.error("Connection error retrieving feed ", e);
-            return null;
         } catch (FeedException e) {
             log.error("Received invalid feed which makes it impossible to parse", e);
-            return null;
         } catch (FetcherException e) {
             log.error("HTTP error retrieving feed", e);
-            return null;
         }
+        return feed;
     }
 }

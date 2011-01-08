@@ -17,7 +17,6 @@ package org.onehippo.forge.weblogdemo.components.overview;
 
 import org.hippoecm.hst.content.beans.standard.HippoBean;
 import org.hippoecm.hst.core.component.HstRequest;
-import org.onehippo.forge.weblogdemo.beans.Blogpost;
 import org.onehippo.forge.weblogdemo.beans.TextDocument;
 
 import java.util.List;

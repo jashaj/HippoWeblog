@@ -182,21 +182,4 @@ public class BaseDocument extends HippoDocument implements ContentNodeBinder {
         return true;
     }
 
-    /*
-     * (non-Javadoc)
-     * @see org.hippoecm.hst.content.beans.standard.HippoItem#equals(java.lang.Object)
-     */
-    @Override
-    public boolean equals(Object obj) {
-        return super.equals(obj);
-    }
-
-    /*
-     * (non-Javadoc)
-     * @see org.hippoecm.hst.content.beans.standard.HippoItem#hashCode()
-     */
-    @Override
-    public int hashCode() {
-        return super.hashCode();
-    }
 }

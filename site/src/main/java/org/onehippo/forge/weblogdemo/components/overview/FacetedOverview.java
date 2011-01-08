@@ -1,21 +1,15 @@
 package org.onehippo.forge.weblogdemo.components.overview;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import org.apache.commons.lang.StringUtils;
 import org.hippoecm.hst.content.beans.standard.HippoBean;
 import org.hippoecm.hst.content.beans.standard.HippoDocumentIterator;
 import org.hippoecm.hst.content.beans.standard.HippoFacetChildNavigationBean;
-import org.hippoecm.hst.content.beans.standard.facetnavigation.HippoFacetSubNavigation;
-import org.hippoecm.hst.core.component.HstComponentException;
 import org.hippoecm.hst.core.component.HstRequest;
-import org.hippoecm.hst.core.component.HstResponse;
-import org.onehippo.forge.weblogdemo.components.BaseSiteComponent;
+import org.onehippo.forge.weblogdemo.beans.Blogpost;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import org.onehippo.forge.weblogdemo.beans.Blogpost;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Component for an overview of documents within a facet

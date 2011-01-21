@@ -156,7 +156,7 @@
       <sv:value>content/comment/2007.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/content/documents/weblogdemo</sv:value>
+      <sv:value>/content/documents/weblogdemo/comment</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="weblogdemo-comment-2008">
@@ -170,7 +170,7 @@
       <sv:value>content/comment/2008.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/content/documents/weblogdemo</sv:value>
+      <sv:value>/content/documents/weblogdemo/comment</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="weblogdemo-comment-2009">
@@ -184,7 +184,7 @@
       <sv:value>content/comment/2009.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/content/documents/weblogdemo</sv:value>
+      <sv:value>/content/documents/weblogdemo/comment</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="weblogdemo-comment-2010">
@@ -198,7 +198,7 @@
       <sv:value>content/comment/2010.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/content/documents/weblogdemo</sv:value>
+      <sv:value>/content/documents/weblogdemo/comment</sv:value>
     </sv:property>
   </sv:node>
 

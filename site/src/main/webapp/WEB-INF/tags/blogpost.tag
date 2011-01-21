@@ -14,10 +14,19 @@
   * limitations under the License.
 --%>
 <%@ tag language="java" pageEncoding="UTF-8"%>
+<%@ attribute name="document" type="org.onehippo.forge.weblogdemo.beans.BaseDocument" %>
+<%@ attribute name="contentrewriter" type="org.hippoecm.hst.content.rewriter.ContentRewriter" %>
+<%@ attribute name="titleaslink" type="java.lang.Boolean" required="false"
+              description="If set to true, the title is clickable" %>
 <%@ include file="/WEB-INF/jsp/include/include.jsp" %>
 <section>
   <site:calendar doc="${document}" ispubdate="true"/>
-  <h1>${document.title}</h1>
+  <c:choose>
+    <c:when test="${titleaslink eq true}">
+      <h1><a href="<hst:link hippobean="${document}"/>">${document.title}</a></h1>
+    </c:when>
+    <c:otherwise><h1>${document.title}</h1></c:otherwise>
+  </c:choose>
   <c:if test="${not empty document.summary}"><p>${document.summary}</p></c:if>
   <hst:html hippohtml="${document.html}" contentRewriter="${contentrewriter}"/>
 </section>

@@ -59,6 +59,8 @@
     <aksimet-java.version>1.02</aksimet-java.version>
     <twitter4j.version>2.1.9</twitter4j.version>
 
+    <plugin.yuicompressor.version>1.1</plugin.yuicompressor.version>
+    
     <forge.ecmtagging.version>4.02.00</forge.ecmtagging.version>
     <forge.properties.version>2.05.01</forge.properties.version>
     <forge.authfilter.version>1.01.03</forge.authfilter.version>
@@ -605,6 +607,11 @@
           <tagBase>http://forge.onehippo.org/svn/weblogdemo/tags</tagBase>
         </configuration>
       </plugin>
+       <plugin>
+          <groupId>net.alchim31.maven</groupId>
+          <artifactId>yuicompressor-maven-plugin</artifactId>
+          <version>${plugin.yuicompressor.version}</version>
+        </plugin>
     </plugins>
   </build>
 

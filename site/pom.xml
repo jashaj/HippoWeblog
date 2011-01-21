@@ -238,6 +238,25 @@
           <wtpversion>1.5</wtpversion>
         </configuration>
       </plugin>
+       <plugin>
+        <groupId>net.alchim31.maven</groupId>
+        <artifactId>yuicompressor-maven-plugin</artifactId>
+        <executions>
+          <execution>
+            <goals>
+              <goal>compress</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <!--Do not rename the files to be compressed-->
+          <nosuffix>true</nosuffix>
+          <!--Exclude files already compressed-->
+          <excludes>
+            <exclude>**/*.min.js</exclude>
+          </excludes>
+        </configuration>
+      </plugin>
     </plugins>
     
     <resources>

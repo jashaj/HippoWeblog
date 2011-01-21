@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  * Copyright 2010 Hippo
+  * Copyright 2010-2011 Hippo
   *
   * Licensed under the Apache License, Version 2.0 (the  "License");
   * you may not use this file except in compliance with the License.
@@ -24,7 +24,7 @@
   <sv:property sv:name="hippofacnav:facetnodenames" sv:type="String">
     <sv:value>year${sortby:'facetvalue', sortorder:'descending'}</sv:value>
     <sv:value>month${sortby:'facetvalue', sortorder:'descending', after:'year'}</sv:value>
-    <sv:value>tag</sv:value>
+    <sv:value>tag${sortby:'count', sortorder:'descending', limit:10}</sv:value>
   </sv:property>
   <sv:property sv:name="hippofacnav:facets" sv:type="String">
     <sv:value>weblogdemo:date$year</sv:value>

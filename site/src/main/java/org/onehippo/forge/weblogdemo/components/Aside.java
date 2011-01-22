@@ -26,8 +26,11 @@ import org.hippoecm.hst.core.component.HstResponse;
 /**
  * Component that sets all configured child components onto the request. 
  *
+ * @deprecated no longer needed, rendering template can use <hst:defineObjects/>
+ *
  *  @author Jasha Joachimsthal
  */
+@Deprecated
 public class Aside extends BaseSiteComponent {
 
     

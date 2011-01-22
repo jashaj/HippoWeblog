@@ -1,7 +1,7 @@
 [#ftl]
 [#assign hst=JspTaglibs["http://www.hippoecm.org/jsp/hst/core"]]
 [#--
-  * Copyright 2010 Jasha Joachimsthal
+  * Copyright 2010-2011 Jasha Joachimsthal
   *
   * Licensed under the Apache License, Version 2.0 (the  "License");
   * you may not use this file except in compliance with the License.
@@ -15,6 +15,7 @@
   * See the License for the specific language governing permissions and
   * limitations under the License.
   --]
-[#list includes as include]
+[@hst.defineObjects/]
+[#list hstResponse.childContentNames as include]
   [@hst.include ref="${include}"/]
 [/#list]

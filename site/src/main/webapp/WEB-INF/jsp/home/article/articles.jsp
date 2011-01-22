@@ -15,6 +15,7 @@
   * See the License for the specific language governing permissions and
   * limitations under the License.
 --%>
-<c:forEach var="include" items="${includes}">
-  <hst:include ref="${include}" />
+<hst:defineObjects/>
+<c:forEach var="include" items="${hstResponse.childContentNames}">
+   <hst:include ref="${include}"/>
 </c:forEach>

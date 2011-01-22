@@ -65,6 +65,7 @@
             <manifestEntries>
               <Hippo-Modules>
                 org.onehippo.forge.weblogdemo.upgrade.UpdateModuleV10101
+                org.onehippo.forge.weblogdemo.upgrade.UpdateModuleV10102
               </Hippo-Modules>
             </manifestEntries>
           </archive>

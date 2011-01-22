@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ include file="/WEB-INF/jsp/include/include.jsp" %>
 <%--
-  * Copyright 2010 Jasha Joachimsthal
+  * Copyright 2010-2011 Jasha Joachimsthal
   *
   * Licensed under the Apache License, Version 2.0 (the  "License");
   * you may not use this file except in compliance with the License.
@@ -16,7 +16,8 @@
   * limitations under the License.
 --%>
 <aside>
-  <c:forEach var="include" items="${includes}">
-    <hst:include ref="${include}" />
+  <hst:defineObjects/>
+  <c:forEach var="include" items="${hstResponse.childContentNames}">
+     <hst:include ref="${include}"/>
   </c:forEach>
 </aside>

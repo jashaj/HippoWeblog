@@ -32,19 +32,20 @@ public abstract class AbstractListing extends BaseSiteComponent {
 
     @Override
     public void doBeforeRender(HstRequest request, HstResponse response) throws HstComponentException {
-        super.doBeforeRender(request,
-                response);
+        super.doBeforeRender(request, response);
+        setPageTitle(request);
+        
         HippoBean contentBean = getContentBean(request);
         if (!(contentBean instanceof HippoFolderBean)) {
             log.warn("Parameter hst:relativecontentpath does not reference a folder");
             response.setStatus(HstResponse.SC_NOT_FOUND);
             return;
+            // TODO: redirect to 404?
         }
 
         int page = getPageNumber(request);
         request.setAttribute("page", page);
 
-        setPageTitle(request);
 
         request.setAttribute("documents", getDocumentsForOverview(request, page));
 
@@ -62,7 +63,8 @@ public abstract class AbstractListing extends BaseSiteComponent {
     protected abstract List<HippoBean> getDocumentsForOverview(HstRequest request, int page);
 
     protected void setPageTitle(HstRequest request) {
-        request.setAttribute("pageTitle", getParameter("pageTitle", request));
+        String pageTitle = getParameter("pageTitle", request) == null ? "" : getParameter("pageTitle", request);
+        request.setAttribute("pageTitle", pageTitle);
     }
 
     /**

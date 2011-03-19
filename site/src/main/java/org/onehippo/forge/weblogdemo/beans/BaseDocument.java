@@ -15,20 +15,19 @@
  */
 package org.onehippo.forge.weblogdemo.beans;
 
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.Locale;
-
-import javax.jcr.RepositoryException;
-
 import org.apache.commons.lang.StringEscapeUtils;
 import org.hippoecm.hst.content.beans.ContentNodeBinder;
 import org.hippoecm.hst.content.beans.ContentNodeBindingException;
 import org.hippoecm.hst.content.beans.Node;
 import org.hippoecm.hst.content.beans.standard.HippoDocument;
 import org.hippoecm.hst.content.beans.standard.HippoHtml;
+
+import javax.jcr.RepositoryException;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.Locale;
 
 /**
  * <p>Annotated bean for {@link Node} of type {@link BeanConstants#DOCTYPE_BASEDOCUMENT}.</p>
@@ -40,8 +39,8 @@ import org.hippoecm.hst.content.beans.standard.HippoHtml;
 public class BaseDocument extends HippoDocument implements ContentNodeBinder {
 
     private static final String BASEDOCUMENT = "basedocument";
-    protected final static String HTML_NODEPATH = BeanConstants.COMPOUND_BODY;
-    protected final static String PRINTDATE = "d MMMM yyyy HH:mm";
+    protected static final String HTML_NODEPATH = BeanConstants.COMPOUND_BODY;
+    protected static final String PRINTDATE = "d MMMM yyyy HH:mm";
 
     private String title;
     private String summary;
@@ -162,19 +161,22 @@ public class BaseDocument extends HippoDocument implements ContentNodeBinder {
             node.setProperty(BeanConstants.PROP_TITLE, bean.getTitle());
             node.setProperty(BeanConstants.PROP_SUMMARY, bean.getSummary());
 
-            if (this.html != null) {
-                if (node.hasNode(HTML_NODEPATH)) {
-                    javax.jcr.Node htmlNode = node.getNode(HTML_NODEPATH);
-                    if (!htmlNode.isNodeType("hippostd:html")) {
-                        throw new ContentNodeBindingException("Expected html node of type 'hippostd:html' but was '"
-                                + htmlNode.getPrimaryNodeType().getName() + "'");
-                    }
-                    htmlNode.setProperty("hippostd:content", html);
-                } else {
-                    javax.jcr.Node html = node.addNode(HTML_NODEPATH, "hippostd:html");
-                    html.setProperty("hippostd:content", html);
-                }
+            if (this.html == null) {
+              return true;
             }
+
+            if (node.hasNode(HTML_NODEPATH)) {
+                javax.jcr.Node htmlNode = node.getNode(HTML_NODEPATH);
+                if (!htmlNode.isNodeType("hippostd:html")) {
+                    throw new ContentNodeBindingException("Expected html node of type 'hippostd:html' but was '"
+                            + htmlNode.getPrimaryNodeType().getName() + "'");
+                }
+                htmlNode.setProperty("hippostd:content", html);
+            } else {
+                javax.jcr.Node htmlNode = node.addNode(HTML_NODEPATH, "hippostd:html");
+                htmlNode.setProperty("hippostd:content", html);
+            }
+
         } catch (Exception e) {
             throw new ContentNodeBindingException(e);
         }

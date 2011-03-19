@@ -66,6 +66,9 @@
     <forge.authfilter.version>1.01.03</forge.authfilter.version>
     <forge.robotstxt.version>1.03.00</forge.robotstxt.version>
 
+    <jetty.version>6.1.26</jetty.version>
+    <atomikos.version>3.7.0</atomikos.version>
+
     <targetJDK>1.5</targetJDK>
 
     <!-- use UTF-8 encoding for filtered file copy -->

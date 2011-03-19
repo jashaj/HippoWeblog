@@ -15,19 +15,19 @@
  */
 package org.onehippo.forge.weblogdemo.beans;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import org.apache.commons.lang.StringUtils;
 import org.apache.commons.lang.text.StrTokenizer;
 import org.hippoecm.hst.content.beans.Node;
 import org.hippoecm.hst.content.beans.standard.HippoHtml;
 import org.hippoecm.hst.utils.SimpleHtmlExtractor;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @Node(jcrType = "weblogdemo:textdocument")
 public class TextDocument extends BaseDocument {
     private static final String HTMLTAG = "\\<.*?\\>";
-    private final static String PARAGRAPH = "p";
+    private static final String PARAGRAPH = "p";
 
     /*
      * (non-Javadoc)

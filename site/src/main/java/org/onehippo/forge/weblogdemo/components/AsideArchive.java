@@ -19,7 +19,6 @@ import org.apache.commons.lang.StringUtils;
 import org.hippoecm.hst.content.beans.standard.HippoBean;
 import org.hippoecm.hst.content.beans.standard.HippoFacetChildNavigationBean;
 import org.hippoecm.hst.content.beans.standard.facetnavigation.HippoFacetNavigation;
-import org.hippoecm.hst.content.beans.standard.facetnavigation.HippoFacetsAvailableNavigation;
 import org.hippoecm.hst.core.component.HstComponentException;
 import org.hippoecm.hst.core.component.HstRequest;
 import org.hippoecm.hst.core.component.HstResponse;
@@ -46,12 +45,6 @@ public class AsideArchive extends BaseSiteComponent {
         }
         if (currentBean instanceof HippoFacetNavigation || currentBean instanceof HippoFacetChildNavigationBean) {
             request.setAttribute("facetnav", currentBean);
-            if (currentBean instanceof HippoFacetsAvailableNavigation) {
-                request.setAttribute("availNav", "true");
-            }
-            if (currentBean instanceof HippoFacetChildNavigationBean) {
-                request.setAttribute("childNav", "true");
-            }
         }
 
     }

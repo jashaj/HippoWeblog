@@ -15,25 +15,23 @@
  */
 package org.onehippo.forge.weblogdemo.components.socialmedia;
 
-import java.util.Collections;
-import java.util.List;
-import java.util.Set;
-import java.util.TreeSet;
-
 import org.apache.commons.lang.StringUtils;
 import org.hippoecm.hst.core.component.HstComponentException;
 import org.hippoecm.hst.core.component.HstRequest;
 import org.hippoecm.hst.core.component.HstResponse;
+import org.onehippo.forge.weblogdemo.components.BaseSiteComponent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
 import twitter4j.Status;
 import twitter4j.Twitter;
 import twitter4j.TwitterException;
 import twitter4j.TwitterFactory;
 import twitter4j.conf.ConfigurationBuilder;
-import twitter4j.http.AccessToken;
-import org.onehippo.forge.weblogdemo.components.BaseSiteComponent;
+
+import java.util.Collections;
+import java.util.List;
+import java.util.Set;
+import java.util.TreeSet;
 
 /**
  * Component for displaying Tweets using Twitter4J
@@ -55,9 +53,9 @@ public class TwitterListing extends BaseSiteComponent {
      * Required parameters:
      * <dl>
      * <dt>token</dt>
-     * <dd>needed for oAuth {@link AccessToken}</dd>
+     * <dd>needed for oAuth {@link twitter4j.http.AccessToken}</dd>
      * <dt>tokenSecret</dt>
-     * <dd>needed for oAuth {@link AccessToken}</dd>
+     * <dd>needed for oAuth {@link twitter4j.http.AccessToken}</dd>
      * <dt>consumerKey<dt>
      * <dd>needed for oAuth</dd>
      * <dt>consumerSecret<dt>

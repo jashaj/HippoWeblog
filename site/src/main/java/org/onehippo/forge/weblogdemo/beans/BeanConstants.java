@@ -20,7 +20,7 @@ package org.onehippo.forge.weblogdemo.beans;
  * @author Jasha Joachimsthal
  *
  */
-public class BeanConstants {
+public final class BeanConstants {
 
     private BeanConstants() {
         // prevent instantiation

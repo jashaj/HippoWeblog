@@ -15,17 +15,7 @@
  */
 package org.onehippo.forge.weblogdemo.components;
 
-import java.io.IOException;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.List;
-
-import javax.jcr.RepositoryException;
-import javax.jcr.Session;
-
 import net.sf.akismet.Akismet;
-
 import org.apache.commons.lang.StringUtils;
 import org.apache.commons.mail.Email;
 import org.apache.commons.mail.EmailException;
@@ -43,14 +33,23 @@ import org.hippoecm.hst.core.component.HstRequest;
 import org.hippoecm.hst.core.component.HstResponse;
 import org.hippoecm.hst.core.linking.HstLink;
 import org.hippoecm.hst.utils.BeanUtils;
+import org.hippoecm.repository.api.WorkflowException;
 import org.hippoecm.repository.reviewedactions.FullReviewedActionsWorkflow;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import org.onehippo.forge.weblogdemo.beans.BeanConstants;
 import org.onehippo.forge.weblogdemo.beans.Blogpost;
 import org.onehippo.forge.weblogdemo.beans.CommentBean;
 import org.onehippo.forge.weblogdemo.hstextensions.ContentRewriterImpl;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import javax.jcr.RepositoryException;
+import javax.jcr.Session;
+import java.io.IOException;
+import java.rmi.RemoteException;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.List;
 
 /**
  * <p>HST Component for displaying Detail content. Handles adding user generated comments to {@link Blogpost}.</p>
@@ -179,19 +178,7 @@ public class Detail extends BaseSiteComponent {
         String website = request.getParameter(PARAM_WEBSITE);
 
         if (isSpam(request, response, commentTo)) {
-            if (log.isInfoEnabled()) {
-                StringBuffer sb = new StringBuffer("Received comment spam:");
-                sb.append("\nFrom: ").append(person);
-                sb.append("\nMail: ").append(email);
-                sb.append("\nWebsite ").append(website);
-                sb.append("\nComment\n").append(comment);
-                log.info(sb.toString());
-            }
-            try {
-                response.sendError(HstResponse.SC_FORBIDDEN);
-            } catch (IOException e) {
-                log.error("Could not send http response error to spammer", e);
-            }
+            handleSpam(response, comment, person, email, website);
             return;
         }
 
@@ -201,47 +188,33 @@ public class Detail extends BaseSiteComponent {
         Session persistableSession = null;
         WorkflowPersistenceManager wpm = null;
 
+        String commentsFolderPath = getCommentFolderPath(request);
         try {
             // retrieves writable session. NOTE: this session should be logged out manually!
             persistableSession = getPersistableSession(request);
             wpm = getWorkflowPersistenceManager(persistableSession);
             wpm.setWorkflowCallbackHandler(new WorkflowCallbackHandler<FullReviewedActionsWorkflow>() {
-                public void processWorkflow(FullReviewedActionsWorkflow wf) throws Exception {
+                public void processWorkflow(FullReviewedActionsWorkflow wf) throws RepositoryException,
+                    WorkflowException, RemoteException {
                     wf.requestPublication();
                 }
             });
 
-            // it is not important where we store comments. WE just use some (canonical) time path below our project content
-            String siteCanonicalBasePath = this.getHstSite(request).getCanonicalContentPath();
-            Calendar currentDate = Calendar.getInstance();
 
-            DateFormat folderFormat = new SimpleDateFormat(YYYY_MM_DD);
-            StringBuffer commentsFolderPath = new StringBuffer(siteCanonicalBasePath).append(COMMENT_FOLDER);
-            commentsFolderPath.append(folderFormat.format(currentDate.getTime()));
-
-            // comment node name is simply a concatenation of 'comment-' and current time millis.
-            StringBuffer commentNodeName = new StringBuffer(COMMENT_NODENAME_PREFIX).append(commentTo.getName());
-            commentNodeName.append('-').append(System.currentTimeMillis());
-
-            // create comment node now
-            wpm.create(commentsFolderPath.toString(), BeanConstants.DOCTYPE_COMMENT, commentNodeName.toString(), true);
-
-            // retrieve the comment content to manipulate
-            CommentBean commentBean = (CommentBean) wpm.getObject(commentsFolderPath.toString() + '/'
-                    + commentNodeName.toString());
+            CommentBean commentBean = createCommentBean(commentTo, wpm, commentsFolderPath);
             // update content properties
             if (commentBean == null) {
                 throw new HstComponentException("WorkflowPersitenceManager returned null for a CommentBean");
             }
 
             String title = comment.trim().length() > MAX_TITLE_LENGTH ? comment.trim().substring(0, MAX_TITLE_LENGTH)
-                    : comment.trim();
+                : comment.trim();
             commentBean.setTitle(title);
             commentBean.setPerson(person);
             commentBean.setEmail(email);
             commentBean.setWebsite(website);
             commentBean.setSummary(comment.replaceAll(LINE_END, HTML_BR));
-            commentBean.setCalendar(currentDate);
+            commentBean.setCalendar(Calendar.getInstance());
             commentBean.setCommentTo(commentToUuidOfHandle);
 
             sendNotificationMail(commentBean, request);
@@ -264,6 +237,46 @@ public class Detail extends BaseSiteComponent {
     }
 
     /**
+     * Creates {@link CommentBean} through the workflow
+     *
+     * @param commentTo {@link HippoBean} that gets a comment
+     * @param wpm {@link WorkflowPersistenceManager}
+     * @param commentsFolderPath the path under which the comment is stored
+     * @return path of the comment node
+     * @throws ObjectBeanManagerException in case of a workflow error
+     */
+    private CommentBean createCommentBean(HippoBean commentTo, WorkflowPersistenceManager wpm, String commentsFolderPath)
+        throws ObjectBeanManagerException {
+        // comment node name is simply a concatenation of 'comment-' and current time millis.
+        StringBuffer commentNodeName = new StringBuffer(COMMENT_NODENAME_PREFIX).append(commentTo.getName());
+        commentNodeName.append('-').append(System.currentTimeMillis());
+
+        // create comment node now
+        wpm.create(commentsFolderPath, BeanConstants.DOCTYPE_COMMENT, commentNodeName.toString(), true);
+
+        // retrieve the comment content to manipulate
+        return (CommentBean) wpm.getObject(commentsFolderPath + '/'
+            + commentNodeName.toString());
+    }
+
+    /**
+   * Creates folder for the comment and returns its path
+   * 
+   * @param request current {@link HstRequest}
+   * @return String with the folder path
+   */
+  private String getCommentFolderPath(HstRequest request) {
+      // it is not important where we store comments. WE just use some (canonical) time path below our project content
+      String siteCanonicalBasePath = this.getHstSite(request).getCanonicalContentPath();
+      Calendar currentDate = Calendar.getInstance();
+
+      DateFormat folderFormat = new SimpleDateFormat(YYYY_MM_DD);
+      StringBuffer commentsFolderPath = new StringBuffer(siteCanonicalBasePath).append(COMMENT_FOLDER);
+      commentsFolderPath.append(folderFormat.format(currentDate.getTime()));
+      return commentsFolderPath.toString();
+  }
+
+  /**
      * Refreshes {@link WorkflowPersistenceManager} (called from catch blocks)
      * @param wpm {@link WorkflowPersistenceManager}
      */
@@ -306,6 +319,33 @@ public class Detail extends BaseSiteComponent {
         String permalink = link.toUrlForm(request, response, true);
         return akismet.commentCheck(remoteAddr, userAgent, referrer, permalink, Akismet.COMMENT_TYPE_COMMENT, person,
                 email, website, comment, null);
+    }
+
+
+    /**
+     * Called in case the spam checker marks the new comment as spam
+     *
+     * @param response {@link HstResponse}
+     * @param comment Text of the comment
+     * @param person name of the commenter
+     * @param email email address of the commenter
+     * @param website url of the commenter's website
+     */
+    protected void handleSpam(HstResponse response, String comment, String person, String email,
+                            String website) {
+        if (log.isInfoEnabled()) {
+            StringBuffer sb = new StringBuffer("Received comment spam:");
+            sb.append("\nFrom: ").append(person);
+            sb.append("\nMail: ").append(email);
+            sb.append("\nWebsite ").append(website);
+            sb.append("\nComment\n").append(comment);
+            log.info(sb.toString());
+        }
+        try {
+            response.sendError(HstResponse.SC_FORBIDDEN);
+        } catch (IOException e) {
+            log.error("Could not send http response error to spammer", e);
+        }
     }
 
     /**

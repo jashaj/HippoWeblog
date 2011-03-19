@@ -15,8 +15,6 @@
  */
 package org.onehippo.forge.weblogdemo.hstextensions;
 
-import javax.jcr.Node;
-
 import org.hippoecm.hst.content.rewriter.impl.SimpleContentRewriter;
 import org.hippoecm.hst.core.component.HstRequest;
 import org.hippoecm.hst.core.component.HstResponse;
@@ -25,6 +23,8 @@ import org.hippoecm.hst.utils.SimpleHtmlExtractor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import javax.jcr.Node;
+
 /**
  * ContentRewriterImpl does the same as {@link SimpleContentRewriter}. 
  * Supports adding rel="external" to external links or rewriting all links to external form, e.g. http://example.com/link.html.
@@ -32,8 +32,8 @@ import org.slf4j.LoggerFactory;
  *
  */
 public class ContentRewriterImpl extends SimpleContentRewriter {
-    private final static Logger log = LoggerFactory.getLogger(ContentRewriterImpl.class);
-    private final static String REL_EXTERNAL = " rel=\"external\"";
+    private static final Logger log = LoggerFactory.getLogger(ContentRewriterImpl.class);
+    private static final String REL_EXTERNAL = " rel=\"external\"";
 
     /**
      * @see SimpleContentRewriter#rewrite(String, Node, HstRequest, HstResponse)
@@ -71,16 +71,16 @@ public class ContentRewriterImpl extends SimpleContentRewriter {
 
         // strip off html & body tag
         String innerHTML = SimpleHtmlExtractor.getInnerHtml(html, "body", false);
-        if (innerHTML != null) {
-            html = innerHTML;
+        if (innerHTML == null) {
+            innerHTML = html;
         }
-        html = html.trim().replaceAll("facetselect=\".+?\"", "");
+        innerHTML = innerHTML.trim().replaceAll("facetselect=\".+?\"", "");
 
         int globalOffset = 0;
-        while (html.indexOf(LINK_TAG, globalOffset) > -1) {
-            int offset = html.indexOf(LINK_TAG, globalOffset);
+        while (innerHTML.indexOf(LINK_TAG, globalOffset) > -1) {
+            int offset = innerHTML.indexOf(LINK_TAG, globalOffset);
 
-            int hrefIndexStart = html.indexOf(HREF_ATTR_NAME, offset);
+            int hrefIndexStart = innerHTML.indexOf(HREF_ATTR_NAME, offset);
             if (hrefIndexStart == -1) {
                 break;
             }
@@ -91,15 +91,15 @@ public class ContentRewriterImpl extends SimpleContentRewriter {
 
             hrefIndexStart += HREF_ATTR_NAME.length();
             offset = hrefIndexStart;
-            int endTag = html.indexOf(END_TAG, offset);
+            int endTag = innerHTML.indexOf(END_TAG, offset);
             boolean appended = false;
             if (hrefIndexStart < endTag) {
-                int hrefIndexEnd = html.indexOf(ATTR_END, hrefIndexStart);
+                int hrefIndexEnd = innerHTML.indexOf(ATTR_END, hrefIndexStart);
                 if (hrefIndexEnd > hrefIndexStart) {
-                    String documentPath = html.substring(hrefIndexStart, hrefIndexEnd);
+                    String documentPath = innerHTML.substring(hrefIndexStart, hrefIndexEnd);
 
                     offset = endTag;
-                    sb.append(html.substring(globalOffset, hrefIndexStart));
+                    sb.append(innerHTML.substring(globalOffset, hrefIndexStart));
 
                     if (isExternal(documentPath)) {
                         sb.append(documentPath);
@@ -111,7 +111,7 @@ public class ContentRewriterImpl extends SimpleContentRewriter {
                             log.warn("Skip href because url is null");
                         }
                     }
-                    sb.append(html.substring(hrefIndexEnd, endTag));
+                    sb.append(innerHTML.substring(hrefIndexEnd, endTag));
                     if (!externalizeLinks && isExternal(documentPath)) {
                         sb.append(REL_EXTERNAL);
                     }
@@ -119,41 +119,41 @@ public class ContentRewriterImpl extends SimpleContentRewriter {
                 }
             }
             if (!appended && offset > globalOffset) {
-                sb.append(html.substring(globalOffset, offset));
+                sb.append(innerHTML.substring(globalOffset, offset));
             }
             globalOffset = offset;
         }
 
         if (sb != null) {
-            sb.append(html.substring(globalOffset, html.length()));
-            html = String.valueOf(sb);
+            sb.append(innerHTML.substring(globalOffset, innerHTML.length()));
+            innerHTML = String.valueOf(sb);
             sb = null;
         }
 
         globalOffset = 0;
-        while (html.indexOf(IMG_TAG, globalOffset) > -1) {
-            int offset = html.indexOf(IMG_TAG, globalOffset);
+        while (innerHTML.indexOf(IMG_TAG, globalOffset) > -1) {
+            int offset = innerHTML.indexOf(IMG_TAG, globalOffset);
 
-            int srcIndexStart = html.indexOf(SRC_ATTR_NAME, offset);
+            int srcIndexStart = innerHTML.indexOf(SRC_ATTR_NAME, offset);
 
             if (srcIndexStart == -1) {
                 break;
             }
 
             if (sb == null) {
-                sb = new StringBuilder(html.length());
+                sb = new StringBuilder(innerHTML.length());
             }
             srcIndexStart += SRC_ATTR_NAME.length();
             offset = srcIndexStart;
-            int endTag = html.indexOf(END_TAG, offset);
+            int endTag = innerHTML.indexOf(END_TAG, offset);
             boolean appended = false;
             if (srcIndexStart < endTag) {
-                int srcIndexEnd = html.indexOf(ATTR_END, srcIndexStart);
+                int srcIndexEnd = innerHTML.indexOf(ATTR_END, srcIndexStart);
                 if (srcIndexEnd > srcIndexStart) {
-                    String srcPath = html.substring(srcIndexStart, srcIndexEnd);
+                    String srcPath = innerHTML.substring(srcIndexStart, srcIndexEnd);
 
                     offset = endTag;
-                    sb.append(html.substring(globalOffset, srcIndexStart));
+                    sb.append(innerHTML.substring(globalOffset, srcIndexStart));
 
                     if (isExternal(srcPath)) {
                         sb.append(srcPath);
@@ -166,20 +166,20 @@ public class ContentRewriterImpl extends SimpleContentRewriter {
                         }
                     }
 
-                    sb.append(html.substring(srcIndexEnd, endTag));
+                    sb.append(innerHTML.substring(srcIndexEnd, endTag));
                     appended = true;
                 }
             }
             if (!appended && offset > globalOffset) {
-                sb.append(html.substring(globalOffset, offset));
+                sb.append(innerHTML.substring(globalOffset, offset));
             }
             globalOffset = offset;
         }
 
         if (sb == null) {
-            return html;
+            return innerHTML;
         } else {
-            sb.append(html.substring(globalOffset, html.length()));
+            sb.append(innerHTML.substring(globalOffset, innerHTML.length()));
             return sb.toString();
         }
     }

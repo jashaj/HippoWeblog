@@ -15,9 +15,6 @@
  */
 package org.onehippo.forge.weblogdemo.components;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import org.apache.commons.lang.StringEscapeUtils;
 import org.apache.commons.lang.StringUtils;
 import org.hippoecm.hst.content.beans.query.HstQuery;
@@ -29,10 +26,12 @@ import org.hippoecm.hst.content.beans.standard.HippoBeanIterator;
 import org.hippoecm.hst.core.component.HstComponentException;
 import org.hippoecm.hst.core.component.HstRequest;
 import org.hippoecm.hst.core.component.HstResponse;
+import org.onehippo.forge.weblogdemo.beans.BaseDocument;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import org.onehippo.forge.weblogdemo.beans.BaseDocument;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Simple search component. Excludes construction
@@ -99,7 +98,7 @@ public class Search extends BaseSiteComponent {
             }
             while (beans.hasNext() && results < PAGESIZE) {
                 HippoBean bean = beans.next();
-                if (bean != null && bean instanceof BaseDocument) {
+                if (bean instanceof BaseDocument) {
                     documents.add((BaseDocument) bean);
                     results++;
                 }

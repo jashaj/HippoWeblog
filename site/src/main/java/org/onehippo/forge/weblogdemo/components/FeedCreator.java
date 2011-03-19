@@ -15,12 +15,16 @@
  */
 package org.onehippo.forge.weblogdemo.components;
 
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.Iterator;
-import java.util.List;
-
+import com.sun.syndication.feed.synd.SyndCategory;
+import com.sun.syndication.feed.synd.SyndCategoryImpl;
+import com.sun.syndication.feed.synd.SyndContent;
+import com.sun.syndication.feed.synd.SyndContentImpl;
+import com.sun.syndication.feed.synd.SyndEntry;
+import com.sun.syndication.feed.synd.SyndEntryImpl;
+import com.sun.syndication.feed.synd.SyndFeed;
+import com.sun.syndication.feed.synd.SyndFeedImpl;
+import com.sun.syndication.io.FeedException;
+import com.sun.syndication.io.SyndFeedOutput;
 import org.apache.commons.lang.StringEscapeUtils;
 import org.apache.commons.lang.StringUtils;
 import org.hippoecm.hst.configuration.HstSite;
@@ -37,25 +41,18 @@ import org.hippoecm.hst.core.component.HstRequest;
 import org.hippoecm.hst.core.component.HstResponse;
 import org.hippoecm.hst.core.linking.HstLink;
 import org.hippoecm.hst.core.request.ResolvedSiteMapItem;
+import org.onehippo.forge.weblogdemo.beans.BeanConstants;
+import org.onehippo.forge.weblogdemo.beans.Blogpost;
 import org.onehippo.forge.weblogdemo.components.overview.BlogListing;
+import org.onehippo.forge.weblogdemo.hstextensions.ContentRewriterImpl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.sun.syndication.feed.atom.Feed;
-import com.sun.syndication.feed.synd.SyndCategory;
-import com.sun.syndication.feed.synd.SyndCategoryImpl;
-import com.sun.syndication.feed.synd.SyndContent;
-import com.sun.syndication.feed.synd.SyndContentImpl;
-import com.sun.syndication.feed.synd.SyndEntry;
-import com.sun.syndication.feed.synd.SyndEntryImpl;
-import com.sun.syndication.feed.synd.SyndFeed;
-import com.sun.syndication.feed.synd.SyndFeedImpl;
-import com.sun.syndication.io.FeedException;
-import com.sun.syndication.io.SyndFeedOutput;
-
-import org.onehippo.forge.weblogdemo.beans.BeanConstants;
-import org.onehippo.forge.weblogdemo.beans.Blogpost;
-import org.onehippo.forge.weblogdemo.hstextensions.ContentRewriterImpl;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.Iterator;
+import java.util.List;
 
 /**
  * Creates Atom or RSS feed using ROME. Needs a JSP that only sets the mime-type
@@ -206,7 +203,8 @@ public class FeedCreator extends BaseSiteComponent {
     }
 
     /**
-     * For each {@link Blogpost} it creates a {@link SyndEntry} that is displayed in the {@link Feed}
+     * For each {@link Blogpost} it creates a {@link SyndEntry} that is displayed in the
+     * {@link com.sun.syndication.feed.atom.Feed}
      * @param entries {@link List}
      * @param beans {@link Iterator} of {@link Blogpost}
      * @param request {@link HstRequest}

@@ -41,7 +41,7 @@ public class FacetedOverview extends AbstractListing {
 
             int skip = page * PAGESIZE;
             it.skip(skip);
-            while (it.hasNext() && it.getPosition() < 10 + (skip - 1)) {
+            while (it.hasNext() && it.getPosition() < PAGESIZE + (skip - 1)) {
                 // the it.getPosition gets increased on it.next() call, hence above, skip - 1
                 documents.add(it.next());
             }

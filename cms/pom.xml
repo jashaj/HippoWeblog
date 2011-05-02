@@ -20,7 +20,7 @@
   <parent>
     <groupId>org.onehippo.forge.weblogdemo</groupId>
     <artifactId>weblogdemo</artifactId>
-    <version>1.01.02</version>
+    <version>1.02.00-SNAPSHOT</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
 
@@ -31,9 +31,9 @@
   <packaging>war</packaging>
 
   <scm>
-    <connection>scm:svn:http://forge.onehippo.org/svn/weblogdemo/tags/weblogdemo-1.01.02/cms</connection>
-    <developerConnection>scm:svn:http://forge.onehippo.org/svn/weblogdemo/tags/weblogdemo-1.01.02/cms</developerConnection>
-    <url>http://forge.onehippo.org/svn/weblogdemo/tags/weblogdemo-1.01.02/cms</url>
+    <connection>scm:svn:http://forge.onehippo.org/svn/weblogdemo/trunk/cms</connection>
+    <developerConnection>scm:svn:http://forge.onehippo.org/svn/weblogdemo/trunk/cms</developerConnection>
+    <url>http://forge.onehippo.org/svn/weblogdemo/trunk/cms</url>
   </scm>
 
   <dependencies>

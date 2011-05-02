@@ -27,9 +27,15 @@
   <name>Hippo Weblog demo project content</name>
   <description>Hippo Weblog demo project Content</description>
   <groupId>org.onehippo.forge.weblogdemo</groupId>
-  <artifactId>content</artifactId>
+  <artifactId>weblogdemo-content</artifactId>
   <packaging>jar</packaging>
 
+  <scm>
+    <connection>scm:svn:http://forge.onehippo.org/svn/weblogdemo/trunk/content</connection>
+    <developerConnection>scm:svn:http://forge.onehippo.org/svn/weblogdemo/trunk/content</developerConnection>
+    <url>http://forge.onehippo.org/svn/weblogdemo/trunk/content</url>
+  </scm>
+  
   <dependencies>
     <dependency>
       <groupId>javax.jcr</groupId>

@@ -27,14 +27,20 @@
   <name>Hippo Weblog demo project CMS</name>
   <description>Hippo Weblog demo project CMS</description>
   <groupId>org.onehippo.forge.weblogdemo</groupId>
-  <artifactId>cms</artifactId>
+  <artifactId>weblogdemo-cms</artifactId>
   <packaging>war</packaging>
+
+  <scm>
+    <connection>scm:svn:http://forge.onehippo.org/svn/weblogdemo/trunk/cms</connection>
+    <developerConnection>scm:svn:http://forge.onehippo.org/svn/weblogdemo/trunk/cms</developerConnection>
+    <url>http://forge.onehippo.org/svn/weblogdemo/trunk/cms</url>
+  </scm>
 
   <dependencies>
 
     <dependency>
       <groupId>org.onehippo.forge.weblogdemo</groupId>
-      <artifactId>content</artifactId>
+      <artifactId>weblogdemo-content</artifactId>
       <version>${pom.version}</version>
       <type>jar</type>
     </dependency>
@@ -172,7 +178,7 @@
         <dependencies>
           <dependency>
             <groupId>org.onehippo.forge.weblogdemo</groupId>
-            <artifactId>demoblogcontent</artifactId>
+            <artifactId>weblogdemo-demoblogcontent</artifactId>
             <version>${pom.version}</version>
             <type>jar</type>
           </dependency>

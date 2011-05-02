@@ -11,13 +11,15 @@
 
   <name>Hippo Weblog demo project Site</name>
   <description>Hippo Weblog demo project Site</description>
-  <artifactId>site</artifactId>
   <groupId>org.onehippo.forge.weblogdemo</groupId>
+  <artifactId>weblogdemo-site</artifactId>
   <packaging>war</packaging>
-  <dependencyManagement>
-    <dependencies>
-    </dependencies>
-  </dependencyManagement>
+
+  <scm>
+    <connection>scm:svn:http://forge.onehippo.org/svn/weblogdemo/trunk/site</connection>
+    <developerConnection>scm:svn:http://forge.onehippo.org/svn/weblogdemo/trunk/site</developerConnection>
+    <url>http://forge.onehippo.org/svn/weblogdemo/trunk/site</url>
+  </scm>
 
   <properties>
     <site.log.dir.name>${site.webapp.root}/WEB-INF/logs</site.log.dir.name>

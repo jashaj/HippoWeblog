@@ -24,6 +24,11 @@
   <version>1.01.02-SNAPSHOT</version>
   <packaging>pom</packaging>
   <url>http://weblogdemo.forge.onehippo.org/</url>
+  <inceptionYear>2010</inceptionYear>
+
+  <prerequisites>
+    <maven>3.0.3</maven>
+  </prerequisites>
 
   <properties>
   
@@ -69,8 +74,19 @@
     <jetty.version>6.1.26</jetty.version>
     <atomikos.version>3.7.0</atomikos.version>
 
-    <targetJDK>1.5</targetJDK>
+    <targetJDK>1.6</targetJDK>
 
+    <maven.plugins.site.version>3.0-beta-3</maven.plugins.site.version>
+    <maven.plugins.project-info-reports.version>2.3.1</maven.plugins.project-info-reports.version>
+    <maven.plugins.javadoc.version>2.7</maven.plugins.javadoc.version>
+    <maven.plugins.jxr.version>2.2</maven.plugins.jxr.version>
+    <maven.plugins.pmd.version>2.5</maven.plugins.pmd.version>
+    <maven.plugins.surefire.version>2.8</maven.plugins.surefire.version>
+    <maven.plugins.changelog.version>2.2</maven.plugins.changelog.version>
+    <maven.plugins.compiler.version>2.3.2</maven.plugins.compiler.version>
+    <maven.plugins.release.version>2.1</maven.plugins.release.version>
+    <maven.plugins.source.version>2.1.2</maven.plugins.source.version>
+    
     <!-- use UTF-8 encoding for filtered file copy -->
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
@@ -355,7 +371,7 @@
       <timezone>+1</timezone>
     </developer>
   </developers>
-  <inceptionYear>2010</inceptionYear>
+
   <licenses>
     <license>
       <name>Apache License, Version 2.0</name>
@@ -399,6 +415,7 @@
         <inherited>true</inherited>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-site-plugin</artifactId>
+        <version>${maven.plugins.site.version}</version>
         <configuration>
           <aggregate>true</aggregate>
         </configuration>
@@ -409,19 +426,19 @@
         <inherited>true</inherited>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-javadoc-plugin</artifactId>
-        <version>2.7</version>
+        <version>${maven.plugins.javadoc.version}</version>
         <configuration>
           <aggregate>true</aggregate>
-          <source>1.5</source>
+          <source>${targetJDK}</source>
           <links>
-            <link>http://java.sun.com/j2se/1.5.0/docs/api/</link>
+            <link>http://download.oracle.com/javase/6/docs/api/</link>
           </links>
         </configuration>
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-jxr-plugin</artifactId>
-        <version>2.2</version>
+        <version>${maven.plugins.jxr.version}</version>
         <reportSets>
           <reportSet>
             <id>src-xref</id>
@@ -444,7 +461,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-surefire-report-plugin</artifactId>
-        <version>2.7.1</version>
+        <version>${maven.plugins.surefire.version}</version>
         <configuration>
           <aggregate>true</aggregate>
           <xrefLocation>${project.reporting.outputDirectory}/../xref-test</xrefLocation>
@@ -454,7 +471,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-changelog-plugin</artifactId>
-        <version>2.2</version>
+        <version>${maven.plugins.changelog.version}</version>
         <configuration>
           <aggregate>true</aggregate>
           <xrefLocation>${project.reporting.outputDirectory}/../xref-test</xrefLocation>
@@ -464,7 +481,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-pmd-plugin</artifactId>
-        <version>2.5</version>
+        <version>${maven.plugins.pmd.version}</version>
         <configuration>
           <aggregate>true</aggregate>
           <linkXref>true</linkXref>
@@ -473,7 +490,6 @@
       </plugin>
     </plugins>
   </reporting>
-
 
   <repositories>
     <repository>
@@ -510,7 +526,7 @@
       <extension>
         <groupId>org.apache.maven.wagon</groupId>
         <artifactId>wagon-ftp</artifactId>
-        <version>1.0-alpha-6</version>
+        <version>${wagon.ftp.version}</version>
       </extension>
       <extension>
         <groupId>org.jvnet.wagon-svn</groupId>
@@ -522,14 +538,10 @@
     <pluginManagement>
       <plugins>
         <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-archetype-plugin</artifactId>
-          <version>2.0-alpha-4</version>
-        </plugin>
-        <plugin>
           <inherited>true</inherited>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-compiler-plugin</artifactId>
+          <version>${maven.plugins.compiler.version}</version>
           <configuration>
             <source>${targetJDK}</source>
             <target>${targetJDK}</target>
@@ -538,12 +550,12 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-release-plugin</artifactId>
-          <version>2.1</version>
+          <version>${maven.plugins.release.version}</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-site-plugin</artifactId>
-          <version>2.2</version>
+          <version>${maven.plugins.site.version}</version>
         </plugin>
       </plugins>
     </pluginManagement>
@@ -551,6 +563,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-source-plugin</artifactId>
+        <version>${maven.plugins.source.version}</version>
         <inherited>true</inherited>
         <executions>
           <execution>
@@ -564,10 +577,12 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-site-plugin</artifactId>
+        <version>${maven.plugins.site.version}</version>
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-release-plugin</artifactId>
+        <version>${maven.plugins.release.version}</version>
         <configuration>
           <tagBase>http://forge.onehippo.org/svn/weblogdemo/tags</tagBase>
         </configuration>

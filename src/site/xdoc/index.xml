@@ -26,7 +26,7 @@
             <p>These instructions assume you already have the following items installed on your computer</p>
             <ul>
                 <li>JDK 6 or up</li>
-                <li><a href="http://maven.apache.org/">Apache Maven 2.2</a></li>
+                <li><a href="http://maven.apache.org/">Apache Maven 3</a></li>
                 <li><a href="http://subversion.apache.org/">Subversion client</a></li>
             </ul>
         </section>

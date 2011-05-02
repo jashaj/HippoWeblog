@@ -3,7 +3,7 @@
   "-//Apache Software Foundation//DTD XDOC 1.0//EN"
   "http://maven.apache.org/dtd/xdoc_1_0.dtd">
 <!--
-  Copyright 2009 Hippo
+  Copyright 2010-2011 Hippo
 
   Licensed under the Apache License, Version 2.0 (the  "License");
   you may not use this file except in compliance with the License.
@@ -35,11 +35,12 @@
             <pre xml:space="preserve">svn checkout http://forge.onehippo.org/svn/weblogdemo/trunk weblogdemo</pre>
         </section>
         <section name="Build the project">
-            <p>Go to the weblogdemo folder, it will contain at least 3 subprojects:</p>
+            <p>Go to the weblogdemo folder, it will contain at least 4 subprojects:</p>
             <ul>
               <li>cms - a pre-configured content repository and CMS</li>
-              <li>content - sample content including a document type and some documents for the sample site</li>
-              <li>site - a sample JSP based website</li>
+              <li>demoblogcontent - sample content including documents and pictures for the sample site</li>
+              <li>content - document types, minimal folder structure and configuration that lives in the repository</li>
+              <li>site - the front-end website. Uses either Freemarker or JSP for the rendering.</li>
             </ul>
             <p>Now build your project using the following command in the root folder of your project:</p>
             <pre xml:space="preserve">mvn install</pre>

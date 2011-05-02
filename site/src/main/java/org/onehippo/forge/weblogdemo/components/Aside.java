@@ -24,27 +24,26 @@ import org.hippoecm.hst.core.component.HstRequest;
 import org.hippoecm.hst.core.component.HstResponse;
 
 /**
- * Component that sets all configured child components onto the request. 
+ * Component that sets all configured child components onto the request.
  *
- * @deprecated no longer needed, rendering template can use <hst:defineObjects/>
- *
- *  @author Jasha Joachimsthal
+ * @author Jasha Joachimsthal
+ * @deprecated no longer needed, rendering template can use {@literal <hst:defineObjects/>}
  */
 @Deprecated
 public class Aside extends BaseSiteComponent {
 
-    
-    @Override
-    public void doBeforeRender(HstRequest request, HstResponse response) throws HstComponentException {
-        super.doBeforeRender(request, response);
 
-        // dynamically included children
-        if (response.getChildContentNames() != null && response.getChildContentNames().size() > 0) {
-            List<String> childNames = new ArrayList<String>();
-            childNames.addAll(response.getChildContentNames());
-            Collections.sort(childNames);
-            request.setAttribute("includes", childNames);
-        }
+  @Override
+  public void doBeforeRender(HstRequest request, HstResponse response) throws HstComponentException {
+    super.doBeforeRender(request, response);
 
+    // dynamically included children
+    if (response.getChildContentNames() != null && response.getChildContentNames().size() > 0) {
+      List<String> childNames = new ArrayList<String>();
+      childNames.addAll(response.getChildContentNames());
+      Collections.sort(childNames);
+      request.setAttribute("includes", childNames);
     }
+
+  }
 }

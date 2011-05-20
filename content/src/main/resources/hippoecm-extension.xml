@@ -342,7 +342,7 @@
   <!-- /Content -->
 
   <!-- Tagging -->
-  <sv:node sv:name="tagging-facetsearch">
+  <sv:node sv:name="tagging-facetnavigation">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -350,7 +350,7 @@
       <sv:value>40502</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>tagging/ecm-tagging-facetsearch.xml</sv:value>
+      <sv:value>tagging/tagging-facetnavigation.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
       <sv:value>/</sv:value>

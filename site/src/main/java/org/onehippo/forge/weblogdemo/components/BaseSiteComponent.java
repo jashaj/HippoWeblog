@@ -1,5 +1,5 @@
 /*
- * Copyright 2010 Jasha Joachimsthal
+ * Copyright 2010-2011 Jasha Joachimsthal
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -15,15 +15,20 @@
  */
 package org.onehippo.forge.weblogdemo.components;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
 
 import org.apache.commons.lang.StringUtils;
 import org.hippoecm.hst.component.support.bean.BaseHstComponent;
+import org.hippoecm.hst.content.beans.standard.HippoBean;
 import org.hippoecm.hst.core.component.HstComponentException;
 import org.hippoecm.hst.core.component.HstRequest;
 import org.hippoecm.hst.core.component.HstResponse;
 import org.hippoecm.hst.core.container.ComponentManager;
 import org.onehippo.forge.properties.api.PropertiesManager;
+import org.onehippo.forge.properties.api.PropertiesUtil;
+import org.onehippo.forge.properties.bean.PropertiesBean;
 
 /**
  * Base component for this project.
@@ -32,37 +37,43 @@ import org.onehippo.forge.properties.api.PropertiesManager;
  */
 public class BaseSiteComponent extends BaseHstComponent {
 
-    /*
-     * (non-Javadoc)
-     * @see org.hippoecm.hst.core.component.GenericHstComponent#doBeforeRender(org.hippoecm.hst.core.component.HstRequest, org.hippoecm.hst.core.component.HstResponse)
-     */
+  /**
+   * {@inheritDoc}
+   */
 
-    @Override
-    public void doBeforeRender(HstRequest request, HstResponse response) throws HstComponentException {
-        super.doBeforeRender(request, response);
-        setComponentLabels(request);
-        request.setAttribute("cssClass", getParameter("cssClass", request));
+  @Override
+  public void doBeforeRender(HstRequest request, HstResponse response) throws HstComponentException {
+    super.doBeforeRender(request, response);
+    setComponentLabels(request);
+    request.setAttribute("cssClass", getParameter("cssClass", request));
+  }
+
+  /**
+   * Utility method to retrieve the configured label documents for a component
+   *
+   * @param request {@link HstRequest}
+   */
+  protected void setComponentLabels(HstRequest request) {
+    final ComponentManager componentManager = this.getDefaultClientComponentManager();
+    final PropertiesManager propertiesManager = componentManager.getComponent(PropertiesManager.class.getName());
+    final HippoBean baseBean = this.getSiteContentBaseBean(request);
+
+    // retrieve labels documents
+    Map<String, String> labels;
+    String labelsName = getParameter("labelsName", request);
+    if (StringUtils.isNotBlank(labelsName)) {
+      String[] split = labelsName.split(",");
+      List<String> labelsPaths = new ArrayList<String>(split.length);
+      for (String s : split) {
+        labelsPaths.add(s.trim());
+      }
+      final List<PropertiesBean> propertiesBeans = propertiesManager.getPropertiesBeans(labelsPaths, baseBean);
+      labels = PropertiesUtil.toMap(propertiesBeans);
+    } else {
+      final PropertiesBean defaultPropertiesBean = propertiesManager.getPropertiesBean(baseBean);
+      labels = PropertiesUtil.toMap(defaultPropertiesBean);
     }
 
-    /**
-     * Utility method to retrieve the configured label documents for a component
-     *
-     * @param request {@link HstRequest}
-     */
-    protected void setComponentLabels(HstRequest request) {
-        // get the manager  
-        ComponentManager componentManager = getDefaultClientComponentManager();
-        PropertiesManager propertiesManager = componentManager.getComponent(PropertiesManager.class.getName());
-
-        // retrieve labels documents
-        Map<String, String> labels;
-        String labelsName = getParameter("labelsName", request);
-        if (StringUtils.isNotBlank(labelsName)) {
-            labels = propertiesManager.getProperties(labelsName.split(","), getContentBean(request), getSiteContentBaseBean(request));
-        } else {
-            labels = propertiesManager.getProperties(getContentBean(request), getSiteContentBaseBean(request));
-        }
-
-        request.setAttribute("labels", labels);
-    }
+    request.setAttribute("labels", labels);
+  }
 }

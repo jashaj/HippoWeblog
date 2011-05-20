@@ -8,7 +8,7 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-
   <sv:property sv:name="jcr:primaryType" sv:type="Name">
     <sv:value>hippo:handle</sv:value>
   </sv:property>
-  <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+  <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
     <sv:value>hippo:hardhandle</sv:value>
   </sv:property>
   <sv:property sv:name="jcr:uuid" sv:type="String">
@@ -18,23 +18,15 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>weblogdemo:textdocument</sv:value>
     </sv:property>
-    <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
       <sv:value>hippo:harddocument</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>d331cb83-8bc8-4858-840d-49b3cfec1900</sv:value>
     </sv:property>
-    <sv:property sv:name="hippo:availability" sv:type="String">
+    <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
       <sv:value>live</sv:value>
       <sv:value>preview</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:paths" sv:type="String">
-      <sv:value>d331cb83-8bc8-4858-840d-49b3cfec1900</sv:value>
-      <sv:value>dfb4b298-1e95-4e18-be37-0e27daed0a30</sv:value>
-      <sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value>
-      <sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value>
-      <sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value>
-      <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:related___pathreference" sv:type="String">
       <sv:value>homepage</sv:value>

@@ -4,7 +4,128 @@ This work is licensed under the Creative Commons Attribution-Noncommercial-No De
 To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/3.0/nl/ or,
 (b) send a letter to Creative Commons, 171 2nd Street, Suite 300, San Francisco, California, 94105, USA.
 -->
-<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="2009"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:folder</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>0346b23f-c0a2-4949-be0b-26d9877b51ef</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>0346b23f-c0a2-4949-be0b-26d9877b51ef</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"/><sv:property sv:name="hippostd:foldertype" sv:type="String"><sv:value>new-folder</sv:value><sv:value>new-document</sv:value></sv:property><sv:node sv:name="01"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:folder</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>0f04a7eb-89cf-4202-85a0-3addbc4629cb</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>0f04a7eb-89cf-4202-85a0-3addbc4629cb</sv:value><sv:value>0346b23f-c0a2-4949-be0b-26d9877b51ef</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"/><sv:property sv:name="hippostd:foldertype" sv:type="String"><sv:value>new-folder</sv:value><sv:value>new-document</sv:value></sv:property><sv:node sv:name="overpriced-memory"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:handle</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:hardhandle</sv:value><sv:value>hippo:translated</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>5e74930d-12d4-400d-95b9-780aa09d560f</sv:value></sv:property><sv:node sv:name="hippo:translation"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:translation</sv:value></sv:property><sv:property sv:name="hippo:language" sv:type="String"><sv:value/></sv:property><sv:property sv:name="hippo:message" sv:type="String"><sv:value>Overpriced memory</sv:value></sv:property></sv:node><sv:node sv:name="overpriced-memory"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>weblogdemo:blogpost</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>d90ddc20-9bd5-4cea-81ca-5d8507b2c1c1</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>d90ddc20-9bd5-4cea-81ca-5d8507b2c1c1</sv:value><sv:value>5e74930d-12d4-400d-95b9-780aa09d560f</sv:value><sv:value>0f04a7eb-89cf-4202-85a0-3addbc4629cb</sv:value><sv:value>0346b23f-c0a2-4949-be0b-26d9877b51ef</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"><sv:value>2009/01/overpriced-memory</sv:value></sv:property><sv:property sv:name="hippostd:holder" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostd:state" sv:type="String"><sv:value>published</sv:value></sv:property><sv:property sv:name="hippostd:stateSummary" sv:type="String"><sv:value>live</sv:value></sv:property><sv:property sv:name="hippostd:tags" sv:type="String"><sv:value>technology</sv:value></sv:property><sv:property sv:name="hippostdpubwf:createdBy" sv:type="String"><sv:value>admin</sv:value></sv:property><sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date"><sv:value>2009-01-31T17:34:00.001+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date"><sv:value>2010-07-11T18:07:17.886+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date"><sv:value>2010-07-11T18:07:20.596+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:bloggerid" sv:type="String"><sv:value>tag:blogger.com,1999:blog-5942185880332728298.post-4689749704507598507</sv:value></sv:property><sv:property sv:name="weblogdemo:date" sv:type="Date"><sv:value>2009-01-31T17:34:00.001+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:summary" sv:type="String"><sv:value/></sv:property><sv:property sv:name="weblogdemo:title" sv:type="String"><sv:value>Overpriced memory</sv:value></sv:property><sv:node sv:name="weblogdemo:body"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:html</sv:value></sv:property><sv:property sv:name="hippostd:content" sv:type="String"><sv:value>&lt;html&gt;
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="2009">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hippostd:folder</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+    <sv:value>hippo:harddocument</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>0346b23f-c0a2-4949-be0b-26d9877b51ef</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+    <sv:value>live</sv:value>
+    <sv:value>preview</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+  <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+    <sv:value>new-folder</sv:value>
+    <sv:value>new-document</sv:value>
+  </sv:property>
+  <sv:node sv:name="01">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippostd:folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:harddocument</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>0f04a7eb-89cf-4202-85a0-3addbc4629cb</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+      <sv:value>live</sv:value>
+      <sv:value>preview</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+    <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+      <sv:value>new-folder</sv:value>
+      <sv:value>new-document</sv:value>
+    </sv:property>
+    <sv:node sv:name="overpriced-memory">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:translated</sv:value>
+        <sv:value>hippo:hardhandle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>5e74930d-12d4-400d-95b9-780aa09d560f</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>Overpriced memory</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="overpriced-memory">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>weblogdemo:blogpost</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:harddocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>d90ddc20-9bd5-4cea-81ca-5d8507b2c1c1</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>2009/01/overpriced-memory</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>editor</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:tags" sv:type="String" sv:multiple="true">
+          <sv:value>technology</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2009-01-31T17:34:00.001+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2010-07-11T18:07:17.886+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>editor</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2010-07-11T18:07:20.596+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:bloggerid" sv:type="String">
+          <sv:value>tag:blogger.com,1999:blog-5942185880332728298.post-4689749704507598507</sv:value>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:date" sv:type="Date">
+          <sv:value>2009-01-31T17:34:00.001+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:summary" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:title" sv:type="String">
+          <sv:value>Overpriced memory</sv:value>
+        </sv:property>
+        <sv:node sv:name="weblogdemo:body">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;html&gt;
 &lt;body&gt;
 
 &lt;p&gt;Curious how much an upgrade of my iMac's memory from 2x1 to 2x2 GB memory
@@ -15,18 +136,220 @@ times as expensive, but luckily delivery is free of charge if you order is over
 €119 ;)&lt;/p&gt;
 
 &lt;/body&gt;
-&lt;/html&gt;</sv:value></sv:property></sv:node></sv:node></sv:node></sv:node><sv:node sv:name="02"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:folder</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>3eb3c959-7970-4a0f-b8dd-ebcecd689a5c</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>3eb3c959-7970-4a0f-b8dd-ebcecd689a5c</sv:value><sv:value>0346b23f-c0a2-4949-be0b-26d9877b51ef</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"/><sv:property sv:name="hippostd:foldertype" sv:type="String"><sv:value>new-folder</sv:value><sv:value>new-document</sv:value></sv:property><sv:node sv:name="superfast-wifi"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:handle</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:hardhandle</sv:value><sv:value>hippo:translated</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>d357aa5d-e67d-414c-92e7-5d4590f43637</sv:value></sv:property><sv:node sv:name="hippo:translation"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:translation</sv:value></sv:property><sv:property sv:name="hippo:language" sv:type="String"><sv:value/></sv:property><sv:property sv:name="hippo:message" sv:type="String"><sv:value>Superfast Wifi</sv:value></sv:property></sv:node><sv:node sv:name="superfast-wifi"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>weblogdemo:blogpost</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>5b78a102-ad95-40f7-b525-50207ba87304</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>5b78a102-ad95-40f7-b525-50207ba87304</sv:value><sv:value>d357aa5d-e67d-414c-92e7-5d4590f43637</sv:value><sv:value>3eb3c959-7970-4a0f-b8dd-ebcecd689a5c</sv:value><sv:value>0346b23f-c0a2-4949-be0b-26d9877b51ef</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"><sv:value>2009/02/superfast-wifi</sv:value></sv:property><sv:property sv:name="hippostd:holder" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostd:state" sv:type="String"><sv:value>published</sv:value></sv:property><sv:property sv:name="hippostd:stateSummary" sv:type="String"><sv:value>live</sv:value></sv:property><sv:property sv:name="hippostd:tags" sv:type="String"><sv:value>technology</sv:value><sv:value>Personal</sv:value></sv:property><sv:property sv:name="hippostdpubwf:createdBy" sv:type="String"><sv:value>admin</sv:value></sv:property><sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date"><sv:value>2009-02-02T18:33:00.006+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date"><sv:value>2010-07-11T18:01:31.077+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date"><sv:value>2010-07-11T18:06:40.288+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:bloggerid" sv:type="String"><sv:value>tag:blogger.com,1999:blog-5942185880332728298.post-5985906044212891025</sv:value></sv:property><sv:property sv:name="weblogdemo:date" sv:type="Date"><sv:value>2009-02-02T18:33:00.006+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:summary" sv:type="String"><sv:value/></sv:property><sv:property sv:name="weblogdemo:title" sv:type="String"><sv:value>Superfast Wifi</sv:value></sv:property><sv:node sv:name="weblogdemo:body"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:html</sv:value></sv:property><sv:property sv:name="hippostd:content" sv:type="String"><sv:value>&lt;html&gt;
+&lt;/html&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="02">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippostd:folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:harddocument</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>3eb3c959-7970-4a0f-b8dd-ebcecd689a5c</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+      <sv:value>live</sv:value>
+      <sv:value>preview</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+    <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+      <sv:value>new-folder</sv:value>
+      <sv:value>new-document</sv:value>
+    </sv:property>
+    <sv:node sv:name="superfast-wifi">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:translated</sv:value>
+        <sv:value>hippo:hardhandle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>d357aa5d-e67d-414c-92e7-5d4590f43637</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>Superfast Wifi</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="superfast-wifi">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>weblogdemo:blogpost</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:harddocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>5b78a102-ad95-40f7-b525-50207ba87304</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>2009/02/superfast-wifi</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>editor</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:tags" sv:type="String" sv:multiple="true">
+          <sv:value>technology</sv:value>
+          <sv:value>Personal</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2009-02-02T18:33:00.006+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2010-07-11T18:01:31.077+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>editor</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2010-07-11T18:06:40.288+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:bloggerid" sv:type="String">
+          <sv:value>tag:blogger.com,1999:blog-5942185880332728298.post-5985906044212891025</sv:value>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:date" sv:type="Date">
+          <sv:value>2009-02-02T18:33:00.006+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:summary" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:title" sv:type="String">
+          <sv:value>Superfast Wifi</sv:value>
+        </sv:property>
+        <sv:node sv:name="weblogdemo:body">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;html&gt;
 &lt;body&gt;
 
 &lt;p&gt;My FON Wifi router made Windows think it had a 150 Mbps connection. Pretty
 fast! Too bad the connection didn't work and I had to reboot the FON router.
 &lt;/p&gt;
 
-&lt;p&gt;&lt;a href="superfast-wifi.png/{_document}/hippogallery:picture" class="grouped_elements" rel="lightbox"&gt;&lt;img facetselect="superfast-wifi.png/{_document}/hippogallery:thumbnail" src="superfast-wifi.png/{_document}/hippogallery:thumbnail" alt="Screenshot of Wifi properties"/&gt;&lt;/a&gt;
+&lt;p&gt;&lt;a href="superfast-wifi.png/{_document}/hippogallery:original" class="grouped_elements" rel="lightbox"&gt;&lt;img facetselect="superfast-wifi.png/{_document}/hippogallery:thumbnail" src="superfast-wifi.png/{_document}/hippogallery:thumbnail" alt="Screenshot of Wifi properties"/&gt;&lt;/a&gt;
 &lt;/p&gt;
 
 &lt;/body&gt;
-&lt;/html&gt;</sv:value></sv:property><sv:node sv:name="superfast-wifi.png"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:facetselect</sv:value></sv:property><sv:property sv:name="hippo:docbase" sv:type="String"><sv:value>4611f751-6fc3-44fc-ac86-6b7761eab305</sv:value></sv:property><sv:property sv:name="hippo:facets" sv:type="String"/><sv:property sv:name="hippo:modes" sv:type="String"/><sv:property sv:name="hippo:values" sv:type="String"/></sv:node></sv:node></sv:node></sv:node><sv:node sv:name="welcome-to-my-new-blog"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:handle</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:hardhandle</sv:value><sv:value>hippo:translated</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>038b28f7-98e3-4a82-9587-3555b9e292fd</sv:value></sv:property><sv:node sv:name="hippo:translation"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:translation</sv:value></sv:property><sv:property sv:name="hippo:language" sv:type="String"><sv:value/></sv:property><sv:property sv:name="hippo:message" sv:type="String"><sv:value>Welcome to my new blog</sv:value></sv:property></sv:node><sv:node sv:name="welcome-to-my-new-blog"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>weblogdemo:blogpost</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>db2ed731-df7f-4401-9b9d-d63871861e93</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>db2ed731-df7f-4401-9b9d-d63871861e93</sv:value><sv:value>038b28f7-98e3-4a82-9587-3555b9e292fd</sv:value><sv:value>3eb3c959-7970-4a0f-b8dd-ebcecd689a5c</sv:value><sv:value>0346b23f-c0a2-4949-be0b-26d9877b51ef</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"><sv:value>2009/02/welcome-to-my-new-blog</sv:value></sv:property><sv:property sv:name="hippostd:holder" sv:type="String"><sv:value>admin</sv:value></sv:property><sv:property sv:name="hippostd:state" sv:type="String"><sv:value>unpublished</sv:value></sv:property><sv:property sv:name="hippostd:stateSummary" sv:type="String"><sv:value>new</sv:value></sv:property><sv:property sv:name="hippostd:tags" sv:type="String"/><sv:property sv:name="hippostdpubwf:createdBy" sv:type="String"><sv:value>admin</sv:value></sv:property><sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date"><sv:value>2009-02-07T16:05:00.005+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date"><sv:value>2009-05-17T13:30:40.783+02:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String"><sv:value>admin</sv:value></sv:property><sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date"><sv:value>2010-05-14T11:22:16.268+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:bloggerid" sv:type="String"><sv:value>tag:blogger.com,1999:blog-5942185880332728298.post-8827879329473202391</sv:value></sv:property><sv:property sv:name="weblogdemo:date" sv:type="Date"><sv:value>2009-02-07T16:05:00.005+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:title" sv:type="String"><sv:value>Welcome to my new blog</sv:value></sv:property><sv:node sv:name="weblogdemo:body"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:html</sv:value></sv:property><sv:property sv:name="hippostd:content" sv:type="String"><sv:value>
+&lt;/html&gt;</sv:value>
+          </sv:property>
+          <sv:node sv:name="superfast-wifi.png">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>4611f751-6fc3-44fc-ac86-6b7761eab305</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="welcome-to-my-new-blog">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:translated</sv:value>
+        <sv:value>hippo:hardhandle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>038b28f7-98e3-4a82-9587-3555b9e292fd</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>Welcome to my new blog</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="welcome-to-my-new-blog">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>weblogdemo:blogpost</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:harddocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>db2ed731-df7f-4401-9b9d-d63871861e93</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>2009/02/welcome-to-my-new-blog</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>unpublished</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>new</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:tags" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2009-02-07T16:05:00.005+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2009-05-17T13:30:40.783+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2010-05-14T11:22:16.268+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:bloggerid" sv:type="String">
+          <sv:value>tag:blogger.com,1999:blog-5942185880332728298.post-8827879329473202391</sv:value>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:date" sv:type="Date">
+          <sv:value>2009-02-07T16:05:00.005+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:title" sv:type="String">
+          <sv:value>Welcome to my new blog</sv:value>
+        </sv:property>
+        <sv:node sv:name="weblogdemo:body">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>
                   &lt;html&gt;&lt;body&gt;
                   &lt;p&gt;Now I've got a blog again on which
       you can comment. With the help of &lt;a
@@ -35,11 +358,103 @@ fast! Too bad the connection didn't work and I had to reboot the FON router.
       imported into this one.&lt;/p&gt;&lt;div
       class="blogger-post-footer"&gt;Originally posted on &lt;a
       href="http://blog.jasha.eu"&gt;Jasha's blog&lt;/a&gt;&lt;/div&gt;
-    
+
                   &lt;/body&gt;&lt;/html&gt;
-                </sv:value></sv:property></sv:node></sv:node></sv:node><sv:node sv:name="how-to-add-youtube-plugin-in-hippo-cms"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:handle</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:hardhandle</sv:value><sv:value>hippo:translated</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>4eceaaa6-1ad1-47ac-9259-2de4f4d000b3</sv:value></sv:property><sv:node sv:name="hippo:translation"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:translation</sv:value></sv:property><sv:property sv:name="hippo:language" sv:type="String"><sv:value/></sv:property><sv:property sv:name="hippo:message" sv:type="String"><sv:value>How to add the YouTube plugin in Hippo CMS 7
-    </sv:value></sv:property></sv:node><sv:node sv:name="how-to-add-youtube-plugin-in-hippo-cms"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>weblogdemo:blogpost</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>3b334693-7865-4892-a9ef-2103fd9b2f4e</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>3b334693-7865-4892-a9ef-2103fd9b2f4e</sv:value><sv:value>4eceaaa6-1ad1-47ac-9259-2de4f4d000b3</sv:value><sv:value>3eb3c959-7970-4a0f-b8dd-ebcecd689a5c</sv:value><sv:value>0346b23f-c0a2-4949-be0b-26d9877b51ef</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"><sv:value>2009/02/how-to-add-youtube-plugin-in-hippo-cms</sv:value></sv:property><sv:property sv:name="hippostd:holder" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostd:state" sv:type="String"><sv:value>published</sv:value></sv:property><sv:property sv:name="hippostd:stateSummary" sv:type="String"><sv:value>live</sv:value></sv:property><sv:property sv:name="hippostd:tags" sv:type="String"><sv:value>technology</sv:value><sv:value>hippo</sv:value><sv:value>hippoforge</sv:value><sv:value>plugins</sv:value><sv:value>cms7</sv:value></sv:property><sv:property sv:name="hippostdpubwf:createdBy" sv:type="String"><sv:value>admin</sv:value></sv:property><sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date"><sv:value>2009-02-13T17:35:00.019+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date"><sv:value>2010-08-12T09:15:47.798+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date"><sv:value>2010-08-12T09:18:42.022+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:bloggerid" sv:type="String"><sv:value>tag:blogger.com,1999:blog-5942185880332728298.post-76020706690595203</sv:value></sv:property><sv:property sv:name="weblogdemo:date" sv:type="Date"><sv:value>2009-02-13T17:35:00.019+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:summary" sv:type="String"><sv:value/></sv:property><sv:property sv:name="weblogdemo:title" sv:type="String"><sv:value>How to add the YouTube plugin in Hippo CMS 7
-    </sv:value></sv:property><sv:node sv:name="weblogdemo:body"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:html</sv:value></sv:property><sv:property sv:name="hippostd:content" sv:type="String"><sv:value>&lt;html&gt;
+                </sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="how-to-add-youtube-plugin-in-hippo-cms">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:translated</sv:value>
+        <sv:value>hippo:hardhandle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>4eceaaa6-1ad1-47ac-9259-2de4f4d000b3</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>How to add the YouTube plugin in Hippo CMS 7
+    </sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="how-to-add-youtube-plugin-in-hippo-cms">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>weblogdemo:blogpost</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:harddocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>3b334693-7865-4892-a9ef-2103fd9b2f4e</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>2009/02/how-to-add-youtube-plugin-in-hippo-cms</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>editor</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:tags" sv:type="String" sv:multiple="true">
+          <sv:value>technology</sv:value>
+          <sv:value>hippo</sv:value>
+          <sv:value>hippoforge</sv:value>
+          <sv:value>plugins</sv:value>
+          <sv:value>cms7</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2009-02-13T17:35:00.019+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2010-08-12T09:15:47.798+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>editor</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2010-08-12T09:18:42.022+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:bloggerid" sv:type="String">
+          <sv:value>tag:blogger.com,1999:blog-5942185880332728298.post-76020706690595203</sv:value>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:date" sv:type="Date">
+          <sv:value>2009-02-13T17:35:00.019+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:summary" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:title" sv:type="String">
+          <sv:value>How to add the YouTube plugin in Hippo CMS 7
+    </sv:value>
+        </sv:property>
+        <sv:node sv:name="weblogdemo:body">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;html&gt;
 &lt;body&gt;
 
 &lt;p&gt;The &lt;a href="http://forge.onehippo.org/projects/youtubetemplate/"&gt;YouTube
@@ -70,7 +485,7 @@ YouTube plug-in from SVN and build it using Maven with the following command:
 &lt;h3&gt;Configuration in the console &lt;/h3&gt;
 &lt;p&gt;(Re)start the Hippo ECM war and go to the console on
 &lt;a href="http://localhost:8080/cms/console"&gt;http://localhost:8080/cms/console&lt;/a&gt;.
-&lt;a href="01_console.png/{_document}/hippogallery:picture" class="grouped_elements" rel="lightbox"&gt;&lt;img facetselect="01_console.png/{_document}/hippogallery:thumbnail" width="240" height="173" style="float: right; margin-left: 5px;" src="01_console.png/{_document}/hippogallery:thumbnail" alt="Hippo ECM Console"/&gt;&lt;/a&gt;
+&lt;a href="01_console.png/{_document}/hippogallery:original" class="grouped_elements" rel="lightbox"&gt;&lt;img facetselect="01_console.png/{_document}/hippogallery:thumbnail" width="240" height="173" style="float: right; margin-left: 5px;" src="01_console.png/{_document}/hippogallery:thumbnail" alt="Hippo ECM Console"/&gt;&lt;/a&gt;
 Navigate to the following location:&lt;/p&gt;
 
 &lt;p&gt;/hippo:namespaces/hippo/templatetype/hippo:template/hippo:template/list&lt;/p&gt;
@@ -80,24 +495,156 @@ property and save the changes. Make sure you log out of the CMS and back in (the
 list is cached in your session).&lt;/p&gt;
 &lt;h3&gt;CMS template editor &lt;/h3&gt;
 &lt;p&gt;
- &lt;a href="02_template-editor.png/{_document}/hippogallery:picture" class="grouped_elements" rel="lightbox"&gt;&lt;img facetselect="02_template-editor.png/{_document}/hippogallery:thumbnail" width="240" height="173" style="float: right;" src="02_template-editor.png/{_document}/hippogallery:thumbnail" alt="Template editor"/&gt;&lt;/a&gt;Go
+ &lt;a href="02_template-editor.png/{_document}/hippogallery:original" class="grouped_elements" rel="lightbox"&gt;&lt;img facetselect="02_template-editor.png/{_document}/hippogallery:thumbnail" width="240" height="173" style="float: right;" src="02_template-editor.png/{_document}/hippogallery:thumbnail" alt="Template editor"/&gt;&lt;/a&gt;Go
 to the template editor in the CMS. You can either create a new document type or
 add the new YouTube field to an existing template. Save the template and choose
 "Update all content" from the drop down menu in the top bar.&lt;/p&gt;
 &lt;h3&gt;Editor &lt;/h3&gt;
 &lt;p&gt;
- &lt;a href="03_editor.png/{_document}/hippogallery:picture" class="grouped_elements" rel="lightbox"&gt;&lt;img facetselect="03_editor.png/{_document}/hippogallery:thumbnail" width="240" height="173" style="float: right; margin-left: 5px;" src="03_editor.png/{_document}/hippogallery:thumbnail" alt="Add Youtube movie to a document"/&gt;&lt;/a&gt;Now
+ &lt;a href="03_editor.png/{_document}/hippogallery:original" class="grouped_elements" rel="lightbox"&gt;&lt;img facetselect="03_editor.png/{_document}/hippogallery:thumbnail" width="240" height="173" style="float: right; margin-left: 5px;" src="03_editor.png/{_document}/hippogallery:thumbnail" alt="Add Youtube movie to a document"/&gt;&lt;/a&gt;Now
 the plug-in has been configured and added to the template, the CMS users can add
 YouTube videos to their documents. Just paste the ID of the video into the
 YouTube field.&lt;/p&gt;
 
 &lt;p&gt;If you are not editing the document you get a preview of the selected video:
 &lt;br/&gt;
-&lt;a href="04_preview.png/{_document}/hippogallery:picture" class="grouped_elements" rel="lightbox"&gt;&lt;img facetselect="04_preview.png/{_document}/hippogallery:thumbnail" width="240" height="173" src="04_preview.png/{_document}/hippogallery:thumbnail" alt="Youtube preview in the CMS"/&gt;&lt;/a&gt;
+&lt;a href="04_preview.png/{_document}/hippogallery:original" class="grouped_elements" rel="lightbox"&gt;&lt;img facetselect="04_preview.png/{_document}/hippogallery:thumbnail" width="240" height="173" src="04_preview.png/{_document}/hippogallery:thumbnail" alt="Youtube preview in the CMS"/&gt;&lt;/a&gt;
 &lt;/p&gt;
 
 &lt;/body&gt;
-&lt;/html&gt;</sv:value></sv:property><sv:node sv:name="01_console.png"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:facetselect</sv:value></sv:property><sv:property sv:name="hippo:docbase" sv:type="String"><sv:value>9ca9a2f9-132a-4e19-a883-c80c6638a963</sv:value></sv:property><sv:property sv:name="hippo:facets" sv:type="String"/><sv:property sv:name="hippo:modes" sv:type="String"/><sv:property sv:name="hippo:values" sv:type="String"/></sv:node><sv:node sv:name="02_template-editor.png"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:facetselect</sv:value></sv:property><sv:property sv:name="hippo:docbase" sv:type="String"><sv:value>acaf64fc-ebbe-4a2e-9c33-8ab548ea997b</sv:value></sv:property><sv:property sv:name="hippo:facets" sv:type="String"/><sv:property sv:name="hippo:modes" sv:type="String"/><sv:property sv:name="hippo:values" sv:type="String"/></sv:node><sv:node sv:name="03_editor.png"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:facetselect</sv:value></sv:property><sv:property sv:name="hippo:docbase" sv:type="String"><sv:value>749653d7-ad01-4b4c-b3c8-9b3e70f3839a</sv:value></sv:property><sv:property sv:name="hippo:facets" sv:type="String"/><sv:property sv:name="hippo:modes" sv:type="String"/><sv:property sv:name="hippo:values" sv:type="String"/></sv:node><sv:node sv:name="04_preview.png"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:facetselect</sv:value></sv:property><sv:property sv:name="hippo:docbase" sv:type="String"><sv:value>45623eed-6528-4a97-89f1-3b34ce30ebc1</sv:value></sv:property><sv:property sv:name="hippo:facets" sv:type="String"/><sv:property sv:name="hippo:modes" sv:type="String"/><sv:property sv:name="hippo:values" sv:type="String"/></sv:node></sv:node></sv:node></sv:node><sv:node sv:name="who-am-i"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:handle</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:hardhandle</sv:value><sv:value>hippo:translated</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>8d96f08d-3b79-485e-af31-4fe27f04989e</sv:value></sv:property><sv:node sv:name="hippo:translation"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:translation</sv:value></sv:property><sv:property sv:name="hippo:language" sv:type="String"><sv:value/></sv:property><sv:property sv:name="hippo:message" sv:type="String"><sv:value>Who am I?</sv:value></sv:property></sv:node><sv:node sv:name="who-am-i"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>weblogdemo:blogpost</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>0152ffd8-b9d5-47cd-aa35-a01854b70c7a</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>0152ffd8-b9d5-47cd-aa35-a01854b70c7a</sv:value><sv:value>8d96f08d-3b79-485e-af31-4fe27f04989e</sv:value><sv:value>3eb3c959-7970-4a0f-b8dd-ebcecd689a5c</sv:value><sv:value>0346b23f-c0a2-4949-be0b-26d9877b51ef</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"><sv:value>2009/02/who-am-i</sv:value></sv:property><sv:property sv:name="hippostd:holder" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostd:state" sv:type="String"><sv:value>published</sv:value></sv:property><sv:property sv:name="hippostd:stateSummary" sv:type="String"><sv:value>live</sv:value></sv:property><sv:property sv:name="hippostd:tags" sv:type="String"><sv:value>Personal</sv:value></sv:property><sv:property sv:name="hippostdpubwf:createdBy" sv:type="String"><sv:value>admin</sv:value></sv:property><sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date"><sv:value>2009-02-14T17:10:00.010+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date"><sv:value>2010-07-11T17:58:47.283+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date"><sv:value>2010-07-11T17:58:51.119+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:bloggerid" sv:type="String"><sv:value>tag:blogger.com,1999:blog-5942185880332728298.post-2079975489014947717</sv:value></sv:property><sv:property sv:name="weblogdemo:date" sv:type="Date"><sv:value>2009-02-14T17:10:00.010+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:summary" sv:type="String"><sv:value/></sv:property><sv:property sv:name="weblogdemo:title" sv:type="String"><sv:value>Who am I?</sv:value></sv:property><sv:node sv:name="weblogdemo:body"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:html</sv:value></sv:property><sv:property sv:name="hippostd:content" sv:type="String"><sv:value>&lt;html&gt;
+&lt;/html&gt;</sv:value>
+          </sv:property>
+          <sv:node sv:name="01_console.png">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>9ca9a2f9-132a-4e19-a883-c80c6638a963</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="02_template-editor.png">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>acaf64fc-ebbe-4a2e-9c33-8ab548ea997b</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="03_editor.png">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>749653d7-ad01-4b4c-b3c8-9b3e70f3839a</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="04_preview.png">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>45623eed-6528-4a97-89f1-3b34ce30ebc1</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="who-am-i">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:translated</sv:value>
+        <sv:value>hippo:hardhandle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>8d96f08d-3b79-485e-af31-4fe27f04989e</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>Who am I?</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="who-am-i">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>weblogdemo:blogpost</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:harddocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>0152ffd8-b9d5-47cd-aa35-a01854b70c7a</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>2009/02/who-am-i</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>editor</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:tags" sv:type="String" sv:multiple="true">
+          <sv:value>Personal</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2009-02-14T17:10:00.010+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2010-07-11T17:58:47.283+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>editor</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2010-07-11T17:58:51.119+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:bloggerid" sv:type="String">
+          <sv:value>tag:blogger.com,1999:blog-5942185880332728298.post-2079975489014947717</sv:value>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:date" sv:type="Date">
+          <sv:value>2009-02-14T17:10:00.010+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:summary" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:title" sv:type="String">
+          <sv:value>Who am I?</sv:value>
+        </sv:property>
+        <sv:node sv:name="weblogdemo:body">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;html&gt;
 &lt;body&gt;
 
 &lt;ul&gt;
@@ -127,7 +674,116 @@ Reader&lt;/a&gt;.&lt;/li&gt;
 &lt;p&gt;But do you really know me?&lt;/p&gt;
 
 &lt;/body&gt;
-&lt;/html&gt;</sv:value></sv:property></sv:node></sv:node></sv:node></sv:node><sv:node sv:name="03"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:folder</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>c0c7540a-61b5-42cb-b709-6d4570077e37</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>c0c7540a-61b5-42cb-b709-6d4570077e37</sv:value><sv:value>0346b23f-c0a2-4949-be0b-26d9877b51ef</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"/><sv:property sv:name="hippostd:foldertype" sv:type="String"><sv:value>new-folder</sv:value><sv:value>new-document</sv:value></sv:property><sv:node sv:name="switching-to-fibreglass"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:handle</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:hardhandle</sv:value><sv:value>hippo:translated</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>31b8c5d9-e65e-4f8b-8ab7-95e976040333</sv:value></sv:property><sv:node sv:name="hippo:translation"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:translation</sv:value></sv:property><sv:property sv:name="hippo:language" sv:type="String"><sv:value/></sv:property><sv:property sv:name="hippo:message" sv:type="String"><sv:value>Switching to fibreglass</sv:value></sv:property></sv:node><sv:node sv:name="switching-to-fibreglass"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>weblogdemo:blogpost</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>7c5bae38-c613-4696-ba0c-26d450b67ade</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>7c5bae38-c613-4696-ba0c-26d450b67ade</sv:value><sv:value>31b8c5d9-e65e-4f8b-8ab7-95e976040333</sv:value><sv:value>c0c7540a-61b5-42cb-b709-6d4570077e37</sv:value><sv:value>0346b23f-c0a2-4949-be0b-26d9877b51ef</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"><sv:value>2009/03/switching-to-fibreglass</sv:value></sv:property><sv:property sv:name="hippostd:holder" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostd:state" sv:type="String"><sv:value>published</sv:value></sv:property><sv:property sv:name="hippostd:stateSummary" sv:type="String"><sv:value>live</sv:value></sv:property><sv:property sv:name="hippostd:tags" sv:type="String"><sv:value>technology</sv:value><sv:value>Personal</sv:value></sv:property><sv:property sv:name="hippostdpubwf:createdBy" sv:type="String"><sv:value>admin</sv:value></sv:property><sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date"><sv:value>2009-03-01T14:54:00.005+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date"><sv:value>2010-07-11T17:57:52.708+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date"><sv:value>2010-07-11T17:57:55.511+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:bloggerid" sv:type="String"><sv:value>tag:blogger.com,1999:blog-5942185880332728298.post-8204714468652328059</sv:value></sv:property><sv:property sv:name="weblogdemo:date" sv:type="Date"><sv:value>2009-03-01T14:54:00.005+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:summary" sv:type="String"><sv:value/></sv:property><sv:property sv:name="weblogdemo:title" sv:type="String"><sv:value>Switching to fibreglass</sv:value></sv:property><sv:node sv:name="weblogdemo:body"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:html</sv:value></sv:property><sv:property sv:name="hippostd:content" sv:type="String"><sv:value>&lt;html&gt;
+&lt;/html&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="03">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippostd:folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:harddocument</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>c0c7540a-61b5-42cb-b709-6d4570077e37</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+      <sv:value>live</sv:value>
+      <sv:value>preview</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+    <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+      <sv:value>new-folder</sv:value>
+      <sv:value>new-document</sv:value>
+    </sv:property>
+    <sv:node sv:name="switching-to-fibreglass">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:translated</sv:value>
+        <sv:value>hippo:hardhandle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>31b8c5d9-e65e-4f8b-8ab7-95e976040333</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>Switching to fibreglass</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="switching-to-fibreglass">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>weblogdemo:blogpost</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:harddocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>7c5bae38-c613-4696-ba0c-26d450b67ade</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>2009/03/switching-to-fibreglass</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>editor</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:tags" sv:type="String" sv:multiple="true">
+          <sv:value>technology</sv:value>
+          <sv:value>Personal</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2009-03-01T14:54:00.005+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2010-07-11T17:57:52.708+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>editor</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2010-07-11T17:57:55.511+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:bloggerid" sv:type="String">
+          <sv:value>tag:blogger.com,1999:blog-5942185880332728298.post-8204714468652328059</sv:value>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:date" sv:type="Date">
+          <sv:value>2009-03-01T14:54:00.005+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:summary" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:title" sv:type="String">
+          <sv:value>Switching to fibreglass</sv:value>
+        </sv:property>
+        <sv:node sv:name="weblogdemo:body">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;html&gt;
 &lt;body&gt;
 
 &lt;p&gt;This weekend I switched to &lt;a href="http://www.xmsnet.nl"&gt;XMS&lt;/a&gt; fibreglass
@@ -149,7 +805,96 @@ step is to transfer my phone number from KPN to the new fibreglass subscription.
 &lt;/p&gt;
 
 &lt;/body&gt;
-&lt;/html&gt;</sv:value></sv:property></sv:node></sv:node></sv:node><sv:node sv:name="attending-apachecon-eu-2009"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:handle</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:hardhandle</sv:value><sv:value>hippo:translated</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>cdde2d46-7839-41fb-a96f-9097834aae56</sv:value></sv:property><sv:node sv:name="hippo:translation"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:translation</sv:value></sv:property><sv:property sv:name="hippo:language" sv:type="String"><sv:value/></sv:property><sv:property sv:name="hippo:message" sv:type="String"><sv:value>Attending ApacheCon EU 2009</sv:value></sv:property></sv:node><sv:node sv:name="attending-apachecon-eu-2009"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>weblogdemo:blogpost</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>92854374-4569-481c-920c-ae0f870fd3ca</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>92854374-4569-481c-920c-ae0f870fd3ca</sv:value><sv:value>cdde2d46-7839-41fb-a96f-9097834aae56</sv:value><sv:value>c0c7540a-61b5-42cb-b709-6d4570077e37</sv:value><sv:value>0346b23f-c0a2-4949-be0b-26d9877b51ef</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"><sv:value>2009/03/attending-apachecon-eu-2009</sv:value></sv:property><sv:property sv:name="hippostd:holder" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostd:state" sv:type="String"><sv:value>published</sv:value></sv:property><sv:property sv:name="hippostd:stateSummary" sv:type="String"><sv:value>live</sv:value></sv:property><sv:property sv:name="hippostd:tags" sv:type="String"><sv:value>technology</sv:value><sv:value>Apache</sv:value></sv:property><sv:property sv:name="hippostdpubwf:createdBy" sv:type="String"><sv:value>admin</sv:value></sv:property><sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date"><sv:value>2009-03-23T11:10:00.003+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date"><sv:value>2010-07-11T17:53:06.466+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date"><sv:value>2010-07-11T17:53:11.096+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:bloggerid" sv:type="String"><sv:value>tag:blogger.com,1999:blog-5942185880332728298.post-4925835685593313435</sv:value></sv:property><sv:property sv:name="weblogdemo:date" sv:type="Date"><sv:value>2009-03-23T11:10:00.003+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:summary" sv:type="String"><sv:value/></sv:property><sv:property sv:name="weblogdemo:title" sv:type="String"><sv:value>Attending ApacheCon EU 2009</sv:value></sv:property><sv:node sv:name="weblogdemo:body"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:html</sv:value></sv:property><sv:property sv:name="hippostd:content" sv:type="String"><sv:value>&amp;lt;html&amp;gt;
+&lt;/html&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="attending-apachecon-eu-2009">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:translated</sv:value>
+        <sv:value>hippo:hardhandle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>cdde2d46-7839-41fb-a96f-9097834aae56</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>Attending ApacheCon EU 2009</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="attending-apachecon-eu-2009">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>weblogdemo:blogpost</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:harddocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>92854374-4569-481c-920c-ae0f870fd3ca</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>2009/03/attending-apachecon-eu-2009</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>editor</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:tags" sv:type="String" sv:multiple="true">
+          <sv:value>technology</sv:value>
+          <sv:value>Apache</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2009-03-23T11:10:00.003+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2010-07-11T17:53:06.466+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>editor</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2010-07-11T17:53:11.096+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:bloggerid" sv:type="String">
+          <sv:value>tag:blogger.com,1999:blog-5942185880332728298.post-4925835685593313435</sv:value>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:date" sv:type="Date">
+          <sv:value>2009-03-23T11:10:00.003+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:summary" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:title" sv:type="String">
+          <sv:value>Attending ApacheCon EU 2009</sv:value>
+        </sv:property>
+        <sv:node sv:name="weblogdemo:body">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&amp;lt;html&amp;gt;
 &amp;lt;body&amp;gt;
 
 &amp;lt;p&amp;gt;Welcome everyone in Amsterdam for the
@@ -160,9 +905,98 @@ Meetup&amp;lt;/a&amp;gt; this evening and the last conference day (Friday). I'll
 about it and take some pictures. See you on the ApacheCon!&amp;lt;/p&amp;gt;
 
 &amp;lt;/body&amp;gt;
-&amp;lt;/html&amp;gt;</sv:value></sv:property></sv:node></sv:node></sv:node><sv:node sv:name="eclipse-iam-maven-release-plugin"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:handle</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:hardhandle</sv:value><sv:value>hippo:translated</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>4cba7b1e-15a6-4aa3-8b6b-abba845fa92e</sv:value></sv:property><sv:node sv:name="hippo:translation"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:translation</sv:value></sv:property><sv:property sv:name="hippo:language" sv:type="String"><sv:value/></sv:property><sv:property sv:name="hippo:message" sv:type="String"><sv:value>Eclipse IAM &amp; Maven Release plugin (ApacheCon
-      Maven Meetup)</sv:value></sv:property></sv:node><sv:node sv:name="eclipse-iam-maven-release-plugin"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>weblogdemo:blogpost</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>160f78e0-bc30-4bae-81ed-d6c7485b99da</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>160f78e0-bc30-4bae-81ed-d6c7485b99da</sv:value><sv:value>4cba7b1e-15a6-4aa3-8b6b-abba845fa92e</sv:value><sv:value>c0c7540a-61b5-42cb-b709-6d4570077e37</sv:value><sv:value>0346b23f-c0a2-4949-be0b-26d9877b51ef</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"><sv:value>2009/03/eclipse-iam-maven-release-plugin</sv:value></sv:property><sv:property sv:name="hippostd:holder" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostd:state" sv:type="String"><sv:value>published</sv:value></sv:property><sv:property sv:name="hippostd:stateSummary" sv:type="String"><sv:value>live</sv:value></sv:property><sv:property sv:name="hippostd:tags" sv:type="String"><sv:value>technology</sv:value><sv:value>Apache</sv:value></sv:property><sv:property sv:name="hippostdpubwf:createdBy" sv:type="String"><sv:value>admin</sv:value></sv:property><sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date"><sv:value>2009-03-24T07:44:00.002+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date"><sv:value>2010-07-11T17:53:31.432+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date"><sv:value>2010-07-11T17:53:33.835+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:bloggerid" sv:type="String"><sv:value>tag:blogger.com,1999:blog-5942185880332728298.post-3703551792575985578</sv:value></sv:property><sv:property sv:name="weblogdemo:date" sv:type="Date"><sv:value>2009-03-24T07:44:00.002+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:summary" sv:type="String"><sv:value/></sv:property><sv:property sv:name="weblogdemo:title" sv:type="String"><sv:value>Eclipse IAM &amp; Maven Release plugin (ApacheCon
-      Maven Meetup)</sv:value></sv:property><sv:node sv:name="weblogdemo:body"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:html</sv:value></sv:property><sv:property sv:name="hippostd:content" sv:type="String"><sv:value>&lt;html&gt;
+&amp;lt;/html&amp;gt;</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="eclipse-iam-maven-release-plugin">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:translated</sv:value>
+        <sv:value>hippo:hardhandle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>4cba7b1e-15a6-4aa3-8b6b-abba845fa92e</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>Eclipse IAM &amp; Maven Release plugin (ApacheCon
+      Maven Meetup)</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="eclipse-iam-maven-release-plugin">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>weblogdemo:blogpost</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:harddocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>160f78e0-bc30-4bae-81ed-d6c7485b99da</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>2009/03/eclipse-iam-maven-release-plugin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>editor</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:tags" sv:type="String" sv:multiple="true">
+          <sv:value>technology</sv:value>
+          <sv:value>Apache</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2009-03-24T07:44:00.002+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2010-07-11T17:53:31.432+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>editor</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2010-07-11T17:53:33.835+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:bloggerid" sv:type="String">
+          <sv:value>tag:blogger.com,1999:blog-5942185880332728298.post-3703551792575985578</sv:value>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:date" sv:type="Date">
+          <sv:value>2009-03-24T07:44:00.002+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:summary" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:title" sv:type="String">
+          <sv:value>Eclipse IAM &amp; Maven Release plugin (ApacheCon
+      Maven Meetup)</sv:value>
+        </sv:property>
+        <sv:node sv:name="weblogdemo:body">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;html&gt;
 &lt;body&gt;
 
 &lt;p&gt;Tools like Maven should make life easier for a developer, but it can be even
@@ -186,11 +1020,99 @@ change version numbers of all sub projects, release them etc. The release plugin
 does this for you, so there's more time for the real fun.&lt;/p&gt;
 
 &lt;/body&gt;
-&lt;/html&gt;</sv:value></sv:property></sv:node></sv:node></sv:node><sv:node sv:name="show-broken-images-in-firefox"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:handle</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:hardhandle</sv:value><sv:value>hippo:translated</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>bb4f8c3e-7684-4c48-b8d1-cfd522da25c6</sv:value></sv:property><sv:node sv:name="hippo:translation"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:translation</sv:value></sv:property><sv:property sv:name="hippo:language" sv:type="String"><sv:value/></sv:property><sv:property sv:name="hippo:message" sv:type="String"><sv:value>Show broken images in Firefox</sv:value></sv:property></sv:node><sv:node sv:name="show-broken-images-in-firefox"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>weblogdemo:blogpost</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>9b234912-c5da-4b19-9b32-7ba856f8b69f</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>9b234912-c5da-4b19-9b32-7ba856f8b69f</sv:value><sv:value>bb4f8c3e-7684-4c48-b8d1-cfd522da25c6</sv:value><sv:value>c0c7540a-61b5-42cb-b709-6d4570077e37</sv:value><sv:value>0346b23f-c0a2-4949-be0b-26d9877b51ef</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"><sv:value>2009/03/show-broken-images-in-firefox</sv:value></sv:property><sv:property sv:name="hippostd:holder" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostd:state" sv:type="String"><sv:value>published</sv:value></sv:property><sv:property sv:name="hippostd:stateSummary" sv:type="String"><sv:value>live</sv:value></sv:property><sv:property sv:name="hippostd:tags" sv:type="String"><sv:value>technology</sv:value></sv:property><sv:property sv:name="hippostdpubwf:createdBy" sv:type="String"><sv:value>admin</sv:value></sv:property><sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date"><sv:value>2009-03-25T09:48:00.005+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date"><sv:value>2010-07-11T17:56:18.553+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date"><sv:value>2010-07-11T17:57:37.844+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:bloggerid" sv:type="String"><sv:value>tag:blogger.com,1999:blog-5942185880332728298.post-6362710486300317285</sv:value></sv:property><sv:property sv:name="weblogdemo:date" sv:type="Date"><sv:value>2009-03-25T09:48:00.005+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:summary" sv:type="String"><sv:value/></sv:property><sv:property sv:name="weblogdemo:title" sv:type="String"><sv:value>Show broken images in Firefox</sv:value></sv:property><sv:node sv:name="weblogdemo:body"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:html</sv:value></sv:property><sv:property sv:name="hippostd:content" sv:type="String"><sv:value>&lt;html&gt;
+&lt;/html&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="show-broken-images-in-firefox">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:translated</sv:value>
+        <sv:value>hippo:hardhandle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>bb4f8c3e-7684-4c48-b8d1-cfd522da25c6</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>Show broken images in Firefox</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="show-broken-images-in-firefox">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>weblogdemo:blogpost</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:harddocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>9b234912-c5da-4b19-9b32-7ba856f8b69f</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>2009/03/show-broken-images-in-firefox</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>editor</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:tags" sv:type="String" sv:multiple="true">
+          <sv:value>technology</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2009-03-25T09:48:00.005+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2010-07-11T17:56:18.553+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>editor</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2010-07-11T17:57:37.844+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:bloggerid" sv:type="String">
+          <sv:value>tag:blogger.com,1999:blog-5942185880332728298.post-6362710486300317285</sv:value>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:date" sv:type="Date">
+          <sv:value>2009-03-25T09:48:00.005+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:summary" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:title" sv:type="String">
+          <sv:value>Show broken images in Firefox</sv:value>
+        </sv:property>
+        <sv:node sv:name="weblogdemo:body">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;html&gt;
 &lt;body&gt;
 
 &lt;p&gt;
-&lt;img facetselect="missing-image-on-tshirtpng/{_document}/hippogallery:picture" style="float: right; margin: 0pt 0pt 10px 10px; " src="missing-image-on-tshirtpng/{_document}/hippogallery:picture" alt="Missing image on a t-shirt"/&gt;
+&lt;img facetselect="missing-image-on-tshirtpng/{_document}/hippogallery:original" style="float: right; margin: 0pt 0pt 10px 10px; " src="missing-image-on-tshirtpng/{_document}/hippogallery:original" alt="Missing image on a t-shirt"/&gt;
 Firefox is so "kind" to hide broken images or just displays the alt text without
 indicating that there should be an image. For regular visitors of your website
 that's good, because you don't want to be confronted with the red cross from
@@ -204,7 +1126,108 @@ displays all Blogger button images in the editor as broken, so typing this entry
 felt like walking through my house blindfolded.&lt;/p&gt;
 
 &lt;/body&gt;
-&lt;/html&gt;</sv:value></sv:property><sv:node sv:name="missing-image-on-tshirtpng"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:facetselect</sv:value></sv:property><sv:property sv:name="hippo:docbase" sv:type="String"><sv:value>2be04ae4-08d5-494f-ae68-556564b865f1</sv:value></sv:property><sv:property sv:name="hippo:facets" sv:type="String"/><sv:property sv:name="hippo:modes" sv:type="String"/><sv:property sv:name="hippo:values" sv:type="String"/></sv:node></sv:node></sv:node></sv:node><sv:node sv:name="my-friday-at-apachecon-europe-2009"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:handle</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:hardhandle</sv:value><sv:value>hippo:translated</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>b70334c6-0c4a-4103-b221-97f6f1f02bb5</sv:value></sv:property><sv:node sv:name="hippo:translation"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:translation</sv:value></sv:property><sv:property sv:name="hippo:language" sv:type="String"><sv:value/></sv:property><sv:property sv:name="hippo:message" sv:type="String"><sv:value>My Friday at ApacheCon Europe 2009</sv:value></sv:property></sv:node><sv:node sv:name="my-friday-at-apachecon-europe-2009"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>weblogdemo:blogpost</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>09af20ae-c707-4267-9002-6a75d3f7d5e3</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>09af20ae-c707-4267-9002-6a75d3f7d5e3</sv:value><sv:value>b70334c6-0c4a-4103-b221-97f6f1f02bb5</sv:value><sv:value>c0c7540a-61b5-42cb-b709-6d4570077e37</sv:value><sv:value>0346b23f-c0a2-4949-be0b-26d9877b51ef</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"><sv:value>2009/03/my-friday-at-apachecon-europe-2009</sv:value></sv:property><sv:property sv:name="hippostd:holder" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostd:state" sv:type="String"><sv:value>published</sv:value></sv:property><sv:property sv:name="hippostd:stateSummary" sv:type="String"><sv:value>live</sv:value></sv:property><sv:property sv:name="hippostd:tags" sv:type="String"><sv:value>technology</sv:value><sv:value>hippo</sv:value><sv:value>Apache</sv:value></sv:property><sv:property sv:name="hippostdpubwf:createdBy" sv:type="String"><sv:value>admin</sv:value></sv:property><sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date"><sv:value>2009-03-28T20:20:00.007+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date"><sv:value>2010-07-11T17:54:00.484+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date"><sv:value>2010-07-11T17:54:03.427+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:bloggerid" sv:type="String"><sv:value>tag:blogger.com,1999:blog-5942185880332728298.post-8534715800537262370</sv:value></sv:property><sv:property sv:name="weblogdemo:date" sv:type="Date"><sv:value>2009-03-28T20:20:00.007+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:summary" sv:type="String"><sv:value/></sv:property><sv:property sv:name="weblogdemo:title" sv:type="String"><sv:value>My Friday at ApacheCon Europe 2009</sv:value></sv:property><sv:node sv:name="weblogdemo:body"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:html</sv:value></sv:property><sv:property sv:name="hippostd:content" sv:type="String"><sv:value>&lt;html&gt;
+&lt;/html&gt;</sv:value>
+          </sv:property>
+          <sv:node sv:name="missing-image-on-tshirtpng">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>2be04ae4-08d5-494f-ae68-556564b865f1</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="my-friday-at-apachecon-europe-2009">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:translated</sv:value>
+        <sv:value>hippo:hardhandle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>b70334c6-0c4a-4103-b221-97f6f1f02bb5</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>My Friday at ApacheCon Europe 2009</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="my-friday-at-apachecon-europe-2009">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>weblogdemo:blogpost</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:harddocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>09af20ae-c707-4267-9002-6a75d3f7d5e3</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>2009/03/my-friday-at-apachecon-europe-2009</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>editor</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:tags" sv:type="String" sv:multiple="true">
+          <sv:value>technology</sv:value>
+          <sv:value>hippo</sv:value>
+          <sv:value>Apache</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2009-03-28T20:20:00.007+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2010-07-11T17:54:00.484+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>editor</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2010-07-11T17:54:03.427+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:bloggerid" sv:type="String">
+          <sv:value>tag:blogger.com,1999:blog-5942185880332728298.post-8534715800537262370</sv:value>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:date" sv:type="Date">
+          <sv:value>2009-03-28T20:20:00.007+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:summary" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:title" sv:type="String">
+          <sv:value>My Friday at ApacheCon Europe 2009</sv:value>
+        </sv:property>
+        <sv:node sv:name="weblogdemo:body">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;html&gt;
 &lt;body&gt;
 
 &lt;p&gt;Last Friday I went to the 3rd conference day of
@@ -257,7 +1280,113 @@ picture frame that also plays video! :D So don't leave early, there's something
 to win after the talks.&lt;/p&gt;
 
 &lt;/body&gt;
-&lt;/html&gt;</sv:value></sv:property></sv:node></sv:node></sv:node></sv:node><sv:node sv:name="04"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:folder</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>5a130883-2093-4966-9bcb-8c01d6919de3</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>5a130883-2093-4966-9bcb-8c01d6919de3</sv:value><sv:value>0346b23f-c0a2-4949-be0b-26d9877b51ef</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"/><sv:property sv:name="hippostd:foldertype" sv:type="String"><sv:value>new-folder</sv:value><sv:value>new-document</sv:value></sv:property><sv:node sv:name="my-top-5-pictures-at-flickr"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:handle</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:hardhandle</sv:value><sv:value>hippo:translated</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>ae5f0192-14af-4bc7-9ee8-76247ad6563c</sv:value></sv:property><sv:node sv:name="hippo:translation"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:translation</sv:value></sv:property><sv:property sv:name="hippo:language" sv:type="String"><sv:value/></sv:property><sv:property sv:name="hippo:message" sv:type="String"><sv:value>My top 5 pictures at Flickr</sv:value></sv:property></sv:node><sv:node sv:name="my-top-5-pictures-at-flickr"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>weblogdemo:blogpost</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>ca7801cf-9726-4a4b-82b9-0059fee6dc8c</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>ca7801cf-9726-4a4b-82b9-0059fee6dc8c</sv:value><sv:value>ae5f0192-14af-4bc7-9ee8-76247ad6563c</sv:value><sv:value>5a130883-2093-4966-9bcb-8c01d6919de3</sv:value><sv:value>0346b23f-c0a2-4949-be0b-26d9877b51ef</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"><sv:value>2009/04/my-top-5-pictures-at-flickr</sv:value></sv:property><sv:property sv:name="hippostd:holder" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostd:state" sv:type="String"><sv:value>published</sv:value></sv:property><sv:property sv:name="hippostd:stateSummary" sv:type="String"><sv:value>live</sv:value></sv:property><sv:property sv:name="hippostd:tags" sv:type="String"><sv:value>pictures</sv:value><sv:value>Personal</sv:value></sv:property><sv:property sv:name="hippostdpubwf:createdBy" sv:type="String"><sv:value>admin</sv:value></sv:property><sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date"><sv:value>2009-04-04T16:25:00.005+02:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date"><sv:value>2009-05-17T13:20:05.977+02:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String"><sv:value>admin</sv:value></sv:property><sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date"><sv:value>2010-05-14T11:22:40.920+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:bloggerid" sv:type="String"><sv:value>tag:blogger.com,1999:blog-5942185880332728298.post-7219396815279536204</sv:value></sv:property><sv:property sv:name="weblogdemo:date" sv:type="Date"><sv:value>2009-04-04T16:25:00.005+02:00</sv:value></sv:property><sv:property sv:name="weblogdemo:title" sv:type="String"><sv:value>My top 5 pictures at Flickr</sv:value></sv:property><sv:node sv:name="weblogdemo:body"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:html</sv:value></sv:property><sv:property sv:name="hippostd:content" sv:type="String"><sv:value>&lt;html&gt;&lt;body&gt;
+&lt;/html&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="04">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippostd:folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:harddocument</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>5a130883-2093-4966-9bcb-8c01d6919de3</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+      <sv:value>live</sv:value>
+      <sv:value>preview</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+    <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+      <sv:value>new-folder</sv:value>
+      <sv:value>new-document</sv:value>
+    </sv:property>
+    <sv:node sv:name="my-top-5-pictures-at-flickr">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:translated</sv:value>
+        <sv:value>hippo:hardhandle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>ae5f0192-14af-4bc7-9ee8-76247ad6563c</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>My top 5 pictures at Flickr</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="my-top-5-pictures-at-flickr">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>weblogdemo:blogpost</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:harddocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>ca7801cf-9726-4a4b-82b9-0059fee6dc8c</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>2009/04/my-top-5-pictures-at-flickr</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>editor</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:tags" sv:type="String" sv:multiple="true">
+          <sv:value>pictures</sv:value>
+          <sv:value>Personal</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2009-04-04T16:25:00.005+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2009-05-17T13:20:05.977+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2010-05-14T11:22:40.920+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:bloggerid" sv:type="String">
+          <sv:value>tag:blogger.com,1999:blog-5942185880332728298.post-7219396815279536204</sv:value>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:date" sv:type="Date">
+          <sv:value>2009-04-04T16:25:00.005+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:title" sv:type="String">
+          <sv:value>My top 5 pictures at Flickr</sv:value>
+        </sv:property>
+        <sv:node sv:name="weblogdemo:body">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;html&gt;&lt;body&gt;
                   &lt;p&gt;I find it fascinating what people are
       searching for and how they came on my blog or pictures. These are
       the top 5 most viewed pictures from my Flickr photo
@@ -310,8 +1439,100 @@ to win after the talks.&lt;/p&gt;
       width="240" height="196" alt="Magiker case" /&gt;&lt;/a&gt;
       &lt;/dd&gt;
       &lt;/dl&gt;
-    
-                  &lt;/body&gt;&lt;/html&gt;</sv:value></sv:property></sv:node></sv:node></sv:node><sv:node sv:name="hippo-developer-training"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:handle</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:hardhandle</sv:value><sv:value>hippo:translated</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>0d7a5d45-6ca0-4c11-aa23-069e59f0e862</sv:value></sv:property><sv:node sv:name="hippo:translation"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:translation</sv:value></sv:property><sv:property sv:name="hippo:language" sv:type="String"><sv:value/></sv:property><sv:property sv:name="hippo:message" sv:type="String"><sv:value>Hippo developer training</sv:value></sv:property></sv:node><sv:node sv:name="hippo-developer-training"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>weblogdemo:blogpost</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>eead3458-0f6a-4cae-92df-50e2d6378b83</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>eead3458-0f6a-4cae-92df-50e2d6378b83</sv:value><sv:value>0d7a5d45-6ca0-4c11-aa23-069e59f0e862</sv:value><sv:value>5a130883-2093-4966-9bcb-8c01d6919de3</sv:value><sv:value>0346b23f-c0a2-4949-be0b-26d9877b51ef</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"><sv:value>2009/04/hippo-developer-training</sv:value></sv:property><sv:property sv:name="hippostd:holder" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostd:state" sv:type="String"><sv:value>published</sv:value></sv:property><sv:property sv:name="hippostd:stateSummary" sv:type="String"><sv:value>live</sv:value></sv:property><sv:property sv:name="hippostd:tags" sv:type="String"><sv:value>technology</sv:value><sv:value>hippo</sv:value><sv:value>HST</sv:value><sv:value>cms7</sv:value><sv:value>development</sv:value></sv:property><sv:property sv:name="hippostdpubwf:createdBy" sv:type="String"><sv:value>admin</sv:value></sv:property><sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date"><sv:value>2009-04-27T08:20:00.018+02:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date"><sv:value>2010-08-10T11:12:08.893+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date"><sv:value>2010-08-10T11:18:23.798+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:bloggerid" sv:type="String"><sv:value>tag:blogger.com,1999:blog-5942185880332728298.post-9074074974667498397</sv:value></sv:property><sv:property sv:name="weblogdemo:date" sv:type="Date"><sv:value>2009-04-27T08:20:00.018+02:00</sv:value></sv:property><sv:property sv:name="weblogdemo:summary" sv:type="String"><sv:value/></sv:property><sv:property sv:name="weblogdemo:title" sv:type="String"><sv:value>Hippo developer training</sv:value></sv:property><sv:node sv:name="weblogdemo:body"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:html</sv:value></sv:property><sv:property sv:name="hippostd:content" sv:type="String"><sv:value>&lt;html&gt;
+
+                  &lt;/body&gt;&lt;/html&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="hippo-developer-training">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:translated</sv:value>
+        <sv:value>hippo:hardhandle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>0d7a5d45-6ca0-4c11-aa23-069e59f0e862</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>Hippo developer training</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippo-developer-training">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>weblogdemo:blogpost</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:harddocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>eead3458-0f6a-4cae-92df-50e2d6378b83</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>2009/04/hippo-developer-training</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>editor</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:tags" sv:type="String" sv:multiple="true">
+          <sv:value>technology</sv:value>
+          <sv:value>hippo</sv:value>
+          <sv:value>HST</sv:value>
+          <sv:value>cms7</sv:value>
+          <sv:value>development</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2009-04-27T08:20:00.018+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2010-08-10T11:12:08.893+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>editor</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2010-08-10T11:18:23.798+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:bloggerid" sv:type="String">
+          <sv:value>tag:blogger.com,1999:blog-5942185880332728298.post-9074074974667498397</sv:value>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:date" sv:type="Date">
+          <sv:value>2009-04-27T08:20:00.018+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:summary" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:title" sv:type="String">
+          <sv:value>Hippo developer training</sv:value>
+        </sv:property>
+        <sv:node sv:name="weblogdemo:body">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;html&gt;
 &lt;body&gt;
 
 &lt;p&gt;&lt;a href="http://www.onehippo.com"&gt;Hippo&lt;/a&gt; let me follow the three day
@@ -325,7 +1546,7 @@ good chance to get to know our new training programmes.&lt;/p&gt;
 &lt;p&gt;After we received the handouts of the training we introduced ourselves. It
 was a pretty mixed group with developers from partner implementation companies,
 an independent consultant, developers from a customer and me.
-&lt;a href="http://www.onehippo.org/about/architecture.html" title="Hippo architecture"&gt;&lt;img facetselect="hippo-architecture.jpg/{_document}/hippogallery:picture" width="250" height="142" style="float: left; margin: 1em 10px 1em 0pt;" src="hippo-architecture.jpg/{_document}/hippogallery:picture" alt="Hippo Architecture"/&gt;&lt;/a&gt;
+&lt;a href="http://www.onehippo.org/about/architecture.html" title="Hippo architecture"&gt;&lt;img facetselect="hippo-architecture.jpg/{_document}/hippogallery:original" width="250" height="142" style="float: left; margin: 1em 10px 1em 0pt;" src="hippo-architecture.jpg/{_document}/hippogallery:original" alt="Hippo Architecture"/&gt;&lt;/a&gt;
 Jeroen explained the Hippo architecture which is basically still the same as
 with version 6 but based on different technologies. The WebDAV repository has
 been replaced with our JCR Repository (based on
@@ -398,7 +1619,7 @@ the Maven archetype:&lt;/p&gt;
       &lt;/pre&gt;
 
 &lt;p&gt;
- &lt;a href="urbannet-screenshot.jpg/{_document}/hippogallery:picture" class="grouped_elements" rel="lightbox"&gt;&lt;img facetselect="urbannet-screenshot.jpg/{_document}/hippogallery:thumbnail" width="240" height="176" style="float: right;" src="urbannet-screenshot.jpg/{_document}/hippogallery:thumbnail" alt="Screenshot of the Urbannet homepage"/&gt;&lt;/a&gt;
+ &lt;a href="urbannet-screenshot.jpg/{_document}/hippogallery:original" class="grouped_elements" rel="lightbox"&gt;&lt;img facetselect="urbannet-screenshot.jpg/{_document}/hippogallery:thumbnail" width="240" height="176" style="float: right;" src="urbannet-screenshot.jpg/{_document}/hippogallery:thumbnail" alt="Screenshot of the Urbannet homepage"/&gt;&lt;/a&gt;
 It creates a project on the file system in three parts: the content, CMS and the
 site. After lunch we started to build our own website. I took the
 &lt;a href="http://www.urban-net.org/"&gt;Urban-net&lt;/a&gt; website as example because it
@@ -412,7 +1633,7 @@ the site. For real projects there are
 &lt;a href="http://svn.onehippo.org/repos/hippo/hippo-ecm/tags/Tag-HREPTWO-v2_03_00/tools/migration/"&gt;migration
 tools&lt;/a&gt; available to convert the XML content from the WebDAV repository to JCR
 nodes and properties.
-&lt;a href="urbannet-screenshot-listing.jpg/{_document}/hippogallery:picture" class="grouped_elements" rel="lightbox"&gt;&lt;img facetselect="urbannet-screenshot-listing.jpg/{_document}/hippogallery:thumbnail" width="240" height="177" src="urbannet-screenshot-listing.jpg/{_document}/hippogallery:thumbnail" alt="Screenshot of document listing"/&gt;&lt;/a&gt;
+&lt;a href="urbannet-screenshot-listing.jpg/{_document}/hippogallery:original" class="grouped_elements" rel="lightbox"&gt;&lt;img facetselect="urbannet-screenshot-listing.jpg/{_document}/hippogallery:thumbnail" width="240" height="177" src="urbannet-screenshot-listing.jpg/{_document}/hippogallery:thumbnail" alt="Screenshot of document listing"/&gt;&lt;/a&gt;
 For the themes I used an ordinary repeating text field but the
 &lt;a href="http://forge.onehippo.org/projects/ecm-tagging/"&gt;Hippo ECM Tagging
 add-on&lt;/a&gt; would be more user friendly in a real life implementation.&lt;/p&gt;
@@ -428,9 +1649,151 @@ site are fake but it does show the basics.&lt;/p&gt;
 with some drinks and chips.&lt;/p&gt;
 
 &lt;/body&gt;
-&lt;/html&gt;</sv:value></sv:property><sv:node sv:name="hippo-architecture.jpg"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:facetselect</sv:value></sv:property><sv:property sv:name="hippo:docbase" sv:type="String"><sv:value>3add3b44-9041-4137-8af1-0307a990fc7e</sv:value></sv:property><sv:property sv:name="hippo:facets" sv:type="String"/><sv:property sv:name="hippo:modes" sv:type="String"/><sv:property sv:name="hippo:values" sv:type="String"/></sv:node><sv:node sv:name="urbannet-screenshot.jpg"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:facetselect</sv:value></sv:property><sv:property sv:name="hippo:docbase" sv:type="String"><sv:value>0165460b-feff-40fd-b6a6-e102d827a0f7</sv:value></sv:property><sv:property sv:name="hippo:facets" sv:type="String"/><sv:property sv:name="hippo:modes" sv:type="String"/><sv:property sv:name="hippo:values" sv:type="String"/></sv:node><sv:node sv:name="urbannet-screenshot-listing.jpg"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:facetselect</sv:value></sv:property><sv:property sv:name="hippo:docbase" sv:type="String"><sv:value>69bda39e-b2ff-4876-a9bf-8e2054f7441e</sv:value></sv:property><sv:property sv:name="hippo:facets" sv:type="String"/><sv:property sv:name="hippo:modes" sv:type="String"/><sv:property sv:name="hippo:values" sv:type="String"/></sv:node></sv:node></sv:node></sv:node></sv:node><sv:node sv:name="05"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:folder</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>cf6dce49-d5d1-47c5-9777-a1e6e2d94575</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>cf6dce49-d5d1-47c5-9777-a1e6e2d94575</sv:value><sv:value>0346b23f-c0a2-4949-be0b-26d9877b51ef</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"/><sv:property sv:name="hippostd:foldertype" sv:type="String"><sv:value>new-folder</sv:value><sv:value>new-document</sv:value></sv:property><sv:node sv:name="i-dont-want-to-register-before"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:handle</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:hardhandle</sv:value><sv:value>hippo:translated</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>87853aef-ac98-4382-8c30-570e03346a53</sv:value></sv:property><sv:node sv:name="hippo:translation"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:translation</sv:value></sv:property><sv:property sv:name="hippo:language" sv:type="String"><sv:value/></sv:property><sv:property sv:name="hippo:message" sv:type="String"><sv:value>I don't want to register before downloading
-    </sv:value></sv:property></sv:node><sv:node sv:name="i-dont-want-to-register-before"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>weblogdemo:blogpost</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>d9062adb-5474-4ee8-b191-0af3bcf124ff</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>d9062adb-5474-4ee8-b191-0af3bcf124ff</sv:value><sv:value>87853aef-ac98-4382-8c30-570e03346a53</sv:value><sv:value>cf6dce49-d5d1-47c5-9777-a1e6e2d94575</sv:value><sv:value>0346b23f-c0a2-4949-be0b-26d9877b51ef</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"><sv:value>2009/05/i-dont-want-to-register-before</sv:value></sv:property><sv:property sv:name="hippostd:holder" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostd:state" sv:type="String"><sv:value>published</sv:value></sv:property><sv:property sv:name="hippostd:stateSummary" sv:type="String"><sv:value>live</sv:value></sv:property><sv:property sv:name="hippostd:tags" sv:type="String"><sv:value>technology</sv:value><sv:value>hippo</sv:value></sv:property><sv:property sv:name="hippostdpubwf:createdBy" sv:type="String"><sv:value>admin</sv:value></sv:property><sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date"><sv:value>2009-05-16T12:47:00.006+02:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date"><sv:value>2010-07-11T17:50:12.455+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date"><sv:value>2010-07-11T17:50:59.302+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:bloggerid" sv:type="String"><sv:value>tag:blogger.com,1999:blog-5942185880332728298.post-7926038348793250183</sv:value></sv:property><sv:property sv:name="weblogdemo:date" sv:type="Date"><sv:value>2009-05-16T12:47:00.006+02:00</sv:value></sv:property><sv:property sv:name="weblogdemo:summary" sv:type="String"><sv:value/></sv:property><sv:property sv:name="weblogdemo:title" sv:type="String"><sv:value>I don't want to register before downloading
-    </sv:value></sv:property><sv:node sv:name="weblogdemo:body"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:html</sv:value></sv:property><sv:property sv:name="hippostd:content" sv:type="String"><sv:value>&lt;html&gt;
+&lt;/html&gt;</sv:value>
+          </sv:property>
+          <sv:node sv:name="hippo-architecture.jpg">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>3add3b44-9041-4137-8af1-0307a990fc7e</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="urbannet-screenshot.jpg">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>0165460b-feff-40fd-b6a6-e102d827a0f7</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="urbannet-screenshot-listing.jpg">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>69bda39e-b2ff-4876-a9bf-8e2054f7441e</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="05">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippostd:folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:harddocument</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>cf6dce49-d5d1-47c5-9777-a1e6e2d94575</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+      <sv:value>live</sv:value>
+      <sv:value>preview</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+    <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+      <sv:value>new-folder</sv:value>
+      <sv:value>new-document</sv:value>
+    </sv:property>
+    <sv:node sv:name="i-dont-want-to-register-before">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:translated</sv:value>
+        <sv:value>hippo:hardhandle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>87853aef-ac98-4382-8c30-570e03346a53</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>I don't want to register before downloading
+    </sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="i-dont-want-to-register-before">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>weblogdemo:blogpost</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:harddocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>d9062adb-5474-4ee8-b191-0af3bcf124ff</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>2009/05/i-dont-want-to-register-before</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>editor</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:tags" sv:type="String" sv:multiple="true">
+          <sv:value>technology</sv:value>
+          <sv:value>hippo</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2009-05-16T12:47:00.006+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2010-07-11T17:50:12.455+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>editor</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2010-07-11T17:50:59.302+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:bloggerid" sv:type="String">
+          <sv:value>tag:blogger.com,1999:blog-5942185880332728298.post-7926038348793250183</sv:value>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:date" sv:type="Date">
+          <sv:value>2009-05-16T12:47:00.006+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:summary" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:title" sv:type="String">
+          <sv:value>I don't want to register before downloading
+    </sv:value>
+        </sv:property>
+        <sv:node sv:name="weblogdemo:body">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;html&gt;
 &lt;body&gt;
 
 &lt;p&gt;Okay I just wanted to try the "community edition" of some software. So I
@@ -452,9 +1815,120 @@ companies have ever looked into their website statistics to see at which point
 people quit.&lt;/p&gt;
 
 &lt;/body&gt;
-&lt;/html&gt;</sv:value></sv:property></sv:node></sv:node></sv:node></sv:node><sv:node sv:name="06"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:folder</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>b1a6a018-8c68-4b10-b6fb-2899e86b702e</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>b1a6a018-8c68-4b10-b6fb-2899e86b702e</sv:value><sv:value>0346b23f-c0a2-4949-be0b-26d9877b51ef</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"/><sv:property sv:name="hippostd:foldertype" sv:type="String"><sv:value>new-folder</sv:value><sv:value>new-document</sv:value></sv:property><sv:node sv:name="hippo-site-toolkit-query-interface-and"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:handle</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:hardhandle</sv:value><sv:value>hippo:translated</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>c862c242-5d43-43a4-a12c-1257984114a7</sv:value></sv:property><sv:node sv:name="hippo:translation"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:translation</sv:value></sv:property><sv:property sv:name="hippo:language" sv:type="String"><sv:value/></sv:property><sv:property sv:name="hippo:message" sv:type="String"><sv:value>Hippo Site Toolkit Query interface and pagination
-    </sv:value></sv:property></sv:node><sv:node sv:name="hippo-site-toolkit-query-interface-and"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>weblogdemo:blogpost</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>e826f00a-23a3-4c64-ab9f-9f768ac25e4e</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>e826f00a-23a3-4c64-ab9f-9f768ac25e4e</sv:value><sv:value>c862c242-5d43-43a4-a12c-1257984114a7</sv:value><sv:value>b1a6a018-8c68-4b10-b6fb-2899e86b702e</sv:value><sv:value>0346b23f-c0a2-4949-be0b-26d9877b51ef</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"><sv:value>2009/06/hippo-site-toolkit-query-interface-and</sv:value></sv:property><sv:property sv:name="hippostd:holder" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostd:state" sv:type="String"><sv:value>published</sv:value></sv:property><sv:property sv:name="hippostd:stateSummary" sv:type="String"><sv:value>live</sv:value></sv:property><sv:property sv:name="hippostd:tags" sv:type="String"><sv:value>technology</sv:value><sv:value>hippo</sv:value><sv:value>HST</sv:value><sv:value>cms7</sv:value></sv:property><sv:property sv:name="hippostdpubwf:createdBy" sv:type="String"><sv:value>admin</sv:value></sv:property><sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date"><sv:value>2009-06-04T18:50:00.011+02:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date"><sv:value>2010-07-20T20:10:14.299+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date"><sv:value>2010-07-20T20:10:33.845+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:bloggerid" sv:type="String"><sv:value>tag:blogger.com,1999:blog-5942185880332728298.post-4064821216161876139</sv:value></sv:property><sv:property sv:name="weblogdemo:date" sv:type="Date"><sv:value>2009-06-04T18:50:00.011+02:00</sv:value></sv:property><sv:property sv:name="weblogdemo:summary" sv:type="String"><sv:value/></sv:property><sv:property sv:name="weblogdemo:title" sv:type="String"><sv:value>Hippo Site Toolkit Query interface and pagination
-    </sv:value></sv:property><sv:node sv:name="weblogdemo:body"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:html</sv:value></sv:property><sv:property sv:name="hippostd:content" sv:type="String"><sv:value>&lt;html&gt;
+&lt;/html&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="06">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippostd:folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:harddocument</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>b1a6a018-8c68-4b10-b6fb-2899e86b702e</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+      <sv:value>live</sv:value>
+      <sv:value>preview</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+    <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+      <sv:value>new-folder</sv:value>
+      <sv:value>new-document</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippo-site-toolkit-query-interface-and">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:translated</sv:value>
+        <sv:value>hippo:hardhandle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>c862c242-5d43-43a4-a12c-1257984114a7</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>Hippo Site Toolkit Query interface and pagination
+    </sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippo-site-toolkit-query-interface-and">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>weblogdemo:blogpost</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:harddocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>e826f00a-23a3-4c64-ab9f-9f768ac25e4e</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>2009/06/hippo-site-toolkit-query-interface-and</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>editor</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:tags" sv:type="String" sv:multiple="true">
+          <sv:value>technology</sv:value>
+          <sv:value>hippo</sv:value>
+          <sv:value>HST</sv:value>
+          <sv:value>cms7</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2009-06-04T18:50:00.011+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2010-07-20T20:10:14.299+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>editor</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2010-07-20T20:10:33.845+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:bloggerid" sv:type="String">
+          <sv:value>tag:blogger.com,1999:blog-5942185880332728298.post-4064821216161876139</sv:value>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:date" sv:type="Date">
+          <sv:value>2009-06-04T18:50:00.011+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:summary" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:title" sv:type="String">
+          <sv:value>Hippo Site Toolkit Query interface and pagination
+    </sv:value>
+        </sv:property>
+        <sv:node sv:name="weblogdemo:body">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;html&gt;
 &lt;body&gt;
 
 &lt;p&gt;Today an interesting question came from a developer of one of our
@@ -528,7 +2002,116 @@ query, without fetching actual nodes.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;/body&gt;
-&lt;/html&gt;</sv:value></sv:property></sv:node></sv:node></sv:node></sv:node><sv:node sv:name="07"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:folder</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>fe24f0c2-03aa-40f4-97bc-5d0c9853ad68</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>fe24f0c2-03aa-40f4-97bc-5d0c9853ad68</sv:value><sv:value>0346b23f-c0a2-4949-be0b-26d9877b51ef</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"/><sv:property sv:name="hippostd:foldertype" sv:type="String"><sv:value>new-folder</sv:value><sv:value>new-document</sv:value></sv:property><sv:node sv:name="google-future"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:handle</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:hardhandle</sv:value><sv:value>hippo:translated</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>9efe0bfe-5162-4adc-a224-2562eacfe6ae</sv:value></sv:property><sv:node sv:name="hippo:translation"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:translation</sv:value></sv:property><sv:property sv:name="hippo:language" sv:type="String"><sv:value/></sv:property><sv:property sv:name="hippo:message" sv:type="String"><sv:value>The Google Future</sv:value></sv:property></sv:node><sv:node sv:name="google-future"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>weblogdemo:blogpost</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>94e364a3-3434-4b86-9e98-7ebdbfcb5be8</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>94e364a3-3434-4b86-9e98-7ebdbfcb5be8</sv:value><sv:value>9efe0bfe-5162-4adc-a224-2562eacfe6ae</sv:value><sv:value>fe24f0c2-03aa-40f4-97bc-5d0c9853ad68</sv:value><sv:value>0346b23f-c0a2-4949-be0b-26d9877b51ef</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"><sv:value>2009/07/google-future</sv:value></sv:property><sv:property sv:name="hippostd:holder" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostd:state" sv:type="String"><sv:value>published</sv:value></sv:property><sv:property sv:name="hippostd:stateSummary" sv:type="String"><sv:value>live</sv:value></sv:property><sv:property sv:name="hippostd:tags" sv:type="String"><sv:value>technology</sv:value><sv:value>Personal</sv:value></sv:property><sv:property sv:name="hippostdpubwf:createdBy" sv:type="String"><sv:value>admin</sv:value></sv:property><sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date"><sv:value>2009-07-09T09:18:00.008+02:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date"><sv:value>2010-07-11T17:49:38.362+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date"><sv:value>2010-07-11T17:49:41.667+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:bloggerid" sv:type="String"><sv:value>tag:blogger.com,1999:blog-5942185880332728298.post-3760306779801541396</sv:value></sv:property><sv:property sv:name="weblogdemo:date" sv:type="Date"><sv:value>2009-07-09T09:18:00.008+02:00</sv:value></sv:property><sv:property sv:name="weblogdemo:summary" sv:type="String"><sv:value/></sv:property><sv:property sv:name="weblogdemo:title" sv:type="String"><sv:value>The Google Future</sv:value></sv:property><sv:node sv:name="weblogdemo:body"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:html</sv:value></sv:property><sv:property sv:name="hippostd:content" sv:type="String"><sv:value>&lt;html&gt;
+&lt;/html&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="07">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippostd:folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:harddocument</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>fe24f0c2-03aa-40f4-97bc-5d0c9853ad68</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+      <sv:value>live</sv:value>
+      <sv:value>preview</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+    <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+      <sv:value>new-folder</sv:value>
+      <sv:value>new-document</sv:value>
+    </sv:property>
+    <sv:node sv:name="google-future">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:translated</sv:value>
+        <sv:value>hippo:hardhandle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>9efe0bfe-5162-4adc-a224-2562eacfe6ae</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>The Google Future</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="google-future">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>weblogdemo:blogpost</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:harddocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>94e364a3-3434-4b86-9e98-7ebdbfcb5be8</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>2009/07/google-future</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>editor</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:tags" sv:type="String" sv:multiple="true">
+          <sv:value>technology</sv:value>
+          <sv:value>Personal</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2009-07-09T09:18:00.008+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2010-07-11T17:49:38.362+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>editor</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2010-07-11T17:49:41.667+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:bloggerid" sv:type="String">
+          <sv:value>tag:blogger.com,1999:blog-5942185880332728298.post-3760306779801541396</sv:value>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:date" sv:type="Date">
+          <sv:value>2009-07-09T09:18:00.008+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:summary" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:title" sv:type="String">
+          <sv:value>The Google Future</sv:value>
+        </sv:property>
+        <sv:node sv:name="weblogdemo:body">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;html&gt;
 &lt;body&gt;
 
 &lt;p&gt;It's 2012. EU regulations require a choice between at least 2 operating
@@ -566,20 +2149,253 @@ advertisements Google Messenger comes with even more "related" advertisements.
 &lt;p&gt;Is this where we want to go tomorrow?&lt;/p&gt;
 
 &lt;/body&gt;
-&lt;/html&gt;</sv:value></sv:property></sv:node></sv:node></sv:node></sv:node><sv:node sv:name="09"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:folder</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>097c1cb1-7ee8-4c9a-a643-734a1e0d5677</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>097c1cb1-7ee8-4c9a-a643-734a1e0d5677</sv:value><sv:value>0346b23f-c0a2-4949-be0b-26d9877b51ef</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"/><sv:property sv:name="hippostd:foldertype" sv:type="String"><sv:value>new-folder</sv:value><sv:value>new-document</sv:value></sv:property><sv:node sv:name="fast-internet"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:handle</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:hardhandle</sv:value><sv:value>hippo:translated</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>091146a0-b36f-4fd4-8ada-d311be9c663a</sv:value></sv:property><sv:node sv:name="hippo:translation"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:translation</sv:value></sv:property><sv:property sv:name="hippo:language" sv:type="String"><sv:value/></sv:property><sv:property sv:name="hippo:message" sv:type="String"><sv:value>Fast internet</sv:value></sv:property></sv:node><sv:node sv:name="fast-internet"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>weblogdemo:blogpost</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>af777608-ac73-408b-875d-b5bc44031ee4</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>af777608-ac73-408b-875d-b5bc44031ee4</sv:value><sv:value>091146a0-b36f-4fd4-8ada-d311be9c663a</sv:value><sv:value>097c1cb1-7ee8-4c9a-a643-734a1e0d5677</sv:value><sv:value>0346b23f-c0a2-4949-be0b-26d9877b51ef</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"><sv:value>2009/09/fast-internet</sv:value></sv:property><sv:property sv:name="hippostd:holder" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostd:state" sv:type="String"><sv:value>published</sv:value></sv:property><sv:property sv:name="hippostd:stateSummary" sv:type="String"><sv:value>live</sv:value></sv:property><sv:property sv:name="hippostd:tags" sv:type="String"><sv:value>technology</sv:value><sv:value>Personal</sv:value></sv:property><sv:property sv:name="hippostdpubwf:createdBy" sv:type="String"><sv:value>admin</sv:value></sv:property><sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date"><sv:value>2009-09-25T19:53:00.002+02:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date"><sv:value>2010-07-11T17:47:19.601+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date"><sv:value>2010-07-11T17:48:38.897+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:bloggerid" sv:type="String"><sv:value>tag:blogger.com,1999:blog-5942185880332728298.post-3171635501010544609</sv:value></sv:property><sv:property sv:name="weblogdemo:date" sv:type="Date"><sv:value>2009-09-25T19:53:00.002+02:00</sv:value></sv:property><sv:property sv:name="weblogdemo:summary" sv:type="String"><sv:value/></sv:property><sv:property sv:name="weblogdemo:title" sv:type="String"><sv:value>Fast internet</sv:value></sv:property><sv:node sv:name="weblogdemo:body"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:html</sv:value></sv:property><sv:property sv:name="hippostd:content" sv:type="String"><sv:value>&lt;html&gt;
+&lt;/html&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="09">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippostd:folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:harddocument</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>097c1cb1-7ee8-4c9a-a643-734a1e0d5677</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+      <sv:value>live</sv:value>
+      <sv:value>preview</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+    <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+      <sv:value>new-folder</sv:value>
+      <sv:value>new-document</sv:value>
+    </sv:property>
+    <sv:node sv:name="fast-internet">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:translated</sv:value>
+        <sv:value>hippo:hardhandle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>091146a0-b36f-4fd4-8ada-d311be9c663a</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>Fast internet</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="fast-internet">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>weblogdemo:blogpost</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:harddocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>af777608-ac73-408b-875d-b5bc44031ee4</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>2009/09/fast-internet</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>editor</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:tags" sv:type="String" sv:multiple="true">
+          <sv:value>technology</sv:value>
+          <sv:value>Personal</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2009-09-25T19:53:00.002+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2010-07-11T17:47:19.601+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>editor</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2010-07-11T17:48:38.897+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:bloggerid" sv:type="String">
+          <sv:value>tag:blogger.com,1999:blog-5942185880332728298.post-3171635501010544609</sv:value>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:date" sv:type="Date">
+          <sv:value>2009-09-25T19:53:00.002+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:summary" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:title" sv:type="String">
+          <sv:value>Fast internet</sv:value>
+        </sv:property>
+        <sv:node sv:name="weblogdemo:body">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;html&gt;
 &lt;body&gt;
 
 &lt;p&gt;Just did a test on &lt;a href="http://www.speedtest.net"&gt;Speedtest&lt;/a&gt; for my
 fibreglass connection at home.&lt;/p&gt;
 
 &lt;p&gt;
-&lt;img facetselect="20090925-speedtestpng/{_document}/hippogallery:picture" src="20090925-speedtestpng/{_document}/hippogallery:picture" alt="Speedtest result"/&gt;
+&lt;img facetselect="20090925-speedtestpng/{_document}/hippogallery:original" src="20090925-speedtestpng/{_document}/hippogallery:original" alt="Speedtest result"/&gt;
 &lt;/p&gt;
 
 &lt;p&gt;I like :-)&lt;/p&gt;
 
 &lt;/body&gt;
-&lt;/html&gt;</sv:value></sv:property><sv:node sv:name="20090925-speedtestpng"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:facetselect</sv:value></sv:property><sv:property sv:name="hippo:docbase" sv:type="String"><sv:value>9762df35-28a1-480c-8115-fe8b134d210f</sv:value></sv:property><sv:property sv:name="hippo:facets" sv:type="String"/><sv:property sv:name="hippo:modes" sv:type="String"/><sv:property sv:name="hippo:values" sv:type="String"/></sv:node></sv:node></sv:node></sv:node></sv:node><sv:node sv:name="10"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:folder</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>96466aa9-e955-4ec9-8a8c-64dff0cbb4c1</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>96466aa9-e955-4ec9-8a8c-64dff0cbb4c1</sv:value><sv:value>0346b23f-c0a2-4949-be0b-26d9877b51ef</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"/><sv:property sv:name="hippostd:foldertype" sv:type="String"><sv:value>new-folder</sv:value><sv:value>new-document</sv:value></sv:property><sv:node sv:name="generate-robotstxt-from-hippo-cms"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:handle</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:hardhandle</sv:value><sv:value>hippo:translated</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>8839bf03-3c54-4fa7-8b1f-b2c9d1e0e335</sv:value></sv:property><sv:node sv:name="hippo:translation"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:translation</sv:value></sv:property><sv:property sv:name="hippo:language" sv:type="String"><sv:value/></sv:property><sv:property sv:name="hippo:message" sv:type="String"><sv:value>Generate the robots.txt from Hippo CMS</sv:value></sv:property></sv:node><sv:node sv:name="generate-robotstxt-from-hippo-cms"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>weblogdemo:blogpost</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>eb9d4fd0-0d75-453d-bacb-bce1e5808dfc</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>eb9d4fd0-0d75-453d-bacb-bce1e5808dfc</sv:value><sv:value>8839bf03-3c54-4fa7-8b1f-b2c9d1e0e335</sv:value><sv:value>96466aa9-e955-4ec9-8a8c-64dff0cbb4c1</sv:value><sv:value>0346b23f-c0a2-4949-be0b-26d9877b51ef</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"><sv:value>2009/10/generate-robotstxt-from-hippo-cms</sv:value></sv:property><sv:property sv:name="hippostd:holder" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostd:state" sv:type="String"><sv:value>published</sv:value></sv:property><sv:property sv:name="hippostd:stateSummary" sv:type="String"><sv:value>live</sv:value></sv:property><sv:property sv:name="hippostd:tags" sv:type="String"><sv:value>technology</sv:value><sv:value>hippo</sv:value><sv:value>HST</sv:value><sv:value>hippoforge</sv:value><sv:value>plugins</sv:value><sv:value>cms7</sv:value></sv:property><sv:property sv:name="hippostdpubwf:createdBy" sv:type="String"><sv:value>admin</sv:value></sv:property><sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date"><sv:value>2009-10-25T13:53:00.006+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date"><sv:value>2010-05-28T09:27:48.123+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date"><sv:value>2010-05-28T09:33:05.352+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:bloggerid" sv:type="String"><sv:value>tag:blogger.com,1999:blog-5942185880332728298.post-1819522123885782193</sv:value></sv:property><sv:property sv:name="weblogdemo:date" sv:type="Date"><sv:value>2009-10-25T13:53:00.006+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:summary" sv:type="String"><sv:value/></sv:property><sv:property sv:name="weblogdemo:title" sv:type="String"><sv:value>Generate the robots.txt from Hippo CMS</sv:value></sv:property><sv:node sv:name="weblogdemo:body"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:html</sv:value></sv:property><sv:property sv:name="hippostd:content" sv:type="String"><sv:value>&lt;html&gt;
+&lt;/html&gt;</sv:value>
+          </sv:property>
+          <sv:node sv:name="20090925-speedtestpng">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>9762df35-28a1-480c-8115-fe8b134d210f</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="10">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippostd:folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:harddocument</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>96466aa9-e955-4ec9-8a8c-64dff0cbb4c1</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+      <sv:value>live</sv:value>
+      <sv:value>preview</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+    <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+      <sv:value>new-folder</sv:value>
+      <sv:value>new-document</sv:value>
+    </sv:property>
+    <sv:node sv:name="generate-robotstxt-from-hippo-cms">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:translated</sv:value>
+        <sv:value>hippo:hardhandle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>8839bf03-3c54-4fa7-8b1f-b2c9d1e0e335</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>Generate the robots.txt from Hippo CMS</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="generate-robotstxt-from-hippo-cms">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>weblogdemo:blogpost</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:harddocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>eb9d4fd0-0d75-453d-bacb-bce1e5808dfc</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>2009/10/generate-robotstxt-from-hippo-cms</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>editor</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:tags" sv:type="String" sv:multiple="true">
+          <sv:value>technology</sv:value>
+          <sv:value>hippo</sv:value>
+          <sv:value>HST</sv:value>
+          <sv:value>hippoforge</sv:value>
+          <sv:value>plugins</sv:value>
+          <sv:value>cms7</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2009-10-25T13:53:00.006+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2010-05-28T09:27:48.123+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>editor</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2010-05-28T09:33:05.352+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:bloggerid" sv:type="String">
+          <sv:value>tag:blogger.com,1999:blog-5942185880332728298.post-1819522123885782193</sv:value>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:date" sv:type="Date">
+          <sv:value>2009-10-25T13:53:00.006+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:summary" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:title" sv:type="String">
+          <sv:value>Generate the robots.txt from Hippo CMS</sv:value>
+        </sv:property>
+        <sv:node sv:name="weblogdemo:body">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;html&gt;
 &lt;body&gt;
 
 &lt;p&gt;The
@@ -591,7 +2407,7 @@ Hippo Site Toolkit
 to manage the robots.txt in the CMS and return the proper output.&lt;/p&gt;
 
 &lt;p&gt;&lt;span style="float:right;margin-left:5px;"&gt;
- &lt;a href="robotstxt_01_cms.png/{_document}/hippogallery:picture" class="grouped_elements" rel="lightbox"&gt;&lt;img facetselect="robotstxt_01_cms.png/{_document}/hippogallery:thumbnail" width="240" height="177" src="robotstxt_01_cms.png/{_document}/hippogallery:thumbnail" alt="Screenshot of Robots.txt configuration"/&gt;&lt;/a&gt;&lt;/span&gt;
+ &lt;a href="robotstxt_01_cms.png/{_document}/hippogallery:original" class="grouped_elements" rel="lightbox"&gt;&lt;img facetselect="robotstxt_01_cms.png/{_document}/hippogallery:thumbnail" width="240" height="177" src="robotstxt_01_cms.png/{_document}/hippogallery:thumbnail" alt="Screenshot of Robots.txt configuration"/&gt;&lt;/a&gt;&lt;/span&gt;
 The plugin comes with an out of the box document type to manage the parts of the
 site that are disallowed to crawl for search robots. There's usually one
 configuration for all crawlers but if you want, you can add multiple
@@ -608,13 +2424,144 @@ documentation &lt;a href="http://robotstxt.forge.onehippo.org/usage.html"&gt;how
 configure&lt;/a&gt; the plugin for your existing project.&lt;/p&gt;
 
 &lt;p&gt;&lt;span style="float:right;margin-left:5px;"&gt;
-&lt;a href="robotstxt_11_site.png/{_document}/hippogallery:picture" class="grouped_elements" rel="lightbox"&gt;&lt;img facetselect="robotstxt_11_site.png/{_document}/hippogallery:thumbnail" width="240" height="177" align="left" style="margin-right: 5px;" src="robotstxt_11_site.png/{_document}/hippogallery:thumbnail" alt="Sample robots.txt output"/&gt;&lt;/a&gt;&lt;/span&gt;
+&lt;a href="robotstxt_11_site.png/{_document}/hippogallery:original" class="grouped_elements" rel="lightbox"&gt;&lt;img facetselect="robotstxt_11_site.png/{_document}/hippogallery:thumbnail" width="240" height="177" align="left" style="margin-right: 5px;" src="robotstxt_11_site.png/{_document}/hippogallery:thumbnail" alt="Sample robots.txt output"/&gt;&lt;/a&gt;&lt;/span&gt;
 In the second screenshot you see the response by the HST for the "robots.txt"
 request. The HST returns a plain text response with all the fields we've
 configured in the CMS.&lt;/p&gt;
 
 &lt;/body&gt;
-&lt;/html&gt;</sv:value></sv:property><sv:node sv:name="robotstxt_01_cms.png"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:facetselect</sv:value></sv:property><sv:property sv:name="hippo:docbase" sv:type="String"><sv:value>e456a156-8237-4e5f-ba5f-5692374e81f7</sv:value></sv:property><sv:property sv:name="hippo:facets" sv:type="String"/><sv:property sv:name="hippo:modes" sv:type="String"/><sv:property sv:name="hippo:values" sv:type="String"/></sv:node><sv:node sv:name="robotstxt_11_site.png"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:facetselect</sv:value></sv:property><sv:property sv:name="hippo:docbase" sv:type="String"><sv:value>b1023707-8564-4e45-9ce7-5c681f039092</sv:value></sv:property><sv:property sv:name="hippo:facets" sv:type="String"/><sv:property sv:name="hippo:modes" sv:type="String"/><sv:property sv:name="hippo:values" sv:type="String"/></sv:node></sv:node></sv:node></sv:node></sv:node><sv:node sv:name="12"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:folder</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>42179fb6-b168-4011-828d-3dfd5a2c2ead</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>42179fb6-b168-4011-828d-3dfd5a2c2ead</sv:value><sv:value>0346b23f-c0a2-4949-be0b-26d9877b51ef</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"/><sv:property sv:name="hippostd:foldertype" sv:type="String"><sv:value>new-folder</sv:value><sv:value>new-document</sv:value></sv:property><sv:node sv:name="generate-rss-in-jsp-set-locale"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:handle</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:hardhandle</sv:value><sv:value>hippo:translated</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>91d2884e-ac72-43b4-bc04-881c87ffc6b0</sv:value></sv:property><sv:node sv:name="hippo:translation"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:translation</sv:value></sv:property><sv:property sv:name="hippo:language" sv:type="String"><sv:value/></sv:property><sv:property sv:name="hippo:message" sv:type="String"><sv:value>Generate RSS in JSP? Set the locale!</sv:value></sv:property></sv:node><sv:node sv:name="generate-rss-in-jsp-set-locale"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>weblogdemo:blogpost</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>15b3570e-fd0b-48e1-af9a-02877d6e3122</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>15b3570e-fd0b-48e1-af9a-02877d6e3122</sv:value><sv:value>91d2884e-ac72-43b4-bc04-881c87ffc6b0</sv:value><sv:value>42179fb6-b168-4011-828d-3dfd5a2c2ead</sv:value><sv:value>0346b23f-c0a2-4949-be0b-26d9877b51ef</sv:value><sv:value>5edba458-8012-489f-bb96-b05d17a0cf50</sv:value><sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value><sv:value>2c21a29c-a5d1-4e84-aec4-594e5bf93b25</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"><sv:value>2009/12/generate-rss-in-jsp-set-locale</sv:value></sv:property><sv:property sv:name="hippostd:holder" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostd:state" sv:type="String"><sv:value>published</sv:value></sv:property><sv:property sv:name="hippostd:stateSummary" sv:type="String"><sv:value>live</sv:value></sv:property><sv:property sv:name="hippostd:tags" sv:type="String"><sv:value>technology</sv:value><sv:value>hippo</sv:value></sv:property><sv:property sv:name="hippostdpubwf:createdBy" sv:type="String"><sv:value>admin</sv:value></sv:property><sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date"><sv:value>2009-12-10T09:55:00.005+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date"><sv:value>2010-08-12T09:05:14.366+01:00</sv:value></sv:property><sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String"><sv:value>editor</sv:value></sv:property><sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date"><sv:value>2010-08-12T09:05:26.381+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:bloggerid" sv:type="String"><sv:value>tag:blogger.com,1999:blog-5942185880332728298.post-3298764568944033554</sv:value></sv:property><sv:property sv:name="weblogdemo:date" sv:type="Date"><sv:value>2009-12-10T09:55:00.005+01:00</sv:value></sv:property><sv:property sv:name="weblogdemo:summary" sv:type="String"><sv:value/></sv:property><sv:property sv:name="weblogdemo:title" sv:type="String"><sv:value>Generate RSS in JSP? Set the locale!</sv:value></sv:property><sv:node sv:name="weblogdemo:body"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippostd:html</sv:value></sv:property><sv:property sv:name="hippostd:content" sv:type="String"><sv:value>&lt;html&gt;
+&lt;/html&gt;</sv:value>
+          </sv:property>
+          <sv:node sv:name="robotstxt_01_cms.png">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>e456a156-8237-4e5f-ba5f-5692374e81f7</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="robotstxt_11_site.png">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>b1023707-8564-4e45-9ce7-5c681f039092</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="12">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippostd:folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:harddocument</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>42179fb6-b168-4011-828d-3dfd5a2c2ead</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+      <sv:value>live</sv:value>
+      <sv:value>preview</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+    <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+      <sv:value>new-folder</sv:value>
+      <sv:value>new-document</sv:value>
+    </sv:property>
+    <sv:node sv:name="generate-rss-in-jsp-set-locale">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:translated</sv:value>
+        <sv:value>hippo:hardhandle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>91d2884e-ac72-43b4-bc04-881c87ffc6b0</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>Generate RSS in JSP? Set the locale!</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="generate-rss-in-jsp-set-locale">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>weblogdemo:blogpost</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:harddocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>15b3570e-fd0b-48e1-af9a-02877d6e3122</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>2009/12/generate-rss-in-jsp-set-locale</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>editor</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:tags" sv:type="String" sv:multiple="true">
+          <sv:value>technology</sv:value>
+          <sv:value>hippo</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2009-12-10T09:55:00.005+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2010-08-12T09:05:14.366+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>editor</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2010-08-12T09:05:26.381+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:bloggerid" sv:type="String">
+          <sv:value>tag:blogger.com,1999:blog-5942185880332728298.post-3298764568944033554</sv:value>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:date" sv:type="Date">
+          <sv:value>2009-12-10T09:55:00.005+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:summary" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="weblogdemo:title" sv:type="String">
+          <sv:value>Generate RSS in JSP? Set the locale!</sv:value>
+        </sv:property>
+        <sv:node sv:name="weblogdemo:body">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;html&gt;
 &lt;body&gt;
 
 &lt;p&gt;The RSS pubDate fields contain dates in a format that may be human readable,
@@ -672,4 +2619,10 @@ to your JSP:&lt;/p&gt;
 &lt;pre class="brush: xml"&gt;&amp;lt;fmt:setLocale value="en_US"/&amp;gt;&lt;/pre&gt;
 
 &lt;/body&gt;
-&lt;/html&gt;</sv:value></sv:property></sv:node></sv:node></sv:node></sv:node></sv:node>
+&lt;/html&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+</sv:node>

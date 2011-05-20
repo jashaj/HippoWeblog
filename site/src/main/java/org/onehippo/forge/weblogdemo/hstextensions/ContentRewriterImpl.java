@@ -15,15 +15,15 @@
  */
 package org.onehippo.forge.weblogdemo.hstextensions;
 
+import javax.jcr.Node;
+
+import org.hippoecm.hst.configuration.hosting.Mount;
 import org.hippoecm.hst.content.rewriter.impl.SimpleContentRewriter;
-import org.hippoecm.hst.core.component.HstRequest;
-import org.hippoecm.hst.core.component.HstResponse;
 import org.hippoecm.hst.core.linking.HstLink;
+import org.hippoecm.hst.core.request.HstRequestContext;
 import org.hippoecm.hst.utils.SimpleHtmlExtractor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import javax.jcr.Node;
 
 /**
  * ContentRewriterImpl does the same as {@link SimpleContentRewriter}. 
@@ -36,35 +36,33 @@ public class ContentRewriterImpl extends SimpleContentRewriter {
     private static final String REL_EXTERNAL = " rel=\"external\"";
 
     /**
-     * @see SimpleContentRewriter#rewrite(String, Node, HstRequest, HstResponse)
+     * @see SimpleContentRewriter#rewrite(String, Node, HstRequestContext)
      */
     @Override
-    public String rewrite(String html, Node node, HstRequest request, HstResponse response) {
-        return rewriteContent(html, node, request, response, false);
+    public String rewrite(String html, Node node, HstRequestContext requestContext) {
+        return rewriteContent(html, node, requestContext, false);
     }
 
     /**
      * Rewrites all links to external form, e.g. http://example.com/link.html. Useful for content exchange through feeds
      * @param html String of the HTML
      * @param node {@link Node} that contains the HTML
-     * @param request {@link HstRequest}
-     * @param response {@link HstResponse}
+     * @param requestContext {@link HstRequestContext}
      * @return rewritten String of the HTML with all links rewritten to external form
      */
-    public String rewriteToExternal(String html, Node node, HstRequest request, HstResponse response) {
-        return rewriteContent(html, node, request, response, true);
+    public String rewriteToExternal(String html, Node node, HstRequestContext requestContext) {
+        return rewriteContent(html, node, requestContext, true);
     }
 
     /**
      * Internal method that rewrites all links, optionally makes links in external form or adds a rel="external" to external links
      * @param html String of the HTML
      * @param node {@link Node} that contains the HTML
-     * @param request {@link HstRequest}
-     * @param response {@link HstResponse}
+     * @param requestContext {@link HstRequestContext}
      * @param externalizeLinks boolean that defines if all links should be rewritten to external form, e.g. http://example.com/link.html
      * @return rewritten String of the HTML
      */
-    private String rewriteContent(String html, Node node, HstRequest request, HstResponse response,
+    private String rewriteContent(String html, Node node, HstRequestContext requestContext,
             boolean externalizeLinks) {
         // only create if really needed
         StringBuilder sb = null;
@@ -104,9 +102,9 @@ public class ContentRewriterImpl extends SimpleContentRewriter {
                     if (isExternal(documentPath)) {
                         sb.append(documentPath);
                     } else {
-                        HstLink href = getDocumentLink(documentPath, node, request, response);
+                        HstLink href = getDocumentLink(documentPath, node, requestContext, (Mount) null);
                         if (href != null && href.getPath() != null) {
-                            sb.append(href.toUrlForm(request, response, externalizeLinks));
+                            sb.append(href.toUrlForm(requestContext, externalizeLinks));
                         } else {
                             log.warn("Skip href because url is null");
                         }
@@ -158,9 +156,9 @@ public class ContentRewriterImpl extends SimpleContentRewriter {
                     if (isExternal(srcPath)) {
                         sb.append(srcPath);
                     } else {
-                        HstLink binaryLink = getBinaryLink(srcPath, node, request, response);
+                        HstLink binaryLink = getBinaryLink(srcPath, node, requestContext, (Mount) null);
                         if (binaryLink != null && binaryLink.getPath() != null) {
-                            sb.append(binaryLink.toUrlForm(request, response, externalizeLinks));
+                            sb.append(binaryLink.toUrlForm(requestContext, externalizeLinks));
                         } else {
                             log.warn("Could not translate image src. Skip src");
                         }

@@ -124,33 +124,33 @@
     </sv:property>
   </sv:node>
 
-  <sv:node sv:name="hst-live">
+   <sv:node sv:name="weblogdemo-hst-sites">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:sequence" sv:type="Double">
-      <sv:value>30054</sv:value>
+      <sv:value>20054</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>hst-content-live.xml</sv:value>
+      <sv:value>hst/sites.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/</sv:value>
+      <sv:value>/hst:hst</sv:value>
     </sv:property>
   </sv:node>
 
-  <sv:node sv:name="hst-preview">
+  <sv:node sv:name="weblogdemo-hst-configurations">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:sequence" sv:type="Double">
-      <sv:value>30055</sv:value>
+      <sv:value>20055</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>hst-content-preview.xml</sv:value>
+      <sv:value>hst/configurations.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/</sv:value>
+      <sv:value>/hst:hst</sv:value>
     </sv:property>
   </sv:node>
 
@@ -162,10 +162,10 @@
       <sv:value>30056</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>hstconfiguration/sitemap.xml</sv:value>
+      <sv:value>hst/configurations/weblogdemo/sitemap.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/hst:configuration/hst:configuration</sv:value>
+      <sv:value>/hst:hst/hst:configurations/weblogdemo</sv:value>
     </sv:property>
   </sv:node>
 
@@ -177,10 +177,10 @@
       <sv:value>30057</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>hstconfiguration/sitemenus.xml</sv:value>
+      <sv:value>hst/configurations/weblogdemo/sitemenus.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/hst:configuration/hst:configuration</sv:value>
+      <sv:value>/hst:hst/hst:configurations/weblogdemo</sv:value>
     </sv:property>
   </sv:node>
 
@@ -192,10 +192,10 @@
       <sv:value>30058</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>hstconfiguration/pages.xml</sv:value>
+      <sv:value>hst/configurations/weblogdemo/pages.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/hst:configuration/hst:configuration</sv:value>
+      <sv:value>/hst:hst/hst:configurations/weblogdemo</sv:value>
     </sv:property>
   </sv:node>
 
@@ -207,10 +207,10 @@
       <sv:value>30059</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>hstconfiguration/components.xml</sv:value>
+      <sv:value>hst/configurations/weblogdemo/components.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/hst:configuration/hst:configuration</sv:value>
+      <sv:value>/hst:hst/hst:configurations/weblogdemo</sv:value>
     </sv:property>
   </sv:node>
 
@@ -222,12 +222,28 @@
       <sv:value>30060</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>hstconfiguration/templates.xml</sv:value>
+      <sv:value>hst/configurations/weblogdemo/templates.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/hst:configuration/hst:configuration</sv:value>
+      <sv:value>/hst:hst/hst:configurations/weblogdemo</sv:value>
     </sv:property>
   </sv:node>
+
+  <sv:node sv:name="weblogdemo-hosts">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>31062</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>hst/hosts.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/hst:hst</sv:value>
+    </sv:property>
+  </sv:node>
+
 
 
   <!-- Content -->
@@ -341,40 +357,6 @@
     </sv:property>
   </sv:node>
 
-  <!-- CMS config -->
-  <sv:node sv:name="custom-browserPerspective">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hippo:initializeitem</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:sequence" sv:type="Double">
-      <sv:value>50001</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>cmsconfiguration/browserPerspective.xml</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:contentdelete" sv:type="String">
-      <sv:value>/hippo:configuration/hippo:frontend/cms/cms-browser/browserPerspective</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/hippo:configuration/hippo:frontend/cms/cms-browser/</sv:value>
-    </sv:property>
-  </sv:node>
-
-  <sv:node sv:name="virtualhosts">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hippo:initializeitem</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:sequence" sv:type="Double">
-      <sv:value>51062</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>hst-virtualhosts.xml</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/</sv:value>
-    </sv:property>
-  </sv:node>
-
   <!-- HTML Cleaner: allow classes for the syntax highlighter -->
   <sv:node sv:name="custom-htmlCleanerService">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -391,25 +373,6 @@
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
       <sv:value>/hippo:configuration/hippo:frontend/cms/cms-services</sv:value>
-    </sv:property>
-  </sv:node>
-
-  <!-- bigger thumbnail size for the lightbox -->
-  <sv:node sv:name="custom-thumbnail-size">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hippo:initializeitem</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:sequence" sv:type="Double">
-      <sv:value>51122</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>cmsconfiguration/custom-thumbnail-size.xml</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:contentdelete" sv:type="String">
-      <sv:value>/hippo:configuration/hippo:workflows/threepane/image-gallery/frontend:renderer</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/hippo:configuration/hippo:workflows/threepane/image-gallery</sv:value>
     </sv:property>
   </sv:node>
 

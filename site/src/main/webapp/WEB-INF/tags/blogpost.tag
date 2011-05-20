@@ -28,5 +28,6 @@
     <c:otherwise><h1>${document.title}</h1></c:otherwise>
   </c:choose>
   <c:if test="${not empty document.summary}"><p>${document.summary}</p></c:if>
-  <hst:html hippohtml="${document.html}" contentRewriter="${contentrewriter}"/>
+  <hst:html hippohtml="${document.html}" contentRewriter="${contentrewriter}" var="bodytext"/>
+  <c:if test="${not empty bodytext}">${bodytext}</c:if>
 </section>

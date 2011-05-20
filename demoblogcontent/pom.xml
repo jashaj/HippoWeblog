@@ -24,8 +24,8 @@
     <relativePath>../pom.xml</relativePath>
   </parent>
 
-  <name>Hippo Weblog demo project demo blog content</name>
-  <description>Demo blog content to fill the blog</description>
+  <name>Hippo Weblog project demo blog content</name>
+  <description>Export of jasha.eu blog content to demo a filled blog</description>
   <groupId>org.onehippo.forge.weblogdemo</groupId>
   <artifactId>weblogdemo-demoblogcontent</artifactId>
   <packaging>jar</packaging>

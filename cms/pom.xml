@@ -24,8 +24,8 @@
     <relativePath>../pom.xml</relativePath>
   </parent>
 
-  <name>Hippo Weblog demo project CMS</name>
-  <description>Hippo Weblog demo project CMS</description>
+  <name>Hippo Weblog project CMS</name>
+  <description>Hippo Weblog project CMS</description>
   <groupId>org.onehippo.forge.weblogdemo</groupId>
   <artifactId>weblogdemo-cms</artifactId>
   <packaging>war</packaging>
@@ -41,81 +41,94 @@
     <dependency>
       <groupId>org.onehippo.forge.weblogdemo</groupId>
       <artifactId>weblogdemo-content</artifactId>
-      <version>${pom.version}</version>
+      <version>${project.version}</version>
       <type>jar</type>
     </dependency>
-    
+
+    <!-- TODO: enable demo blog content only for cargo.run, not for deploy -->
+    <dependency>
+      <groupId>org.onehippo.forge.weblogdemo</groupId>
+      <artifactId>weblogdemo-demoblogcontent</artifactId>
+      <version>${project.version}</version>
+      <type>jar</type>
+    </dependency>
+
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-api</artifactId>
     </dependency>
-    
+
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>jcl-over-slf4j</artifactId>
     </dependency>
-    
+
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-log4j12</artifactId>
-      <scope>runtime</scope>
+      <exclusions>
+        <exclusion>
+          <groupId>log4j</groupId>
+          <artifactId>log4j</artifactId>
+        </exclusion>
+      </exclusions>
     </dependency>
-    
+
     <dependency>
-      <groupId>log4j</groupId>
-      <artifactId>log4j</artifactId>
-      <scope>runtime</scope>
+      <groupId>org.onehippo.cms7</groupId>
+      <artifactId>hippo-package-cms-dependencies</artifactId>
+      <type>pom</type>
     </dependency>
-  
+
     <dependency>
-      <groupId>org.hippoecm</groupId>
-      <artifactId>hippo-ecm-package-war</artifactId>
+      <groupId>org.onehippo.cms7</groupId>
+      <artifactId>hippo-package-cms-resources</artifactId>
       <type>war</type>
     </dependency>
-    
+
     <dependency>
-      <groupId>org.onehippo.ecm.hst.toolkit-resources.addon.toolkit-cnd</groupId>
+      <groupId>org.onehippo.cms7.hst.toolkit-resources.addon.toolkit-cnd</groupId>
       <artifactId>hst-addon-cnd</artifactId>
       <type>jar</type>
     </dependency>
-    
+
     <dependency>
-      <groupId>org.onehippo.ecm.hst.toolkit-resources.addon</groupId>
+      <groupId>org.onehippo.cms7.hst.toolkit-resources.addon</groupId>
       <artifactId>hst-addon-repository</artifactId>
       <type>jar</type>
     </dependency>
-    
+
     <dependency>
-      <groupId>org.onehippo.ecm</groupId>
-      <artifactId>hst-addon-configuration-editor-frontend</artifactId>
-      <version>${hst-configuration-editor.version}</version>
+      <groupId>org.onehippo.cms7</groupId>
+      <artifactId>hippo-addon-hst-configuration-editor-frontend</artifactId>
+      <type>jar</type>
+    </dependency>
+
+    <dependency>
+      <groupId>org.onehippo.cms7</groupId>
+      <artifactId>hippo-addon-hst-configuration-editor-repository</artifactId>
+      <type>jar</type>
+    </dependency>
+
+    <!--  Gallery picker dependency -->
+    <dependency>
+      <groupId>org.onehippo.addon.frontend.gallerypicker</groupId>
+      <artifactId>gallerypicker</artifactId>
       <type>jar</type>
       <exclusions>
-          <exclusion>
-              <groupId>org.hippoecm</groupId>
-              <artifactId>hippo-ecm-api</artifactId>
-          </exclusion>
+        <exclusion>
+          <groupId>org.apache.wicket</groupId>
+          <artifactId>wicket</artifactId>
+        </exclusion>
       </exclusions>
     </dependency>
-    
-    <dependency>
-      <groupId>org.onehippo.ecm</groupId>
-      <artifactId>hst-addon-configuration-editor-repository</artifactId>
-      <version>${hst-configuration-editor.version}</version>
-      <type>jar</type>
-    </dependency>
-    
+
+    <!-- Forge plugins -->
     <dependency>
       <groupId>org.onehippo.forge.properties</groupId>
       <artifactId>properties-addon-repository</artifactId>
     </dependency>
     
-    <dependency>
-      <groupId>org.hippoecm</groupId>
-      <artifactId>hippo-ecm-addon-gotolink</artifactId>
-      <type>jar</type>
-      <version>${hippoecm.version}</version>
-    </dependency>
     <dependency>
     	<groupId>org.onehippo.forge</groupId>
     	<artifactId>ecm-tagging</artifactId>
@@ -124,10 +137,8 @@
     <dependency>
       <groupId>org.onehippo.forge.robotstxt</groupId>
       <artifactId>robotstxt-addon-repository</artifactId>
-      <version>${forge.robotstxt.version}</version>
     </dependency>
 
-    
   </dependencies>
 
   <build>
@@ -137,11 +148,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-war-plugin</artifactId>
-        <version>2.1-alpha-2</version>
         <configuration>
-          <manifest>
-            <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
-          </manifest>
           <archive>
             <manifestEntries>
               <Implementation-Build>${buildNumber}</Implementation-Build>
@@ -149,71 +156,23 @@
           </archive>
           <overlays>
             <overlay>
-              <groupId>org.hippoecm</groupId>
-              <artifactId>hippo-ecm-package-war</artifactId>
-              <excludes>
-                <exclude>WEB-INF/lib/*slf4j*.jar</exclude>
-                <exclude>WEB-INF/lib/log4j*.jar</exclude>
-                <exclude>WEB-INF/lib/commons-logging-*.jar</exclude>
-              </excludes>
+              <groupId>org.onehippo.cms7</groupId>
+              <artifactId>hippo-package-cms-resources</artifactId>
             </overlay>
           </overlays>
         </configuration>
       </plugin>
       <plugin>
-        <groupId>org.mortbay.jetty</groupId>
-        <artifactId>maven-jetty-plugin</artifactId>
-        <version>${jetty.version}</version>
+        <groupId>org.codehaus.cargo</groupId>
+        <artifactId>cargo-maven2-plugin</artifactId>
         <configuration>
-          <stopPort>9966</stopPort>
-          <stopKey>stopCmsJetty</stopKey>
-          <scanIntervalSeconds>5</scanIntervalSeconds>
-          <connectors>
-            <connector implementation="org.mortbay.jetty.nio.SelectChannelConnector">
-              <port>8080</port>
-            </connector>
-          </connectors>
-          <contextPath>/cms</contextPath>
+          <configuration>
+            <type>runtime</type>
+          </configuration>
+          <container>
+            <type>remote</type>
+          </container>
         </configuration>
-        <dependencies>
-          <dependency>
-            <groupId>org.onehippo.forge.weblogdemo</groupId>
-            <artifactId>weblogdemo-demoblogcontent</artifactId>
-            <version>${pom.version}</version>
-            <type>jar</type>
-          </dependency>
-          <dependency>
-            <groupId>javax.jcr</groupId>
-            <artifactId>jcr</artifactId>
-            <scope>runtime</scope>
-            <version>1.0</version>
-          </dependency>
-          <!-- atomikos dependecies for running jetty:run[-war|-exploded] -->
-          <dependency>
-            <groupId>com.atomikos</groupId>
-            <artifactId>transactions-api</artifactId>
-            <version>${atomikos.version}</version>
-            <scope>runtime</scope>
-          </dependency>
-          <dependency>
-            <groupId>com.atomikos</groupId>
-            <artifactId>transactions-jta</artifactId>
-            <version>${atomikos.version}</version>
-            <scope>runtime</scope>
-          </dependency>
-          <dependency>
-            <groupId>com.atomikos</groupId>
-            <artifactId>transactions</artifactId>
-            <version>${atomikos.version}</version>
-            <scope>runtime</scope>
-          </dependency>
-          <dependency>
-            <groupId>com.atomikos</groupId>
-            <artifactId>atomikos-util</artifactId>
-            <version>${atomikos.version}</version>
-            <scope>runtime</scope>
-          </dependency>
-        </dependencies>
       </plugin>
     </plugins>
   </build>

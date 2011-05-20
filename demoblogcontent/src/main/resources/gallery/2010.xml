@@ -4,5 +4,93 @@ This work is licensed under the Creative Commons Attribution-Noncommercial-No De
 To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/3.0/nl/ or,
 (b) send a letter to Creative Commons, 171 2nd Street, Suite 300, San Francisco, California, 94105, USA.
 -->
-
-<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="2010"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippogallery:stdImageGallery</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>766bb351-33bc-4bf1-961a-c8388fdff845</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>766bb351-33bc-4bf1-961a-c8388fdff845</sv:value><sv:value>4e557532-98ff-4673-a2a9-5cdbb2822eed</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"/><sv:property sv:name="hippostd:foldertype" sv:type="String"><sv:value>new-image-folder</sv:value></sv:property><sv:property sv:name="hippostd:gallerytype" sv:type="String"><sv:value>hippogallery:exampleImageSet</sv:value></sv:property><sv:node sv:name="qrcode.png"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:handle</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:hardhandle</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>39dfa2a2-f964-4633-859e-c12788f6cdc6</sv:value></sv:property><sv:property sv:name="hippo:discriminator" sv:type="String"/><sv:node sv:name="qrcode.png"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippogallery:exampleImageSet</sv:value></sv:property><sv:property sv:name="jcr:mixinTypes" sv:type="Name"><sv:value>hippo:harddocument</sv:value></sv:property><sv:property sv:name="jcr:uuid" sv:type="String"><sv:value>c15ae0f0-fede-4e5a-9b40-7ffe4df4c435</sv:value></sv:property><sv:property sv:name="hippo:paths" sv:type="String"><sv:value>c15ae0f0-fede-4e5a-9b40-7ffe4df4c435</sv:value><sv:value>39dfa2a2-f964-4633-859e-c12788f6cdc6</sv:value><sv:value>766bb351-33bc-4bf1-961a-c8388fdff845</sv:value><sv:value>4e557532-98ff-4673-a2a9-5cdbb2822eed</sv:value><sv:value>7d92c518-511b-49e0-92b5-126970694fa8</sv:value><sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value></sv:property><sv:property sv:name="hippo:related___pathreference" sv:type="String"/><sv:node sv:name="hippogallery:thumbnail"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:resource</sv:value></sv:property><sv:property sv:name="jcr:data" sv:type="Binary"><sv:value>iVBORw0KGgoAAAANSUhEUgAAAIcAAACHCAIAAACzhd1dAAAB9klEQVR42u3dwY3DMAwEQPff9F0NhrlL2Rl+E8SSJo8FKSTXnzqvLkdARVGhooIqV6vurfLOR9WemzsNKlSoUKFCpagymSvuHOWTVwe3sHYaVKhQoUKFyprKo1xxZ4eDyxjMYLXToEKFChUqVL6oUstguTVToUKFChUqVGIJ7ZAuERUqVKhQofIJlTNnFbnn/vrUiwoVKlSo/IRK77bgG17tnQYVKlSoUKESVNmq2oZfUVSoUKFChUpRJRdRatOX2pont0CFChUqVKisqeRWWXvzIQ0YKlSoUKFC5Z0qg9EoeFHhQZzrBUUqVKhQoUIlqFI7u63s945eDhUqVKhQoXKoynVkDd7iyH3tqFChQoUKlaJK7cGD6a5GWNsgFSpUqFChsqeSSzs5hq3py2THhQoVKlSoUAmq1K5P5FodtfbMZO+KChUqVKhQWVPJhZ9DomBuv5MdFypUqFChQuWU+UptVlE7rC9MvahQoUKFCpW1X/CtdU0m+yJzUZAKFSpUqFDZU6mlrNzpbIkGMxgVKlSoUKESVMnNVw755BrwZAajQoUKFSpUqOxcn3jSnqFChQoVKlS+qDLYrTnlZJ8sgwoVKlSoUFlTqc1XckOR3CKpUKFChQqVd6ocOn5YilW1yxVUqFChQoVK8Z8J1UpRoaKoUFGT9Q/u7Za6vMOQ9wAAAABJRU5ErkJggg==</sv:value></sv:property><sv:property sv:name="jcr:lastModified" sv:type="Date"><sv:value>2010-06-08T18:51:57.416+01:00</sv:value></sv:property><sv:property sv:name="jcr:mimeType" sv:type="String"><sv:value>image/png</sv:value></sv:property></sv:node><sv:node sv:name="hippogallery:picture"><sv:property sv:name="jcr:primaryType" sv:type="Name"><sv:value>hippo:resource</sv:value></sv:property><sv:property sv:name="jcr:data" sv:type="Binary"><sv:value>iVBORw0KGgoAAAANSUhEUgAAAIcAAACHAQMAAAAGKdhJAAAABlBMVEX///8AAABVwtN+AAABC0lEQVRIibWVMQ6DMAxFjRgYOUJuAhdDohIXCzfxERgzRLjfplStOvbHA1JeBmP/b0ekWQyGkM42/yAyj2SRNOzHqtId4kca2a0mmUZPeKzGJpHL9hYkj1W+cxGI98elTF8dYxAXElUsKOVDZQJ5W09/zPgvcTmRq1cztL8QyRxywuHF77gEDs/Sa8EAqQtBIijglRCW2UILHlldS9PB7qnkEETv/756mkWK8Ehnj1RkNC3ThWlkQi47MTuG0XQNaGT2HSWYd/SopnALicTsZFTx0TEKud+CGurqvUkYJL/egremNBJ71bCjLjPmNmRTI5N4BrBJamKS6I/Zw/cgl4SmfhjOaz5ZpFk8ATv4HcHKKbpTAAAAAElFTkSuQmCC</sv:value></sv:property><sv:property sv:name="jcr:lastModified" sv:type="Date"><sv:value>2010-06-08T18:51:57.416+01:00</sv:value></sv:property><sv:property sv:name="jcr:mimeType" sv:type="String"><sv:value>image/png</sv:value></sv:property></sv:node></sv:node></sv:node></sv:node>
+<sv:node sv:name="2010" xmlns:sv="http://www.jcp.org/jcr/sv/1.0">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hippogallery:stdImageGallery</sv:value>
+  </sv:property>
+  <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+    <sv:value>hippo:harddocument</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>766bb351-33bc-4bf1-961a-c8388fdff845</sv:value>
+  </sv:property>
+  <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String">
+    <sv:value>live</sv:value>
+    <sv:value>preview</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+  <sv:property sv:multiple="true" sv:name="hippostd:foldertype" sv:type="String">
+    <sv:value>new-image-folder</sv:value>
+  </sv:property>
+  <sv:property sv:multiple="true" sv:name="hippostd:gallerytype" sv:type="String">
+    <sv:value>hippogallery:imageset</sv:value>
+  </sv:property>
+  <sv:node sv:name="qrcode.png">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+      <sv:value>hippo:hardhandle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>39dfa2a2-f964-4633-859e-c12788f6cdc6</sv:value>
+    </sv:property>
+    <sv:property sv:multiple="true" sv:name="hippo:discriminator" sv:type="String"/>
+    <sv:node sv:name="qrcode.png">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippogallery:imageset</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+        <sv:value>hippo:harddocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>996bacf5-49fb-445d-90d3-336a20d968c2</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+      <sv:node sv:name="hippogallery:thumbnail">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallery:image</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogallery:height" sv:type="Long">
+          <sv:value>135</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogallery:width" sv:type="Long">
+          <sv:value>135</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:data" sv:type="Binary">
+          <sv:value>iVBORw0KGgoAAAANSUhEUgAAAIcAAACHCAIAAACzhd1dAAAB9klEQVR42u3dwY3DMAwEQPff9F0NhrlL2Rl+E8SSJo8FKSTXnzqvLkdARVGhooIqV6vurfLOR9WemzsNKlSoUKFCpagymSvuHOWTVwe3sHYaVKhQoUKFyprKo1xxZ4eDyxjMYLXToEKFChUqVL6oUstguTVToUKFChUqVGIJ7ZAuERUqVKhQofIJlTNnFbnn/vrUiwoVKlSo/IRK77bgG17tnQYVKlSoUKESVNmq2oZfUVSoUKFChUpRJRdRatOX2pont0CFChUqVKisqeRWWXvzIQ0YKlSoUKFC5Z0qg9EoeFHhQZzrBUUqVKhQoUIlqFI7u63s945eDhUqVKhQoXKoynVkDd7iyH3tqFChQoUKlaJK7cGD6a5GWNsgFSpUqFChsqeSSzs5hq3py2THhQoVKlSoUAmq1K5P5FodtfbMZO+KChUqVKhQWVPJhZ9DomBuv5MdFypUqFChQuWU+UptVlE7rC9MvahQoUKFCpW1X/CtdU0m+yJzUZAKFSpUqFDZU6mlrNzpbIkGMxgVKlSoUKESVMnNVw755BrwZAajQoUKFSpUqOxcn3jSnqFChQoVKlS+qDLYrTnlZJ8sgwoVKlSoUFlTqc1XckOR3CKpUKFChQqVd6ocOn5YilW1yxVUqFChQoVK8Z8J1UpRoaKoUFGT9Q/u7Za6vMOQ9wAAAABJRU5ErkJggg==</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:lastModified" sv:type="Date">
+          <sv:value>2010-06-08T18:51:57.416+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mimeType" sv:type="String">
+          <sv:value>image/png</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippogallery:original">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallery:image</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogallery:height" sv:type="Long">
+          <sv:value>135</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogallery:width" sv:type="Long">
+          <sv:value>135</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:data" sv:type="Binary">
+          <sv:value>iVBORw0KGgoAAAANSUhEUgAAAIcAAACHAQMAAAAGKdhJAAAABlBMVEX///8AAABVwtN+AAABC0lEQVRIibWVMQ6DMAxFjRgYOUJuAhdDohIXCzfxERgzRLjfplStOvbHA1JeBmP/b0ekWQyGkM42/yAyj2SRNOzHqtId4kca2a0mmUZPeKzGJpHL9hYkj1W+cxGI98elTF8dYxAXElUsKOVDZQJ5W09/zPgvcTmRq1cztL8QyRxywuHF77gEDs/Sa8EAqQtBIijglRCW2UILHlldS9PB7qnkEETv/756mkWK8Ehnj1RkNC3ThWlkQi47MTuG0XQNaGT2HSWYd/SopnALicTsZFTx0TEKud+CGurqvUkYJL/egremNBJ71bCjLjPmNmRTI5N4BrBJamKS6I/Zw/cgl4SmfhjOaz5ZpFk8ATv4HcHKKbpTAAAAAElFTkSuQmCC</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:lastModified" sv:type="Date">
+          <sv:value>2010-06-08T18:51:57.416+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mimeType" sv:type="String">
+          <sv:value>image/png</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+</sv:node>

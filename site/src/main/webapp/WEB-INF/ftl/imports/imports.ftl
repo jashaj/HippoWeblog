@@ -22,7 +22,9 @@
   [#else]<h1>${document.title}</h1>
   [/#if]
   [#if document.summary?has_content]<p>${document.summary}</p>[/#if]
-  [@hst.html hippohtml=document.html contentRewriter=contentrewriter/]
+  [#assign bodytext][@hst.html hippohtml=document.html contentRewriter=contentrewriter/][/#assign]
+  [#if bodytext?has_content]${bodytext}[/#if]
+
 </section>
 [/#macro]
 

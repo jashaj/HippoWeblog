@@ -24,8 +24,8 @@
     <relativePath>../pom.xml</relativePath>
   </parent>
 
-  <name>Hippo Weblog demo project content</name>
-  <description>Hippo Weblog demo project Content</description>
+  <name>Hippo Weblog project content</name>
+  <description>Hippo Weblog project Content</description>
   <groupId>org.onehippo.forge.weblogdemo</groupId>
   <artifactId>weblogdemo-content</artifactId>
   <packaging>jar</packaging>
@@ -43,9 +43,9 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>org.hippoecm</groupId>
-      <artifactId>hippo-ecm-repository-engine</artifactId>
-      <version>${hippoecm.version}</version>
+      <groupId>org.onehippo.cms7</groupId>
+      <artifactId>hippo-repository-engine</artifactId>
+      <version>${hippo.repository.version}</version>
       <scope>provided</scope>
       <exclusions>
         <exclusion>
@@ -55,9 +55,9 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.hippoecm</groupId>
-      <artifactId>hippo-ecm-repository-upgrade</artifactId>
-      <version>${hippoecm.version}</version>
+      <groupId>org.onehippo.cms7</groupId>
+      <artifactId>hippo-repository-upgrade</artifactId>
+      <version>${hippo.repository.version}</version>
       <scope>provided</scope>
     </dependency>
   </dependencies>

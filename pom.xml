@@ -17,8 +17,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <name>Hippo Weblog demo project</name>
-  <description>Demo project to show how you can make a blog from Hippo CMS 7 and Hippo Site Toolkit</description>
+    <parent>
+    <groupId>org.onehippo.cms7</groupId>
+    <artifactId>hippo-cms7-release</artifactId>
+    <version>7.6.0</version>
+  </parent>
+
+  <name>Hippo Weblog project</name>
+  <description>Project to show how you can make a blog from Hippo CMS 7 and Hippo Site Toolkit</description>
   <groupId>org.onehippo.forge.weblogdemo</groupId>
   <artifactId>weblogdemo</artifactId>
   <version>1.02.00-SNAPSHOT</version>
@@ -31,32 +37,25 @@
   </prerequisites>
 
   <properties>
-  
-    <servlet-api.version>2.5</servlet-api.version>
     <jstl.version>1.1.2</jstl.version>
     <taglibs.version>1.1.2</taglibs.version>
-    <javax.jcr.version>1.0</javax.jcr.version>
-    <jta.version>1.1</jta.version>
-    
+
+    <commons.lang.version>2.5</commons.lang.version>
     <slf4j.version>1.5.6</slf4j.version>
     <log4j.version>1.2.14</log4j.version>
-    
+
     <junit.version>4.5</junit.version>
-    
-    <hst-configuration-editor.version>1.03.02</hst-configuration-editor.version>
-    <hippoecm.version>2.16.04</hippoecm.version>
-    <hst.version>2.05.03</hst.version>
-    
-    <wagon.ftp.version>1.0-alpha-6</wagon.ftp.version>
-    <spring.version>3.0.4.RELEASE</spring.version>
+
     <xalan.version>2.4.1</xalan.version>
-    
     <xercesImpl.version>2.9.1</xercesImpl.version>
-    <commons-proxy.version>1.0</commons-proxy.version>
-    <jdo.version>2.0</jdo.version>
-    <yui.sources.version>1.01.07</yui.sources.version>
-    <spring.js.version>2.0.5.RELEASE</spring.js.version>
-        
+    <xml-apis.version>2.0.2</xml-apis.version>
+
+    <atomikos.version>3.1.4</atomikos.version>
+    <freemarker.version>2.3.16</freemarker.version>
+    <lib.spring-js.version>2.0.5.RELEASE</lib.spring-js.version>
+
+    <wagon.ftp.version>1.0-alpha-6</wagon.ftp.version>
+
     <rome.version>1.0</rome.version>
     <rome-fetcher.version>1.0</rome-fetcher.version>
     <jdom.version>1.1</jdom.version>
@@ -65,11 +64,9 @@
     <twitter4j.version>2.1.10</twitter4j.version>
 
     <plugin.yuicompressor.version>1.1</plugin.yuicompressor.version>
-    
-    <forge.ecmtagging.version>4.02.00</forge.ecmtagging.version>
-    <forge.properties.version>2.05.01</forge.properties.version>
-    <forge.authfilter.version>1.01.03</forge.authfilter.version>
-    <forge.robotstxt.version>1.03.00</forge.robotstxt.version>
+
+    <forge.properties.version>2.06.00</forge.properties.version>
+    <forge.robotstxt.version>1.03.01</forge.robotstxt.version>
 
     <jetty.version>6.1.26</jetty.version>
     <atomikos.version>3.7.0</atomikos.version>
@@ -86,7 +83,7 @@
     <maven.plugins.compiler.version>2.3.2</maven.plugins.compiler.version>
     <maven.plugins.release.version>2.1</maven.plugins.release.version>
     <maven.plugins.source.version>2.1.2</maven.plugins.source.version>
-    
+
     <!-- use UTF-8 encoding for filtered file copy -->
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
@@ -95,197 +92,104 @@
 
     <dependencies>
 
+      <!-- Because we use jcl-over-slf4j, but a large number of mvn projects declare commons-logging
+           as a dependency, we exclude commons-logging here by adding it as provided dependency -->
       <dependency>
-        <groupId>javax.jcr</groupId>
-        <artifactId>jcr</artifactId>
-        <version>${javax.jcr.version}</version>
-        <scope>provided</scope>
-      </dependency>
-      
-      <dependency>
-        <groupId>org.apache.geronimo.specs</groupId>
-        <artifactId>geronimo-jta_1.1_spec</artifactId>
-        <version>${jta.version}</version>
+        <groupId>commons-logging</groupId>
+        <artifactId>commons-logging</artifactId>
+        <version>1.1.1</version>
         <scope>provided</scope>
       </dependency>
 
-      <dependency>
-        <groupId>javax.servlet</groupId>
-        <artifactId>servlet-api</artifactId>
-        <version>${servlet-api.version}</version>
-        <scope>provided</scope>
-      </dependency>
-    
+      <!-- other predefined runtime scope versioned dependencies -->
       <dependency>
         <groupId>javax.servlet</groupId>
         <artifactId>jstl</artifactId>
         <version>${jstl.version}</version>
         <scope>runtime</scope>
       </dependency>
-    
+
       <dependency>
         <groupId>taglibs</groupId>
         <artifactId>standard</artifactId>
         <version>${taglibs.version}</version>
         <scope>runtime</scope>
       </dependency>
-   
+
+      <dependency>
+        <groupId>xml-apis</groupId>
+        <artifactId>xml-apis</artifactId>
+        <version>${xml-apis.version}</version>
+        <scope>runtime</scope>
+      </dependency>
+
       <dependency>
         <groupId>xerces</groupId>
         <artifactId>xercesImpl</artifactId>
         <version>${xercesImpl.version}</version>
         <scope>runtime</scope>
       </dependency>
-    
+
       <dependency>
         <groupId>xalan</groupId>
         <artifactId>xalan</artifactId>
         <version>${xalan.version}</version>
         <scope>runtime</scope>
       </dependency>
-      <dependency>
-        <groupId>org.slf4j</groupId>
-        <artifactId>slf4j-api</artifactId>
-        <version>${slf4j.version}</version>
-      </dependency>
+
       <dependency>
         <groupId>org.slf4j</groupId>
         <artifactId>jcl-over-slf4j</artifactId>
         <version>${slf4j.version}</version>
+        <scope>runtime</scope>
       </dependency>
+
       <dependency>
         <groupId>org.slf4j</groupId>
         <artifactId>slf4j-log4j12</artifactId>
         <version>${slf4j.version}</version>
         <scope>runtime</scope>
       </dependency>
+
       <dependency>
         <groupId>log4j</groupId>
         <artifactId>log4j</artifactId>
         <version>${log4j.version}</version>
-        <scope>runtime</scope>
+        <scope>test</scope>
       </dependency>
+
+      <!-- other predefined compile scope versioned dependencies -->
       <dependency>
-        <groupId>org.springframework</groupId>
-        <artifactId>spring-core</artifactId>
-        <version>${spring.version}</version>
-        <exclusions>
-          <exclusion>
-            <groupId>commons-logging</groupId>
-            <artifactId>commons-logging</artifactId>
-          </exclusion>
-        </exclusions>
+        <groupId>commons-lang</groupId>
+        <artifactId>commons-lang</artifactId>
+        <version>${commons.lang.version}</version>
       </dependency>
+
       <dependency>
-        <groupId>org.springframework</groupId>
-        <artifactId>spring-web</artifactId>
-        <version>${spring.version}</version>
-        <exclusions>
-          <exclusion>
-            <groupId>commons-logging</groupId>
-            <artifactId>commons-logging</artifactId>
-          </exclusion>
-        </exclusions>
+        <groupId>org.freemarker</groupId>
+        <artifactId>freemarker</artifactId>
+        <version>${freemarker.version}</version>
       </dependency>
-      <dependency>
-        <groupId>org.springframework</groupId>
-        <artifactId>spring-webmvc</artifactId>
-        <version>${spring.version}</version>
-        <exclusions>
-          <exclusion>
-            <groupId>commons-logging</groupId>
-            <artifactId>commons-logging</artifactId>
-          </exclusion>
-        </exclusions>
-      </dependency>
-      <dependency>
-        <groupId>org.springframework</groupId>
-        <artifactId>spring-aop</artifactId>
-        <version>${spring.version}</version>
-        <exclusions>
-          <exclusion>
-            <groupId>commons-logging</groupId>
-            <artifactId>commons-logging</artifactId>
-          </exclusion>
-        </exclusions>
-      </dependency>
-      <dependency>
-        <groupId>org.hippoecm</groupId>
-        <artifactId>hippo-ecm-package-war</artifactId>
-        <version>${hippoecm.version}</version>
-        <type>war</type>
-      </dependency>
-      <dependency>
-        <groupId>org.onehippo.ecm.hst</groupId>
-        <artifactId>hst-api</artifactId>
-        <version>${hst.version}</version>
-        <type>jar</type>
-      </dependency>
-      <dependency>
-        <groupId>org.onehippo.ecm.hst</groupId>
-        <artifactId>hst-commons</artifactId>
-        <version>${hst.version}</version>
-        <type>jar</type>
-      </dependency>
-      <dependency>
-        <groupId>org.onehippo.ecm.hst</groupId>
-        <artifactId>hst-content-beans</artifactId>
-        <version>${hst.version}</version>
-        <type>jar</type>
-      </dependency>
-      <dependency>
-        <groupId>org.onehippo.ecm.hst</groupId>
-        <artifactId>hst-client</artifactId>
-        <version>${hst.version}</version>
-        <type>jar</type>
-        <exclusions>
-          <exclusion>
-            <groupId>jdom</groupId>
-            <artifactId>jdom</artifactId>
-          </exclusion>
-        </exclusions>
-      </dependency>
-      <dependency>
-        <groupId>org.onehippo.ecm.hst.components</groupId>
-        <artifactId>hst-core</artifactId>
-        <version>${hst.version}</version>
-        <type>jar</type>
-        <scope>runtime</scope>
-      </dependency>
-      <dependency>
-        <groupId>org.onehippo.ecm.hst.toolkit-resources.addon.toolkit-cnd</groupId>
-        <artifactId>hst-addon-cnd</artifactId>
-        <version>${hst.version}</version>
-        <type>jar</type>
-      </dependency>
-      <dependency>
-        <groupId>org.onehippo.ecm.hst.toolkit-resources.addon</groupId>
-        <artifactId>hst-addon-repository</artifactId>
-        <version>${hst.version}</version>
-        <type>jar</type>
-      </dependency>
+
       <dependency>
         <groupId>org.springframework.webflow</groupId>
         <artifactId>org.springframework.js</artifactId>
-        <version>${spring.js.version}</version>
+        <version>${lib.spring-js.version}</version>
       </dependency>
+
       <dependency>
-        <groupId>org.onehippo.yui</groupId>
-        <artifactId>yui-2.xx-sources</artifactId>
-        <version>${yui.sources.version}</version>
+        <groupId>org.slf4j</groupId>
+        <artifactId>slf4j-api</artifactId>
+        <version>${slf4j.version}</version>
       </dependency>
-      <dependency>
-        <groupId>org.springframework</groupId>
-        <artifactId>spring-test</artifactId>
-        <version>${spring.version}</version>
-        <scope>test</scope>
-      </dependency>
+
       <dependency>
         <groupId>junit</groupId>
         <artifactId>junit</artifactId>
         <version>${junit.version}</version>
         <scope>test</scope>
       </dependency>
+
       <dependency>
         <groupId>rome</groupId>
         <artifactId>rome</artifactId>
@@ -308,13 +212,6 @@
         <version>${rome-fetcher.version}</version>
       </dependency>
     
-      <!-- Hippo CMS Tagging plugin -->
-      <dependency>
-        <groupId>org.onehippo.forge</groupId>
-        <artifactId>ecm-tagging</artifactId>
-        <version>${forge.ecmtagging.version}</version>
-      </dependency> 
-
       <!-- Properties plugin -->
       <dependency>
         <groupId>org.onehippo.forge.properties</groupId>
@@ -326,15 +223,30 @@
         <artifactId>properties-hst-client</artifactId>
         <version>${forge.properties.version}</version>
       </dependency>
-      
+
+      <!-- Robots.txt -->
+      <dependency>
+        <groupId>org.onehippo.forge.robotstxt</groupId>
+        <artifactId>robotstxt-addon-repository</artifactId>
+        <version>${forge.robotstxt.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.onehippo.forge.robotstxt</groupId>
+        <artifactId>robotstxt-hst-client</artifactId>
+        <version>${forge.robotstxt.version}</version>
+      </dependency>
+
       <!-- AuthFilter -->
+<!--
       <dependency>
           <groupId>org.onehippo.forge.authfilter</groupId>
           <artifactId>authfilter-filter</artifactId>
           <version>${forge.authfilter.version}</version>
           <type>jar</type>
       </dependency>
-      
+-->
+
       <!-- Mail -->
       <dependency>
         <groupId>org.apache.commons</groupId>
@@ -409,6 +321,7 @@
         <inherited>true</inherited>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-project-info-reports-plugin</artifactId>
+        <version>${maven.plugins.project-info-reports.version}</version>
       </plugin>
 
       <plugin>
@@ -416,9 +329,6 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-site-plugin</artifactId>
         <version>${maven.plugins.site.version}</version>
-        <configuration>
-          <aggregate>true</aggregate>
-        </configuration>
       </plugin>
 
       <!-- Javadoc -->
@@ -467,16 +377,6 @@
           <xrefLocation>${project.reporting.outputDirectory}/../xref-test</xrefLocation>
         </configuration>
       </plugin>
-      <!--Changelog-->
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-changelog-plugin</artifactId>
-        <version>${maven.plugins.changelog.version}</version>
-        <configuration>
-          <aggregate>true</aggregate>
-          <xrefLocation>${project.reporting.outputDirectory}/../xref-test</xrefLocation>
-        </configuration>
-      </plugin>
       <!-- PMD -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -484,7 +384,7 @@
         <version>${maven.plugins.pmd.version}</version>
         <configuration>
           <aggregate>true</aggregate>
-          <linkXref>true</linkXref>
+          <linkXRef>true</linkXRef>
           <targetJdk>${targetJDK}</targetJdk>
         </configuration>
       </plugin>
@@ -595,10 +495,111 @@
     </plugins>
   </build>
 
-  <modules>
-    <module>content</module>
-    <module>demoblogcontent</module>
-    <module>cms</module>
-    <module>site</module>
-  </modules>
+  <profiles>
+
+    <profile>
+      <id>default</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+        <property>
+          <name>jrebel</name>
+        </property>
+      </activation>
+      <modules>
+        <module>content</module>
+        <module>demoblogcontent</module>
+        <module>cms</module>
+        <module>site</module>
+      </modules>
+    </profile>
+
+    <profile>
+      <id>cargo.run</id>
+      <dependencies>
+        <dependency>
+          <groupId>log4j</groupId>
+          <artifactId>log4j</artifactId>
+          <version>${log4j.version}</version>
+          <scope>provided</scope>
+        </dependency>
+      </dependencies>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.codehaus.cargo</groupId>
+            <artifactId>cargo-maven2-plugin</artifactId>
+            <configuration>
+              <configuration>
+                <deployables>
+                  <deployable>
+                    <type>war</type>
+                    <properties>
+                      <context>/cms</context>
+                    </properties>
+                    <location>${project.basedir}/cms/target/cms.war</location>
+                  </deployable>
+                  <deployable>
+                    <location>${project.basedir}/site/target/site.war</location>
+                    <type>war</type>
+                    <properties>
+                      <context>/site</context>
+                    </properties>
+                  </deployable>
+                </deployables>
+              </configuration>
+              <container>
+                <systemProperties>
+                  <log4j.configuration>file:${project.basedir}/conf/log4j.xml</log4j.configuration>
+                  <rebel.log4j-plugin>true</rebel.log4j-plugin>
+                </systemProperties>
+                <dependencies>
+                  <dependency>
+                    <groupId>log4j</groupId>
+                    <artifactId>log4j</artifactId>
+                    <classpath>shared</classpath>
+                  </dependency>
+                </dependencies>
+              </container>
+            </configuration>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+
+    <profile>
+      <id>dist</id>
+      <dependencies>
+        <dependency>
+          <groupId>log4j</groupId>
+          <artifactId>log4j</artifactId>
+          <version>${log4j.version}</version>
+          <scope>provided</scope>
+        </dependency>
+      </dependencies>
+      <build>
+        <defaultGoal>validate</defaultGoal>
+        <plugins>
+          <plugin>
+            <artifactId>maven-assembly-plugin</artifactId>
+            <executions>
+              <execution>
+                <id>distro-assembly</id>
+                <phase>validate</phase>
+                <goals>
+                  <goal>single</goal>
+                </goals>
+                <configuration>
+                  <descriptors>
+                    <descriptor>${project.basedir}/src/main/assembly/distribution.xml</descriptor>
+                  </descriptors>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+
+  </profiles>
+
 </project>

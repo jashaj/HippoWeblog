@@ -49,10 +49,14 @@
                 <li>cms/target/cms.war</li>
                 <li>site/target/site.war</li>
             </ul>
-            <p>You can now run your project in your preferred servlet container, e.g. Tomcat or in the builtin Jetty servlet container.</p>
         </section>
         <section name="Run the weblog demo">
-            <p>See "Deploying your project in Tomcat" or "Running your project with Jetty" on the <a href="http://www.onehippo.org/site-toolkit/getting+started/generate+project">Hippo CMS community site</a> </p>
+          <subsection name="Version 1.02">
+            <p>See "<a href="https://wiki.onehippo.com/display/CMS7/Run+and+develop+with+Cargo">Run and develop with Cargo</a>".</p>
+          </subsection>
+          <subsection name="Version 1.01">
+          <p>See "Deploying your project in Tomcat" or "Running your project with Jetty" on the <a href="http://www.onehippo.org/site-toolkit/getting+started/generate+project">Hippo CMS community site</a> </p>
+          </subsection>
         </section>
         <section name="How do I?">
             <p>More documentation about how to configure comments, Twitter etc are included in the default content of the Hippo CMS weblog demo project</p>

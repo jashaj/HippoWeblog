@@ -78,6 +78,7 @@
               <Hippo-Modules>
                 org.onehippo.forge.weblogdemo.upgrade.UpdateModuleV10101
                 org.onehippo.forge.weblogdemo.upgrade.UpdateModuleV10102
+                org.onehippo.forge.weblogdemo.upgrade.UpdateModuleV10200
               </Hippo-Modules>
             </manifestEntries>
           </archive>

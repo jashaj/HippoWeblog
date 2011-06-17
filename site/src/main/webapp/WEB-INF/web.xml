@@ -130,10 +130,6 @@
       <param-value>/</param-value>
     </init-param>
     <init-param>
-      <param-name>NoCache</param-name>
-      <param-value>true</param-value>
-    </init-param>
-    <init-param>
       <param-name>ContentType</param-name>
       <param-value>text/html; charset=UTF-8</param-value> <!-- Forces UTF-8 output encoding! -->
     </init-param>

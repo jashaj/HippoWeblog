@@ -16,9 +16,9 @@
   <packaging>war</packaging>
 
   <scm>
-    <connection>scm:svn:http://forge.onehippo.org/svn/weblogdemo/trunk/site</connection>
-    <developerConnection>scm:svn:http://forge.onehippo.org/svn/weblogdemo/trunk/site</developerConnection>
-    <url>http://forge.onehippo.org/svn/weblogdemo/trunk/site</url>
+    <connection>scm:svn:https://forge.onehippo.org/svn/weblogdemo/trunk/site</connection>
+    <developerConnection>scm:svn:https://forge.onehippo.org/svn/weblogdemo/trunk/site</developerConnection>
+    <url>https://forge.onehippo.org/svn/weblogdemo/trunk/site</url>
   </scm>
 
   <properties>

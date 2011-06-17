@@ -22,7 +22,7 @@
   <body>
     <menu name="Hippo CMS Weblog demo project">
       <item name="Introduction" href="/index.html"/>
-      <item name="Hippo Forge project page" href="http://forge.onehippo.org/gf/project/weblogdemo/"/>
+      <item name="Hippo Forge project page" href="https://forge.onehippo.org/gf/project/weblogdemo/"/>
       <item name="Releases" href="/releases.html"/>
     </menu>
 

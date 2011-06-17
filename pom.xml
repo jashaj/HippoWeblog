@@ -296,21 +296,21 @@
   </licenses>
 
   <scm>
-    <connection>scm:svn:http://forge.onehippo.org/svn/weblogdemo/trunk</connection>
-    <developerConnection>scm:svn:http://forge.onehippo.org/svn/weblogdemo/trunk</developerConnection>
-    <url>http://forge.onehippo.org/svn/weblogdemo/trunk</url>
+    <connection>scm:svn:https://forge.onehippo.org/svn/weblogdemo/trunk</connection>
+    <developerConnection>scm:svn:https://forge.onehippo.org/svn/weblogdemo/trunk</developerConnection>
+    <url>https://forge.onehippo.org/svn/weblogdemo/trunk</url>
   </scm>
 
   <issueManagement>
     <system>gforge</system>
-    <url>http://forge.onehippo.org/gf/project/weblogdemo/tracker/?action=TrackerItemBrowse&amp;tracker_id=570</url>
+    <url>https://forge.onehippo.org/gf/project/weblogdemo/tracker/?action=TrackerItemBrowse&amp;tracker_id=570</url>
   </issueManagement>
 
   <distributionManagement>
     <repository>
       <uniqueVersion>false</uniqueVersion>
       <id>forge-weblogdemo-maven-repo</id>
-      <url>svn:http://forge.onehippo.org/svn/weblogdemo/maven2/</url>
+      <url>svn:https://forge.onehippo.org/svn/weblogdemo/maven2/</url>
     </repository>
   </distributionManagement>
 
@@ -320,15 +320,15 @@
       <plugin>
         <inherited>true</inherited>
         <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-project-info-reports-plugin</artifactId>
-        <version>${maven.plugins.project-info-reports.version}</version>
+        <artifactId>maven-site-plugin</artifactId>
+        <version>${maven.plugins.site.version}</version>
       </plugin>
 
       <plugin>
         <inherited>true</inherited>
         <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-site-plugin</artifactId>
-        <version>${maven.plugins.site.version}</version>
+        <artifactId>maven-project-info-reports-plugin</artifactId>
+        <version>${maven.plugins.project-info-reports.version}</version>
       </plugin>
 
       <!-- Javadoc -->
@@ -356,36 +356,9 @@
               <report>jxr</report>
             </reports>
           </reportSet>
-          <reportSet>
-            <id>test-xref</id>
-            <reports>
-              <report>test-jxr</report>
-            </reports>
-          </reportSet>
         </reportSets>
         <configuration>
           <aggregate>true</aggregate>
-        </configuration>
-      </plugin>
-      <!-- Unit-test -->
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-surefire-report-plugin</artifactId>
-        <version>${maven.plugins.surefire.version}</version>
-        <configuration>
-          <aggregate>true</aggregate>
-          <xrefLocation>${project.reporting.outputDirectory}/../xref-test</xrefLocation>
-        </configuration>
-      </plugin>
-      <!-- PMD -->
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-pmd-plugin</artifactId>
-        <version>${maven.plugins.pmd.version}</version>
-        <configuration>
-          <aggregate>true</aggregate>
-          <linkXRef>true</linkXRef>
-          <targetJdk>${targetJDK}</targetJdk>
         </configuration>
       </plugin>
     </plugins>
@@ -395,25 +368,13 @@
     <repository>
       <id>hippo-maven2</id>
       <name>Hippo maven 2 repository.</name>
-      <url>http://maven.onehippo.com/maven2</url>
+      <url>http://maven.onehippo.com/maven2/</url>
       <snapshots />
       <releases>
         <updatePolicy>never</updatePolicy>
       </releases>
       <layout>default</layout>
     </repository>     
-    <repository>
-      <id>hippo-maven2-forge</id>
-      <name>Hippo Forge Maven 2 repository.</name>
-      <url>http://maven.onehippo.com/maven2-forge</url>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
-      <releases>
-        <updatePolicy>never</updatePolicy>
-      </releases>
-      <layout>default</layout>
-    </repository>
     <repository>
       <id>java.net</id>
       <url>http://download.java.net/maven/2/</url>
@@ -484,7 +445,7 @@
         <artifactId>maven-release-plugin</artifactId>
         <version>${maven.plugins.release.version}</version>
         <configuration>
-          <tagBase>http://forge.onehippo.org/svn/weblogdemo/tags</tagBase>
+          <tagBase>https://forge.onehippo.org/svn/weblogdemo/tags</tagBase>
         </configuration>
       </plugin>
        <plugin>

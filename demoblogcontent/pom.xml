@@ -31,9 +31,9 @@
   <packaging>jar</packaging>
 
   <scm>
-    <connection>scm:svn:http://forge.onehippo.org/svn/weblogdemo/trunk/demoblogcontent</connection>
-    <developerConnection>scm:svn:http://forge.onehippo.org/svn/weblogdemo/trunk/demoblogcontent</developerConnection>
-    <url>http://forge.onehippo.org/svn/weblogdemo/trunk/demoblogcontent</url>
+    <connection>scm:svn:https://forge.onehippo.org/svn/weblogdemo/trunk/demoblogcontent</connection>
+    <developerConnection>scm:svn:https://forge.onehippo.org/svn/weblogdemo/trunk/demoblogcontent</developerConnection>
+    <url>https://forge.onehippo.org/svn/weblogdemo/trunk/demoblogcontent</url>
   </scm>
 
   <build>

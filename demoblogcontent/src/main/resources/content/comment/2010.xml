@@ -461,7 +461,7 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-
             <sv:value>2010-05-16T19:26:30.367+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="weblogdemo:email" sv:type="String">
-            <sv:value>shane@link2.nl</sv:value>
+            <sv:value>noreply@example.com</sv:value>
           </sv:property>
           <sv:property sv:name="weblogdemo:name" sv:type="String">
             <sv:value>shane smith</sv:value>
@@ -563,7 +563,7 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-
             <sv:value>2010-05-17T11:09:45.098+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="weblogdemo:email" sv:type="String">
-            <sv:value>schans@onehippo.com</sv:value>
+            <sv:value>noreply@example.com</sv:value>
           </sv:property>
           <sv:property sv:name="weblogdemo:name" sv:type="String">
             <sv:value>Bart van der Schans</sv:value>
@@ -665,7 +665,7 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-
             <sv:value>2010-05-18T00:48:53.593+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="weblogdemo:email" sv:type="String">
-            <sv:value>m.brand@onehippo.com</sv:value>
+            <sv:value>noreply@example.com</sv:value>
           </sv:property>
           <sv:property sv:name="weblogdemo:name" sv:type="String">
             <sv:value>Mathijs Brand</sv:value>
@@ -752,7 +752,7 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-
             <sv:value>2010-05-18T00:50:38.481+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="weblogdemo:email" sv:type="String">
-            <sv:value>m.brand@onehippo.com</sv:value>
+            <sv:value>noreply@example.com</sv:value>
           </sv:property>
           <sv:property sv:name="weblogdemo:name" sv:type="String">
             <sv:value>Mathijs Brand</sv:value>
@@ -834,7 +834,7 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-
             <sv:value>2010-05-18T00:55:12.819+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="weblogdemo:email" sv:type="String">
-            <sv:value>m.brand@onehippo.com</sv:value>
+            <sv:value>noreply@example.com</sv:value>
           </sv:property>
           <sv:property sv:name="weblogdemo:name" sv:type="String">
             <sv:value>Mathijs Brand</sv:value>
@@ -916,7 +916,7 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-
             <sv:value>2010-05-18T13:46:55.078+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="weblogdemo:email" sv:type="String">
-            <sv:value>jasha@jasha.eu</sv:value>
+            <sv:value>noreply@example.com</sv:value>
           </sv:property>
           <sv:property sv:name="weblogdemo:name" sv:type="String">
             <sv:value>Jasha</sv:value>
@@ -1102,7 +1102,7 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-
             <sv:value>2010-05-25T16:28:59.952+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="weblogdemo:email" sv:type="String">
-            <sv:value>t.brenninkmeijer@onehippo.com</sv:value>
+            <sv:value>noreply@example.com</sv:value>
           </sv:property>
           <sv:property sv:name="weblogdemo:name" sv:type="String">
             <sv:value>Tjeerd</sv:value>
@@ -1184,7 +1184,7 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-
             <sv:value>2010-05-25T17:04:42.741+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="weblogdemo:email" sv:type="String">
-            <sv:value>jasha@jasha.eu</sv:value>
+            <sv:value>noreply@example.com</sv:value>
           </sv:property>
           <sv:property sv:name="weblogdemo:name" sv:type="String">
             <sv:value>Jasha</sv:value>
@@ -1234,539 +1234,6 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-
         <sv:value>new-folder</sv:value>
         <sv:value>new-document</sv:value>
       </sv:property>
-      <sv:node sv:name="comment-for-First-blogpost-in-Hippo-1275250214114">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hippo:handle</sv:value>
-        </sv:property>
-        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>hippo:hardhandle</sv:value>
-        </sv:property>
-        <sv:property sv:name="jcr:uuid" sv:type="String">
-          <sv:value>5c9baead-7ad2-436a-8604-ef9f8ba5a3c9</sv:value>
-        </sv:property>
-        <sv:node sv:name="comment-for-First-blogpost-in-Hippo-1275250214114">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>weblogdemo:comment</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>hippo:harddocument</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>f417fe8c-3c4e-453c-9a2d-9db886ec47c4</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
-            <sv:value>preview</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>2010/05/30/comment-for-First-blogpost-in-Hippo-1275250214114</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:holder" sv:type="String">
-            <sv:value>website</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:state" sv:type="String">
-            <sv:value>unpublished</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-            <sv:value>new</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
-            <sv:value>website</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2010-05-30T21:10:14.924+01:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2010-05-30T21:10:15.608+01:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-            <sv:value>website</sv:value>
-          </sv:property>
-          <sv:property sv:name="weblogdemo:date" sv:type="Date">
-            <sv:value>2010-05-30T21:10:14.114+01:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="weblogdemo:email" sv:type="String">
-            <sv:value>oitoppur</sv:value>
-          </sv:property>
-          <sv:property sv:name="weblogdemo:name" sv:type="String">
-            <sv:value>alexk504</sv:value>
-          </sv:property>
-          <sv:property sv:name="weblogdemo:summary" sv:type="String">
-            <sv:value>Very nice site! is it yours too</sv:value>
-          </sv:property>
-          <sv:property sv:name="weblogdemo:title" sv:type="String">
-            <sv:value>Very nice site! is it yours to</sv:value>
-          </sv:property>
-          <sv:property sv:name="weblogdemo:website" sv:type="String">
-            <sv:value>http://apeoixy.com/xqqatv/5.html</sv:value>
-          </sv:property>
-          <sv:node sv:name="weblogdemo:commentlink">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>weblogdemo:commentlink</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>5cb9e93d-186e-4297-934f-f05a291a7bde</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
-            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
-            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
-          </sv:node>
-        </sv:node>
-      </sv:node>
-      <sv:node sv:name="comment-for-First-blogpost-in-Hippo-1275250216013">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hippo:handle</sv:value>
-        </sv:property>
-        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>hippo:hardhandle</sv:value>
-        </sv:property>
-        <sv:property sv:name="jcr:uuid" sv:type="String">
-          <sv:value>f313ceca-ad70-4d10-93b4-43efb36c41a3</sv:value>
-        </sv:property>
-        <sv:node sv:name="comment-for-First-blogpost-in-Hippo-1275250216013">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>weblogdemo:comment</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>hippo:harddocument</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>def6ac39-21d1-4d45-8b2c-8caefc973a20</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
-            <sv:value>preview</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>2010/05/30/comment-for-First-blogpost-in-Hippo-1275250216013</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:holder" sv:type="String">
-            <sv:value>website</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:state" sv:type="String">
-            <sv:value>unpublished</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-            <sv:value>new</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
-            <sv:value>website</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2010-05-30T21:10:16.039+01:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2010-05-30T21:10:16.400+01:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-            <sv:value>website</sv:value>
-          </sv:property>
-          <sv:property sv:name="weblogdemo:date" sv:type="Date">
-            <sv:value>2010-05-30T21:10:16.013+01:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="weblogdemo:email" sv:type="String">
-            <sv:value>oitoppur</sv:value>
-          </sv:property>
-          <sv:property sv:name="weblogdemo:name" sv:type="String">
-            <sv:value>alexf876</sv:value>
-          </sv:property>
-          <sv:property sv:name="weblogdemo:summary" sv:type="String">
-            <sv:value>Very nice site! [url=http://apeoixy.com/xqqatv/2.html]is it yours too[/url]
-                        </sv:value>
-          </sv:property>
-          <sv:property sv:name="weblogdemo:title" sv:type="String">
-            <sv:value>Very nice site! [url=http://a</sv:value>
-          </sv:property>
-          <sv:property sv:name="weblogdemo:website" sv:type="String">
-            <sv:value>http://apeoixy.com/xqqatv/5.html</sv:value>
-          </sv:property>
-          <sv:node sv:name="weblogdemo:commentlink">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>weblogdemo:commentlink</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>5cb9e93d-186e-4297-934f-f05a291a7bde</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
-            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
-            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
-          </sv:node>
-        </sv:node>
-      </sv:node>
-      <sv:node sv:name="comment-for-First-blogpost-in-Hippo-1275250216798">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hippo:handle</sv:value>
-        </sv:property>
-        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>hippo:hardhandle</sv:value>
-        </sv:property>
-        <sv:property sv:name="jcr:uuid" sv:type="String">
-          <sv:value>1dc441c9-2545-4e45-a278-bd7833fd7b99</sv:value>
-        </sv:property>
-        <sv:node sv:name="comment-for-First-blogpost-in-Hippo-1275250216798">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>weblogdemo:comment</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>hippo:harddocument</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>c0519017-fb90-4bf9-a113-febb65106c45</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
-            <sv:value>preview</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>2010/05/30/comment-for-First-blogpost-in-Hippo-1275250216798</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:holder" sv:type="String">
-            <sv:value>website</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:state" sv:type="String">
-            <sv:value>unpublished</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-            <sv:value>new</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
-            <sv:value>website</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2010-05-30T21:10:16.835+01:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2010-05-30T21:10:17.276+01:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-            <sv:value>website</sv:value>
-          </sv:property>
-          <sv:property sv:name="weblogdemo:date" sv:type="Date">
-            <sv:value>2010-05-30T21:10:16.798+01:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="weblogdemo:email" sv:type="String">
-            <sv:value>oitoppur</sv:value>
-          </sv:property>
-          <sv:property sv:name="weblogdemo:name" sv:type="String">
-            <sv:value>alexd270</sv:value>
-          </sv:property>
-          <sv:property sv:name="weblogdemo:summary" sv:type="String">
-            <sv:value>Very nice site! is it yours too http://apeoixy.com/xqqatv/4.html</sv:value>
-          </sv:property>
-          <sv:property sv:name="weblogdemo:title" sv:type="String">
-            <sv:value>Very nice site! is it yours to</sv:value>
-          </sv:property>
-          <sv:property sv:name="weblogdemo:website" sv:type="String">
-            <sv:value>http://apeoixy.com/xqqatv/5.html</sv:value>
-          </sv:property>
-          <sv:node sv:name="weblogdemo:commentlink">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>weblogdemo:commentlink</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>5cb9e93d-186e-4297-934f-f05a291a7bde</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
-            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
-            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
-          </sv:node>
-        </sv:node>
-      </sv:node>
-      <sv:node sv:name="comment-for-First-blogpost-in-Hippo-1275250218129">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hippo:handle</sv:value>
-        </sv:property>
-        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>hippo:hardhandle</sv:value>
-        </sv:property>
-        <sv:property sv:name="jcr:uuid" sv:type="String">
-          <sv:value>1dad7a4b-ffd9-4d41-8d96-fc0d947e342f</sv:value>
-        </sv:property>
-        <sv:node sv:name="comment-for-First-blogpost-in-Hippo-1275250218129">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>weblogdemo:comment</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>hippo:harddocument</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>d6ee06b5-eaf8-4780-aff0-2c421e0d0d09</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
-            <sv:value>preview</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>2010/05/30/comment-for-First-blogpost-in-Hippo-1275250218129</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:holder" sv:type="String">
-            <sv:value>website</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:state" sv:type="String">
-            <sv:value>unpublished</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-            <sv:value>new</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
-            <sv:value>website</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2010-05-30T21:10:18.153+01:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2010-05-30T21:10:19.009+01:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-            <sv:value>website</sv:value>
-          </sv:property>
-          <sv:property sv:name="weblogdemo:date" sv:type="Date">
-            <sv:value>2010-05-30T21:10:18.128+01:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="weblogdemo:email" sv:type="String">
-            <sv:value>oitoppur</sv:value>
-          </sv:property>
-          <sv:property sv:name="weblogdemo:name" sv:type="String">
-            <sv:value>alexc214</sv:value>
-          </sv:property>
-          <sv:property sv:name="weblogdemo:summary" sv:type="String">
-            <sv:value>Very nice site!</sv:value>
-          </sv:property>
-          <sv:property sv:name="weblogdemo:title" sv:type="String">
-            <sv:value>Very nice site!</sv:value>
-          </sv:property>
-          <sv:property sv:name="weblogdemo:website" sv:type="String">
-            <sv:value>http://apeoixy.com/xqqatv/5.html</sv:value>
-          </sv:property>
-          <sv:node sv:name="weblogdemo:commentlink">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>weblogdemo:commentlink</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>5cb9e93d-186e-4297-934f-f05a291a7bde</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
-            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
-            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
-          </sv:node>
-        </sv:node>
-      </sv:node>
-    </sv:node>
-  </sv:node>
-  <sv:node sv:name="06">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hippostd:folder</sv:value>
-    </sv:property>
-    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-      <sv:value>hippo:harddocument</sv:value>
-    </sv:property>
-    <sv:property sv:name="jcr:uuid" sv:type="String">
-      <sv:value>9a919e4e-1d5f-4dbb-a2f3-c4b8e563e4a3</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
-      <sv:value>live</sv:value>
-      <sv:value>preview</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
-    <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
-      <sv:value>new-folder</sv:value>
-      <sv:value>new-document</sv:value>
-    </sv:property>
-    <sv:node sv:name="04">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hippostd:folder</sv:value>
-      </sv:property>
-      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>hippo:harddocument</sv:value>
-      </sv:property>
-      <sv:property sv:name="jcr:uuid" sv:type="String">
-        <sv:value>68bf9d48-6a24-42f6-933b-63b23dea8852</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
-        <sv:value>live</sv:value>
-        <sv:value>preview</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
-      <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
-        <sv:value>new-folder</sv:value>
-        <sv:value>new-document</sv:value>
-      </sv:property>
-      <sv:node sv:name="comment-for-components-in-my-blog-properties-component-1275650789727">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hippo:handle</sv:value>
-        </sv:property>
-        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>hippo:hardhandle</sv:value>
-        </sv:property>
-        <sv:property sv:name="jcr:uuid" sv:type="String">
-          <sv:value>7a43e382-0155-4fff-a286-2ce8de1e2a89</sv:value>
-        </sv:property>
-        <sv:node sv:name="comment-for-components-in-my-blog-properties-component-1275650789727">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>weblogdemo:comment</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>hippo:harddocument</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>d8dce351-0455-40b7-981b-6933cd0f1025</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
-            <sv:value>preview</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>2010/06/04/comment-for-components-in-my-blog-properties-component-1275650789727</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:holder" sv:type="String">
-            <sv:value>website</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:state" sv:type="String">
-            <sv:value>unpublished</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-            <sv:value>new</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
-            <sv:value>website</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2010-06-04T12:26:30.451+01:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2010-06-04T12:26:31.005+01:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-            <sv:value>website</sv:value>
-          </sv:property>
-          <sv:property sv:name="weblogdemo:date" sv:type="Date">
-            <sv:value>2010-06-04T12:26:29.727+01:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="weblogdemo:email" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="weblogdemo:name" sv:type="String">
-            <sv:value>dGJaCwUhdxulxJRZXY</sv:value>
-          </sv:property>
-          <sv:property sv:name="weblogdemo:summary" sv:type="String">
-            <sv:value>kgksNF yjkbpbbfrqou, [url=http://dpxevxbsusjr.com/]dpxevxbsusjr[/url],
-                            [link=http://ijhyqzjtqdum.com/]ijhyqzjtqdum[/link], http://queggxqwfxhf.com/
-                        </sv:value>
-          </sv:property>
-          <sv:property sv:name="weblogdemo:title" sv:type="String">
-            <sv:value>kgksNF yjkbpbbfrqou, [url=htt</sv:value>
-          </sv:property>
-          <sv:property sv:name="weblogdemo:website" sv:type="String">
-            <sv:value>http://mmziltbmmggs.com/</sv:value>
-          </sv:property>
-          <sv:node sv:name="weblogdemo:commentlink">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>weblogdemo:commentlink</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>f1117c50-8435-4713-9d96-cebcaa3228e9</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
-            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
-            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
-          </sv:node>
-        </sv:node>
-      </sv:node>
-    </sv:node>
-    <sv:node sv:name="06">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hippostd:folder</sv:value>
-      </sv:property>
-      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>hippo:harddocument</sv:value>
-      </sv:property>
-      <sv:property sv:name="jcr:uuid" sv:type="String">
-        <sv:value>9af73ab1-5cc2-4e0b-a2d1-b94bf58efa3a</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
-        <sv:value>live</sv:value>
-        <sv:value>preview</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
-      <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
-        <sv:value>new-folder</sv:value>
-        <sv:value>new-document</sv:value>
-      </sv:property>
-      <sv:node sv:name="comment-for-First-blogpost-in-Hippo-1275836953395">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hippo:handle</sv:value>
-        </sv:property>
-        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>hippo:hardhandle</sv:value>
-        </sv:property>
-        <sv:property sv:name="jcr:uuid" sv:type="String">
-          <sv:value>366cb7ee-50b7-4487-bc01-50e2a0c93c66</sv:value>
-        </sv:property>
-        <sv:node sv:name="comment-for-First-blogpost-in-Hippo-1275836953395">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>weblogdemo:comment</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>hippo:harddocument</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>4a16bfa5-0864-4ec2-b59c-daad815214b3</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
-            <sv:value>preview</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>2010/06/06/comment-for-First-blogpost-in-Hippo-1275836953395</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:holder" sv:type="String">
-            <sv:value>website</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:state" sv:type="String">
-            <sv:value>unpublished</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-            <sv:value>new</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
-            <sv:value>website</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2010-06-06T16:09:17.072+01:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2010-06-06T16:09:21.255+01:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-            <sv:value>website</sv:value>
-          </sv:property>
-          <sv:property sv:name="weblogdemo:date" sv:type="Date">
-            <sv:value>2010-06-06T16:09:13.395+01:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="weblogdemo:email" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="weblogdemo:name" sv:type="String">
-            <sv:value>tweqyndvpw</sv:value>
-          </sv:property>
-          <sv:property sv:name="weblogdemo:summary" sv:type="String">
-            <sv:value>9AzNnO wpcpszpcdytd, [url=http://zvgqpbhqayim.com/]zvgqpbhqayim[/url],
-                            [link=http://nfoqpmmezdcu.com/]nfoqpmmezdcu[/link], http://yjwdxgxfqdsc.com/
-                        </sv:value>
-          </sv:property>
-          <sv:property sv:name="weblogdemo:title" sv:type="String">
-            <sv:value>9AzNnO wpcpszpcdytd, [url=htt</sv:value>
-          </sv:property>
-          <sv:property sv:name="weblogdemo:website" sv:type="String">
-            <sv:value>http://yvplddwpcsvf.com/</sv:value>
-          </sv:property>
-          <sv:node sv:name="weblogdemo:commentlink">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>weblogdemo:commentlink</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>5cb9e93d-186e-4297-934f-f05a291a7bde</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
-            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
-            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
-          </sv:node>
-        </sv:node>
-      </sv:node>
     </sv:node>
   </sv:node>
   <sv:node sv:name="07">
@@ -1862,7 +1329,7 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-
             <sv:value>2010-07-16T10:43:54.225+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="weblogdemo:email" sv:type="String">
-            <sv:value>robby.pelssers@ciber.nl</sv:value>
+            <sv:value>noreply@example.com</sv:value>
           </sv:property>
           <sv:property sv:name="weblogdemo:name" sv:type="String">
             <sv:value>Robby Pelssers</sv:value>
@@ -1965,7 +1432,7 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-
             <sv:value>2010-07-22T15:13:06.553+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="weblogdemo:email" sv:type="String">
-            <sv:value>gerritberkouwer@gmail.com</sv:value>
+            <sv:value>noreply@example.com</sv:value>
           </sv:property>
           <sv:property sv:name="weblogdemo:name" sv:type="String">
             <sv:value>G Berkouwer</sv:value>
@@ -2053,7 +1520,7 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-
             <sv:value>2010-07-22T16:38:01.016+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="weblogdemo:email" sv:type="String">
-            <sv:value>jasha@jasha.eu</sv:value>
+            <sv:value>noreply@example.com</sv:value>
           </sv:property>
           <sv:property sv:name="weblogdemo:name" sv:type="String">
             <sv:value>Jasha</sv:value>

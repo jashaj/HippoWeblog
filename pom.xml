@@ -20,7 +20,7 @@
     <parent>
     <groupId>org.onehippo.cms7</groupId>
     <artifactId>hippo-cms7-release</artifactId>
-    <version>7.6.0</version>
+    <version>7.6.1</version>
   </parent>
 
   <name>Hippo Weblog project</name>
@@ -67,9 +67,6 @@
 
     <forge.properties.version>2.06.00</forge.properties.version>
     <forge.robotstxt.version>1.03.01</forge.robotstxt.version>
-
-    <jetty.version>6.1.26</jetty.version>
-    <atomikos.version>3.7.0</atomikos.version>
 
     <targetJDK>1.6</targetJDK>
 

@@ -25,11 +25,11 @@
 
   <name>Hippo Weblog project</name>
   <description>Project to show how you can make a blog from Hippo CMS 7 and Hippo Site Toolkit</description>
-  <groupId>org.onehippo.forge.weblogdemo</groupId>
-  <artifactId>weblogdemo</artifactId>
+  <groupId>eu.jasha.hippoweblog</groupId>
+  <artifactId>hippoweblog</artifactId>
   <version>1.02.00-SNAPSHOT</version>
   <packaging>pom</packaging>
-  <url>http://weblogdemo.forge.onehippo.org/</url>
+  <url>https://github.com/jashaj/HippoWeblog</url>
   <inceptionYear>2010</inceptionYear>
 
   <prerequisites>
@@ -293,14 +293,13 @@
   </licenses>
 
   <scm>
-    <connection>scm:svn:https://forge.onehippo.org/svn/weblogdemo/trunk</connection>
-    <developerConnection>scm:svn:https://forge.onehippo.org/svn/weblogdemo/trunk</developerConnection>
-    <url>https://forge.onehippo.org/svn/weblogdemo/trunk</url>
+    <connection>scm:git://github.com/jashaj/HippoWeblog.git</connection>
+    <developerConnection>scm:git:git@github.com:jashaj/HippoWeblog.git</developerConnection>
   </scm>
 
   <issueManagement>
-    <system>gforge</system>
-    <url>https://forge.onehippo.org/gf/project/weblogdemo/tracker/?action=TrackerItemBrowse&amp;tracker_id=570</url>
+    <system>GitHub</system>
+    <url>https://github.com/jashaj/HippoWeblog/issues</url>
   </issueManagement>
 
   <distributionManagement>

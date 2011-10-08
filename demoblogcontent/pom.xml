@@ -18,23 +18,16 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.onehippo.forge.weblogdemo</groupId>
-    <artifactId>weblogdemo</artifactId>
+    <groupId>eu.jasha.hippoweblog</groupId>
+    <artifactId>hippoweblog</artifactId>
     <version>1.02.00-SNAPSHOT</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
 
   <name>Hippo Weblog project demo blog content</name>
   <description>Export of jasha.eu blog content to demo a filled blog</description>
-  <groupId>org.onehippo.forge.weblogdemo</groupId>
-  <artifactId>weblogdemo-demoblogcontent</artifactId>
-  <packaging>jar</packaging>
-
-  <scm>
-    <connection>scm:svn:https://forge.onehippo.org/svn/weblogdemo/trunk/demoblogcontent</connection>
-    <developerConnection>scm:svn:https://forge.onehippo.org/svn/weblogdemo/trunk/demoblogcontent</developerConnection>
-    <url>https://forge.onehippo.org/svn/weblogdemo/trunk/demoblogcontent</url>
-  </scm>
+  <groupId>eu.jasha.hippoweblog</groupId>
+  <artifactId>hippoweblog-demoblogcontent</artifactId>
 
   <build>
      <defaultGoal>package</defaultGoal>

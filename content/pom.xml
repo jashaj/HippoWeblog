@@ -18,24 +18,17 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.onehippo.forge.weblogdemo</groupId>
-    <artifactId>weblogdemo</artifactId>
+    <groupId>eu.jasha.hippoweblog</groupId>
+    <artifactId>hippoweblog</artifactId>
     <version>1.02.00-SNAPSHOT</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
 
   <name>Hippo Weblog project content</name>
   <description>Hippo Weblog project Content</description>
-  <groupId>org.onehippo.forge.weblogdemo</groupId>
-  <artifactId>weblogdemo-content</artifactId>
-  <packaging>jar</packaging>
+  <groupId>eu.jasha.hippoweblog</groupId>
+  <artifactId>hippoweblog-content</artifactId>
 
-  <scm>
-    <connection>scm:svn:https://forge.onehippo.org/svn/weblogdemo/trunk/content</connection>
-    <developerConnection>scm:svn:https://forge.onehippo.org/svn/weblogdemo/trunk/content</developerConnection>
-    <url>https://forge.onehippo.org/svn/weblogdemo/trunk/content</url>
-  </scm>
-  
   <dependencies>
     <dependency>
       <groupId>javax.jcr</groupId>

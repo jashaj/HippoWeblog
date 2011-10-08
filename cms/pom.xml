@@ -18,37 +18,31 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.onehippo.forge.weblogdemo</groupId>
-    <artifactId>weblogdemo</artifactId>
+    <groupId>eu.jasha.hippoweblog</groupId>
+    <artifactId>hippoweblog</artifactId>
     <version>1.02.00-SNAPSHOT</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
 
   <name>Hippo Weblog project CMS</name>
   <description>Hippo Weblog project CMS</description>
-  <groupId>org.onehippo.forge.weblogdemo</groupId>
-  <artifactId>weblogdemo-cms</artifactId>
+  <groupId>eu.jasha.hippoweblog</groupId>
+  <artifactId>hippoweblog-cms</artifactId>
   <packaging>war</packaging>
-
-  <scm>
-    <connection>scm:svn:https://forge.onehippo.org/svn/weblogdemo/trunk/cms</connection>
-    <developerConnection>scm:svn:https://forge.onehippo.org/svn/weblogdemo/trunk/cms</developerConnection>
-    <url>https://forge.onehippo.org/svn/weblogdemo/trunk/cms</url>
-  </scm>
 
   <dependencies>
 
     <dependency>
-      <groupId>org.onehippo.forge.weblogdemo</groupId>
-      <artifactId>weblogdemo-content</artifactId>
+      <groupId>eu.jasha.hippoweblog</groupId>
+      <artifactId>hippoweblog-content</artifactId>
       <version>${project.version}</version>
       <type>jar</type>
     </dependency>
 
     <!-- TODO: enable demo blog content only for cargo.run, not for deploy -->
     <dependency>
-      <groupId>org.onehippo.forge.weblogdemo</groupId>
-      <artifactId>weblogdemo-demoblogcontent</artifactId>
+      <groupId>eu.jasha.hippoweblog</groupId>
+      <artifactId>hippoweblog-demoblogcontent</artifactId>
       <version>${project.version}</version>
       <type>jar</type>
     </dependency>

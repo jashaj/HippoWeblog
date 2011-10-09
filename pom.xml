@@ -37,6 +37,11 @@
   </prerequisites>
 
   <properties>
+    <hippo.cms.version>2.20.02</hippo.cms.version>
+    <hippo.addon-publication-workflow.version>2.20.02</hippo.addon-publication-workflow.version>
+    <hippo.packages.version>2.20.02</hippo.packages.version>
+    <hippo.hst.version>2.22.04</hippo.hst.version>
+    
     <jstl.version>1.1.2</jstl.version>
     <taglibs.version>1.1.2</taglibs.version>
 

@@ -38,7 +38,7 @@
     [/#list]
   [#else]<p>I'm sorry but I couldn't find what you were looking for.</p>
   [/#if]
-  [#if pages gt 1]
+  [#if pages?? && pages gt 1]
     <ol class="paging">
     [#list 0..(pages - 1) as i]
     [#if i = page]<li class="active">${i+1}</li>

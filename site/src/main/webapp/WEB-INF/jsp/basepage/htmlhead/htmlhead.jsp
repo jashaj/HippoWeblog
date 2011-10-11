@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="<hst:link path="/css/style.css"/>" />
 </hst:headContribution>
 <hst:headContribution category="css">
-  <link rel="stylesheet" href="<hst:link path="/css/jquery.fancybox-1.3.1.css"/>"/>
+  <link rel="stylesheet" href="<hst:link path="/css/jquery.fancybox-1.3.1.min.css"/>"/>
 </hst:headContribution>
 <hst:headContribution category="css">
   <link href="<hst:link path="/css/shMin.css"/>" rel="stylesheet" />

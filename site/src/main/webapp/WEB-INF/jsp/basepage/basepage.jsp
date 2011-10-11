@@ -37,7 +37,8 @@
 </div>
 <hst:include ref="footer"/>
 </div>
-<script src="<hst:link path="/js/libs/jquery-1.4.2.min.js"/>"></script>
+<script src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.4.2.min.js"></script>
+<script>!window.jQuery && document.write(unescape('%3Cscript src="<hst:link path="/js/libs/jquery-1.4.2-min.js"/>"%3E%3C/script%3E'))</script>
 <hst:headContributions categoryIncludes="jsExternal"/>
 <hst:headContributions categoryIncludes="jsInline"/>
 <%-- Google Analytics goes here --%>

@@ -18,7 +18,6 @@
   --]
 [@hst.headContribution]<title>${document.rawTitle?xml} | ${labels['site.name']}</title>[/@hst.headContribution]
 
-<article>
 [@site.blog document=document/]
     <section class="share">
     <p><a class="a2a_dd" href="http://www.addtoany.com/share_save"><img src="http://static.addtoany.com/buttons/share_save_120_16.gif" width="120" height="16" alt="Share/Bookmark"/></a></p>
@@ -55,5 +54,4 @@
     </form>
   </section>
   [/#if]
-</article>
 

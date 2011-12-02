@@ -16,16 +16,17 @@
   * limitations under the License.
   --]
 [#if facetnav?has_content && facetnav.folders?has_content]
-<section>
+<section id="facets">
   <h2>Blog archive</h2>
   [#list facetnav.folders as facet]
+  <div class="facetcategory">
   <h3>${facet.name}</h3>
   [#if facet.folders?has_content]
     <ul class="facets">
       [#assign liclass][/#assign]
       [#list facet.folders as facetvalue]
       [#compress]
-      [#if facetvalue_index = 5]<li class="less"><a href="#" class="toggle">&raquo; More</a></li>
+      [#if facetvalue_index = 5]<li class="less"><a href="#facets" class="toggle">&raquo; More</a></li>
         [#assign liclass] class="more"[/#assign]
       [/#if]
       <li${liclass}>
@@ -38,11 +39,12 @@
         [#else]<a href="[@hst.link hippobean=facetvalue/]" rel="nofollow"> ${facetlabel}</a> (${facetvalue.count})
         [/#if]
       </li>
-      [#if facetvalue_has_next=false && facetvalue_index>4]<li class="more"><a href="#" class="toggle">&raquo; Less</a></li>[/#if]
+      [#if facetvalue_has_next=false && facetvalue_index>4]<li class="more"><a href="#facets" class="toggle">&raquo; Less</a></li>[/#if]
       [/#compress]
       [/#list]
     </ul>
   [/#if]
+  </div>
   [/#list]
 </section>
 [/#if]

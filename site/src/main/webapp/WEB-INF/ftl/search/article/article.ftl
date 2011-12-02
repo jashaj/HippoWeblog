@@ -16,7 +16,6 @@
   * See the License for the specific language governing permissions and
   * limitations under the License.
   --]
-<article>
   <h1>Search result</h1>
   [#if searchfor?has_content && nrhits = 0]<p>I'm sorry but I can't find any document that matches your question.</p>
   [#elseif searchfor?has_content]<p>You searched for "${searchfor}" and I found ${nrhits} documents</p>
@@ -25,8 +24,9 @@
   [/#if]
 
   [#if documents?has_content]
+  <ul class="teasers">
   [#list documents as doc]
-  <section class="teaser">
+  <li>
     [#if doc.type="comment"]
     [#assign link][@hst.link hippobean=doc.commentTo/]#${doc.name}[/#assign]
     [#else][#assign link][@hst.link hippobean=doc/][/#assign]
@@ -35,14 +35,15 @@
     <h2>${doc.title}</h2>
     [#if doc.summary?has_content]<p class="intro">${doc.summary}</p>[/#if]
     </a>
-  </section>
+  </li>
   [/#list]
+  </ul>
   [/#if]
 
-  [#if pages gt 1]
-    <ol class="paging">
+  [#if pages?? && pages gt 1]
+    <ol class="horizontal paging">
     [#list 0..(pages - 1) as i]
-    [#if i = page]<li class="active">${i+1}</li>
+    [#if i = page]<li class="active"><b>${i+1}</b></li>
     [#else]
       [#assign pageURL][@hst.renderURL][@hst.param name="page" value="${i}"/]
       [#if searchfor?has_content][@hst.param name="searchfor" value="${searchfor}"/][/#if][/@hst.renderURL][/#assign]
@@ -50,6 +51,5 @@
     [/#list]
     </ol>
   [/#if]
-</article>
 [@hst.headContribution]<title>Search result | ${labels['site.name']}</title>[/@hst.headContribution]
 [@hst.headContribution]<meta name="robots" content="noindex, follow"/>[/@hst.headContribution]

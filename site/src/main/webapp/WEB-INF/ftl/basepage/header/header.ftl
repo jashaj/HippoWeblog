@@ -16,26 +16,30 @@
   * limitations under the License.
   --]
 <header>
-  <div id="home"><a href="[@hst.link path="/"/]">${labels['site.name']}</a></div>
-  [#if menu??]
-  <nav>
-    <ul>
-    [#list menu.siteMenuItems as menuItem]
-      [#assign menulink][#if menuItem.externalLink?has_content]${menuItem.externalLink}[#elseif menuItem.hstLink?has_content][@hst.link link=menuItem.hstLink/][#else]#[/#if][/#assign]
-      [#assign liclass][#if (menuItem.expanded || menuItem.selected)] class="active"[/#if][/#assign]
-      [#compress]<li${liclass}><a href="${menulink}">${menuItem.name}</a></li>[/#compress]
-    [/#list]
-    </ul>
-  </nav>
-  [/#if]
+    <div class="innerheader">
 
-  <form method="get" action="[@hst.link path="/search"/]">
-    <fieldset>
-      <legend>Search form</legend>
-      <label for="searchfor">Search for</label>
-      [#assign value][#if searchfor?has_content]value="${searchfor}"[/#if][/#assign]
-      <input type="search" id="searchfor" name="searchfor" ${value} placeholder="Search my site"/>
-      <input type="submit" value="Search"/>
-    </fieldset>
-  </form>
+        <form method="get" action="[@hst.link path="/search"/]" class="search">
+            <fieldset>
+              <legend class="visuallyhidden">Search form</legend>
+              <label for="searchfor" class="visuallyhidden">Search for</label>
+              [#assign value][#if searchfor?has_content]value="${searchfor}"[/#if][/#assign]
+              <input type="search" id="searchfor" name="searchfor" ${value} placeholder="Search my site"/>
+              <input type="submit" value="Search"/>
+            </fieldset>
+          </form>
+    [#if menu??]
+        <nav class="topnav">
+            <ul class="horizontal">
+                [#list menu.siteMenuItems as menuItem]
+                    [#assign menulink][#if menuItem.externalLink?has_content]${menuItem.externalLink}[#elseif menuItem.hstLink?has_content][@hst.link link=menuItem.hstLink/][#else]#[/#if][/#assign]
+                    [#assign liclass][#if (menuItem.expanded || menuItem.selected)] class="active"[/#if][/#assign]
+                    [#compress]<li${liclass}><a href="${menulink}">${menuItem.name}</a></li>[/#compress]
+                [/#list]
+            </ul>
+        </nav>
+    [/#if]
+
+        <div class="payoff"><a href="[@hst.link path="/"/]">${labels['site.name']}</a></div>
+
+    </div>
 </header>

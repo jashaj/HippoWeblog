@@ -294,6 +294,10 @@ footer {
   background-color: #767676;
 }
 
+footer, footer a, footer a:visited {
+  color: #FFFFFF;
+}
+
 .no-touch a {
   text-decoration: none;
 }

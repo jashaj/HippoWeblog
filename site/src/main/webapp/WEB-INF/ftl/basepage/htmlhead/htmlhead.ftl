@@ -39,7 +39,7 @@
 <[@hst.headContribution]<link rel="shortcut icon" href="[@hst.link path="/images/favicon.ico"/]" />[/@hst.headContribution]
 [@hst.headContribution]<meta content="${labels['site.author']}" name="author"/>[/@hst.headContribution]
 [@hst.headContribution]<meta content="Hippo Site Toolkit" name="generator"/>[/@hst.headContribution]
-[@hst.headContribution]<meta name="viewport" content="width=device-width, initial-scale=1.0"/>[/@hst.headContribution]
+[@hst.headContribution]<meta name="viewport" content="width=device-width,initial-scale=1"/>[/@hst.headContribution]
 [@hst.headContribution]<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />[/@hst.headContribution]
 [@hst.headContribution]
 <link rel="alternate" type="application/atom+xml" title="${labels['site.name']} - Atom" href="[@hst.link path="/feeds/posts/default"/]" />

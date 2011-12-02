@@ -16,6 +16,4 @@
   * See the License for the specific language governing permissions and
   * limitations under the License.
   --]
-<article>
 [@site.blog document=document titleaslink=true/]
-</article>

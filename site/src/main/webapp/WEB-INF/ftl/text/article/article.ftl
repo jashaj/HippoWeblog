@@ -15,11 +15,9 @@
   * See the License for the specific language governing permissions and
   * limitations under the License.
   --]
-<article>
   <section>
     <h1>${document.title}</h1>
     [#if document.summary?has_content]<p>${document.summary}</p>[/#if]
     [@hst.html hippohtml=document.html contentRewriter=contentrewriter/]
   </section>
-</article>
 [@hst.headContribution]<title>${document.rawTitle?xml} | ${labels['site.name']}</title>[/@hst.headContribution]

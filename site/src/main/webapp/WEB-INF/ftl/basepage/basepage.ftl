@@ -16,28 +16,32 @@
   * See the License for the specific language governing permissions and
   * limitations under the License.
   --]
-<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
-<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
-<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
-<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<!--[if lt IE 7]><html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]><html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]><html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
 <meta charset="UTF-8"/>
 [@hst.headContributions categoryExcludes="css,jsExternal,jsInline"/]
 [@hst.headContributions categoryIncludes="css"/]
-<script src="[@hst.link path="/js/libs/modernizr-1.6.min.js"/]"></script>
+<script src="[@hst.link path="/js/libs/modernizr-2.0.6.min.js"/]"></script>
 </head>
 <body>
 <div id="container">
 [@hst.include ref="header"/]
-<div id="main">
-[@hst.include ref="article"/]
+<div id="main" role="main">
+    <article class="mainarticle">
+    [@hst.include ref="article"/]
+    </article>
 [@hst.include ref="aside"/]
+    <div class="clearfix"></div>
 </div>
 [@hst.include ref="footer"/]
 </div>
-<script src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.4.2.min.js"></script>
-<script>!window.jQuery && document.write(unescape('%3Cscript src="[@hst.link path="/js/libs/jquery-1.4.2-min.js"/]"%3E%3C/script%3E'))</script>
+<script src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.6.2.min.js"></script>
+<script>!window.jQuery && document.write(unescape('%3Cscript src="[@hst.link path="/js/libs/jquery-1.6.2-min.js"/]"%3E%3C/script%3E'))</script>
+<script src="[@hst.link path="/js/plugins.js"/]"></script>
+
 [@hst.headContributions categoryIncludes="jsExternal"/]
 [@hst.headContributions categoryIncludes="jsInline"/]
 [#-- Google Analytics goes here --]

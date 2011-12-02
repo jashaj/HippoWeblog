@@ -1,0 +1,397 @@
+<!doctype html>
+<!--[if lt IE 7]>
+<html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>Insert title here :: mysite.com</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="http://www.jasha.eu/css/jquery.fancybox-1.3.1.min.css"/>
+    <link rel="stylesheet" href="http://www.jasha.eu/css/shMin.css"/>
+    <script src="js/libs/modernizr-2.0.6.min.js"></script>
+</head>
+<body>
+
+<div id="container">
+<!-- Change in HTML: new header-->
+
+<header>
+    <div class="innerheader">
+        <form method="get" action="/search" class="search">
+            <fieldset>
+                <legend class="visuallyhidden">Search form</legend>
+                <label for="searchfor" class="visuallyhidden">Search for</label>
+                <input type="search" id="searchfor" name="searchfor"  placeholder="Search my site"/>
+                <input type="submit" value="Search"/>
+
+            </fieldset>
+        </form>
+        <nav class="topnav">
+            <ul class="horizontal">
+                <li class="active"><a href="#">Blog posts</a></li>
+                <li><a href="#">Documentation</a></li>
+                <li><a href="http://www.flickr.com/photos/jashaj/">Pictures</a></li>
+                <li><a href="http://nl.linkedin.com/in/jasha">LinkedIn</a></li>
+            </ul>
+        </nav>
+        <div class="payoff"><a href="index.html">jasha.eu</a></div>
+    </div>
+</header>
+<div id="main" role="main">
+<!-- Change in HTML: add class mainarticle-->
+
+<article class="mainarticle">
+    <!-- Section > ul li, don't include the tags in the P -->
+    <h1>Blog posts</h1>
+    <ul class="teasers">
+
+        <li>
+
+          <a href="/blogposts/2011/11/apache-rave-incubating-at-role-developer-camp.html"><div class="date">
+    <time datetime="2011-11-30T18:30:41" > <span class="month">Nov</span> <span class="day">30</span> <span class="year">2011</span> </time></div>
+
+            <h2>Apache Rave presentation at the ROLE developer camp</h2>
+            <p class="intro">This is the presentation I gave about Apache Rave during the ROLE project developer camp in Leuven, Belgium: </p>
+
+            <p class="tags">Tags:
+              technology, hippo, Apache, Rave
+            </p>
+          </a>
+        </li>
+        <li>
+          <a href="/blogposts/2011/11/apache-rave-incubating-on-a-mobile-device.html"><div class="date">
+    <time datetime="2011-11-14T19:21:08" > <span class="month">Nov</span> <span class="day">14</span> <span class="year">2011</span> </time></div>
+
+            <h2>Apache Rave on your iPhone</h2>
+            <p class="intro">One of the newest features in Apache Rave (Incubating) is a mobile view for the portal. Using Spring Mobile, the portal detects that the visitor uses a mobile device and renders a more lightweight view. The title bar is bigger to make it easier to expand or collapse a Widget on a touch screen. Drag and drop is disabled in the mobile view. </p>
+            <p class="tags">Tags:
+              hippo, technology, Apache, Rave, development
+            </p>
+          </a>
+        </li>
+        <li>
+          <a href="/blogposts/2011/11/apache-rave-incubating-demo-video.html"><div class="date">
+
+    <time datetime="2011-11-06T14:12:47" > <span class="month">Nov</span> <span class="day">6</span> <span class="year">2011</span> </time></div>
+
+            <h2>Apache Rave demo video</h2>
+            <p class="intro">I've been working a lot on Apache Rave lately. Apache Rave is a new light-weight, open source portal that uses OpenSocial gadgets and W3C widgets to render content. You may have already used OpenSocial gadgets in iGoogle or Atlassian Jira without being aware of it. I can write a blogpost about Apache Rave, but a video can say more than words: </p>
+            <p class="tags">Tags:
+              technology, hippo, Apache, Rave, development
+            </p>
+
+          </a>
+        </li>
+        <li>
+          <a href="/blogposts/2011/11/google-minus-1.html"><div class="date">
+    <time datetime="2011-11-02T21:21:59" > <span class="month">Nov</span> <span class="day">2</span> <span class="year">2011</span> </time></div>
+
+            <h2>Google+ minus 1</h2>
+            <p class="intro">A social network is like the new hip club in town. The innovators start a place that is hip, maybe a bit underground. They invite their friends who are not mainstream but know how to create a good atmosphere. Those early adopters invite their friends who are a bit more mainstream. Then the club becomes popular for the mainstream audience. The first innovators may leave the club but a large crowd has fun. This is how social networks like Facebook or Hyves started and became popular. </p>
+            <p class="tags">Tags:
+              technology, Personal, Google
+            </p>
+          </a>
+        </li>
+        <li>
+          <a href="/blogposts/2011/10/cleaning-up-the-wysiwyg-html.html"><div class="date">
+
+    <time datetime="2011-10-29T13:09:55" > <span class="month">Oct</span> <span class="day">29</span> <span class="year">2011</span> </time></div>
+
+            <h2>Cleaning up the WYSIWYG HTML</h2>
+            <p class="intro">My blog is built with Hippo CMS and the Hippo Site Toolkit. This means that I use the Xinha (Is Not HtmlArea) WYSIWYG editor to type the content of my blogposts. The Xinha editor does its job, but has its limitations. Editors may mess up the HTML without knowing it. There's also an option to toggle to HTML mode. Editors may again mess up the HTML but then they know it. The HTML may work in their browser, but if it's not valid, it may render wrong in other browsers.  If the site is meant for a Dutch governmental organisation, the law requires it to meet accessibility guidelines which require the HTML to be XHTML 1.0 strict compliant. </p>
+            <p class="tags">Tags:
+              hippo, technology, Xinha
+            </p>
+
+          </a>
+        </li>
+        <li>
+          <a href="/blogposts/2011/10/goto-amsterdam-day-2.html"><div class="date">
+    <time datetime="2011-10-14T21:48:15" > <span class="month">Oct</span> <span class="day">14</span> <span class="year">2011</span> </time></div>
+
+            <h2>GOTO Amsterdam - day 2</h2>
+            <p class="intro">The day started slowly, probably because most of the attendees went to The Tara last evening. I didn't and wrote a blogpost, sorry for being nerdy ;) The keynote was a demonstration of Lively Kernel: a Javascript IDE written in Javascript. Unfortunately the Wifi let the speaker down and that's not the first time I saw that happen on a conference. If you're doing a live demo, be sure you get a connection you don't share with the audience. Later the day I realised that it was not possible to do this demo from a local machine because it was meant to show how it works in the cloud. The shapes we did see, were maybe a big archaic, but it made me think that with a little help from a designer, you could actually rapidly develop (small) games. Don't forget that the most popular games are pretty simple: Pong, Pacman, Angry Birds. Later today he did get the chance to finish the demo and even showed some game examples. </p>
+            <p class="tags">Tags:
+              technology, hippo
+            </p>
+          </a>
+        </li>
+        <li>
+          <a href="/blogposts/2011/10/goto-amsterdam-day-1.html"><div class="date">
+
+    <time datetime="2011-10-13T21:02:51" > <span class="month">Oct</span> <span class="day">13</span> <span class="year">2011</span> </time></div>
+
+            <h2>GOTO Amsterdam 2011 Conference - day 1</h2>
+            <p class="intro">The GOTO Conference came to Amsterdam and its wide variety of subjects (Java, Javascript, HTML5, Agile, even .Net) made me decide to spend a part of my training/conference budget I get from Hippo. </p>
+            <p class="tags">Tags:
+              technology, hippo
+            </p>
+
+          </a>
+        </li>
+        <li>
+          <a href="/blogposts/2011/07/tell-me-your-storage-medium-and-i-know-how-old-you-are.html"><div class="date">
+    <time datetime="2011-07-20T21:00:05" > <span class="month">Jul</span> <span class="day">20</span> <span class="year">2011</span> </time></div>
+
+            <h2>Tell me your storage medium and I know how old you are</h2>
+            <p class="intro">MacOS X Lion was released earlier today as 3.5 GB download instead of on a DVD. This was a conversation starter for me and my colleague Mathijs who is the same age as me. We remembered loading games from 8 1.44MB disks and then number 7 was "always" broken so you couldn't play the game. It would take roughly 2500 of those disks to install Lion. </p>
+            <p class="tags">Tags:
+              technology, Personal
+            </p>
+          </a>
+        </li>
+        <li>
+          <a href="/blogposts/2011/06/san-francisco-day-one.html"><div class="date">
+
+    <time datetime="2011-06-05T04:08:29" > <span class="month">Jun</span> <span class="day">5</span> <span class="year">2011</span> </time></div>
+
+            <h2>San Francisco - Day one</h2>
+            <p class="intro">Next week I 'have' to work at a customer in San Francisco. 'Have' to because it's not a punishment to go to this city :) I arrived yesterday but after the trip and the waiting at the customs I was too tired to do anything. So today was the first whole day in SF.</p>
+            <p class="tags">Tags:
+              Personal, San Francisco
+            </p>
+
+          </a>
+        </li>
+        <li>
+          <a href="/blogposts/2011/04/send-email-with-icalendar-events-from-your-website.html"><div class="date">
+    <time datetime="2011-04-04T11:00:09" > <span class="month">Apr</span> <span class="day">4</span> <span class="year">2011</span> </time></div>
+
+            <h2>Send email with iCalendar events from your website</h2>
+            <p class="intro">Let's say your website or intranet contains information about events, seminars or courses. Your visitors can view them and subscribe online to attend the events. Wouldn't it be nice if they receive an email that contains all the event data in the right format for their calendaring system so they don't have to enter all the data by hand? In this blog post I'll explain how to generate an iCalendar file from event data managed in Hippo CMS. I assume you have already reached the Grazing Hippo level. </p>
+            <p class="tags">Tags:
+              technology, hippo, HST, iCalendar, iCal4j
+            </p>
+          </a>
+        </li>
+    </ul>
+    <!-- Addded horizontal -->
+    <ol class="horizontal paging">
+        <li class="active"><b>1</b></li>
+
+        <li><a href="#1">2</a></li>
+        <li><a href="#2">3</a></li>
+        <li><a href="#3">4</a></li>
+        <li><a href="#4">5</a></li>
+        <li><a href="#5">6</a></li>
+        <li><a href="#6">7</a></li>
+        <li><a href="#7">8</a></li>
+    </ol>
+
+</article>
+<aside>
+    <section>
+        <h2>Blog archive</h2>
+<!-- HTML change: extra div
+    facets: added id for better less/more toggle experience
+-->
+        <div class="facetcategory">
+        <h3>year</h3>
+        <ul class="facets">
+            <li>
+                <a href="/blogposts/year/2011" rel="nofollow"> 2011</a> (13)
+
+            </li>
+            <li>
+                <a href="/blogposts/year/2010" rel="nofollow"> 2010</a> (9)
+            </li>
+            <li>
+                <a href="/blogposts/year/2009" rel="nofollow"> 2009</a> (17)
+            </li>
+            <li>
+                <a href="/blogposts/year/2008" rel="nofollow"> 2008</a> (22)
+            </li>
+            <li>
+                <a href="/blogposts/year/2007" rel="nofollow"> 2007</a> (14)
+
+            </li>
+        </ul>
+        </div>
+        <div class="facetcategory">
+        <h3>tag</h3>
+        <ul class="facets" id="facets">
+            <li>
+                <a href="/blogposts/tag/technology" rel="nofollow"> technology</a> (55)
+            </li>
+            <li>
+                <a href="/blogposts/tag/hippo" rel="nofollow"> hippo</a> (42)
+
+            </li>
+            <li>
+                <a href="/blogposts/tag/Personal" rel="nofollow"> Personal</a> (20)
+            </li>
+            <li>
+                <a href="/blogposts/tag/HST" rel="nofollow"> HST</a> (10)
+            </li>
+            <li>
+                <a href="/blogposts/tag/cms6" rel="nofollow"> cms6</a> (9)
+            </li>
+            <li class="less"><a href="#facets" class="toggle">&raquo; More</a></li>
+
+            <li class="more">
+                <a href="/blogposts/tag/Cocoon" rel="nofollow"> Cocoon</a> (7)
+            </li>
+            <li class="more">
+                <a href="/blogposts/tag/cms7" rel="nofollow"> cms7</a> (6)
+            </li>
+            <li class="more">
+                <a href="/blogposts/tag/Apache" rel="nofollow"> Apache</a> (6)
+            </li>
+            <li class="more">
+                <a href="/blogposts/tag/development" rel="nofollow"> development</a> (5)
+
+            </li>
+            <li class="more">
+                <a href="/blogposts/tag/hippoforge" rel="nofollow"> hippoforge</a> (4)
+            </li>
+            <li class="more">
+                <a href="/blogposts/tag/Apple" rel="nofollow"> Apple</a> (3)
+            </li>
+            <li class="more">
+                <a href="/blogposts/tag/Rave" rel="nofollow"> Rave</a> (3)
+            </li>
+            <li class="more">
+                <a href="/blogposts/tag/tools" rel="nofollow"> tools</a> (3)
+
+            </li>
+            <li class="more">
+                <a href="/blogposts/tag/plugins" rel="nofollow"> plugins</a> (3)
+            </li>
+            <li class="more">
+                <a href="/blogposts/tag/Maven" rel="nofollow"> Maven</a> (2)
+            </li>
+            <li class="more">
+                <a href="/blogposts/tag/Freemarker" rel="nofollow"> Freemarker</a> (2)
+            </li>
+            <li class="more">
+                <a href="/blogposts/tag/pictures" rel="nofollow"> pictures</a> (2)
+
+            </li>
+            <li class="more">
+                <a href="/blogposts/tag/Twitter" rel="nofollow"> Twitter</a> (1)
+            </li>
+            <li class="more">
+                <a href="/blogposts/tag/Xinha" rel="nofollow"> Xinha</a> (1)
+            </li>
+            <li class="more">
+                <a href="/blogposts/tag/Google" rel="nofollow"> Google</a> (1)
+            </li>
+            <li class="more">
+                <a href="/blogposts/tag/JSP" rel="nofollow"> JSP</a> (1)
+
+            </li>
+            <li class="more">
+                <a href="/blogposts/tag/iCalendar" rel="nofollow"> iCalendar</a> (1)
+            </li>
+            <li class="more">
+                <a href="/blogposts/tag/CSS" rel="nofollow"> CSS</a> (1)
+            </li>
+            <li class="more">
+                <a href="/blogposts/tag/iCal4j" rel="nofollow"> iCal4j</a> (1)
+            </li>
+            <li class="more">
+                <a href="/blogposts/tag/joke" rel="nofollow"> joke</a> (1)
+
+            </li>
+            <li class="more">
+                <a href="/blogposts/tag/HTML" rel="nofollow"> HTML</a> (1)
+            </li>
+            <li class="more">
+                <a href="/blogposts/tag/San+Francisco" rel="nofollow"> San Francisco</a> (1)
+            </li>
+            <li class="more">
+                <a href="/blogposts/tag/socialmedia" rel="nofollow"> socialmedia</a> (1)
+            </li>
+            <li class="more">
+                <a href="/blogposts/tag/Javascript" rel="nofollow"> Javascript</a> (1)
+
+            </li>
+            <li class="more"><a href="#facets" class="toggle">&raquo; Less</a></li>
+        </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Twitter</h2>
+        <ul>
+            <li>
+                @Flodego het ziet er ook heel vies uit
+                <a href="http://twitter.com/jashaj/status/141997319473213440" rel="external">
+                    <time datetime="2011-11-30T22:49:33">30 Nov 22:49</time>
+                </a>
+
+            </li>
+            <li>
+                @michielschok volgend jaar de Florijn en Sestertie release?
+                <a href="http://twitter.com/jashaj/status/141950131560919041" rel="external">
+                    <time datetime="2011-11-30T19:42:03">30 Nov 19:42</time>
+                </a>
+            </li>
+            <li>
+                @hanskeijmel aardige man is het toch #Sinterklaas
+                <a href="http://twitter.com/jashaj/status/141943413225422848" rel="external">
+                    <time datetime="2011-11-30T19:15:21">30 Nov 19:15</time>
+                </a>
+            </li>
+            <li>
+                @michielschok bedankt :) De euro release liep t/m 30 november, vandaar de rare demo dag.
+
+                <a href="http://twitter.com/jashaj/status/141942244147068928" rel="external">
+                    <time datetime="2011-11-30T19:10:42">30 Nov 19:10</time>
+                </a>
+            </li>
+            <li>
+                @hanskeijmel je hebt de beste man vanmiddag nog gesproken!
+                <a href="http://twitter.com/jashaj/status/141940925218816000" rel="external">
+                    <time datetime="2011-11-30T19:05:28">30 Nov 19:05</time>
+                </a>
+            </li>
+        </ul>
+    </section>
+</aside>
+<div class="clearfix"></div>
+</div>
+<footer>
+    <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/nl/"><img alt="Creative Commons License" style="border-width:0" src="http://www.jasha.eu/images/cc-by-nc-nd.png" width="80" height="15"/></a>
+</footer>
+</div>
+<!--! end of #container -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
+
+<!-- scripts concatenated and minified via ant build script-->
+<script src="js/plugins.js"></script>
+<script src="js/script.js"></script>
+<!-- end scripts-->
+<script src="http://www.jasha.eu/js/site.js"></script>
+<script src="http://www.jasha.eu/js/jquery.fancybox-1.3.1.pack.js"></script>
+<script src="http://www.jasha.eu/js/shMin.js"></script>
+<script>init();</script>
+<script>
+    var _gaq = [
+        ['_setAccount', 'UA-XXXXX-X'],
+        ['_trackPageview']
+    ]; // Change UA-XXXXX-X to be your site's ID
+    (function (d, t) {
+        var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
+        g.async = 1;
+        g.src = ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js';
+        s.parentNode.insertBefore(g, s)
+    }(document, 'script'));
+</script>
+</body>
+</html>

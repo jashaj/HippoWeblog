@@ -1,0 +1,534 @@
+<!doctype html>
+<!--[if lt IE 7]>
+<html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>Insert title here :: mysite.com</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="http://www.jasha.eu/css/jquery.fancybox-1.3.1.min.css"/>
+    <link rel="stylesheet" href="http://www.jasha.eu/css/shMin.css"/>
+    <script src="js/libs/modernizr-2.0.6.min.js"></script>
+</head>
+<body>
+
+<div id="container">
+<!-- Change in HTML: new header-->
+
+<header>
+    <div class="innerheader">
+        <form method="get" action="/search" class="search">
+            <fieldset>
+                <legend class="visuallyhidden">Search form</legend>
+                <label for="searchfor" class="visuallyhidden">Search for</label>
+                <input type="search" id="searchfor" name="searchfor"  placeholder="Search my site"/>
+                <input type="submit" value="Search"/>
+
+            </fieldset>
+        </form>
+        <nav class="topnav">
+            <ul class="horizontal">
+                <li><a href="blogs.html">Blog posts</a></li>
+                <li><a href="#">Documentation</a></li>
+                <li><a href="http://www.flickr.com/photos/jashaj/">Pictures</a></li>
+                <li><a href="http://nl.linkedin.com/in/jasha">LinkedIn</a></li>
+            </ul>
+        </nav>
+        <div class="payoff"><a href="#">jasha.eu</a></div>
+    </div>
+</header>
+<div id="main" role="main">
+<!-- Change in HTML: add class mainarticle-->
+
+<article class="mainarticle">
+
+<section>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="date"><time datetime="2011-04-04T11:00:09" pubdate="pubdate"><span class="month">Apr</span> <span class="day">4</span> <span class="year">2011</span></time></div>
+
+
+    <h1>Send email with iCalendar events from your website</h1>
+
+
+
+  <p>Let's say your website or intranet contains information about events,
+seminars or courses. Your visitors can view them and subscribe online to attend
+the events. Wouldn't it be nice if they receive an email that contains all the
+event data in the right format for their calendaring system so they don't have
+to enter all the data by hand? In this blog post I'll explain how to generate an
+<a href="http://en.wikipedia.org/wiki/ICalendar" title="iCalendar on Wikipedia" rel="external">iCalendar</a>
+file from event data managed in Hippo CMS. I assume you have already reached the
+<a href="https://wiki.onehippo.com/display/CMS7/Grazing+Hippo" rel="external">Grazing Hippo</a>
+
+level.</p>
+
+<ol>
+<li>Add the
+<a href="http://wiki.modularity.net.au/ical4j/index.php?title=Maven2" rel="external">iCal4j</a>,
+<a href="http://commons.apache.org/email/" rel="external">Commons Email</a>,
+<a href="https://glassfish.dev.java.net/javaee5/mail/" rel="external">javamail</a> and
+<a href="http://java.sun.com/products/javabeans/jaf/index.jsp" rel="external">activation</a>
+depencies to your project</li>
+<li>Create a content type that has at least a title, two date fields, and a
+(plain text) summary field (or implement this
+
+<a href="/binaries/content/assets/2011/icalendar/ieventdocument.java">IEventDocument</a>).</li>
+<li>Create an HST component and a (JSP) template. In the JSP template, create a
+form in which the visitor can fill in his or her email address.</li>
+</ol>
+
+<p>Now that the basics are set up, you can add the logic to your component.</p>
+
+<p>To create a (ical4j) Calendar:</p>
+
+<pre class="brush: java"> /**
+ * Creates {@link net.fortuna.ical4j.model.Calendar} object with the {@link VEvent}
+ *
+ * @param eventDocument instance of {@link IEventDocument}
+ * @param invitee       email address of the calendar owner
+ * @return {@link net.fortuna.ical4j.model.Calendar}
+ */
+net.fortuna.ical4j.model.Calendar createEventCalendar(final IEventDocument eventDocument, final String invitee) {
+    net.fortuna.ical4j.model.Calendar calendar = new net.fortuna.ical4j.model.Calendar();
+    calendar.getProperties().add(new ProdId("-//Hippo Event Calendar//iCal4j 1.0//EN"));
+    calendar.getProperties().add(Version.VERSION_2_0);
+    calendar.getProperties().add(CalScale.GREGORIAN);
+
+    VEvent vEvent = createVEvent(eventDocument, invitee);
+
+    calendar.getComponents().add(vEvent);
+    return calendar;
+}
+</pre>
+
+<p>It calls our own createVEvent method which contains the logic of mapping the
+IEventDocument with the VEvent. It does not check if the event is an all day
+event. You could do that by parsing the date fields from the CMS or just add a
+checkbox to your event template and use that. An other issue to think about is
+the timezone information. Now we send an iCalendar invitation that assumes both
+the editor and the visitor are in the same timezone.</p>
+
+<pre class="brush: java">/**
+ * Creates {@link VEvent} using values from the eventDocument
+ *
+ * @param eventDocument instance of {@link IEventDocument}
+ * @param invitee       email address of the calendar owner
+ * @return {@link VEvent}
+ * @throws HstComponentException if no {@link Uid} can be generated for the event
+ */
+VEvent createVEvent(final IEventDocument eventDocument, final String invitee) {
+    Date start = new DateTime(eventDocument.getDate().getTime());
+    Date end = new DateTime(eventDocument.getEndDate().getTime());
+    VEvent vEvent = new VEvent(start, end, eventDocument.getTitle());
+    Uid uid = new Uid(eventDocument.getCanonicalHandleUUID());
+    vEvent.getProperties().add(uid);
+    // EventDocument title =&gt; vEvent summary
+    // EventDocument summary =&gt; vEvent description
+    if (StringUtils.isNotBlank(eventDocument.getSummary())) {
+        vEvent.getProperties().add(new Description(eventDocument.getSummary()));
+    }
+    Organizer organizer = new Organizer(URI.create("mailto:" + invitee));
+    vEvent.getProperties().add(organizer);
+    return vEvent;
+}
+</pre>
+
+<p>So now that we have the necessary objects, all we need to do is create send
+the email.</p>
+
+<pre class="brush: java">/**
+ * Sends an email message with the event as (iCalendar) attachment
+ *
+ * @param eventDocument instance of {@link IEventDocument}
+ * @param mailTo        email address that receives the invitation
+ * @param mailHost      smtp host name
+ * @param mailPort      smtp host port
+ * @param mailFrom      from email address
+ */
+private void sendMail(final IEventDocument eventDocument, final String mailTo,
+                      final String mailHost, final int mailPort, final String mailFrom) {
+    Calendar calendar = createEventCalendar(eventDocument, mailTo);
+    byte[] attachmentData = calendarAsByteArray(calendar);
+
+    MultiPartEmail email = new MultiPartEmail();
+    email.setHostName(mailHost);
+    email.setSmtpPort(mailPort);
+
+    try {
+        email.addTo(mailTo);
+        email.setFrom(mailFrom);
+        email.setSubject(eventDocument.getTitle());
+        email.setMsg(eventDocument.getSummary());
+        String name = eventDocument.getName() + ".ics";
+        String contentType = String.format("text/calendar; name=\"%s\"", name);
+        email.attach(new ByteArrayDataSource(attachmentData, contentType),
+                name, "", EmailAttachment.ATTACHMENT);
+        email.send();
+    } catch (EmailException e) {
+        throw new HstComponentException("Failed to send mail with event info", e);
+    }
+}
+
+/**
+ * Converts {@link net.fortuna.ical4j.model.Calendar} to a byte[]
+ *
+ * @param iCalendar {@link Calendar}
+ * @return byte[] of the Calendar
+ * @throws HstComponentException if the Calendar is invalid or its output can't be written
+ */
+private byte[] calendarAsByteArray(final Calendar iCalendar) {
+    byte[] bytes;
+    try {
+        ByteArrayOutputStream output;
+        output = new ByteArrayOutputStream();
+        CalendarOutputter outputter = new CalendarOutputter();
+        outputter.output(iCalendar, output);
+        bytes = output.toByteArray();
+    } catch (ValidationException e) {
+        throw new HstComponentException("Could not validate iCalendar", e);
+    } catch (IOException e) {
+        throw new HstComponentException("Could not write iCalendar to stream", e);
+    }
+    return bytes;
+}</pre>
+
+<p>Override BaseHstComponent#doAction to collect the mail settings and send the
+mail.</p>
+
+<pre class="brush: java">/**
+ * Sends the event data as iCalendar attachment to the site visitor
+ * &lt;p/&gt;
+ * Necessary HST component parameters
+ * &lt;dl&gt;
+ * &lt;dt&gt;mailhost&lt;/dt&gt;
+ * &lt;dd&gt;SMTP server hostname&lt;/dd&gt;
+
+ * &lt;dt&gt;mailport&lt;/dt&gt;
+ * &lt;dd&gt;SMTP server port number&lt;/dd&gt;
+ * &lt;dt&gt;fromAddress&lt;/dt&gt;
+
+ * &lt;dd&gt;"From" address of the mail&lt;/dd&gt;
+ * &lt;/dl&gt;
+ * {@inheritDoc}
+ */
+@Override
+public void doAction(HstRequest request, HstResponse response) throws HstComponentException {
+    String invitee = request.getParameter("email");
+    if (StringUtils.isBlank(invitee)) {
+        return;
+    }
+
+    HippoBean document = getContentBean(request);
+    if (!(document instanceof IEventDocument)) {
+        return;
+    }
+    IEventDocument eventDocument = (IEventDocument) document;
+
+    String mailHost = getParameter("mailhost", request);
+    int mailPort = Integer.parseInt(getParameter("mailport", request));
+    String mailFrom = getParameter("fromAddress", request);
+    sendMail(eventDocument, invitee, mailHost, mailPort, mailFrom);
+
+}
+</pre>
+
+<p>You now have all the logic to send the email with the iCalendar attachment,
+which looks like:</p>
+
+<p>
+ <img src="http://www.jasha.eu/binaries/content/gallery/2011/icalendar-in-mail.png" alt="Screenshot of iCalendar mail in GMail"/>
+</p>
+</section>
+
+
+    <section class="share">
+        <p><a class="a2a_dd" href="http://www.addtoany.com/share_save"><img
+                src="http://static.addtoany.com/buttons/share_save_120_16.gif" width="120" height="16"
+                alt="Share/Bookmark"/></a></p>
+    </section>
+
+
+    <section class="comments">
+        <h2>2 comments </h2>
+<!-- Change in HTML: time moves to h3-->
+        <div class="comment" id="comment-for-cleaning-up-the-wysiwyg-html-1320042482341">
+
+
+            <h3>Jasha said <time datetime="2011-10-31T07:28:03">31 October 2011 07:28</time></h3>
+
+            <p>The desktop version of Google Reader does know how to handle escaped html.<br/><br/>Although you can add
+                CSS to the Xinha configuration to make the text look like your site's markup, we usually don't do it.
+                The WYSIWYG part is then that you see a list or table when you edit the text, but not necessarily in the
+                same markup as on your site(s). Xinha has the option to go to the HTML source view, but some customers
+                don't want their editors to manually edit the HTML.</p>
+
+        </div>
+
+        <div class="comment" id="comment-for-cleaning-up-the-wysiwyg-html-1319999604252">
+
+            <h3><a href="http://blog.relaxnow.nl" rel="external">Boy</a> said <time datetime="2011-10-30T19:33:25">30 October 2011 19:33</time></h3>
+
+
+            <p>Interestingly Google Reader on Android parses the underline tag (&lt;u&gt;) in your blogpost as HTML and
+                all text after that is underlined... <br/><br/>But do people still use WYSIWYGs? I thought the age of
+                WYSIWYG madness (they always fail for anything even remotely non-trivial) was coming to an end and
+                everyone was switching to markup editors for simple stuff and raw html for advanced users?</p>
+        </div>
+
+    </section>
+
+
+    <section>
+
+
+        <form method="post"
+              action="/_hn:action%7Cr12_r1%7C/blogposts/2011/10/cleaning-up-the-wysiwyg-html.html?r12_r1:type=add"
+              class="commentform" id="commentform">
+
+            <fieldset>
+                <!-- Change in HTML: legend becomes h3-->
+
+                <h3>Leave your comment here</h3>
+                <ul>
+                    <li><label for="person">Name: *</label><input type="text" id="person" name="person"
+                                                                  required="required"/></li>
+                    <li><label for="email">Email:</label><input type="email" id="email" name="email"/></li>
+                    <li><label for="website">Website:</label><input type="url" id="website" name="website"/></li>
+
+                    <li><label for="comment">Comment: *</label><textarea name="comment" id="comment" rows="4" cols="40"
+                                                                         required="required"></textarea></li>
+                    <li><input type="submit" value="Submit"/></li>
+                </ul>
+            </fieldset>
+            <p>* required field</p>
+        </form>
+    </section>
+
+
+</article>
+<aside>
+    <section>
+        <h2>Blog archive</h2>
+        <!-- HTML change: extra div
+            facets: added id for better less/more toggle experience
+        -->
+        <div class="facetcategory">
+        <h3>year</h3>
+        <ul class="facets">
+            <li>
+                <a href="/blogposts/year/2011" rel="nofollow"> 2011</a> (13)
+
+            </li>
+            <li>
+                <a href="/blogposts/year/2010" rel="nofollow"> 2010</a> (9)
+            </li>
+            <li>
+                <a href="/blogposts/year/2009" rel="nofollow"> 2009</a> (17)
+            </li>
+            <li>
+                <a href="/blogposts/year/2008" rel="nofollow"> 2008</a> (22)
+            </li>
+            <li>
+                <a href="/blogposts/year/2007" rel="nofollow"> 2007</a> (14)
+
+            </li>
+        </ul>
+        </div>
+        <div class="facetcategory">
+        <h3>tag</h3>
+        <ul class="facets" id="facets">
+            <li>
+                <a href="/blogposts/tag/technology" rel="nofollow"> technology</a> (55)
+            </li>
+            <li>
+                <a href="/blogposts/tag/hippo" rel="nofollow"> hippo</a> (42)
+
+            </li>
+            <li>
+                <a href="/blogposts/tag/Personal" rel="nofollow"> Personal</a> (20)
+            </li>
+            <li>
+                <a href="/blogposts/tag/HST" rel="nofollow"> HST</a> (10)
+            </li>
+            <li>
+                <a href="/blogposts/tag/cms6" rel="nofollow"> cms6</a> (9)
+            </li>
+            <li class="less"><a href="#facets" class="toggle">&raquo; More</a></li>
+
+            <li class="more">
+                <a href="/blogposts/tag/Cocoon" rel="nofollow"> Cocoon</a> (7)
+            </li>
+            <li class="more">
+                <a href="/blogposts/tag/cms7" rel="nofollow"> cms7</a> (6)
+            </li>
+            <li class="more">
+                <a href="/blogposts/tag/Apache" rel="nofollow"> Apache</a> (6)
+            </li>
+            <li class="more">
+                <a href="/blogposts/tag/development" rel="nofollow"> development</a> (5)
+
+            </li>
+            <li class="more">
+                <a href="/blogposts/tag/hippoforge" rel="nofollow"> hippoforge</a> (4)
+            </li>
+            <li class="more">
+                <a href="/blogposts/tag/Apple" rel="nofollow"> Apple</a> (3)
+            </li>
+            <li class="more">
+                <a href="/blogposts/tag/Rave" rel="nofollow"> Rave</a> (3)
+            </li>
+            <li class="more">
+                <a href="/blogposts/tag/tools" rel="nofollow"> tools</a> (3)
+
+            </li>
+            <li class="more">
+                <a href="/blogposts/tag/plugins" rel="nofollow"> plugins</a> (3)
+            </li>
+            <li class="more">
+                <a href="/blogposts/tag/Maven" rel="nofollow"> Maven</a> (2)
+            </li>
+            <li class="more">
+                <a href="/blogposts/tag/Freemarker" rel="nofollow"> Freemarker</a> (2)
+            </li>
+            <li class="more">
+                <a href="/blogposts/tag/pictures" rel="nofollow"> pictures</a> (2)
+
+            </li>
+            <li class="more">
+                <a href="/blogposts/tag/Twitter" rel="nofollow"> Twitter</a> (1)
+            </li>
+            <li class="more">
+                <a href="/blogposts/tag/Xinha" rel="nofollow"> Xinha</a> (1)
+            </li>
+            <li class="more">
+                <a href="/blogposts/tag/Google" rel="nofollow"> Google</a> (1)
+            </li>
+            <li class="more">
+                <a href="/blogposts/tag/JSP" rel="nofollow"> JSP</a> (1)
+
+            </li>
+            <li class="more">
+                <a href="/blogposts/tag/iCalendar" rel="nofollow"> iCalendar</a> (1)
+            </li>
+            <li class="more">
+                <a href="/blogposts/tag/CSS" rel="nofollow"> CSS</a> (1)
+            </li>
+            <li class="more">
+                <a href="/blogposts/tag/iCal4j" rel="nofollow"> iCal4j</a> (1)
+            </li>
+            <li class="more">
+                <a href="/blogposts/tag/joke" rel="nofollow"> joke</a> (1)
+
+            </li>
+            <li class="more">
+                <a href="/blogposts/tag/HTML" rel="nofollow"> HTML</a> (1)
+            </li>
+            <li class="more">
+                <a href="/blogposts/tag/San+Francisco" rel="nofollow"> San Francisco</a> (1)
+            </li>
+            <li class="more">
+                <a href="/blogposts/tag/socialmedia" rel="nofollow"> socialmedia</a> (1)
+            </li>
+            <li class="more">
+                <a href="/blogposts/tag/Javascript" rel="nofollow"> Javascript</a> (1)
+
+            </li>
+            <li class="more"><a href="#facets" class="toggle">&raquo; Less</a></li>
+        </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Twitter</h2>
+        <ul>
+            <li>
+                @Flodego het ziet er ook heel vies uit
+                <a href="http://twitter.com/jashaj/status/141997319473213440" rel="external">
+                    <time datetime="2011-11-30T22:49:33">30 Nov 22:49</time>
+                </a>
+
+            </li>
+            <li>
+                @michielschok volgend jaar de Florijn en Sestertie release?
+                <a href="http://twitter.com/jashaj/status/141950131560919041" rel="external">
+                    <time datetime="2011-11-30T19:42:03">30 Nov 19:42</time>
+                </a>
+            </li>
+            <li>
+                @hanskeijmel aardige man is het toch #Sinterklaas
+                <a href="http://twitter.com/jashaj/status/141943413225422848" rel="external">
+                    <time datetime="2011-11-30T19:15:21">30 Nov 19:15</time>
+                </a>
+            </li>
+            <li>
+                @michielschok bedankt :) De euro release liep t/m 30 november, vandaar de rare demo dag.
+
+                <a href="http://twitter.com/jashaj/status/141942244147068928" rel="external">
+                    <time datetime="2011-11-30T19:10:42">30 Nov 19:10</time>
+                </a>
+            </li>
+            <li>
+                @hanskeijmel je hebt de beste man vanmiddag nog gesproken!
+                <a href="http://twitter.com/jashaj/status/141940925218816000" rel="external">
+                    <time datetime="2011-11-30T19:05:28">30 Nov 19:05</time>
+                </a>
+            </li>
+        </ul>
+    </section>
+</aside>
+<div class="clearfix"></div>
+</div>
+<footer>
+    <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/nl/"><img alt="Creative Commons License" style="border-width:0" src="http://www.jasha.eu/images/cc-by-nc-nd.png" width="80" height="15"/></a>
+</footer>
+</div>
+<!--! end of #container -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
+
+<!-- scripts concatenated and minified via ant build script-->
+<script src="js/plugins.js"></script>
+<script src="js/script.js"></script>
+<!-- end scripts-->
+<script src="http://www.jasha.eu/js/site.js"></script>
+<script src="http://www.jasha.eu/js/jquery.fancybox-1.3.1.pack.js"></script>
+<script src="http://www.jasha.eu/js/shMin.js"></script>
+<script>init();</script>
+<script>
+    var _gaq = [
+        ['_setAccount', 'UA-XXXXX-X'],
+        ['_trackPageview']
+    ]; // Change UA-XXXXX-X to be your site's ID
+    (function (d, t) {
+        var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
+        g.async = 1;
+        g.src = ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js';
+        s.parentNode.insertBefore(g, s)
+    }(document, 'script'));
+</script>
+</body>
+</html>

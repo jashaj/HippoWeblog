@@ -19,11 +19,12 @@
 [@hst.headContribution]<title>${document.rawTitle?xml} | ${labels['site.name']}</title>[/@hst.headContribution]
 
 [@site.blog document=document/]
-    <section class="share">
+
+  <section class="share">
     <p><a class="a2a_dd" href="http://www.addtoany.com/share_save"><img src="http://static.addtoany.com/buttons/share_save_120_16.gif" width="120" height="16" alt="Share/Bookmark"/></a></p>
   </section>
   [@hst.headContribution category="jsExternal"]<script type="text/javascript" src="http://static.addtoany.com/menu/page.js"></script>[/@hst.headContribution]
-
+  <div class="clearfix"></div>
   [#if comments?? && comments?has_content]
     <h2>${comments?size} [#if comments?size=1]comment[#else]comments[/#if]</h2>
     [#list comments as comment]
@@ -41,7 +42,7 @@
     [#assign addURL][@hst.actionURL][@hst.param name="type" value="add"/][/@hst.actionURL][/#assign]
     <form method="post" action="${addURL}" class="commentform" id="commentform">
       <fieldset>
-        <legend>Leave your comment here</legend>
+        <h2>Leave your comment here</h2>
         <ul>
             <li><label for="person">Name: *</label><input type="text" id="person" name="person" required="required"/></li>
             <li><label for="email">Email:</label><input type="email" id="email" name="email"/> </li>

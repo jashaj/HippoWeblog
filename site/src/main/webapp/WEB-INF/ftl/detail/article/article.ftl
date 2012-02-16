@@ -37,7 +37,7 @@
     </div>
     [/#list]
   [/#if]
-  [#if enableComments?? = true]
+  [#if enableComments?? && enableComments]
     <section>
     [#assign addURL][@hst.actionURL][@hst.param name="type" value="add"/][/@hst.actionURL][/#assign]
     <form method="post" action="${addURL}" class="commentform" id="commentform">

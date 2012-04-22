@@ -27,7 +27,7 @@
   <description>Project to show how you can make a blog from Hippo CMS 7 and Hippo Site Toolkit</description>
   <groupId>eu.jasha.hippoweblog</groupId>
   <artifactId>hippoweblog</artifactId>
-  <version>1.02.00</version>
+  <version>1.02.01-SNAPSHOT</version>
   <packaging>pom</packaging>
   <url>https://github.com/jashaj/HippoWeblog</url>
   <inceptionYear>2010</inceptionYear>

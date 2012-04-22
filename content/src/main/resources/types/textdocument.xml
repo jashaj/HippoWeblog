@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  * Copyright 2010 Hippo
+  * Copyright 2010 -2012 Hippo
   *
   * Licensed under the Apache License, Version 2.0 (the  "License");
   * you may not use this file except in compliance with the License.
@@ -196,6 +196,10 @@
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
         <sv:value>hippo:harddocument</sv:value>
+        <sv:value>hippotranslation:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>$holder</sv:value>
       </sv:property>
       <sv:property sv:name="hippostd:state" sv:type="String">
         <sv:value>draft</sv:value>
@@ -204,7 +208,7 @@
         <sv:value>new</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
-        <sv:value>admin</sv:value>
+        <sv:value/>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
         <sv:value>2010-01-21T12:34:11.055+02:00</sv:value>
@@ -213,7 +217,16 @@
         <sv:value>2010-01-22T12:34:11.055+02:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-        <sv:value>admin</sv:value>
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2008-03-26T12:03:00.000+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>document-type-locale-id</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>document-type-locale</sv:value>
       </sv:property>
       <sv:property sv:name="weblogdemo:summary" sv:type="String">
         <sv:value/>
@@ -229,7 +242,12 @@
           <sv:value>&lt;html&gt;&lt;body/&gt;&lt;/html&gt;</sv:value>
         </sv:property>
       </sv:node>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
     </sv:node>
+  </sv:node>
   </sv:node>
   <sv:node sv:name="editor:templates">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -245,10 +263,12 @@
       <sv:property sv:name="frontend:references" sv:type="String">
         <sv:value>wicket.model</sv:value>
         <sv:value>engine</sv:value>
+        <sv:value>validator.id</sv:value>
         <sv:value>model.compareTo</sv:value>
       </sv:property>
       <sv:property sv:name="frontend:services" sv:type="String">
         <sv:value>wicket.id</sv:value>
+        <sv:value>validator.id</sv:value>
       </sv:property>
       <sv:property sv:name="type" sv:type="String">
         <sv:value>weblogdemo:textdocument</sv:value>
@@ -289,6 +309,9 @@
         <sv:property sv:name="plugin.class" sv:type="String">
           <sv:value>org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin</sv:value>
         </sv:property>
+        <sv:property sv:name="validator.id" sv:type="String">
+          <sv:value>${validator.id}</sv:value>
+        </sv:property>
         <sv:property sv:name="wicket.id" sv:type="String">
           <sv:value>${cluster.id}.field</sv:value>
         </sv:property>
@@ -323,6 +346,9 @@
         <sv:property sv:name="plugin.class" sv:type="String">
           <sv:value>org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin</sv:value>
         </sv:property>
+        <sv:property sv:name="validator.id" sv:type="String">
+          <sv:value>${validator.id}</sv:value>
+        </sv:property>
         <sv:property sv:name="wicket.id" sv:type="String">
           <sv:value>${cluster.id}.field</sv:value>
         </sv:property>
@@ -356,6 +382,9 @@
         </sv:property>
         <sv:property sv:name="plugin.class" sv:type="String">
           <sv:value>org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin</sv:value>
+        </sv:property>
+        <sv:property sv:name="validator.id" sv:type="String">
+          <sv:value>${validator.id}</sv:value>
         </sv:property>
         <sv:property sv:name="wicket.id" sv:type="String">
           <sv:value>${cluster.id}.field</sv:value>

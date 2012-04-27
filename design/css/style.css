@@ -35,13 +35,13 @@ body, button, input, select, textarea {
 }
 
 ::-moz-selection {
-  background: #fe57a1;
+  background: #024C68;
   color: #fff;
   text-shadow: none;
 }
 
 ::selection {
-  background: #fe57a1;
+  background: #024C68;
   color: #fff;
   text-shadow: none;
 }

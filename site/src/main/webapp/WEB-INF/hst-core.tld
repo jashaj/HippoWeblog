@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <!--
-  Copyright 2008 Hippo
+  Copyright 2010 Hippo
 
   Licensed under the Apache License, Version 2.0 (the  "License");
   you may not use this file except in compliance with the License.
@@ -14,10 +14,9 @@
   See the License for the specific language governing permissions and
   limitations under the License.
 -->
-<!DOCTYPE taglib PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN" "http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd">
 <taglib xmlns="http://java.sun.com/xml/ns/javaee" version="2.1"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd">
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    >
 
     <tlib-version>1.0</tlib-version>
     <jsp-version>1.2</jsp-version>
@@ -219,7 +218,7 @@
             <type>java.lang.String</type>
             <description>A string id, which is the refId of a sitemap item you want to link to. Note that the sitemapitem belonging
             to the refId should not be a wildcard matcher, and non of its ancestors should be a wildcard. Using this to create a link
-            to a sitemap item can be handy when you know to which sitemap item you want to link, but not the path. For example, a single
+            to a sitemap item can be handy when you know to which sitemap item you want to link, but not the path. For example, a single 
             jsp is used for 2 languages which have their own sitemap. You want a link to 'contact' for English, and to 'kontakt' for Dutch.
             Using this attribute, you can link to a refId on the sitemap item. Both 'contact' and 'kontakt' should have the same refId then</description>
         </attribute>
@@ -244,7 +243,7 @@
             <rtexprvalue>true</rtexprvalue>
             <type>java.lang.Boolean</type>
             <description>Deprecated: use navigationStateful instead.
-                If the link should be created for the virtual location of the jcr node behind the bean,
+                If the link should be created for the virtual location of the jcr node behind the bean, 
                 use this attr with value true. When having canonical='true', this attribute is ignored.</description>
         </attribute>
         <attribute>
@@ -252,7 +251,7 @@
             <required>false</required>
             <rtexprvalue>true</rtexprvalue>
             <type>java.lang.Boolean</type>
-            <description>If the link should be created in the context of the current URL, use this attr with value true. When having canonical='true', this
+            <description>If the link should be created in the context of the current URL, use this attr with value true. When having canonical='true', this 
             attribute is ignored.</description>
         </attribute>
         <attribute>
@@ -315,8 +314,8 @@
         <name>sitemapitem</name>
         <tag-class>org.hippoecm.hst.tag.SiteMapItemTag</tag-class>
         <body-content>JSP</body-content>
-        <description>This sitemapitem tag can nested into a hst link tag to provide a preferred sitemap item to create the link for. You can define the
-        preferred sitemap item by choosing one (no more) of these attributes: preferItem, preferItemId, or preferPath. Optionally
+        <description>This sitemapitem tag can nested into a hst link tag to provide a preferred sitemap item to create the link for. You can define the 
+        preferred sitemap item by choosing one (no more) of these attributes: preferItem, preferItemId, or preferPath. Optionally 
         add a fallback attr which is a boolean true or false. Default fallback is true</description>
         <attribute>
             <name>preferItem</name>
@@ -360,7 +359,7 @@
         <tag-class>org.hippoecm.hst.tag.HstFacetNavigationLinkTag</tag-class>
         <tei-class>org.hippoecm.hst.tag.HstFacetNavigationLinkTag$TEI</tei-class>
         <body-content>JSP</body-content>
-        <description>This tag can be used in faceted navigation as a helper. You can use the 'remove' attribute to
+        <description>This tag can be used in faceted navigation as a helper. You can use the 'remove' attribute to 
         remove a chosen facet-value combination from the current link. It returns a link according the 'link' tag
         described above</description>
         <attribute>
@@ -375,7 +374,7 @@
             <required>false</required>
             <rtexprvalue>true</rtexprvalue>
             <type>org.hippoecm.hst.content.beans.standard.facetnavigation.HippoFacetSubNavigation</type>
-            <description>A HippoFacetSubNavigation object. This is the current state of the faceted navigation, from
+            <description>A HippoFacetSubNavigation object. This is the current state of the faceted navigation, from 
             which you for example want to remove one facet-value combi.</description>
         </attribute>
         <attribute>
@@ -399,7 +398,7 @@
         <tag-class>org.hippoecm.hst.tag.HstSurfAndEditTag</tag-class>
         <tei-class>org.hippoecm.hst.tag.HstSurfAndEditTag$TEI</tei-class>
         <body-content>JSP</body-content>
-        <description>This tag can be used to create a surfandedit cms url. Only in preview mode, the
+        <description>This tag can be used to create a surfandedit cms url. Only in preview mode, the 
         tag will output something. In live, it will be ignored.</description>
         <attribute>
             <name>var</name>
@@ -657,7 +656,7 @@
                By the way, this attribute does not affect anything in portal/portlet environment. </description>
         </attribute>
     </tag>
-
+    
     <tag>
         <name>writeHeadContributions</name>
         <tag-class>org.hippoecm.hst.tag.HeadContributionsTag</tag-class>
@@ -712,7 +711,7 @@
         <tei-class>org.hippoecm.hst.tag.DefineObjectsTag$TEI</tei-class>
         <body-content>empty</body-content>
     </tag>
-
+    
     <tag>
         <name>setWrapperElement</name>
         <tag-class>org.hippoecm.hst.tag.SetWrapperElementTag</tag-class>
@@ -738,10 +737,10 @@
           </hst:setWrapperElement>
           ]]></example>
     </tag>
-
+    
     <function>
         <description>
-            Tests if the property of the bean is a readable one
+            Tests if the property of the bean is a readable one 
         </description>
         <name>isReadable</name>
         <function-class>org.apache.commons.beanutils.PropertyUtils</function-class>
@@ -750,5 +749,5 @@
             &lt;c:if test="${hst:isReadable(object, 'propertyName')}"&gt;
         </example>
     </function>
-
+    
 </taglib>

@@ -20,7 +20,7 @@
     <parent>
     <groupId>org.onehippo.cms7</groupId>
     <artifactId>hippo-cms7-release</artifactId>
-    <version>7.6.2</version>
+    <version>7.6.3</version>
   </parent>
 
   <name>Hippo Weblog project</name>
@@ -37,9 +37,10 @@
   </prerequisites>
 
   <properties>
-    <hippo.repository.version>2.20.10</hippo.repository.version>
-    <hippo.cms.version>2.20.09</hippo.cms.version>
-    <hippo.hst.version>2.22.11</hippo.hst.version>
+    <!-- 7.6.3 versions of repo, cms & hst: -->
+    <!--<hippo.repository.version>2.20.11</hippo.repository.version>
+    <hippo.cms.version>2.20.10</hippo.cms.version>
+    <hippo.hst.version>2.22.11</hippo.hst.version>-->
 
     <jstl.version>1.1.2</jstl.version>
     <taglibs.version>1.1.2</taglibs.version>
@@ -50,7 +51,7 @@
 
     <xalan.version>2.4.1</xalan.version>
     <xercesImpl.version>2.9.1</xercesImpl.version>
-    <xml-apis.version>2.0.2</xml-apis.version>
+    <xml-apis.version>1.0.b2</xml-apis.version>
 
     <atomikos.version>3.1.4</atomikos.version>
     <freemarker.version>2.3.16</freemarker.version>
@@ -72,15 +73,15 @@
 
     <targetJDK>1.6</targetJDK>
 
-    <maven.plugins.site.version>3.0-beta-3</maven.plugins.site.version>
-    <maven.plugins.project-info-reports.version>2.3.1</maven.plugins.project-info-reports.version>
-    <maven.plugins.javadoc.version>2.7</maven.plugins.javadoc.version>
-    <maven.plugins.jxr.version>2.2</maven.plugins.jxr.version>
-    <maven.plugins.pmd.version>2.5</maven.plugins.pmd.version>
-    <maven.plugins.surefire.version>2.8</maven.plugins.surefire.version>
+    <maven.plugins.site.version>3.0</maven.plugins.site.version>
+    <maven.plugins.project-info-reports.version>2.4</maven.plugins.project-info-reports.version>
+    <maven.plugins.javadoc.version>2.8.1</maven.plugins.javadoc.version>
+    <maven.plugins.jxr.version>2.3</maven.plugins.jxr.version>
+    <maven.plugins.pmd.version>2.7.1</maven.plugins.pmd.version>
+    <maven.plugins.surefire.version>2.12</maven.plugins.surefire.version>
     <maven.plugins.changelog.version>2.2</maven.plugins.changelog.version>
     <maven.plugins.compiler.version>2.3.2</maven.plugins.compiler.version>
-    <maven.plugins.release.version>2.1</maven.plugins.release.version>
+    <maven.plugins.release.version>2.2.2</maven.plugins.release.version>
     <maven.plugins.source.version>2.1.2</maven.plugins.source.version>
 
     <!-- use UTF-8 encoding for filtered file copy -->
@@ -303,14 +304,14 @@
     <system>GitHub</system>
     <url>https://github.com/jashaj/HippoWeblog/issues</url>
   </issueManagement>
-
+<!--
   <distributionManagement>
     <repository>
       <uniqueVersion>false</uniqueVersion>
       <id>forge-weblogdemo-maven-repo</id>
       <url>svn:https://forge.onehippo.org/svn/weblogdemo/maven2/</url>
     </repository>
-  </distributionManagement>
+  </distributionManagement>-->
 
   <reporting>
     <outputDirectory>target/site</outputDirectory>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
   * Copyright 2010-2011 Hippo
+  * Copyright 2012 Jasha Joachimsthal
   *
   * Licensed under the Apache License, Version 2.0 (the  "License");
   * you may not use this file except in compliance with the License.
@@ -17,7 +18,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-    <parent>
+  <parent>
     <groupId>org.onehippo.cms7</groupId>
     <artifactId>hippo-cms7-release</artifactId>
     <version>7.6.3</version>
@@ -31,6 +32,7 @@
   <packaging>pom</packaging>
   <url>https://github.com/jashaj/HippoWeblog</url>
   <inceptionYear>2010</inceptionYear>
+  <organization/>
 
   <prerequisites>
     <maven>3.0.3</maven>
@@ -237,16 +239,6 @@
         <version>${forge.robotstxt.version}</version>
       </dependency>
 
-      <!-- AuthFilter -->
-<!--
-      <dependency>
-          <groupId>org.onehippo.forge.authfilter</groupId>
-          <artifactId>authfilter-filter</artifactId>
-          <version>${forge.authfilter.version}</version>
-          <type>jar</type>
-      </dependency>
--->
-
       <!-- Mail -->
       <dependency>
         <groupId>org.apache.commons</groupId>
@@ -284,6 +276,8 @@
     </developer>
   </developers>
 
+  <contributors/>
+
   <licenses>
     <license>
       <name>Apache License, Version 2.0</name>
@@ -296,6 +290,7 @@
   </licenses>
 
   <scm>
+    <url>https://github.com/jashaj/HippoWeblog</url>
     <connection>scm:git://github.com/jashaj/HippoWeblog.git</connection>
     <developerConnection>scm:git:git@github.com:jashaj/HippoWeblog.git</developerConnection>
   </scm>
@@ -304,14 +299,19 @@
     <system>GitHub</system>
     <url>https://github.com/jashaj/HippoWeblog/issues</url>
   </issueManagement>
-<!--
+
   <distributionManagement>
-    <repository>
-      <uniqueVersion>false</uniqueVersion>
-      <id>forge-weblogdemo-maven-repo</id>
-      <url>svn:https://forge.onehippo.org/svn/weblogdemo/maven2/</url>
-    </repository>
-  </distributionManagement>-->
+    <!--
+        <repository>
+          <uniqueVersion>false</uniqueVersion>
+          <id>forge-weblogdemo-maven-repo</id>
+          <url>svn:https://forge.onehippo.org/svn/weblogdemo/maven2/</url>
+        </repository>
+    -->
+  </distributionManagement>
+
+  <ciManagement/>
+  <mailingLists/>
 
   <reporting>
     <outputDirectory>target/site</outputDirectory>

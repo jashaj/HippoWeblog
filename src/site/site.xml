@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <!--
   Copyright 2010-2011 Hippo
+  Copyright 2012 Jasha Joachimsthal
 
   Licensed under the Apache License, Version 2.0 (the  "License");
   you may not use this file except in compliance with the License.
@@ -22,7 +23,7 @@
   <body>
     <menu name="Hippo CMS Weblog demo project">
       <item name="Introduction" href="/index.html"/>
-      <item name="Hippo Forge project page" href="https://forge.onehippo.org/gf/project/weblogdemo/"/>
+      <item name="Github project page" href="https://github.com/jashaj/HippoWeblog"/>
       <item name="Releases" href="/releases.html"/>
     </menu>
 

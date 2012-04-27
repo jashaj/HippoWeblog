@@ -4,6 +4,7 @@
   "http://maven.apache.org/dtd/xdoc_1_0.dtd">
 <!--
   Copyright 2010-2011 Hippo
+  Copyright 2012 Jasha Joachimsthal
 
   Licensed under the Apache License, Version 2.0 (the  "License");
   you may not use this file except in compliance with the License.
@@ -27,12 +28,12 @@
             <ul>
                 <li>JDK 6 or up</li>
                 <li><a href="http://maven.apache.org/">Apache Maven 3</a></li>
-                <li><a href="http://subversion.apache.org/">Subversion client</a></li>
+                <li><a href="http://git-scm.com/download">Git client</a></li>
             </ul>
         </section>
         <section name="Getting the code">
             <p>This project allows anonymous checkouts of its source code. Use the command below.</p>
-            <pre xml:space="preserve">svn checkout http://forge.onehippo.org/svn/weblogdemo/trunk weblogdemo</pre>
+            <pre xml:space="preserve">git clone git://github.com/jashaj/HippoWeblog.git</pre>
         </section>
         <section name="Build the project">
             <p>Go to the weblogdemo folder, it will contain at least 4 subprojects:</p>

@@ -2,7 +2,7 @@
 This is a demo project how you could set up a blogging engine with comments. The frontend can be fully customised using
 Freemarker templates and CSS stored inside the Hippo Repository.
 
-This is also the source code and design behind [jasha.eu](http://www.jasha.eu)
+This used to be the source code and design behind [jasha.eu](http://www.jasha.eu)
 
 ## Build the project
 
@@ -26,4 +26,4 @@ This will produce two WAR files:
 See "[Run and develop with Cargo](https://wiki.onehippo.com/display/CMS7/Run+and+develop+with+Cargo)".
 
 ## How do I?
-See the [documentation](http://www.jasha.eu/documentation). This is also available in the demo content for this project.
+See the documentation in the demo setup of this project.

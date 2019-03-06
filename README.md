@@ -1,3 +1,7 @@
+# HippoWeblog
+
+**This repository is outdated and will not be maintained**
+
 ## Introduction
 This is a demo project for Hippo CMS 7.6 how you could set up a blogging engine with comments. The frontend can be fully customised using
 Freemarker templates and CSS stored inside the Hippo Repository. 
